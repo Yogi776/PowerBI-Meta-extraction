@@ -34,7 +34,7 @@ jobs:
     - name: Init submodules
       run: git submodule update --init  ./data/external/sales-sample
     - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
     - name: dotnet info
       run: dotnet --info
     - name: Restore dotnet tools
