@@ -270,4 +270,10 @@ __pycache__/
 **/Properties/launchSettings.json
 .temp/
 /*.pbi*
+# macOS
+.DS_Store
+
+# Local demo/sample Power BI reports (large binaries)
+PowerBI Examples/*.pbix
+PowerBI Examples/*.pbit
 FodyWeavers.xsd

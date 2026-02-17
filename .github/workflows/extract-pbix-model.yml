@@ -1,0 +1,133 @@
+name: Extract PBIX Model
+
+on:
+  workflow_dispatch:
+    inputs:
+      runAll:
+        description: "Process all .pbix files under PowerBI Examples"
+        required: true
+        type: boolean
+        default: false
+      pbixPath:
+        description: "Path to PBIX file in repo"
+        required: true
+        type: string
+        default: "PowerBI Examples/Territory Tracker -Slim.pbix"
+      modelSerialization:
+        description: "Model serialization mode for extract"
+        required: true
+        type: choice
+        options:
+          - Legacy
+          - Tmdl
+          - Raw
+          - Default
+        default: Legacy
+
+jobs:
+  extract:
+    name: Extract on Windows
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate input
+        shell: pwsh
+        run: |
+          $runAll = "${{ github.event.inputs.runAll }}"
+          $pbixPath = "${{ github.event.inputs.pbixPath }}"
+          if ($runAll -eq "true") {
+            $all = Get-ChildItem -Path "PowerBI Examples" -Filter "*.pbix" -File -ErrorAction Stop
+            if ($all.Count -eq 0) {
+              throw "No .pbix files found under PowerBI Examples"
+            }
+            Write-Host "Run all mode enabled. Found $($all.Count) reports."
+          } else {
+            if (-not (Test-Path $pbixPath)) {
+              throw "PBIX file does not exist in repo: $pbixPath"
+            }
+            Write-Host "Single report mode. PBIX found: $pbixPath"
+          }
+
+      - name: Download pbi-tools desktop release
+        shell: pwsh
+        run: |
+          $version = "1.2.0"
+          $zipUrl = "https://github.com/pbi-tools/pbi-tools/releases/download/$version/pbi-tools.$version.zip"
+          $zipPath = Join-Path $env:RUNNER_TEMP "pbi-tools.zip"
+          $toolDir = Join-Path $env:RUNNER_TEMP "pbi-tools"
+          Invoke-WebRequest -Uri $zipUrl -OutFile $zipPath
+          Expand-Archive -Path $zipPath -DestinationPath $toolDir -Force
+          $exePath = Join-Path $toolDir "pbi-tools.exe"
+          if (-not (Test-Path $exePath)) {
+            throw "pbi-tools.exe missing after extraction."
+          }
+          "PBITOOLS_EXE=$exePath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          Write-Host "Using executable: $exePath"
+
+      - name: Extract PBIX
+        shell: pwsh
+        run: |
+          $runAll = "${{ github.event.inputs.runAll }}"
+          $pbixPath = "${{ github.event.inputs.pbixPath }}"
+          $modelSerialization = "${{ github.event.inputs.modelSerialization }}"
+          $outRoot = "out\workflow-extract"
+          New-Item -ItemType Directory -Path $outRoot -Force | Out-Null
+
+          if ($runAll -eq "true") {
+            $reports = Get-ChildItem -Path "PowerBI Examples" -Filter "*.pbix" -File | Sort-Object Name
+            foreach ($report in $reports) {
+              $name = [System.IO.Path]::GetFileNameWithoutExtension($report.Name)
+              $target = Join-Path $outRoot $name
+              New-Item -ItemType Directory -Path $target -Force | Out-Null
+              & "$env:PBITOOLS_EXE" extract "$($report.FullName)" -extractFolder "$target" -modelSerialization "$modelSerialization"
+              if ($LASTEXITCODE -ne 0) {
+                throw "Extract failed for '$($report.Name)' with exit code $LASTEXITCODE"
+              }
+            }
+          } else {
+            $legacyFolder = Join-Path $outRoot "legacy"
+            New-Item -ItemType Directory -Path $legacyFolder -Force | Out-Null
+            & "$env:PBITOOLS_EXE" extract "$pbixPath" -extractFolder "$legacyFolder" -modelSerialization "$modelSerialization"
+            if ($LASTEXITCODE -ne 0) {
+              throw "Extract failed with exit code $LASTEXITCODE"
+            }
+          }
+
+      - name: Generate BIM
+        shell: pwsh
+        run: |
+          $runAll = "${{ github.event.inputs.runAll }}"
+          if ($runAll -eq "true") {
+            $folders = Get-ChildItem -Path "out\workflow-extract" -Directory | Sort-Object Name
+            foreach ($folder in $folders) {
+              & "$env:PBITOOLS_EXE" generate-bim "$($folder.FullName)"
+              if ($LASTEXITCODE -ne 0) {
+                throw "generate-bim failed for '$($folder.Name)' with exit code $LASTEXITCODE"
+              }
+            }
+          } else {
+            $legacyFolder = "out\workflow-extract\legacy"
+            & "$env:PBITOOLS_EXE" generate-bim "$legacyFolder"
+            if ($LASTEXITCODE -ne 0) {
+              throw "generate-bim failed with exit code $LASTEXITCODE"
+            }
+          }
+
+      - name: Build DAX index
+        shell: pwsh
+        run: |
+          $indexPath = "out\workflow-extract\dax-index.txt"
+          Get-ChildItem -Path "out\workflow-extract" -Recurse -Filter "*.dax" |
+            Sort-Object FullName |
+            ForEach-Object { $_.FullName } |
+            Set-Content -Path $indexPath -Encoding UTF8
+
+      - name: Upload extraction artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pbix-extract-artifacts
+          path: |
+            out/workflow-extract/**

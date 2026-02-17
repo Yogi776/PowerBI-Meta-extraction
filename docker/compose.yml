@@ -1,0 +1,15 @@
+services:
+  pbi-tools:
+    # pbi-tools.core linux release is x64; force amd64 for Apple Silicon hosts.
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PBI_TOOLS_VERSION: ${PBI_TOOLS_VERSION:-1.2.0}
+    image: pbi-tools-core:local
+    working_dir: /workspace
+    volumes:
+      - ..:/workspace
+    entrypoint: ["/app/pbi-tools/pbi-tools.core"]
+    command: ["info"]
