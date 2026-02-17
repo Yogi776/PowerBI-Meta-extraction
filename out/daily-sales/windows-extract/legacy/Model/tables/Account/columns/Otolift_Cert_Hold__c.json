@@ -1,0 +1,13 @@
+{
+  "name": "Otolift_Cert_Hold__c",
+  "dataType": "boolean",
+  "sourceColumn": "Otolift_Cert_Hold__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

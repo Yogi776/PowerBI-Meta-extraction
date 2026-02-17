@@ -1,0 +1,12 @@
+{
+  "name": "MProductClass",
+  "dataType": "string",
+  "sourceColumn": "MProductClass",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

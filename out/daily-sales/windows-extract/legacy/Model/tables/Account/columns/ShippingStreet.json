@@ -1,0 +1,12 @@
+{
+  "name": "ShippingStreet",
+  "dataType": "string",
+  "sourceColumn": "ShippingStreet",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

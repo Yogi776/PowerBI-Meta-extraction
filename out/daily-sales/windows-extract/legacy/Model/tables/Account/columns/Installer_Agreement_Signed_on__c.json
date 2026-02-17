@@ -1,0 +1,28 @@
+{
+  "name": "Installer_Agreement_Signed_on__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Installer_Agreement_Signed_on__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "11136e7e-4a0a-4487-a31e-286cbfc5652d",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

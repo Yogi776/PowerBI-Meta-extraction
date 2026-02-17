@@ -1,0 +1,1672 @@
+[
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 222.98507462686567
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "MTD By Key Account",
+      "x": 1002.9850746268656,
+      "y": 385.97014925373134
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "MTD By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.7963525835867,
+      "y": 224.6808510638298
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "MTD By Product",
+      "x": 1002.7963525835867,
+      "y": 315.13677811550156
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Territory",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "% Through Month",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 105.67164179104478
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 222.98507462686567
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 1002.9850746268656,
+      "y": 385.97014925373134
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "MTD By Territory & Channel",
+      "x": 9.72644376899696,
+      "y": 415.3191489361702
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PY Revenue",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PY Units",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PY Revenue",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PY Revenue %",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PY Revenue",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 146.84931506849315
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 309.041095890411
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Month Select",
+    "context": {
+      "section": "Month vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 80
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PY Revenue",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PY Units",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PY Revenue",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PY Revenue %",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Month Select",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 80
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 146.84931506849315
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Month vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 266.3013698630137
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Units",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue %",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Quarter",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 80
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 150.13698630136986
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Quarter vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 312.32876712328766
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue %",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Revenue",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Units",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue %",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 268.4931506849315
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 147.94520547945206
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Quarter",
+    "context": {
+      "section": "Quarter vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 80
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Revenue",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Units",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue %",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 230.13698630136986
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1002.7397260273973,
+      "y": 392.32876712328766
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 97.53424657534246
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Yesterday",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 97.53424657534246
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 157.8082191780822
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year PY",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 157.8082191780822
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year",
+    "context": {
+      "section": "YTD vs PY - By Key Account",
+      "x": 1003.8356164383562,
+      "y": 157.8082191780822
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Revenue",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CY Units",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Revenue",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "PYTD Units",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "CY vs PYTD Revenue %",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 222.46575342465755
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1002.7397260273973,
+      "y": 307.94520547945206
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Today",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 95.34246575342466
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Today",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 95.34246575342466
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 154.5205479452055
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year PY",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 154.5205479452055
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "WDs Year",
+    "context": {
+      "section": "YTD vs PY - By Product",
+      "x": 1003.8356164383562,
+      "y": 154.5205479452055
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 1002.9850746268656,
+      "y": 222.98507462686567
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 1002.9850746268656,
+      "y": 385.97014925373134
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "Month Select vs Forecast - By Key Account",
+      "x": 1003.7689969604863,
+      "y": 79.75683890577508
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Units",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Actual vs Forecast Revenue %",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Units",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 9.850746268656716,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 1002.7963525835867,
+      "y": 224.6808510638298
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 1002.7963525835867,
+      "y": 315.13677811550156
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "Month Select vs Forecast - By Product",
+      "x": 1003.7689969604863,
+      "y": 79.75683890577508
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "By Key Account By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "By Key Account By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "By Key Account By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "By Key Account By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "By Key Account By Month Forecast",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "By Key Account By Month Forecast",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "By Key Account By Month Forecast",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "By Product By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "By Product By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "By Product By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Actual Revenue",
+    "context": {
+      "section": "By Product By Month Actuals",
+      "x": 10.699088145896656,
+      "y": 81.70212765957447
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OE Group",
+    "context": {
+      "section": "By Product By Month Forecast",
+      "x": 10.746268656716417,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Organizational Element",
+    "context": {
+      "section": "By Product By Month Forecast",
+      "x": 10.746268656716417,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Year-Month",
+    "context": {
+      "section": "By Product By Month Forecast",
+      "x": 10.746268656716417,
+      "y": 81.49253731343283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Forecast Revenue",
+    "context": {
+      "section": "By Product By Month Forecast",
+      "x": 10.746268656716417,
+      "y": 81.49253731343283
+    }
+  }
+]

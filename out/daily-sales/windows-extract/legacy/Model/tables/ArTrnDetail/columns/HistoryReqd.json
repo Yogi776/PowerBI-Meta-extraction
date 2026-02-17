@@ -1,0 +1,12 @@
+{
+  "name": "HistoryReqd",
+  "dataType": "string",
+  "sourceColumn": "HistoryReqd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

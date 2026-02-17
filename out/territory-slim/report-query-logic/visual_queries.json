@@ -1,0 +1,4288 @@
+[
+  {
+    "section": "MTD By Key Account",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "Actual vs Forecast Revenue"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 81.49253731343283,
+    "width": 276.7164179104478,
+    "height": 51.940298507462686,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Yesterday"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Dates_Master.Yesterday)",
+          "NativeReferenceName": "Earliest Yesterday"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Yesterday"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Dates_Master.Yesterday)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 105.67164179104478,
+    "width": 276.7164179104478,
+    "height": 110.14925373134328,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "% Through Month"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.% Through Month)",
+          "NativeReferenceName": "% Through Month"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "% Through Month"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.% Through Month)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 222.98507462686567,
+    "width": 276.7164179104478,
+    "height": 156.71641791044775,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 385.97014925373134,
+    "width": 276.7164179104478,
+    "height": 334.02985074626866,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Product",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "Product Grouping"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "OE Group"
+            }
+          }
+        },
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "Organizational Element"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Product",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 81.49253731343283,
+    "width": 276.7164179104478,
+    "height": 51.940298507462686,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Yesterday"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Dates_Master.Yesterday)",
+          "NativeReferenceName": "Earliest Yesterday"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Yesterday"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Dates_Master.Yesterday)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Product",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 105.67164179104478,
+    "width": 276.7164179104478,
+    "height": 110.14925373134328,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "% Through Month"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.% Through Month)",
+          "NativeReferenceName": "% Through Month"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "% Through Month"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.% Through Month)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Product",
+    "visualName": null,
+    "x": 1002.7963525835867,
+    "y": 224.6808510638298,
+    "width": 277.2036474164134,
+    "height": 84.62006079027356,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Product",
+    "visualName": null,
+    "x": 1002.7963525835867,
+    "y": 315.13677811550156,
+    "width": 277.2036474164134,
+    "height": 404.62006079027356,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub_Key_Account__c"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 9.72644376899696,
+    "y": 81.70212765957447,
+    "width": 983.3434650455928,
+    "height": 326.8085106382979,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Territory"
+          },
+          "Name": "1 Master Table.Territory",
+          "NativeReferenceName": "Territory"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "1"
+                    }
+                  },
+                  "Property": "Actual Revenue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Territory",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 81.49253731343283,
+    "width": 276.7164179104478,
+    "height": 51.940298507462686,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Yesterday"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Dates_Master.Yesterday)",
+          "NativeReferenceName": "Earliest Yesterday"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Yesterday"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Dates_Master.Yesterday)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 105.67164179104478,
+    "width": 276.7164179104478,
+    "height": 110.14925373134328,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "% Through Month"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.% Through Month)",
+          "NativeReferenceName": "% Through Month"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "% Through Month"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.% Through Month)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 222.98507462686567,
+    "width": 276.7164179104478,
+    "height": 156.71641791044775,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 385.97014925373134,
+    "width": 276.7164179104478,
+    "height": 334.02985074626866,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "MTD By Territory & Channel",
+    "visualName": null,
+    "x": 9.72644376899696,
+    "y": 415.3191489361702,
+    "width": 983.3434650455928,
+    "height": 304.4376899696049,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Key Account",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PY Revenue)",
+          "NativeReferenceName": "PY Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PY Units)",
+          "NativeReferenceName": "PY Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PY Revenue"
+          },
+          "Name": "1 Master Table.CY vs PY Revenue",
+          "NativeReferenceName": "CY vs PY Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PY Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PY Revenue %",
+          "NativeReferenceName": "CY vs PY Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY Units"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "CY vs PY Revenue"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PY Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PY Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PY Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PY Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 146.84931506849315,
+    "width": 277.26027397260276,
+    "height": 152.32876712328766,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 309.041095890411,
+    "width": 277.26027397260276,
+    "height": 410.95890410958907,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Key Account",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 80,
+    "width": 276.16438356164383,
+    "height": 58.08219178082192,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Month Select"
+          },
+          "Name": "1 Master Table.Month Select",
+          "NativeReferenceName": "Month Select"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Month Select",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Product",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PY Revenue)",
+          "NativeReferenceName": "PY Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PY Units)",
+          "NativeReferenceName": "PY Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PY Revenue"
+          },
+          "Name": "1 Master Table.CY vs PY Revenue",
+          "NativeReferenceName": "CY vs PY Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PY Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PY Revenue %",
+          "NativeReferenceName": "CY vs PY Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PY Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PY Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PY Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PY Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Product",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 80,
+    "width": 276.16438356164383,
+    "height": 58.08219178082192,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Month Select"
+          },
+          "Name": "1 Master Table.Month Select",
+          "NativeReferenceName": "Month Select"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Month Select",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 146.84931506849315,
+    "width": 277.26027397260276,
+    "height": 111.78082191780823,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 266.3013698630137,
+    "width": 277.26027397260276,
+    "height": 453.6986301369863,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub_Key_Account__c"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Key Account",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY QTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY QTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Revenue)",
+          "NativeReferenceName": "PY QTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Units)",
+          "NativeReferenceName": "PY QTD Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue",
+          "NativeReferenceName": "CY vs PY Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue %",
+          "NativeReferenceName": "CY vs PY Revenue %"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "Sub_Key_Account__c"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Key Account",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 80,
+    "width": 276.16438356164383,
+    "height": 61.369863013698634,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Quarter"
+          },
+          "Name": "1 Master Table.Quarter",
+          "NativeReferenceName": "Quarter"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Quarter",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 150.13698630136986,
+    "width": 277.26027397260276,
+    "height": 152.32876712328766,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 312.32876712328766,
+    "width": 277.26027397260276,
+    "height": 407.67123287671234,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Product",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY QTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY QTD Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue",
+          "NativeReferenceName": "CY vs PY Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue %",
+          "NativeReferenceName": "CY vs PY Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Revenue)",
+          "NativeReferenceName": "PY QTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Units)",
+          "NativeReferenceName": "PY QTD Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "CY vs PYTD Revenue %"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 268.4931506849315,
+    "width": 277.26027397260276,
+    "height": 451.5068493150685,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub_Key_Account__c"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 147.94520547945206,
+    "width": 277.26027397260276,
+    "height": 111.78082191780823,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Quarter vs PY - By Product",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 80,
+    "width": 276.16438356164383,
+    "height": 58.08219178082192,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Quarter"
+          },
+          "Name": "1 Master Table.Quarter",
+          "NativeReferenceName": "Quarter"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Quarter",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Key Account",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY YTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY YTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Revenue)",
+          "NativeReferenceName": "PY YTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Units)",
+          "NativeReferenceName": "PY YTD Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue",
+          "NativeReferenceName": "CY vs PY YTD Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue %",
+          "NativeReferenceName": "CY vs PY YTD Revenue %"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "CY vs PYTD Revenue"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 230.13698630136986,
+    "width": 277.26027397260276,
+    "height": 157.8082191780822,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Key Account",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 392.32876712328766,
+    "width": 277.26027397260276,
+    "height": 327.67123287671234,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Key Account",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 97.53424657534246,
+    "width": 276.16438356164383,
+    "height": 43.83561643835616,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Yesterday"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Dates_Master.Yesterday)",
+          "NativeReferenceName": "Earliest Yesterday"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Yesterday"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Dates_Master.Yesterday)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Key Account",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 157.8082191780822,
+    "width": 275.06849315068496,
+    "height": 70.13698630136986,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "WDs Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.WDs Year)",
+          "NativeReferenceName": "CY Working Days"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "WDs Year PY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.WDs Year PY)",
+          "NativeReferenceName": "PY Working Days"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "WDs Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.WDs Year)"
+        },
+        {
+          "queryRef": "Sum(Dates_Master.WDs Year PY)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Product",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Revenue)",
+          "NativeReferenceName": "CY YTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "CY Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.CY Units)",
+          "NativeReferenceName": "CY YTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Revenue)",
+          "NativeReferenceName": "PY YTD Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "PYTD Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.PYTD Units)",
+          "NativeReferenceName": "PY YTD Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue",
+          "NativeReferenceName": "CY vs PY YTD Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "CY vs PYTD Revenue %"
+          },
+          "Name": "1 Master Table.CY vs PYTD Revenue %",
+          "NativeReferenceName": "CY vs PY YTD Revenue %"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.CY Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.CY vs PYTD Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.CY Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.PYTD Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 222.46575342465755,
+    "width": 277.26027397260276,
+    "height": 84.38356164383562,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Product",
+    "visualName": null,
+    "x": 1002.7397260273973,
+    "y": 307.94520547945206,
+    "width": 277.26027397260276,
+    "height": 412.05479452054794,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub_Key_Account__c"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Product",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 95.34246575342466,
+    "width": 276.16438356164383,
+    "height": 43.83561643835616,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Today"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Dates_Master.Today)",
+          "NativeReferenceName": "Earliest Today"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Today"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Dates_Master.Today)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "YTD vs PY - By Product",
+    "visualName": null,
+    "x": 1003.8356164383562,
+    "y": 154.5205479452055,
+    "width": 275.06849315068496,
+    "height": 65.75342465753425,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "WDs Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.WDs Year)",
+          "NativeReferenceName": "CY Working Days"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "WDs Year PY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.WDs Year PY)",
+          "NativeReferenceName": "PY Working Days"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "WDs Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.WDs Year)"
+        },
+        {
+          "queryRef": "Sum(Dates_Master.WDs Year PY)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Key Account",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "1"
+                    }
+                  },
+                  "Property": "Forecast Revenue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        },
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "1"
+                    }
+                  },
+                  "Property": "Forecast Revenue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 222.98507462686567,
+    "width": 276.7164179104478,
+    "height": 156.71641791044775,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "OE Group"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Key Account",
+    "visualName": null,
+    "x": 1002.9850746268656,
+    "y": 385.97014925373134,
+    "width": 276.7164179104478,
+    "height": 334.02985074626866,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Key Account",
+    "visualName": null,
+    "x": 1003.7689969604863,
+    "y": 79.75683890577508,
+    "width": 276.23100303951367,
+    "height": 136.17021276595744,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Product",
+    "visualName": null,
+    "x": 9.850746268656716,
+    "y": 81.49253731343283,
+    "width": 983.2835820895522,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Forecast Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Actual Revenue"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Units)",
+          "NativeReferenceName": "Actual Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue",
+          "NativeReferenceName": "Actual vs Forecast Revenue"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Actual vs Forecast Revenue %"
+          },
+          "Name": "1 Master Table.Actual vs Forecast Revenue %",
+          "NativeReferenceName": "Actual vs Forecast Revenue %"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Units)",
+          "NativeReferenceName": "Forecast Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "Product Grouping"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "1"
+                    }
+                  },
+                  "Property": "Forecast Revenue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        },
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "1"
+                    }
+                  },
+                  "Property": "Forecast Revenue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue"
+        },
+        {
+          "queryRef": "1 Master Table.Actual vs Forecast Revenue %"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Actual Units)"
+        },
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Units)"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Product",
+    "visualName": null,
+    "x": 1002.7963525835867,
+    "y": 224.6808510638298,
+    "width": 277.2036474164134,
+    "height": 84.62006079027356,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Channel"
+          },
+          "Name": "1 Master Table.Channel",
+          "NativeReferenceName": "Channel"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Channel",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Product",
+    "visualName": null,
+    "x": 1002.7963525835867,
+    "y": 315.13677811550156,
+    "width": 277.2036474164134,
+    "height": 404.62006079027356,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub_Key_Account__c"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "Month Select vs Forecast - By Product",
+    "visualName": null,
+    "x": 1003.7689969604863,
+    "y": 79.75683890577508,
+    "width": 276.23100303951367,
+    "height": 136.17021276595744,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        }
+      ]
+    },
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "By Key Account By Month Actuals",
+    "visualName": null,
+    "x": 10.699088145896656,
+    "y": 81.70212765957447,
+    "width": 1269.3009118541033,
+    "height": 638.0547112462007,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Sum of Actual Revenue"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "1"
+                }
+              },
+              "Property": "Sub_Key_Account__c"
+            }
+          }
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "By Key Account By Month Forecast",
+    "visualName": null,
+    "x": 10.699088145896656,
+    "y": 81.70212765957447,
+    "width": 1269.3009118541033,
+    "height": 638.0547112462007,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Sum of Forecast Revenue"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Sub_Key_Account__c"
+          },
+          "Name": "1 Master Table.Sub_Key_Account__c",
+          "NativeReferenceName": "Key Account"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.Sub_Key_Account__c",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "By Product By Month Actuals",
+    "visualName": null,
+    "x": 10.699088145896656,
+    "y": 81.70212765957447,
+    "width": 1269.3009118541033,
+    "height": 638.0547112462007,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "Product Grouping"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Actual Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Actual Revenue)",
+          "NativeReferenceName": "Sum of Actual Revenue"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Actual Revenue)"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  },
+  {
+    "section": "By Product By Month Forecast",
+    "visualName": null,
+    "x": 10.746268656716417,
+    "y": 81.49253731343283,
+    "width": 1268.955223880597,
+    "height": 638.5074626865671,
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "OE Group"
+          },
+          "Name": "1 Master Table.OE Group",
+          "NativeReferenceName": "Product Grouping"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Organizational Element"
+          },
+          "Name": "1 Master Table.Organizational Element",
+          "NativeReferenceName": "Organizational Element"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "1"
+              }
+            },
+            "Property": "Year-Month"
+          },
+          "Name": "1 Master Table.Year-Month",
+          "NativeReferenceName": "Year-Month"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "1"
+                  }
+                },
+                "Property": "Forecast Revenue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(1 Master Table.Forecast Revenue)",
+          "NativeReferenceName": "Sum of Forecast Revenue"
+        }
+      ]
+    },
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "1 Master Table.OE Group",
+          "active": true
+        },
+        {
+          "queryRef": "1 Master Table.Organizational Element",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(1 Master Table.Forecast Revenue)"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "1 Master Table.Year-Month",
+          "active": true
+        }
+      ]
+    }
+  }
+]

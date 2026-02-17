@@ -1,0 +1,12 @@
+{
+  "name": "MasterRecordId",
+  "dataType": "string",
+  "sourceColumn": "MasterRecordId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

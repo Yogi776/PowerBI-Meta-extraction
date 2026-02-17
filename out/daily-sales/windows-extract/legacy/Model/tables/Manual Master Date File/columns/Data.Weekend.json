@@ -1,0 +1,12 @@
+{
+  "name": "Data.Weekend",
+  "dataType": "string",
+  "sourceColumn": "Data.Weekend",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

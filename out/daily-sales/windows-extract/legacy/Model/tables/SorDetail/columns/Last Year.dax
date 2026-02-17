@@ -1,0 +1,1 @@
+if(and(year(SorDetail[Visual Date])=2024,month(SorDetail[Visual Date])=month(TODAY()-1)),SorDetail[Visual Bookings Value],0)

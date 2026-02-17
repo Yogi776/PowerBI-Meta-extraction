@@ -1,0 +1,12 @@
+{
+  "name": "Store_Address__CountryCode__s",
+  "dataType": "string",
+  "sourceColumn": "Store_Address__CountryCode__s",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

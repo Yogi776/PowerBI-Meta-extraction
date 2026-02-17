@@ -1,0 +1,13 @@
+{
+  "name": "SBQQ__PreserveBundle__c",
+  "dataType": "boolean",
+  "sourceColumn": "SBQQ__PreserveBundle__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

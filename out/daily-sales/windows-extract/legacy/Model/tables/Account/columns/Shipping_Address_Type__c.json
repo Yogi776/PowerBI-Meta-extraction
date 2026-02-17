@@ -1,0 +1,12 @@
+{
+  "name": "Shipping_Address_Type__c",
+  "dataType": "string",
+  "sourceColumn": "Shipping_Address_Type__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

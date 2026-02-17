@@ -1,0 +1,13 @@
+{
+  "name": "smartystreets__In_Batch__c",
+  "dataType": "boolean",
+  "sourceColumn": "smartystreets__In_Batch__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

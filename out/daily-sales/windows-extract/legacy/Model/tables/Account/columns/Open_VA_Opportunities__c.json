@@ -1,0 +1,16 @@
+{
+  "name": "Open_VA_Opportunities__c",
+  "dataType": "double",
+  "sourceColumn": "Open_VA_Opportunities__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

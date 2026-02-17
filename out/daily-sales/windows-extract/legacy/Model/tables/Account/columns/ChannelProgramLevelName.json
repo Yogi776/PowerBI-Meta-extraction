@@ -1,0 +1,12 @@
+{
+  "name": "ChannelProgramLevelName",
+  "dataType": "string",
+  "sourceColumn": "ChannelProgramLevelName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

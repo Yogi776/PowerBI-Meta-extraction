@@ -1,0 +1,16 @@
+{
+  "name": "TrnYear",
+  "dataType": "double",
+  "sourceColumn": "TrnYear",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

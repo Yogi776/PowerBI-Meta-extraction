@@ -1,0 +1,12 @@
+{
+  "name": "Mobile__c",
+  "dataType": "string",
+  "sourceColumn": "Mobile__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

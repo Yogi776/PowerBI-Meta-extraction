@@ -1,0 +1,12 @@
+{
+  "name": "Coverage_radius__c",
+  "dataType": "string",
+  "sourceColumn": "Coverage_radius__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

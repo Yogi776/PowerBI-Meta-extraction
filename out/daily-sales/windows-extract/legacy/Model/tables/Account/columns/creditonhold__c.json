@@ -1,0 +1,12 @@
+{
+  "name": "creditonhold__c",
+  "dataType": "string",
+  "sourceColumn": "creditonhold__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

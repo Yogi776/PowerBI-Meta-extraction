@@ -1,0 +1,358 @@
+{
+  "total_queries": 36,
+  "unique_query_refs": 55,
+  "complex_candidates": [
+    {
+      "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+      "score": 4,
+      "usageCount": 4,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "budget",
+        "ly",
+        "mtd"
+      ]
+    },
+    {
+      "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Units",
+      "score": 4,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "budget",
+        "ly",
+        "mtd"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc Index to Budget Bookings",
+      "score": 3,
+      "usageCount": 3,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "index",
+        "budget"
+      ]
+    },
+    {
+      "queryRef": "ArTrnDetail.Calc AR Index to Budget",
+      "score": 3,
+      "usageCount": 2,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "index",
+        "budget"
+      ]
+    },
+    {
+      "queryRef": "ArTrnDetail.Calc AR Index to LY",
+      "score": 3,
+      "usageCount": 2,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "index",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "GenTransaction.Calc % to LY",
+      "score": 3,
+      "usageCount": 1,
+      "sections": [
+        "CFO View"
+      ],
+      "matchedTokens": [
+        "calc",
+        "%",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "GenTransaction.Calc Index to Budget",
+      "score": 3,
+      "usageCount": 1,
+      "sections": [
+        "CFO View"
+      ],
+      "matchedTokens": [
+        "calc",
+        "index",
+        "budget"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc B(W) LY",
+      "score": 2,
+      "usageCount": 3,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "ArTrnDetail.Calc Daily Avg LY Units",
+      "score": 2,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "ArTrnDetail.Calc Daily Avg Units",
+      "score": 2,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "MTD Elapsed Logic Pt 2.% Elapsed",
+      "score": 2,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "%",
+        "mtd"
+      ]
+    },
+    {
+      "queryRef": "Sum(SorDetail.MTD Current Year)",
+      "score": 1,
+      "usageCount": 7,
+      "sections": [
+        "CFO View",
+        "Daily Trends",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "current"
+      ]
+    },
+    {
+      "queryRef": "Sum(GenTransaction.Calc LY)",
+      "score": 1,
+      "usageCount": 4,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "ly"
+      ]
+    },
+    {
+      "queryRef": "Sum(ArTrnDetail.Calc MTD $)",
+      "score": 1,
+      "usageCount": 3,
+      "sections": [
+        "Daily Trends",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc",
+        "mtd"
+      ]
+    },
+    {
+      "queryRef": "GenTransaction.Calc Avg Ship",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc"
+      ]
+    },
+    {
+      "queryRef": "MTD Elapsed Logic Pt 2.Today's Date",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc Avg Books",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc"
+      ]
+    },
+    {
+      "queryRef": "Sum(ArTrnDetail.MTD Current Units)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "current"
+      ]
+    },
+    {
+      "queryRef": "Sum(ArTrnDetail.MTD Last Year Units)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "last year"
+      ]
+    },
+    {
+      "queryRef": "Sum(GenTransaction.MTD Current Year)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "current"
+      ]
+    },
+    {
+      "queryRef": "Sum(SorDetail.MTD Current Units)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "current"
+      ]
+    },
+    {
+      "queryRef": "Sum(SorDetail.MTD Last Year Units)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "last year"
+      ]
+    },
+    {
+      "queryRef": "Sum(SorDetail.MTD Last Year)",
+      "score": 1,
+      "usageCount": 2,
+      "sections": [
+        "CFO View",
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "mtd",
+        "last year"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc Avg Units",
+      "score": 1,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc B(W) Units",
+      "score": 1,
+      "usageCount": 1,
+      "sections": [
+        "Stacked Exec Dashboard"
+      ],
+      "matchedTokens": [
+        "calc"
+      ]
+    },
+    {
+      "queryRef": "SorDetail.Calc Product Unit Type",
+      "score": 1,
+      "usageCount": 1,
+      "sections": [
+        "Backlog Detail"
+      ],
+      "matchedTokens": [
+        "calc"
+      ]
+    }
+  ],
+  "section_scores": [
+    {
+      "section": "Stacked Exec Dashboard",
+      "complexityScore": 51,
+      "uniqueRefs": 32
+    },
+    {
+      "section": "CFO View",
+      "complexityScore": 37,
+      "uniqueRefs": 26
+    },
+    {
+      "section": "Daily Trends",
+      "complexityScore": 4,
+      "uniqueRefs": 8
+    },
+    {
+      "section": "Backlog Detail",
+      "complexityScore": 2,
+      "uniqueRefs": 16
+    }
+  ]
+}

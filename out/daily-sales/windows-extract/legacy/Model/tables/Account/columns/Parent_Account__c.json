@@ -1,0 +1,12 @@
+{
+  "name": "Parent_Account__c",
+  "dataType": "string",
+  "sourceColumn": "Parent_Account__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

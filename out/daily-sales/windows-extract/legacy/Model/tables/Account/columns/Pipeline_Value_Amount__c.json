@@ -1,0 +1,16 @@
+{
+  "name": "Pipeline_Value_Amount__c",
+  "dataType": "double",
+  "sourceColumn": "Pipeline_Value_Amount__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "name": "ad594386d361ad0e0d81",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 65.345345345345351,
+        "z": 0,
+        "width": 1280,
+        "height": 654.41441441441452,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "tableEx",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.SalesOrder"
+        },
+        {
+          "queryRef": "SorMaster.OrderStatus"
+        },
+        {
+          "queryRef": "SorMaster.OrderType"
+        },
+        {
+          "queryRef": "SorMaster.Customer"
+        },
+        {
+          "queryRef": "SorMaster.CustomerName"
+        },
+        {
+          "queryRef": "SorMaster.OrderDate"
+        },
+        {
+          "queryRef": "SorDetail.MProductClass"
+        },
+        {
+          "queryRef": "SorDetail.MStockCode"
+        },
+        {
+          "queryRef": "SorDetail.MStockDes"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MOrderQty)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MPrice)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.NMscChargeValue)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Calc Backlog)"
+        },
+        {
+          "queryRef": "SorDetail.Account.Sub_Key_Account__c"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "s1",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MProductClass"
+          },
+          "Name": "SorDetail.MProductClass",
+          "NativeReferenceName": "MProductClass"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backlog"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Calc Backlog)",
+          "NativeReferenceName": "Backlog $"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MStockCode"
+          },
+          "Name": "SorDetail.MStockCode",
+          "NativeReferenceName": "MStockCode"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "SalesOrder"
+          },
+          "Name": "SorDetail.SalesOrder",
+          "NativeReferenceName": "SalesOrder"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MStockDes"
+          },
+          "Name": "SorDetail.MStockDes",
+          "NativeReferenceName": "MStockDes"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MOrderQty"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MOrderQty)",
+          "NativeReferenceName": "Sum of MOrderQty"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MPrice"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MPrice)",
+          "NativeReferenceName": "Sum of MPrice"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "NMscChargeValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.NMscChargeValue)",
+          "NativeReferenceName": "Sum of NMscChargeValue"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderStatus"
+          },
+          "Name": "SorMaster.OrderStatus",
+          "NativeReferenceName": "OrderStatus"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderDate"
+          },
+          "Name": "SorMaster.OrderDate",
+          "NativeReferenceName": "OrderDate"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderType"
+          },
+          "Name": "SorMaster.OrderType",
+          "NativeReferenceName": "OrderType"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "Customer"
+          },
+          "Name": "SorMaster.Customer",
+          "NativeReferenceName": "Customer"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "CustomerName"
+          },
+          "Name": "SorMaster.CustomerName",
+          "NativeReferenceName": "CustomerName"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Account.Sub_Key_Account__c"
+          },
+          "Name": "SorDetail.Account.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub Key Account"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "Calc Backlog"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "Sum(LucaNet Interim Budget.Amount)": {
+        "displayName": "Budget"
+      },
+      "Sum(SorDetail.Calc Backlog)": {
+        "displayName": "Backlog $"
+      },
+      "SorDetail.Account.Sub_Key_Account__c": {
+        "displayName": "Sub Key Account"
+      }
+    },
+    "drillFilterOtherVisuals": false,
+    "filterSortOrder": 3,
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "75.34765215233641D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(SorDetail.Calc Backlog)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "50.55818074468573D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(SorDetail.MOrderQty)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "70.76726229406891D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(SorDetail.MPrice)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "71.3942040716658D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(SorDetail.NMscChargeValue)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "38.84051070462512D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorMaster.OrderType"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "39.13400340834103D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorMaster.OrderStatus"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "63.84384384384384D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorMaster.OrderDate"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "56.97598293432816D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorDetail.MProductClass"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "66.95429928695984D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorDetail.SalesOrder"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "96.76082728491733D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SorDetail.MStockCode"
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "styleHeader": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "styleValues": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(SorDetail.Calc Backlog)"
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E8F3FE'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E8F3FE'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Left'"
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Default'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Backlog Detail'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

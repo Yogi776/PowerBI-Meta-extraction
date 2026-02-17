@@ -1,0 +1,16 @@
+{
+  "name": "User_is_Owner_of_MTC__c",
+  "dataType": "double",
+  "sourceColumn": "User_is_Owner_of_MTC__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

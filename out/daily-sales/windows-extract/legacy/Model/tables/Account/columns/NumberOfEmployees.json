@@ -1,0 +1,13 @@
+{
+  "name": "NumberOfEmployees",
+  "dataType": "int64",
+  "sourceColumn": "NumberOfEmployees",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

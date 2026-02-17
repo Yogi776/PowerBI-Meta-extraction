@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('ArTrnDetail'[Date])), 1, 1), Date(Year(MAX('ArTrnDetail'[Date])), 12, 31))

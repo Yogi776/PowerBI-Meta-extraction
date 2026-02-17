@@ -1,0 +1,12 @@
+{
+  "name": "Primarily_a_Competitor_Dealer__c",
+  "dataType": "string",
+  "sourceColumn": "Primarily_a_Competitor_Dealer__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

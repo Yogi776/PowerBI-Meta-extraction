@@ -1,0 +1,16 @@
+{
+  "name": "PayConvRate",
+  "dataType": "double",
+  "sourceColumn": "PayConvRate",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

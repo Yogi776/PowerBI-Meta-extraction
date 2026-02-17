@@ -1,0 +1,12 @@
+{
+  "name": "JigsawCompanyId",
+  "dataType": "string",
+  "sourceColumn": "JigsawCompanyId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

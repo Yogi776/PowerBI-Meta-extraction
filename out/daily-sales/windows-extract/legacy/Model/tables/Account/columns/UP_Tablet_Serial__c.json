@@ -1,0 +1,12 @@
+{
+  "name": "UP_Tablet_Serial__c",
+  "dataType": "string",
+  "sourceColumn": "UP_Tablet_Serial__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

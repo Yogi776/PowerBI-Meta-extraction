@@ -1,0 +1,12 @@
+{
+  "name": "dsl_sysprobranchid__c",
+  "dataType": "string",
+  "sourceColumn": "dsl_sysprobranchid__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

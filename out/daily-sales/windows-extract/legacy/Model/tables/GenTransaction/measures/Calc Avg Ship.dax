@@ -1,0 +1,1 @@
+sum(GenTransaction[MTD Current Year])/sum('MTD Elapsed Logic Pt 2'[Is TY workday])

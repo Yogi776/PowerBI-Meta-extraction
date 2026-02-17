@@ -1,0 +1,12 @@
+{
+  "name": "Performs_Electrical_Contracting__c",
+  "dataType": "string",
+  "sourceColumn": "Performs_Electrical_Contracting__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

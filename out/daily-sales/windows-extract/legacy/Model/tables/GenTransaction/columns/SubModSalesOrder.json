@@ -1,0 +1,12 @@
+{
+  "name": "SubModSalesOrder",
+  "dataType": "string",
+  "sourceColumn": "SubModSalesOrder",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

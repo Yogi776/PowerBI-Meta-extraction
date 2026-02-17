@@ -1,0 +1,24 @@
+{
+  "name": "JnlDate",
+  "dataType": "dateTime",
+  "sourceColumn": "JnlDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "f2dcf519-37de-4dbb-8925-a97e91147ef3",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

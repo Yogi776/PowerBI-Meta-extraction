@@ -1,0 +1,28 @@
+{
+  "name": "SBQQ__PriceHoldEnd__c",
+  "dataType": "dateTime",
+  "sourceColumn": "SBQQ__PriceHoldEnd__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "addb4ec1-44cc-455f-80b3-abadcc2af08f",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

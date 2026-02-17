@@ -1,0 +1,3574 @@
+[
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 156.73469387755102,
+    "y": 31.801242236024844,
+    "width": 130.6122448979592,
+    "height": 60.19520851818989,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Avg"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+          "NativeReferenceName": "Budget per Day"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Calc Budget Daily Avg"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 754.1437444543035,
+    "y": 84.04614019520852,
+    "width": 113.57586512866015,
+    "height": 38.61579414374445,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Sum of MTD Current Year"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "MTD Current Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 890.4347826086956,
+    "y": 84.04614019520852,
+    "width": 106.76131322094055,
+    "height": 38.61579414374445,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Sum of NetSalesValue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "NetSalesValue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 1013.1895777178796,
+    "y": 0,
+    "width": 266.8104222821204,
+    "height": 111.55435759209344,
+    "projections": {
+      "Category": [
+        {
+          "queryRef": "ArTrnDetail.Branch",
+          "active": true
+        }
+      ],
+      "Y": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "ArTrnDetail.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Sum of NetSalesValue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "NetSalesValue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 887.8346810422282,
+    "y": 0,
+    "width": 111.55435759209344,
+    "height": 89.70350404312669,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Sum of NetSalesValue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "NetSalesValue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 733.7286612758311,
+    "y": 0,
+    "width": 154.10601976639714,
+    "height": 96.60377358490567,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Sum of MTD Current Year"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "MTD Current Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 382.7506654835847,
+    "y": 0,
+    "width": 313.46938775510205,
+    "height": 96.53948535936114,
+    "projections": {
+      "Y": [
+        {
+          "queryRef": "Sum(ArTrnDetail.Calc MTD $)"
+        }
+      ],
+      "TargetValue": [
+        {
+          "queryRef": "Sum(GenTransaction.Calc LY)"
+        }
+      ],
+      "MaxValue": [
+        {
+          "queryRef": "Sum(LucaNet Interim Budget.Budget for Visual)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        },
+        {
+          "Name": "l",
+          "Entity": "LucaNet Revenue Budget",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.Calc MTD $)",
+          "NativeReferenceName": "Sum of Calc MTD $"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc LY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.Calc LY)",
+          "NativeReferenceName": "Sum of Calc LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Budget.Budget for Visual)",
+          "NativeReferenceName": "Sum of Budget for Visual"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "Calc MTD $"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 3.194675540765391,
+    "y": 461.0981697171381,
+    "width": 396.1397670549085,
+    "height": 258.76871880199667,
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Product Name",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "ArTrnDetail.Calc Daily Avg Units"
+        },
+        {
+          "queryRef": "SorDetail.Calc Avg Units"
+        },
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Units"
+        },
+        {
+          "queryRef": "ArTrnDetail.Calc Daily Avg LY Units"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "MTD Averages"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc Daily Avg Units"
+          },
+          "Name": "ArTrnDetail.Calc Daily Avg Units",
+          "NativeReferenceName": "Daily Avg Shipped"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Avg Units"
+          },
+          "Name": "SorDetail.Calc Avg Units",
+          "NativeReferenceName": "Daily Avg Booked"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc Daily Avg LY Units"
+          },
+          "Name": "ArTrnDetail.Calc Daily Avg LY Units",
+          "NativeReferenceName": "Daily Avg LY Shipped"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Units"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Units",
+          "NativeReferenceName": "Budget Daily Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Product Name"
+          },
+          "Name": "DSR Hierarchy.Product Name",
+          "NativeReferenceName": "Product Name"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "a"
+                }
+              },
+              "Property": "Calc Daily Avg Units"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 140.5657237936772,
+    "y": 239.6006655574043,
+    "width": 218.3028286189684,
+    "height": 109.6838602329451,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "GenTransaction.Calc Avg Ship"
+        },
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        },
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Avg"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+          "NativeReferenceName": "Budget"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc Avg Ship"
+          },
+          "Name": "GenTransaction.Calc Avg Ship",
+          "NativeReferenceName": "Daily Average"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 23.427620632279535,
+    "y": 239.6006655574043,
+    "width": 173.5773710482529,
+    "height": 122.46256239600665,
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Yesterday's Shipped"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Branch"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 22.362728785357735,
+    "y": 351.414309484193,
+    "width": 173.5773710482529,
+    "height": 111.81364392678869,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Yesterday's Booked"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Branch"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 109.6838602329451,
+    "y": 353.5440931780366,
+    "width": 253.4442595673877,
+    "height": 110.74875207986689,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.Calc Avg Books"
+        },
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Avg Books"
+          },
+          "Name": "SorDetail.Calc Avg Books",
+          "NativeReferenceName": "Daily Average"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Avg"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+          "NativeReferenceName": "Budget"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Calc Budget Daily Avg"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 0,
+    "y": 96.53948535936114,
+    "width": 391.83673469387753,
+    "height": 149.9201419698314,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "ArTrnDetail.Calc AR Index to Budget"
+        },
+        {
+          "queryRef": "ArTrnDetail.Calc AR Index to LY"
+        },
+        {
+          "queryRef": "SorDetail.Calc Index to Budget Bookings"
+        },
+        {
+          "queryRef": "SorDetail.Calc B(W) LY"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc B(W) LY"
+          },
+          "Name": "SorDetail.Calc B(W) LY",
+          "NativeReferenceName": "Index to LY1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Index to Budget Bookings"
+          },
+          "Name": "SorDetail.Calc Index to Budget Bookings",
+          "NativeReferenceName": "Book Index to Budget"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc AR Index to Budget"
+          },
+          "Name": "ArTrnDetail.Calc AR Index to Budget",
+          "NativeReferenceName": "Ship Index to Budget"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc AR Index to LY"
+          },
+          "Name": "ArTrnDetail.Calc AR Index to LY",
+          "NativeReferenceName": "Index to LY2"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Branch"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 382.7506654835847,
+    "y": 96.53948535936114,
+    "width": 897.2493345164153,
+    "height": 285.07542147293697,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.Calc MTD $)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Budget.w/ VA Adjustment)"
+        },
+        {
+          "queryRef": "ArTrnDetail.Calc AR Index to Budget"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.Calc LY)"
+        },
+        {
+          "queryRef": "ArTrnDetail.Calc AR Index to LY"
+        },
+        {
+          "queryRef": "Sum(ArTrnDetail.MTD Current Units)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Units.Budget for Visual)"
+        },
+        {
+          "queryRef": "Sum(ArTrnDetail.MTD Last Year Units)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Calc Backlog)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Calc Backorder Units)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy 2.Products",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "l",
+          "Entity": "LucaNet Revenue Budget",
+          "Type": 0
+        },
+        {
+          "Name": "l1",
+          "Entity": "LucaNet Unit Budget",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD Current Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.MTD Current Units)",
+          "NativeReferenceName": "MTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc Last Year Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.MTD Last Year Units)",
+          "NativeReferenceName": "Full Month LY Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l1"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Units.Budget for Visual)",
+          "NativeReferenceName": "Budget Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backlog"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Calc Backlog)",
+          "NativeReferenceName": "Backlog $"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backorder Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Calc Backorder Units)",
+          "NativeReferenceName": "Backlog Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy 2.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.Calc MTD $)",
+          "NativeReferenceName": "MTD Invoiced"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc AR Index to Budget"
+          },
+          "Name": "ArTrnDetail.Calc AR Index to Budget",
+          "NativeReferenceName": "Index to Budget1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Calc AR Index to LY"
+          },
+          "Name": "ArTrnDetail.Calc AR Index to LY",
+          "NativeReferenceName": "Index to LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l"
+                  }
+                },
+                "Property": "w/ VA Adjustment"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Budget.w/ VA Adjustment)",
+          "NativeReferenceName": "Budget"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc LY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.Calc LY)",
+          "NativeReferenceName": "Full Month LY"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Branch"
+            }
+          }
+        },
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Products"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 391.40137692336634,
+    "y": 403.7289793461495,
+    "width": 887.5873744403898,
+    "height": 317.4357623866672,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Budget.w/ VA Adjustment)"
+        },
+        {
+          "queryRef": "SorDetail.Calc Index to Budget Bookings"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Last Year)"
+        },
+        {
+          "queryRef": "SorDetail.Calc B(W) LY"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Units)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Units.Budget for Visual)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Last Year Units)"
+        },
+        {
+          "queryRef": "SorDetail.Calc B(W) Units"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy 2.Products",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "l",
+          "Entity": "LucaNet Revenue Budget",
+          "Type": 0
+        },
+        {
+          "Name": "l1",
+          "Entity": "LucaNet Unit Budget",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Bookings MTD"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Last Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Last Year)",
+          "NativeReferenceName": "Bookings Full Month LY"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc B(W) LY"
+          },
+          "Name": "SorDetail.Calc B(W) LY",
+          "NativeReferenceName": "Index to LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Units)",
+          "NativeReferenceName": "MTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Last Year Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Last Year Units)",
+          "NativeReferenceName": "Full Month LY Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Index to Budget Bookings"
+          },
+          "Name": "SorDetail.Calc Index to Budget Bookings",
+          "NativeReferenceName": "Index to Budget1"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l1"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Units.Budget for Visual)",
+          "NativeReferenceName": "Budget Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc B(W) Units"
+          },
+          "Name": "SorDetail.Calc B(W) Units",
+          "NativeReferenceName": "Units vs Budget"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy 2.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l"
+                  }
+                },
+                "Property": "w/ VA Adjustment"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Budget.w/ VA Adjustment)",
+          "NativeReferenceName": "Budget"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Branch"
+            }
+          }
+        },
+        {
+          "Direction": 1,
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "d"
+                }
+              },
+              "Property": "Products"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 0,
+    "y": 0,
+    "width": 317.67178658043656,
+    "height": 41.39046079223929,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Elapsed Logic Pt 2.Today's Date"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Elapsed Logic Pt 2",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Today's Date"
+          },
+          "Name": "MTD Elapsed Logic Pt 2.Today's Date",
+          "NativeReferenceName": "Today's Date"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Today's Date"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Stacked Exec Dashboard",
+    "x": 318.0124223602484,
+    "y": 1.1357586512866016,
+    "width": 80.63886424134871,
+    "height": 63.60248447204969,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Elapsed Logic Pt 2.% Elapsed"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "e",
+          "Entity": "MTD Elapsed Logic Pt 2",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "e"
+              }
+            },
+            "Property": "% Elapsed"
+          },
+          "Name": "MTD Elapsed Logic Pt 2.% Elapsed",
+          "NativeReferenceName": "% Elapsed"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "e"
+                }
+              },
+              "Property": "% Elapsed"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 570.1535974130962,
+    "y": 73.46806790622473,
+    "width": 137.62328213419562,
+    "height": 130.37995149555377,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Sum of NetSalesValue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "NetSalesValue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 45.233082706766915,
+    "y": 78.9172932330827,
+    "width": 338.76691729323306,
+    "height": 116.45112781954887,
+    "projections": {
+      "Y": [
+        {
+          "queryRef": "Sum(GenTransaction.MTD Current Year)"
+        }
+      ],
+      "TargetValue": [
+        {
+          "queryRef": "Sum(GenTransaction.Calc LY)"
+        }
+      ],
+      "MaxValue": [
+        {
+          "queryRef": "Sum(LucaNet Interim Budget.Budget for Visual)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        },
+        {
+          "Name": "l",
+          "Entity": "LucaNet Revenue Budget",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.MTD Current Year)",
+          "NativeReferenceName": "Tracking to Budget"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc LY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.Calc LY)",
+          "NativeReferenceName": "Sum of Calc LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Budget.Budget for Visual)",
+          "NativeReferenceName": "Budget"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "MTD Current Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 877.7142857142857,
+    "y": 142.4360902255639,
+    "width": 178.04511278195488,
+    "height": 69.29323308270676,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "GenTransaction.Calc Avg Ship"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc Avg Ship"
+          },
+          "Name": "GenTransaction.Calc Avg Ship",
+          "NativeReferenceName": "Daily Average Shipped"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "g"
+                }
+              },
+              "Property": "Calc Avg Ship"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 888.595041322314,
+    "y": 74.0495867768595,
+    "width": 156.56198347107437,
+    "height": 69.81818181818181,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.Calc Avg Books"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Avg Books"
+          },
+          "Name": "SorDetail.Calc Avg Books",
+          "NativeReferenceName": "Daily Average Booked"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "s"
+                }
+              },
+              "Property": "Calc Avg Books"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 1065.2561983471073,
+    "y": 111.07438016528926,
+    "width": 180.89256198347107,
+    "height": 71.93388429752066,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Avg"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+          "NativeReferenceName": "Daily Budget Average"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Calc Budget Daily Avg"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 409.76556184316894,
+    "y": 73.46806790622473,
+    "width": 123.13662085691188,
+    "height": 130.37995149555377,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Sum of MTD Current Year"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "MTD Current Year"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 704.6725949878738,
+    "y": 73.46806790622473,
+    "width": 173.83993532740502,
+    "height": 130.37995149555377,
+    "projections": {
+      "Category": [
+        {
+          "queryRef": "ArTrnDetail.Branch",
+          "active": true
+        }
+      ],
+      "Y": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "ArTrnDetail.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Sum of NetSalesValue"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "NetSalesValue"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 0,
+    "y": 235.14932126696831,
+    "width": 1280,
+    "height": 485.3574660633484,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(GenTransaction.MTD Current Year)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Budget.Budget for Visual)"
+        },
+        {
+          "queryRef": "GenTransaction.Calc Index to Budget"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.Calc LY)"
+        },
+        {
+          "queryRef": "GenTransaction.Calc % to LY"
+        },
+        {
+          "queryRef": "Sum(ArTrnDetail.MTD Current Units)"
+        },
+        {
+          "queryRef": "Sum(LucaNet Interim Units.Budget for Visual)"
+        },
+        {
+          "queryRef": "Sum(ArTrnDetail.MTD Last Year Units)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        },
+        {
+          "queryRef": "SorDetail.Calc Index to Budget Bookings"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Last Year)"
+        },
+        {
+          "queryRef": "SorDetail.Calc B(W) LY"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Units)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MTD Last Year Units)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Calc Backlog)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Cacl Backorder Units)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "DSR Hierarchy 2.Branch",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy 2.Products",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Product Name"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "l",
+          "Entity": "LucaNet Revenue Budget",
+          "Type": 0
+        },
+        {
+          "Name": "l1",
+          "Entity": "LucaNet Unit Budget",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.MTD Current Year)",
+          "NativeReferenceName": "MTD Invoiced"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc % to LY"
+          },
+          "Name": "GenTransaction.Calc % to LY",
+          "NativeReferenceName": "Index to LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Bookings MTD"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Last Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Last Year)",
+          "NativeReferenceName": "Bookings LY"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc B(W) LY"
+          },
+          "Name": "SorDetail.Calc B(W) LY",
+          "NativeReferenceName": "Index to LY1"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backlog"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Calc Backlog)",
+          "NativeReferenceName": "Backlog $"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Units)",
+          "NativeReferenceName": "MTD Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Last Year Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Last Year Units)",
+          "NativeReferenceName": "LY Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD Current Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.MTD Current Units)",
+          "NativeReferenceName": "MTD Invoiced Units"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc Last Year Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.MTD Last Year Units)",
+          "NativeReferenceName": "Invoiced Units LY"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Budget.Budget for Visual)",
+          "NativeReferenceName": "Budget"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "l1"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(LucaNet Interim Units.Budget for Visual)",
+          "NativeReferenceName": "Budget Units"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc Index to Budget"
+          },
+          "Name": "GenTransaction.Calc Index to Budget",
+          "NativeReferenceName": "Index to Budget"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Index to Budget Bookings"
+          },
+          "Name": "SorDetail.Calc Index to Budget Bookings",
+          "NativeReferenceName": "Index to Budget1"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backorder Units"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Cacl Backorder Units)",
+          "NativeReferenceName": "Backlog Units"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy 2.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy 2.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Product Name"
+          },
+          "Name": "DSR Hierarchy.Product Name",
+          "NativeReferenceName": "Product Name"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc LY"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.Calc LY)",
+          "NativeReferenceName": "Invoiced LY"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "Calc LY"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 463.8796992481203,
+    "y": 10.586466165413533,
+    "width": 321.4436090225564,
+    "height": 47.1578947368421,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Elapsed Logic Pt 2.Today's Date"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Elapsed Logic Pt 2",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Today's Date"
+          },
+          "Name": "MTD Elapsed Logic Pt 2.Today's Date",
+          "NativeReferenceName": "Today's Date"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Today's Date"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "CFO View",
+    "x": 784.9664429530201,
+    "y": 6.442953020134228,
+    "width": 170.73825503355704,
+    "height": 57.986577181208055,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Elapsed.Measure"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "e",
+          "Entity": "MTD Elapsed Logic Pt 2",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "e"
+              }
+            },
+            "Property": "% Elapsed"
+          },
+          "Name": "Elapsed.Measure",
+          "NativeReferenceName": "of the Month is Elapsed"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "e"
+                }
+              },
+              "Property": "% Elapsed"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Daily Trends",
+    "x": 539.3909465020577,
+    "y": 96.92181069958848,
+    "width": 332.9053497942387,
+    "height": 622.6172839506173,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "ArTrnDetail.InvoiceDate",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "InvoiceDate"
+          },
+          "Name": "ArTrnDetail.InvoiceDate",
+          "NativeReferenceName": "Invoice Date"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.NetSalesValue)",
+          "NativeReferenceName": "Credits"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Daily Trends",
+    "x": 929.1851851851852,
+    "y": 96.92181069958848,
+    "width": 350.81481481481484,
+    "height": 609.9753086419753,
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "SorDetail.Visual Date",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Branch"
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products"
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(SorDetail.MTD Current Year)"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy.Branch",
+          "NativeReferenceName": "Branch1"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MTD Current Year)",
+          "NativeReferenceName": "Total Bookings"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Visual Date"
+          },
+          "Name": "SorDetail.Visual Date",
+          "NativeReferenceName": "Bookings Date"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Daily Trends",
+    "x": 35.66169154228856,
+    "y": 96.79601990049751,
+    "width": 524.7363184079602,
+    "height": 622.8059701492538,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.Calc MTD $)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "ArTrnDetail.InvoiceDate",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Branch"
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "ArTrnDetail.Branch",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.Calc MTD $)",
+          "NativeReferenceName": "Sum of Calc MTD $"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "InvoiceDate"
+          },
+          "Name": "ArTrnDetail.InvoiceDate",
+          "NativeReferenceName": "Invoice Date"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "ArTrnDetail.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy.Branch",
+          "NativeReferenceName": "Branch1"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 928.6661526599846,
+    "y": 0,
+    "width": 200.33924441017734,
+    "height": 71.05628373168852,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorMaster.OrderType",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s1",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderType"
+          },
+          "Name": "SorMaster.OrderType",
+          "NativeReferenceName": "OrderType"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 728.4084084084085,
+    "y": 0,
+    "width": 199.8798798798799,
+    "height": 71.11111111111111,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorMaster.CustomerName",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s1",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "CustomerName"
+          },
+          "Name": "SorMaster.CustomerName",
+          "NativeReferenceName": "CustomerName"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 512.2344322344322,
+    "y": 0,
+    "width": 199.26739926739927,
+    "height": 70.32967032967032,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.MProductClass",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MProductClass"
+          },
+          "Name": "SorDetail.MProductClass",
+          "NativeReferenceName": "MProductClass"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 212.16117216117215,
+    "y": 0,
+    "width": 300.0732600732601,
+    "height": 70.32967032967032,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.Calc Product Unit Type",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Product Unit Type"
+          },
+          "Name": "SorDetail.Calc Product Unit Type",
+          "NativeReferenceName": "Calc Product Unit Type"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 0,
+    "y": 65.34534534534535,
+    "width": 1280,
+    "height": 654.4144144144145,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.SalesOrder"
+        },
+        {
+          "queryRef": "SorMaster.OrderStatus"
+        },
+        {
+          "queryRef": "SorMaster.OrderType"
+        },
+        {
+          "queryRef": "SorMaster.Customer"
+        },
+        {
+          "queryRef": "SorMaster.CustomerName"
+        },
+        {
+          "queryRef": "SorMaster.OrderDate"
+        },
+        {
+          "queryRef": "SorDetail.MProductClass"
+        },
+        {
+          "queryRef": "SorDetail.MStockCode"
+        },
+        {
+          "queryRef": "SorDetail.MStockDes"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MOrderQty)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.MPrice)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.NMscChargeValue)"
+        },
+        {
+          "queryRef": "Sum(SorDetail.Calc Backlog)"
+        },
+        {
+          "queryRef": "SorDetail.Account.Sub_Key_Account__c"
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        },
+        {
+          "Name": "s1",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MProductClass"
+          },
+          "Name": "SorDetail.MProductClass",
+          "NativeReferenceName": "MProductClass"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Backlog"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.Calc Backlog)",
+          "NativeReferenceName": "Backlog $"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MStockCode"
+          },
+          "Name": "SorDetail.MStockCode",
+          "NativeReferenceName": "MStockCode"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "SalesOrder"
+          },
+          "Name": "SorDetail.SalesOrder",
+          "NativeReferenceName": "SalesOrder"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "MStockDes"
+          },
+          "Name": "SorDetail.MStockDes",
+          "NativeReferenceName": "MStockDes"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MOrderQty"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MOrderQty)",
+          "NativeReferenceName": "Sum of MOrderQty"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "MPrice"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.MPrice)",
+          "NativeReferenceName": "Sum of MPrice"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "NMscChargeValue"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(SorDetail.NMscChargeValue)",
+          "NativeReferenceName": "Sum of NMscChargeValue"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderStatus"
+          },
+          "Name": "SorMaster.OrderStatus",
+          "NativeReferenceName": "OrderStatus"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderDate"
+          },
+          "Name": "SorMaster.OrderDate",
+          "NativeReferenceName": "OrderDate"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "OrderType"
+          },
+          "Name": "SorMaster.OrderType",
+          "NativeReferenceName": "OrderType"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "Customer"
+          },
+          "Name": "SorMaster.Customer",
+          "NativeReferenceName": "Customer"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s1"
+              }
+            },
+            "Property": "CustomerName"
+          },
+          "Name": "SorMaster.CustomerName",
+          "NativeReferenceName": "CustomerName"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Account.Sub_Key_Account__c"
+          },
+          "Name": "SorDetail.Account.Sub_Key_Account__c",
+          "NativeReferenceName": "Sub Key Account"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "Calc Backlog"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "section": "Backlog Detail",
+    "x": 0,
+    "y": 0,
+    "width": 212.37237237237238,
+    "height": 71.11111111111111,
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.Account.Sub_Key_Account__c",
+          "active": true
+        }
+      ]
+    },
+    "query": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Account.Sub_Key_Account__c"
+          },
+          "Name": "SorDetail.Account.Sub_Key_Account__c",
+          "NativeReferenceName": "Account.Sub_Key_Account__c"
+        }
+      ]
+    }
+  }
+]

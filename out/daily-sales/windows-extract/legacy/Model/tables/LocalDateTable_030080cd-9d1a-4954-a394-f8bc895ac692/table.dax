@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('MTD Elapsed Logic Pt 2'[Date])), 1, 1), Date(Year(MAX('MTD Elapsed Logic Pt 2'[Date])), 12, 31))

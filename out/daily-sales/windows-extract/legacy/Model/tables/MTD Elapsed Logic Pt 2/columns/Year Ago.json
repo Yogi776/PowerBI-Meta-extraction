@@ -1,0 +1,24 @@
+{
+  "type": "calculated",
+  "name": "Year Ago",
+  "dataType": "dateTime",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "9f2bd581-9bca-46bc-8aa2-b1ffc332a784",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

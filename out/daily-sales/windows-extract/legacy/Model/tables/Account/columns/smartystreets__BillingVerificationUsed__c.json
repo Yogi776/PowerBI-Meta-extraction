@@ -1,0 +1,12 @@
+{
+  "name": "smartystreets__BillingVerificationUsed__c",
+  "dataType": "string",
+  "sourceColumn": "smartystreets__BillingVerificationUsed__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "SubModWipBranch",
+  "dataType": "string",
+  "sourceColumn": "SubModWipBranch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate_Parent__c",
+  "dataType": "string",
+  "sourceColumn": "Ultimate_Parent__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

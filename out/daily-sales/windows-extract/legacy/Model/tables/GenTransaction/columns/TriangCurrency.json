@@ -1,0 +1,12 @@
+{
+  "name": "TriangCurrency",
+  "dataType": "string",
+  "sourceColumn": "TriangCurrency",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

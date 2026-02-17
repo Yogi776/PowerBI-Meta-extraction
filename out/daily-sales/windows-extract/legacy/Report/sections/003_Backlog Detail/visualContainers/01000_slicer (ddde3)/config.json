@@ -1,0 +1,156 @@
+{
+  "name": "ddde349780008c525e6b",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 212.16117216117215,
+        "y": 0,
+        "z": 1000,
+        "width": 300.07326007326009,
+        "height": 70.329670329670321,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "slicer",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "SorDetail.Calc Product Unit Type",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        },
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Calc Product Unit Type"
+          },
+          "Name": "SorDetail.Calc Product Unit Type",
+          "NativeReferenceName": "Calc Product Unit Type"
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "SorDetail.Calc Product Unit Type"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SorDetail"
+                    }
+                  },
+                  "Property": "Calc Product Unit Type"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "DSR Hierarchy.Products"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null,
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Whole Good'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
+      }
+    ],
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Select Whole Good  Product'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

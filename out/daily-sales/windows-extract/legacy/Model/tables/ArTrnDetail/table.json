@@ -1,0 +1,22 @@
+{
+  "name": "ArTrnDetail",
+  "partitions": [
+    {
+      "name": "ArTrnDetail",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

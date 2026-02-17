@@ -1,0 +1,13 @@
+{
+  "name": "Units.1",
+  "dataType": "int64",
+  "sourceColumn": "Units.1",
+  "formatString": "#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

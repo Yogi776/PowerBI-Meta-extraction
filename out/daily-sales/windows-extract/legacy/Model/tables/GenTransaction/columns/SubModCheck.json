@@ -1,0 +1,12 @@
+{
+  "name": "SubModCheck",
+  "dataType": "string",
+  "sourceColumn": "SubModCheck",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

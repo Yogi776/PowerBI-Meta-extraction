@@ -1,0 +1,12 @@
+{
+  "name": "DBA_Account_Name__c",
+  "dataType": "string",
+  "sourceColumn": "DBA_Account_Name__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

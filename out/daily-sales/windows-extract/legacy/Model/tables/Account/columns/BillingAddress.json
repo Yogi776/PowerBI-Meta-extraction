@@ -1,0 +1,12 @@
+{
+  "name": "BillingAddress",
+  "dataType": "string",
+  "sourceColumn": "BillingAddress",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shipping_Do_Not_Veritfy_Custom__c",
+  "dataType": "boolean",
+  "sourceColumn": "Shipping_Do_Not_Veritfy_Custom__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

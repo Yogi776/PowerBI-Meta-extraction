@@ -1,0 +1,12 @@
+{
+  "name": "ds_statecode__c",
+  "dataType": "string",
+  "sourceColumn": "ds_statecode__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

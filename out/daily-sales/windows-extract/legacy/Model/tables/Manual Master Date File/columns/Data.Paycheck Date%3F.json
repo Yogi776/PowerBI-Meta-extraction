@@ -1,0 +1,12 @@
+{
+  "name": "Data.Paycheck Date?",
+  "dataType": "string",
+  "sourceColumn": "Data.Paycheck Date?",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

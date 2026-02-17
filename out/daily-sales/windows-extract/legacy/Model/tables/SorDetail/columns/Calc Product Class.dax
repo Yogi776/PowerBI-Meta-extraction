@@ -1,0 +1,1 @@
+if(SorDetail[MProductClass]="","_OTH",SorDetail[MProductClass])

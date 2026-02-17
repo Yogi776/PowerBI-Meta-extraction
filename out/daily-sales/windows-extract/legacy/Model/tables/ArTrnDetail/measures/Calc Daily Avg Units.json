@@ -1,0 +1,10 @@
+{
+  "name": "Calc Daily Avg Units",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

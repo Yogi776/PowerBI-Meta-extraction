@@ -1,0 +1,4 @@
+{
+  "name": "Calc Budget Daily Avg",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0"
+}

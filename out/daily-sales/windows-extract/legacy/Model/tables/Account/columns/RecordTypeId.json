@@ -1,0 +1,12 @@
+{
+  "name": "RecordTypeId",
+  "dataType": "string",
+  "sourceColumn": "RecordTypeId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Calendar(min('GenTransaction'[JnlDate]),[Today's Date])

@@ -1,0 +1,13 @@
+{
+  "name": "FRANCHISE_BUSINESS__c",
+  "dataType": "boolean",
+  "sourceColumn": "FRANCHISE_BUSINESS__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

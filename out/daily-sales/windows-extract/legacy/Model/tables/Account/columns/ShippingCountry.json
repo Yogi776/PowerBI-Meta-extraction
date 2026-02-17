@@ -1,0 +1,12 @@
+{
+  "name": "ShippingCountry",
+  "dataType": "string",
+  "sourceColumn": "ShippingCountry",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

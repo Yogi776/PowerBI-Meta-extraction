@@ -1,0 +1,12 @@
+{
+  "name": "X18_Character_ID__c",
+  "dataType": "string",
+  "sourceColumn": "X18_Character_ID__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

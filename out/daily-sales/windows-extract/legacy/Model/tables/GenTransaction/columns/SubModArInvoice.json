@@ -1,0 +1,12 @@
+{
+  "name": "SubModArInvoice",
+  "dataType": "string",
+  "sourceColumn": "SubModArInvoice",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

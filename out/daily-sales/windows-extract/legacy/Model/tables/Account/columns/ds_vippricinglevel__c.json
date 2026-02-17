@@ -1,0 +1,12 @@
+{
+  "name": "ds_vippricinglevel__c",
+  "dataType": "string",
+  "sourceColumn": "ds_vippricinglevel__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

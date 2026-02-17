@@ -1,0 +1,12 @@
+{
+  "name": "Store_Number_Retail__c",
+  "dataType": "string",
+  "sourceColumn": "Store_Number_Retail__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

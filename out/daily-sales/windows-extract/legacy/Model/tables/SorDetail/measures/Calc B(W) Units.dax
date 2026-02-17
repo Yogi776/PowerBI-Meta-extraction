@@ -1,0 +1,1 @@
+sum(SorDetail[MTD Current Units])-sum('LucaNet Unit Budget'[Budget for Visual])

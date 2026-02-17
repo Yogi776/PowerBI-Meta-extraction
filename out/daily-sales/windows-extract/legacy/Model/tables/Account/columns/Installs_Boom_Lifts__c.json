@@ -1,0 +1,12 @@
+{
+  "name": "Installs_Boom_Lifts__c",
+  "dataType": "string",
+  "sourceColumn": "Installs_Boom_Lifts__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

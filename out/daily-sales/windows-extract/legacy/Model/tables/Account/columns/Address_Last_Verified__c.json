@@ -1,0 +1,24 @@
+{
+  "name": "Address_Last_Verified__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Address_Last_Verified__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "a957fc6f-05b8-4e79-89a9-0f9af3a01972",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

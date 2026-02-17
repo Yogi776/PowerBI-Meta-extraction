@@ -1,0 +1,13 @@
+{
+  "name": "SBQQ__IgnoreParentContractedPrices__c",
+  "dataType": "boolean",
+  "sourceColumn": "SBQQ__IgnoreParentContractedPrices__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

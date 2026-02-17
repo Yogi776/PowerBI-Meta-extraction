@@ -1,0 +1,16 @@
+{
+  "name": "ds_ytdsales__c",
+  "dataType": "double",
+  "sourceColumn": "ds_ytdsales__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

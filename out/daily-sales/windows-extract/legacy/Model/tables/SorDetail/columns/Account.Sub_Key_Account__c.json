@@ -1,0 +1,12 @@
+{
+  "name": "Account.Sub_Key_Account__c",
+  "dataType": "string",
+  "sourceColumn": "Account.Sub_Key_Account__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Background_Check_Completed__c",
+  "dataType": "string",
+  "sourceColumn": "Background_Check_Completed__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

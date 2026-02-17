@@ -1,0 +1,12 @@
+{
+  "name": "Do_Not_Use_Flag__c",
+  "dataType": "string",
+  "sourceColumn": "Do_Not_Use_Flag__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

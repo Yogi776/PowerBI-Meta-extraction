@@ -1,0 +1,1 @@
+if(and(and(ArTrnDetail[Calc MTD $]<>0,ArTrnDetail[Calc Product Unit Type]="Whole Good"),AND(ArTrnDetail[Calc Product Class]<>"RMOD",ArTrnDetail[Calc Product Class]<>"RMTR")),ArTrnDetail[QtyInvoiced],0)

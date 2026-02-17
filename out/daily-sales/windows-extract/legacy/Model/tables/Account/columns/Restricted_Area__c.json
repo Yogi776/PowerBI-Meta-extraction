@@ -1,0 +1,13 @@
+{
+  "name": "Restricted_Area__c",
+  "dataType": "boolean",
+  "sourceColumn": "Restricted_Area__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

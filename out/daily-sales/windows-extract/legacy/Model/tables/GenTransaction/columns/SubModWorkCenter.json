@@ -1,0 +1,12 @@
+{
+  "name": "SubModWorkCenter",
+  "dataType": "string",
+  "sourceColumn": "SubModWorkCenter",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

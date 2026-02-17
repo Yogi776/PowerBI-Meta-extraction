@@ -1,0 +1,16 @@
+{
+  "name": "MALongitude__c",
+  "dataType": "double",
+  "sourceColumn": "MALongitude__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

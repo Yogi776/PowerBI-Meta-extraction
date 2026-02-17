@@ -1,0 +1,28 @@
+{
+  "name": "Agreement_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Agreement_Date__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "8837be87-72cb-42dd-9171-a8a607f12e21",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

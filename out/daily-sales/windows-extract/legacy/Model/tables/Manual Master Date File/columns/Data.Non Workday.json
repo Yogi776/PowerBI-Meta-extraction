@@ -1,0 +1,18 @@
+{
+  "name": "Data.Non Workday",
+  "dataType": "int64",
+  "sourceColumn": "Data.Non Workday",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

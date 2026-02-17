@@ -1,0 +1,6162 @@
+[
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 984.6898638426627,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "LY MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 984.6898638426627,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Class",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 984.6898638426627,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 428.9258698940999,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 428.9258698940999,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "LY MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 428.9258698940999,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) % Exec",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 428.9258698940999,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 428.9258698940999,
+      "y": 105.53706505295008
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "JnlDate",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 963.3888048411499,
+      "y": 12.586989409984872
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "JnlDate",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 963.3888048411499,
+      "y": 12.586989409984872
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) $ MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) % Exec",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) $ MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 667.1104387291982,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) $ MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) % Exec",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) $ MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 455.0680786686838
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Membership",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 974.0393343419063,
+      "y": 256.58093797276854
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 974.0393343419063,
+      "y": 256.58093797276854
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "LY MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 974.0393343419063,
+      "y": 256.58093797276854
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 100.69591527987897
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 100.69591527987897
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "LY MTD",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 100.69591527987897
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) % Exec",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 100.69591527987897
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "MTD Exec Dashboard",
+      "x": 0,
+      "y": 100.69591527987897
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Exec View Accounts",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 0,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 1082.481089258699,
+      "y": 8.714069591527988
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 1082.481089258699,
+      "y": 8.714069591527988
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Exec View Accounts",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 11.277533039647578,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Exec View Accounts",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 624.5083207261725,
+      "y": 104.56883509833587
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Exec View Accounts",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Top 10",
+      "x": 640.5638766519824,
+      "y": 443.20704845814976
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 0,
+      "y": 37.215859030837
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 1063.4713656387664,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 1063.4713656387664,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Exec View Accounts",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - 80/20",
+      "x": 570.6431718061674,
+      "y": 67.66519823788546
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 1082.481089258699,
+      "y": 8.714069591527988
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 1082.481089258699,
+      "y": 8.714069591527988
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Reference",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 20.132450331125828,
+      "y": 224.63576158940398
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 133.07488986784142
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 133.07488986784142
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Membership",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 133.07488986784142
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 336.0704845814978
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 336.0704845814978
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ADA_Member__c",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 836.7929515418502,
+      "y": 336.0704845814978
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 837.0860927152318,
+      "y": 543.5761589403974
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 837.0860927152318,
+      "y": 543.5761589403974
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc VGM Flag",
+    "context": {
+      "section": "Exec Dashboard - Territory and Buying Group",
+      "x": 837.0860927152318,
+      "y": 543.5761589403974
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 19.277108433734938,
+      "y": 162.89156626506022
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Reference",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 244.48244137776283
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Summary",
+      "x": 18.38213844945585,
+      "y": 69.85212610793224
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 18.38213844945585,
+      "y": 69.85212610793224
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Reference",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Summary",
+      "x": 555.1405811735667,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Reference",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Summary",
+      "x": 555.2072897069157,
+      "y": 473.5045447333228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 119.01300705967812,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 1054.3808594193358,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "ALL VA DOWN",
+      "x": 1054.3808594193358,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 118.64355689525246,
+      "y": 104.17483044461191
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 1054.3808594193358,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "ALL DEALER DOWN",
+      "x": 1054.3808594193358,
+      "y": 104.13638117721834
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MSA",
+    "context": {
+      "section": "All Territories",
+      "x": 957.037037037037,
+      "y": 339.25925925925924
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 235.37993920972644
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 235.37993920972644
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 235.37993920972644
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "All Territories",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 132.27963525835867
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "All Territories",
+      "x": 958.0547112462007,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 957.6208178438662,
+      "y": 240.29739776951675
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 957.6208178438662,
+      "y": 337.84386617100375
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 47.65957446808511,
+      "y": 40.121580547112465
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 958.0547112462007,
+      "y": 132.27963525835867
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 958.0547112462007,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Freight Breakdown",
+      "x": 958.0547112462007,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T1",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T1",
+      "x": 1103.6305335763225,
+      "y": 502.6810307042839
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T1",
+      "x": 1103.6305335763225,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T1",
+      "x": 1103.6305335763225,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T2",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T2",
+      "x": 1131.977208240098,
+      "y": 493.2321391496921
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T2",
+      "x": 1131.1854103343464,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T2",
+      "x": 1131.1854103343464,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T3",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T3",
+      "x": 1109.2998685090777,
+      "y": 470.55479941867173
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T3",
+      "x": 1109.7872340425533,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T3",
+      "x": 1109.7872340425533,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T4",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T4",
+      "x": 1090.402085399894,
+      "y": 495.12191746061046
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T4",
+      "x": 1091.3069908814591,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T4",
+      "x": 1091.3069908814591,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T5",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T5",
+      "x": 1131.977208240098,
+      "y": 444.0979030658147
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T5",
+      "x": 1132.1580547112462,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T5",
+      "x": 1132.1580547112462,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "T6",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "T6",
+      "x": 1131.7583458472911,
+      "y": 444.75453390319973
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "T6",
+      "x": 1132.045627376426,
+      "y": 39.90874524714829
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "T6",
+      "x": 1132.045627376426,
+      "y": 39.90874524714829
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Internet",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Internet",
+      "x": 1060.1656324252,
+      "y": 517.7992571916308
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Internet",
+      "x": 1060.1656324252,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Internet",
+      "x": 1060.1656324252,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Bronze",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Silver",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Gold",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "To Platinum",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "International",
+      "x": 14.589665653495441,
+      "y": 39.87841945288754
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "International",
+      "x": 1016.700731274078,
+      "y": 514.019700569794
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "International",
+      "x": 1016.700731274078,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "International",
+      "x": 1016.700731274078,
+      "y": 39.68534452928557
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "BuyingGroup1",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 913.3130699088147,
+      "y": 448.3890577507599
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel Description",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel Description",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 0,
+      "y": 146.8693009118541
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 913.3130699088147,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 1096.1702127659576,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Sales by Channel",
+      "x": 1096.1702127659576,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 929.9731903485255,
+      "y": 11.438784629133155
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 929.9731903485255,
+      "y": 11.438784629133155
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 929.9731903485255,
+      "y": 11.438784629133155
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_GL Name",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "BuyingGroup1",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 9.72644376899696,
+      "y": 82.67477203647417
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 913.3130699088147,
+      "y": 124.4984802431611
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 1096.1702127659576,
+      "y": 124.4984802431611
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Sales by Buying Group",
+      "x": 1096.1702127659576,
+      "y": 124.4984802431611
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 225.3748946925021
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 225.3748946925021
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Harmar_Pricebooks.Contract",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 341.8365627632687
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 466.9250210614996
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Harmar_Pricebooks.Contract",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 0,
+      "y": 84.1112047177759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 10.783487784330244
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 120.77506318449873
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Buying Group by Channel",
+      "x": 913.3614153327717,
+      "y": 120.77506318449873
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 944.5438282647585,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 944.5438282647585,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 944.5438282647585,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 14.600760456273765,
+      "y": 78.84410646387833
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 513.2518337408313,
+      "y": 6.259168704156479
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "SubKey Accounts",
+      "x": 513.2518337408313,
+      "y": 6.259168704156479
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "SubKey Accounts by Month",
+      "x": 15.574144486692015,
+      "y": 80.79087452471482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "SubKey Accounts by Month",
+      "x": 15.574144486692015,
+      "y": 80.79087452471482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Amount",
+    "context": {
+      "section": "SubKey Accounts by Month",
+      "x": 15.574144486692015,
+      "y": 80.79087452471482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Amount",
+    "context": {
+      "section": "SubKey Accounts by Month",
+      "x": 15.574144486692015,
+      "y": 80.79087452471482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 14.609306409130816,
+      "y": 39.33274802458297
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 1074.981171306457,
+      "y": 533.7054406838397
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 1074.981171306457,
+      "y": 39.744022178583805
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Enterprise Accounts",
+      "x": 1074.981171306457,
+      "y": 39.744022178583805
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 527.574144486692,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 527.574144486692,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 227.7718631178707,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 227.7718631178707,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Amount",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 12.653992395437262,
+      "y": 114.85931558935361
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 12.653992395437262,
+      "y": 114.85931558935361
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ProductClass",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 12.653992395437262,
+      "y": 114.85931558935361
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ProductClass",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 895.5133079847909,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Total VA/VOSB by Month",
+      "x": 895.5133079847909,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "VOSB Only",
+      "x": 12.95308187672493,
+      "y": 77.71849126034958
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "VOSB Only",
+      "x": 1060.0152091254754,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "VOSB Only",
+      "x": 1060.0152091254754,
+      "y": 20.44106463878327
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "NMEDA",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "NMEDA",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "NMEDA",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "NMEDA",
+      "x": 14.600760456273765,
+      "y": 38.93536121673004
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "NMEDA",
+      "x": 966.2969588550984,
+      "y": 38.92665474060823
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "NMEDA",
+      "x": 966.2969588550984,
+      "y": 38.92665474060823
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 39.71631205673759
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "ADA",
+      "x": 958.2826475849732,
+      "y": 19.463327370304114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "ADA",
+      "x": 958.2826475849732,
+      "y": 19.463327370304114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 265.76271186440675
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 265.76271186440675
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 265.76271186440675
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Amount",
+    "context": {
+      "section": "ADA",
+      "x": 0,
+      "y": 265.76271186440675
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Category",
+    "context": {
+      "section": "ADA",
+      "x": 958.4976525821596,
+      "y": 132.20657276995306
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Line",
+    "context": {
+      "section": "ADA",
+      "x": 958.4976525821596,
+      "y": 132.20657276995306
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Family",
+    "context": {
+      "section": "ADA",
+      "x": 958.4976525821596,
+      "y": 132.20657276995306
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Model",
+    "context": {
+      "section": "ADA",
+      "x": 958.4976525821596,
+      "y": 132.20657276995306
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "VGM",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "VGM",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "VGM",
+      "x": 958.2826475849732,
+      "y": 153.41681574239715
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) %",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY % Lap",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "VGM",
+      "x": 15.28881147158543,
+      "y": 40.770163924227816
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "VGM",
+      "x": 966.2969588550984,
+      "y": 38.92665474060823
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "VGM",
+      "x": 966.2969588550984,
+      "y": 38.92665474060823
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Units - $",
+      "x": 0,
+      "y": 646.8817204301075
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Units - $",
+      "x": 0,
+      "y": 646.8817204301075
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "Units - $",
+      "x": 0,
+      "y": 646.8817204301075
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Area",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 155.97867479055597
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 293.43488194973344
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 432.8408225437928
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModArBranch",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 509.85529322162984
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CustomerClass",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 580.04569687738
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Units - $",
+      "x": 274.1218637992832,
+      "y": 5.734767025089606
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Units - $",
+      "x": 1015.0537634408603,
+      "y": 67.67025089605735
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Units - $",
+      "x": 1015.0537634408603,
+      "y": 67.67025089605735
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Units - $",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Units - $",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 228.1188118811881
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Units - $",
+      "x": 17.547600913937547,
+      "y": 362.6504188880426
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 516.4356435643564,
+      "y": 47.524752475247524
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 712.8712871287129,
+      "y": 49.636963696369634
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Unit Type",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 712.8712871287129,
+      "y": 123.56435643564356
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Key Feature",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 712.8712871287129,
+      "y": 123.56435643564356
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "GlYear",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 49.636963696369634
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "StockCode",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "QtyInvoiced",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 0,
+      "y": 279.86798679867985
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 347.45874587458746,
+      "y": 47.524752475247524
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 347.45874587458746,
+      "y": 47.524752475247524
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 347.45874587458746,
+      "y": 47.524752475247524
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 138.34983498349834,
+      "y": 53.86138613861386
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Parts/Options Units",
+      "x": 138.34983498349834,
+      "y": 53.86138613861386
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 1001.1352253756261,
+      "y": 239.3322203672788
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 1001.1352253756261,
+      "y": 239.3322203672788
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 1001.1352253756261,
+      "y": 239.3322203672788
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 1004.3405676126879,
+      "y": 74.79131886477462
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MSA",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 1001.188118811881,
+      "y": 355.8263518659558
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Qty",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Qty",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Qty",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W)",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "PY Lap",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Qty",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 244.69154607768468,
+      "y": 4.874333587204874
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 742.078853046595,
+      "y": 74.55197132616487
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 742.078853046595,
+      "y": 74.55197132616487
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 37.96371388187316,
+      "y": 233.47684037351996
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 37.96371388187316,
+      "y": 339.7752392427648
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "Whole Good Units - Qty",
+      "x": 37.96371388187316,
+      "y": 106.29839886924485
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Category",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.4774624373957,
+      "y": 91.8864774624374
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Line",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.4774624373957,
+      "y": 91.8864774624374
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Family",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.4774624373957,
+      "y": 91.8864774624374
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Model",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.4774624373957,
+      "y": 91.8864774624374
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc SubKey",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.7270896273918,
+      "y": 183.04128902316214
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ArCustomer+.Membership",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 1006.0384178696388,
+      "y": 288.52422550223605
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Model",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 15.435992578849723,
+      "y": 91.42857142857143
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Category",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 15.435992578849723,
+      "y": 91.42857142857143
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Family",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 15.435992578849723,
+      "y": 91.42857142857143
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Line",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 15.435992578849723,
+      "y": 91.42857142857143
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Qty",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 15.435992578849723,
+      "y": 91.42857142857143
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 224.02814423922604,
+      "y": 5.628847845206684
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 621.424802110818,
+      "y": 4.503078276165347
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "Whole Good Units - Qty by Month",
+      "x": 422.16358839050133,
+      "y": 5.628847845206684
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 602.4930232558139,
+      "y": 20.24186046511628
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 602.4930232558139,
+      "y": 20.24186046511628
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc VA/VOSB",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 527.574144486692,
+      "y": 113.88593155893535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "QtyInvoiced",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 527.574144486692,
+      "y": 113.88593155893535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "QtyInvoiced",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 527.574144486692,
+      "y": 113.88593155893535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 915.9212880143112,
+      "y": 3.4347048300536676
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc VA/VOSB",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 13.097674418604651,
+      "y": 114.30697674418604
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 13.097674418604651,
+      "y": 114.30697674418604
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "QtyInvoiced",
+    "context": {
+      "section": "Whole Good Units - by Channel",
+      "x": 13.097674418604651,
+      "y": 114.30697674418604
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ShipToAddr4",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 155.97867479055597
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 293.43488194973344
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 432.8408225437928
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModArBranch",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 509.85529322162984
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CustomerClass",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 580.04569687738
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2025 Visual Amount",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Visual Amount",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc B(W) $",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc PY $ Lap",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "ShipToAddr4",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Visual Amount",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 252.49047981721247,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 1052.8560548362527,
+      "y": 155.97867479055597
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 1052.8560548362527,
+      "y": 155.97867479055597
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 228.1188118811881
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Units - $ by Ship To State",
+      "x": 17.547600913937547,
+      "y": 362.6504188880426
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 251.26760563380282,
+      "y": 609.5774647887324
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModStock",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 251.26760563380282,
+      "y": 609.5774647887324
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc InvMaster.ProductClass",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 251.26760563380282,
+      "y": 609.5774647887324
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Area",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 155.97867479055597
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Class",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 293.43488194973344
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Sub_Key_Account__c",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 432.8408225437928
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SubModArBranch",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 509.85529322162984
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CustomerClass",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 580.04569687738
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Description",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 237.86747905559784,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Amount",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 237.86747905559784,
+      "y": 5.849200304645849
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual_Day",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 648.2863670982482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 648.2863670982482
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 14.623000761614621,
+      "y": 92.6123381568926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Name",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 228.1188118811881
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "$ by Product Class",
+      "x": 17.547600913937547,
+      "y": 362.6504188880426
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Territory Name",
+    "context": {
+      "section": "VA Opportunities",
+      "x": 17.855274629468177,
+      "y": 120.5231037489102
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "VA Opportunities",
+      "x": 17.855274629468177,
+      "y": 120.5231037489102
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Company__c",
+    "context": {
+      "section": "VA Opportunities",
+      "x": 17.855274629468177,
+      "y": 120.5231037489102
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Count__c",
+    "context": {
+      "section": "VA Opportunities",
+      "x": 17.855274629468177,
+      "y": 120.5231037489102
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "InvoiceDate",
+    "context": {
+      "section": "Helix Report ",
+      "x": 268.4498480243161,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "InvoiceDate",
+    "context": {
+      "section": "Helix Report ",
+      "x": 268.4498480243161,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Salesperson",
+    "context": {
+      "section": "Helix Report ",
+      "x": 547.5987841945289,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Helix Report ",
+      "x": 0,
+      "y": 99.209726443769
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "QtyInvoiced",
+    "context": {
+      "section": "Helix Report ",
+      "x": 0,
+      "y": 99.209726443769
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Salesperson",
+    "context": {
+      "section": "Helix Report ",
+      "x": 0,
+      "y": 99.209726443769
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Channel",
+    "context": {
+      "section": "Helix Report ",
+      "x": 665.2887537993921,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Customer",
+    "context": {
+      "section": "Helix Report ",
+      "x": 877.3252279635259,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Name",
+    "context": {
+      "section": "Helix Report ",
+      "x": 877.3252279635259,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2024 Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "2023 Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "B(W) Unit %",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 7.894273127753304,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MStockCode",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MOrderQty",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NPD",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 986.784140969163,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 986.784140969163,
+      "y": 106.00881057268722
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NPD",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 986.784140969163,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 986.784140969163,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NPD",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 987.1671134941912,
+      "y": 408.3646112600536
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 987.1671134941912,
+      "y": 408.3646112600536
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NPD",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 987.1671134941912,
+      "y": 622.2698838248435
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Units",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 987.1671134941912,
+      "y": 622.2698838248435
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MStockCode",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MOrderQty",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 252.61674008810573
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 408.2466960352423
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MStockCode",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 408.2466960352423
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MOrderQty",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 408.2466960352423
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "calc 2025 bookings",
+    "context": {
+      "section": "Exec Dashboard - Products",
+      "x": 684.546255506608,
+      "y": 408.2466960352423
+    }
+  }
+]

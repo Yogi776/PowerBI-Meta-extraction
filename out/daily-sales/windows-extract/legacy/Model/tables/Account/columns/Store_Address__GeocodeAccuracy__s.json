@@ -1,0 +1,12 @@
+{
+  "name": "Store_Address__GeocodeAccuracy__s",
+  "dataType": "string",
+  "sourceColumn": "Store_Address__GeocodeAccuracy__s",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

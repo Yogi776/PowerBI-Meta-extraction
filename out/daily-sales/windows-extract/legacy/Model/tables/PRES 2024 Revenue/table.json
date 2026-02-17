@@ -1,0 +1,22 @@
+{
+  "name": "PRES 2024 Revenue",
+  "partitions": [
+    {
+      "name": "PRES 2024 Revenue",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

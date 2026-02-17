@@ -1,0 +1,13 @@
+{
+  "name": "Elevator_Contractors_License__c",
+  "dataType": "boolean",
+  "sourceColumn": "Elevator_Contractors_License__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

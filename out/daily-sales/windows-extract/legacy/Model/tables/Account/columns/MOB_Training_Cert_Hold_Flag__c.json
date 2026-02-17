@@ -1,0 +1,12 @@
+{
+  "name": "MOB_Training_Cert_Hold_Flag__c",
+  "dataType": "string",
+  "sourceColumn": "MOB_Training_Cert_Hold_Flag__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

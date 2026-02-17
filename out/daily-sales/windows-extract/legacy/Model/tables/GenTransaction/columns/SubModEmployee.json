@@ -1,0 +1,12 @@
+{
+  "name": "SubModEmployee",
+  "dataType": "string",
+  "sourceColumn": "SubModEmployee",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

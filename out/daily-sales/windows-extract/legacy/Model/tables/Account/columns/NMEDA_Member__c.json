@@ -1,0 +1,13 @@
+{
+  "name": "NMEDA_Member__c",
+  "dataType": "boolean",
+  "sourceColumn": "NMEDA_Member__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

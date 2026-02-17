@@ -1,0 +1,1 @@
+and(value('MTD Budget Elapsed Logic'[Month Number])=month(today()-1),value('MTD Budget Elapsed Logic'[Year])=year(today()-1))

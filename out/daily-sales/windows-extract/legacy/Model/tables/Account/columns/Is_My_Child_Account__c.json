@@ -1,0 +1,13 @@
+{
+  "name": "Is_My_Child_Account__c",
+  "dataType": "boolean",
+  "sourceColumn": "Is_My_Child_Account__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

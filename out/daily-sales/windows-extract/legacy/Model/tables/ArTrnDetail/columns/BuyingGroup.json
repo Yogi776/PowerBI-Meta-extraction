@@ -1,0 +1,12 @@
+{
+  "name": "BuyingGroup",
+  "dataType": "string",
+  "sourceColumn": "BuyingGroup",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

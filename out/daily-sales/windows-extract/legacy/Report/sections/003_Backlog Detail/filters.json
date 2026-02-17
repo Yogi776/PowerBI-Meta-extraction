@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Filtera5d80fb9ba8078904188",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "Calc Product Branch"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "EntryValue",
+  "dataType": "double",
+  "sourceColumn": "EntryValue",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

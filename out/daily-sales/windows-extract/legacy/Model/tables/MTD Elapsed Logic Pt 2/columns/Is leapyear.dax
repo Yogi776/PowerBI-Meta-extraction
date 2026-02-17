@@ -1,0 +1,1 @@
+if(month('MTD Elapsed Logic Pt 2'[Date])=2,if(day('MTD Elapsed Logic Pt 2'[Date])=29,"YES","NO"),"NO")

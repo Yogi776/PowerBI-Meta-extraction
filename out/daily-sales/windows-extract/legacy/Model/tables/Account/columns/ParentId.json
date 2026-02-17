@@ -1,0 +1,12 @@
+{
+  "name": "ParentId",
+  "dataType": "string",
+  "sourceColumn": "ParentId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

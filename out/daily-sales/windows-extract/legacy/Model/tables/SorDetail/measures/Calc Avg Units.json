@@ -1,0 +1,10 @@
+{
+  "name": "Calc Avg Units",
+  "formatString": "#,0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

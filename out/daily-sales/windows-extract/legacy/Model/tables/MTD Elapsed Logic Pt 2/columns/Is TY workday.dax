@@ -1,0 +1,1 @@
+LOOKUPVALUE('Manual Master Date File'[Data.Non Workday],'Manual Master Date File'[Data.Date],'MTD Elapsed Logic Pt 2'[Date])

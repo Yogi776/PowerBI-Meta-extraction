@@ -1,0 +1,12 @@
+{
+  "name": "EecInvoiceFlag",
+  "dataType": "string",
+  "sourceColumn": "EecInvoiceFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

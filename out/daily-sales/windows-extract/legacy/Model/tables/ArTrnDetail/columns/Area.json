@@ -1,0 +1,12 @@
+{
+  "name": "Area",
+  "dataType": "string",
+  "sourceColumn": "Area",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

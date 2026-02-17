@@ -1,0 +1,12 @@
+{
+  "name": "Jigsaw",
+  "dataType": "string",
+  "sourceColumn": "Jigsaw",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

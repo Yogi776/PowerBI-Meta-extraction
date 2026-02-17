@@ -1,0 +1,16 @@
+{
+  "name": "Opportunities_Created_Last_CY_YTD__c",
+  "dataType": "double",
+  "sourceColumn": "Opportunities_Created_Last_CY_YTD__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

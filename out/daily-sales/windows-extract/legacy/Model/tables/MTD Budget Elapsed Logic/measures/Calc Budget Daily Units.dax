@@ -1,0 +1,1 @@
+sum('LucaNet Unit Budget'[Budget for Visual])/calculate(sum('MTD Budget Elapsed Logic'[Work Days]),'MTD Budget Elapsed Logic'[Flag for Budget Per Day]=True)

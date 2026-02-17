@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "Check Exists",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,1581 @@
+{
+  "objects": {
+    "columnWidth": [
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "101.22241892687694D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Last Year)"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "90.27222679839166D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Current Year)"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "69.96653906761289D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc B(W) LY"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "64.94934839721614D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Current Units)"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "80.3769743409115D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Last Year Units)"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "66.02236675239413D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc Index to Budget Bookings"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "58.09836289550286D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(LucaNet Interim Units.Budget for Visual)"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "72.83333840211672D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc B(W) Units"
+        }
+      },
+      {
+        "properties": {},
+        "selector": {
+          "metadata": "DSR Hierarchy 2.Branch"
+        }
+      }
+    ],
+    "columnFormatting": [
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Current Year)"
+        }
+      },
+      {
+        "properties": {
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Last Year)"
+        }
+      },
+      {
+        "properties": {
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Current Units)"
+        }
+      },
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.MTD Last Year Units)"
+        }
+      },
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc B(W) LY"
+        }
+      },
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc Index to Budget Bookings"
+        }
+      },
+      {
+        "properties": {
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(LucaNet Interim Units.Budget for Visual)"
+        }
+      },
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#ffffff'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "SorDetail.Calc B(W) Units"
+        }
+      },
+      {
+        "properties": {
+          "styleHeader": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "styleSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "styleValues": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(LucaNet Interim Budget.w/ VA Adjustment)"
+        }
+      }
+    ],
+    "grid": [
+      {
+        "properties": {
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#E8F3FE'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "values": [
+      {
+        "properties": {
+          "fontColorSecondary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "fontColorPrimary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "backColorPrimary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#E8F3FE'"
+                  }
+                }
+              }
+            }
+          },
+          "backColorSecondary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rowHeaders": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnHeaders": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#094780'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "subTotals": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Row"
+        }
+      },
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Column"
+        }
+      }
+    ],
+    "columnTotal": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rowTotal": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0,
+      10,
+      5,
+      1,
+      2,
+      3,
+      6,
+      4,
+      7
+    ],
+    "Rows": [
+      8,
+      9
+    ]
+  },
+  "projectionActiveItems": {
+    "Rows": [
+      {
+        "queryRef": "DSR Hierarchy 2.Branch",
+        "suppressConcat": false
+      },
+      {
+        "queryRef": "DSR Hierarchy 2.Products",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Bookings MTD",
+        "Name": "Sum(SorDetail.MTD Current Year)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "Bookings Full Month LY",
+        "Name": "Sum(SorDetail.MTD Last Year)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "Index to LY",
+        "Name": "SorDetail.Calc B(W) LY",
+        "Type": 1,
+        "Format": "#.#%;(#.#%)"
+      },
+      {
+        "Restatement": "MTD Units",
+        "Name": "Sum(SorDetail.MTD Current Units)",
+        "Type": 1,
+        "Format": "#,0"
+      },
+      {
+        "Restatement": "Full Month LY Units",
+        "Name": "Sum(SorDetail.MTD Last Year Units)",
+        "Type": 1,
+        "Format": "#,0"
+      },
+      {
+        "Restatement": "Index to Budget",
+        "Name": "SorDetail.Calc Index to Budget Bookings",
+        "Type": 1,
+        "Format": "0.0%;-0.0%;0.0%"
+      },
+      {
+        "Restatement": "Budget Units",
+        "Name": "Sum(LucaNet Interim Units.Budget for Visual)",
+        "Type": 3,
+        "Format": "#,0"
+      },
+      {
+        "Restatement": "Units vs Budget",
+        "Name": "SorDetail.Calc B(W) Units",
+        "Type": 1,
+        "Format": "#,###;(#,###)"
+      },
+      {
+        "Restatement": "Branch",
+        "Name": "DSR Hierarchy 2.Branch",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Products",
+        "Name": "DSR Hierarchy 2.Products",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Budget",
+        "Name": "Sum(LucaNet Interim Budget.w/ VA Adjustment)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "MTD Current Year"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "Last Year"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "Calc B(W) LY"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "NComment"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "MTD Current Units"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "MTD Last Year Units"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorMaster"
+              }
+            },
+            "Property": "CancelledFlag"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "LucaNet Unit Budget"
+                  }
+                },
+                "Property": "Budget for Visual"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "Calc Index to Budget Bookings"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "Calc B(W) Units"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DSR Hierarchy"
+              }
+            },
+            "Property": "Branch"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DSR Hierarchy"
+              }
+            },
+            "Property": "Products"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "LucaNet Revenue Budget"
+                  }
+                },
+                "Property": "w/ VA Adjustment"
+              }
+            },
+            "Function": 0
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 10,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 5,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 3,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 6,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 4,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 7,
+          "isActive": false
+        },
+        {
+          "Name": "Rows",
+          "Projection": 8,
+          "isActive": true
+        },
+        {
+          "Name": "Rows",
+          "Projection": 9,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Bookings MTD",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(SorDetail.MTD Current Year)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "MTD Current Year"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Bookings Full Month LY",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(SorDetail.MTD Last Year)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "Last Year"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Index to LY",
+      "format": "#.#%;(#.#%)",
+      "queryName": "SorDetail.Calc B(W) LY",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SorDetail"
+            }
+          },
+          "Property": "Calc B(W) LY"
+        }
+      }
+    },
+    {
+      "displayName": "MTD Units",
+      "format": "#,0",
+      "queryName": "Sum(SorDetail.MTD Current Units)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "MTD Current Units"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Full Month LY Units",
+      "format": "#,0",
+      "queryName": "Sum(SorDetail.MTD Last Year Units)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "MTD Last Year Units"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Index to Budget",
+      "format": "0.0%;-0.0%;0.0%",
+      "queryName": "SorDetail.Calc Index to Budget Bookings",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SorDetail"
+            }
+          },
+          "Property": "Calc Index to Budget Bookings"
+        }
+      }
+    },
+    {
+      "displayName": "Budget Units",
+      "format": "#,0",
+      "queryName": "Sum(LucaNet Interim Units.Budget for Visual)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 260
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "LucaNet Unit Budget"
+                }
+              },
+              "Property": "Budget for Visual"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Units vs Budget",
+      "format": "#,###;(#,###)",
+      "queryName": "SorDetail.Calc B(W) Units",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SorDetail"
+            }
+          },
+          "Property": "Calc B(W) Units"
+        }
+      }
+    },
+    {
+      "displayName": "Branch",
+      "queryName": "DSR Hierarchy 2.Branch",
+      "roles": {
+        "Rows": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "DSR Hierarchy"
+            }
+          },
+          "Property": "Branch"
+        }
+      }
+    },
+    {
+      "displayName": "Products",
+      "queryName": "DSR Hierarchy 2.Products",
+      "roles": {
+        "Rows": true
+      },
+      "sort": 1,
+      "sortOrder": 1,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "DSR Hierarchy"
+            }
+          },
+          "Property": "Products"
+        }
+      }
+    },
+    {
+      "displayName": "Budget",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(LucaNet Interim Budget.w/ VA Adjustment)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "LucaNet Revenue Budget"
+                }
+              },
+              "Property": "w/ VA Adjustment"
+            }
+          },
+          "Function": 0
+        }
+      }
+    }
+  ],
+  "expansionStates": [
+    {
+      "roles": [
+        "Rows"
+      ],
+      "levels": [
+        {
+          "queryRefs": [
+            "DSR Hierarchy 2.Branch"
+          ],
+          "isCollapsed": true,
+          "identityKeys": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DSR Hierarchy"
+                  }
+                },
+                "Property": "Branch"
+              }
+            }
+          ],
+          "isPinned": true
+        },
+        {
+          "queryRefs": [
+            "DSR Hierarchy 2.Products"
+          ],
+          "isCollapsed": true,
+          "identityKeys": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DSR Hierarchy"
+                  }
+                },
+                "Property": "Products"
+              }
+            }
+          ],
+          "isPinned": true
+        }
+      ],
+      "root": {
+        "identityValues": null,
+        "children": [
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "null"
+                }
+              }
+            ],
+            "children": [
+              {
+                "identityValues": [
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  }
+                ],
+                "isToggled": true
+              }
+            ]
+          },
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'Access'"
+                }
+              }
+            ],
+            "isToggled": true,
+            "children": [
+              {
+                "identityValues": [
+                  {
+                    "Literal": {
+                      "Value": "'CSL'"
+                    }
+                  }
+                ],
+                "isToggled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

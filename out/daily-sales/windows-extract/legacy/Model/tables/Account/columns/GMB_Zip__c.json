@@ -1,0 +1,12 @@
+{
+  "name": "GMB_Zip__c",
+  "dataType": "string",
+  "sourceColumn": "GMB_Zip__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

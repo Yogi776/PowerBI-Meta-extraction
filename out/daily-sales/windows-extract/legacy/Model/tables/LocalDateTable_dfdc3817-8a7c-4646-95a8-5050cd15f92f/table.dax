@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[SBQQ__PriceHoldEnd__c])), 1, 1), Date(Year(MAX('Account'[SBQQ__PriceHoldEnd__c])), 12, 31))

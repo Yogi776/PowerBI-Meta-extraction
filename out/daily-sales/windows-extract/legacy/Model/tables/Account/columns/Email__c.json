@@ -1,0 +1,12 @@
+{
+  "name": "Email__c",
+  "dataType": "string",
+  "sourceColumn": "Email__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

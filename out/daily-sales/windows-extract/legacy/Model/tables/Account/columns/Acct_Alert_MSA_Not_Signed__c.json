@@ -1,0 +1,13 @@
+{
+  "name": "Acct_Alert_MSA_Not_Signed__c",
+  "dataType": "boolean",
+  "sourceColumn": "Acct_Alert_MSA_Not_Signed__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

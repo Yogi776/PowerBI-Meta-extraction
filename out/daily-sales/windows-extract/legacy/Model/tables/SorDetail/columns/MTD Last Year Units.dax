@@ -1,0 +1,1 @@
+if(and(AND(SorDetail[Last Year]<>0,SorDetail[Calc Product Unit Type]="Whole Good"),and(SorDetail[Calc Product Class]<>"RMOD",SorDetail[Calc Product Class]<>"RMTR")),SorDetail[MOrderQty],0)

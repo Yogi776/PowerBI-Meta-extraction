@@ -1,0 +1,1482 @@
+[
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 156.73469387755102,
+      "y": 31.801242236024844
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 156.73469387755102,
+      "y": 31.801242236024844
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 754.1437444543035,
+      "y": 84.04614019520852
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 754.1437444543035,
+      "y": 84.04614019520852
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 890.4347826086956,
+      "y": 84.04614019520852
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 890.4347826086956,
+      "y": 84.04614019520852
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 1013.1895777178796,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 1013.1895777178796,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 1013.1895777178796,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 887.8346810422282,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 887.8346810422282,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 733.7286612758311,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 733.7286612758311,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD $",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD $",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Daily Avg Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Daily Avg LY Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Name",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Daily Avg Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 3.194675540765391,
+      "y": 461.0981697171381
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 140.5657237936772,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 140.5657237936772,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Ship",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 140.5657237936772,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 23.427620632279535,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 23.427620632279535,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 23.427620632279535,
+      "y": 239.6006655574043
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 22.362728785357735,
+      "y": 351.414309484193
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 22.362728785357735,
+      "y": 351.414309484193
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 22.362728785357735,
+      "y": 351.414309484193
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Books",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 109.6838602329451,
+      "y": 353.5440931780366
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 109.6838602329451,
+      "y": 353.5440931780366
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 109.6838602329451,
+      "y": 353.5440931780366
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 109.6838602329451,
+      "y": 353.5440931780366
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Index to Budget Bookings",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc AR Index to Budget",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc AR Index to LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD Current Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Last Year Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backlog",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backorder Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD $",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc AR Index to Budget",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc AR Index to LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "w/ VA Adjustment",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 382.7506654835847,
+      "y": 96.53948535936114
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Last Year",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) LY",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Last Year Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Index to Budget Bookings",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) Units",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "w/ VA Adjustment",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 391.40137692336634,
+      "y": 403.7289793461495
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Today's Date",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Today's Date",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "% Elapsed",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 318.0124223602484,
+      "y": 1.1357586512866016
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "% Elapsed",
+    "context": {
+      "section": "Stacked Exec Dashboard",
+      "x": 318.0124223602484,
+      "y": 1.1357586512866016
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "CFO View",
+      "x": 570.1535974130962,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "CFO View",
+      "x": 570.1535974130962,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 45.233082706766915,
+      "y": 78.9172932330827
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc LY",
+    "context": {
+      "section": "CFO View",
+      "x": 45.233082706766915,
+      "y": 78.9172932330827
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "CFO View",
+      "x": 45.233082706766915,
+      "y": 78.9172932330827
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 45.233082706766915,
+      "y": 78.9172932330827
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Ship",
+    "context": {
+      "section": "CFO View",
+      "x": 877.7142857142857,
+      "y": 142.4360902255639
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Ship",
+    "context": {
+      "section": "CFO View",
+      "x": 877.7142857142857,
+      "y": 142.4360902255639
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Books",
+    "context": {
+      "section": "CFO View",
+      "x": 888.595041322314,
+      "y": 74.0495867768595
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Avg Books",
+    "context": {
+      "section": "CFO View",
+      "x": 888.595041322314,
+      "y": 74.0495867768595
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "CFO View",
+      "x": 1065.2561983471073,
+      "y": 111.07438016528926
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Budget Daily Avg",
+    "context": {
+      "section": "CFO View",
+      "x": 1065.2561983471073,
+      "y": 111.07438016528926
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 409.76556184316894,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 409.76556184316894,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "CFO View",
+      "x": 704.6725949878738,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "CFO View",
+      "x": 704.6725949878738,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "CFO View",
+      "x": 704.6725949878738,
+      "y": 73.46806790622473
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc % to LY",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Last Year",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc B(W) LY",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backlog",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Units",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Last Year Units",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD Current Units",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Last Year Units",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Budget for Visual",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Index to Budget",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Calc Index to Budget Bookings",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backorder Units",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Product Name",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc LY",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc LY",
+    "context": {
+      "section": "CFO View",
+      "x": 0,
+      "y": 235.14932126696831
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Today's Date",
+    "context": {
+      "section": "CFO View",
+      "x": 463.8796992481203,
+      "y": 10.586466165413533
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "Today's Date",
+    "context": {
+      "section": "CFO View",
+      "x": 463.8796992481203,
+      "y": 10.586466165413533
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "% Elapsed",
+    "context": {
+      "section": "CFO View",
+      "x": 784.9664429530201,
+      "y": 6.442953020134228
+    }
+  },
+  {
+    "type": "Measure",
+    "table": null,
+    "name": "% Elapsed",
+    "context": {
+      "section": "CFO View",
+      "x": 784.9664429530201,
+      "y": 6.442953020134228
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "InvoiceDate",
+    "context": {
+      "section": "Daily Trends",
+      "x": 539.3909465020577,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Daily Trends",
+      "x": 539.3909465020577,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NetSalesValue",
+    "context": {
+      "section": "Daily Trends",
+      "x": 539.3909465020577,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Daily Trends",
+      "x": 929.1851851851852,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Daily Trends",
+      "x": 929.1851851851852,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MTD Current Year",
+    "context": {
+      "section": "Daily Trends",
+      "x": 929.1851851851852,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Visual Date",
+    "context": {
+      "section": "Daily Trends",
+      "x": 929.1851851851852,
+      "y": 96.92181069958848
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc MTD $",
+    "context": {
+      "section": "Daily Trends",
+      "x": 35.66169154228856,
+      "y": 96.79601990049751
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "InvoiceDate",
+    "context": {
+      "section": "Daily Trends",
+      "x": 35.66169154228856,
+      "y": 96.79601990049751
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Daily Trends",
+      "x": 35.66169154228856,
+      "y": 96.79601990049751
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Branch",
+    "context": {
+      "section": "Daily Trends",
+      "x": 35.66169154228856,
+      "y": 96.79601990049751
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Daily Trends",
+      "x": 35.66169154228856,
+      "y": 96.79601990049751
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OrderType",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 928.6661526599846,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CustomerName",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 728.4084084084085,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MProductClass",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 512.2344322344322,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Products",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 212.16117216117215,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Product Unit Type",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 212.16117216117215,
+      "y": 0
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MProductClass",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backlog",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MStockCode",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "SalesOrder",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MStockDes",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MOrderQty",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "MPrice",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "NMscChargeValue",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OrderStatus",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OrderDate",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "OrderType",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Customer",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "CustomerName",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Account.Sub_Key_Account__c",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Calc Backlog",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 65.34534534534535
+    }
+  },
+  {
+    "type": "Column",
+    "table": null,
+    "name": "Account.Sub_Key_Account__c",
+    "context": {
+      "section": "Backlog Detail",
+      "x": 0,
+      "y": 0
+    }
+  }
+]

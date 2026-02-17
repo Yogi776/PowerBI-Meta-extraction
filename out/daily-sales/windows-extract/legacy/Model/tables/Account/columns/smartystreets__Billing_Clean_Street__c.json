@@ -1,0 +1,12 @@
+{
+  "name": "smartystreets__Billing_Clean_Street__c",
+  "dataType": "string",
+  "sourceColumn": "smartystreets__Billing_Clean_Street__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

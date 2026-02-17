@@ -1,0 +1,12 @@
+{
+  "name": "CancelledFlag",
+  "dataType": "string",
+  "sourceColumn": "CancelledFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

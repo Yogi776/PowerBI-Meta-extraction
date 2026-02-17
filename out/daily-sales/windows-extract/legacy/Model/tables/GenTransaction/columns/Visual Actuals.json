@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Visual Actuals",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

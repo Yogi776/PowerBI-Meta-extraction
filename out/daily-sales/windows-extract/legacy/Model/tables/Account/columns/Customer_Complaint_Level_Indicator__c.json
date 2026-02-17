@@ -1,0 +1,12 @@
+{
+  "name": "Customer_Complaint_Level_Indicator__c",
+  "dataType": "string",
+  "sourceColumn": "Customer_Complaint_Level_Indicator__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

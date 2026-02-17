@@ -1,0 +1,16 @@
+{
+  "name": "GlIntPeriod",
+  "dataType": "double",
+  "sourceColumn": "GlIntPeriod",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

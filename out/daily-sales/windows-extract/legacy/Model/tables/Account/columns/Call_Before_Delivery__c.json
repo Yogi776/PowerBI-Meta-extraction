@@ -1,0 +1,13 @@
+{
+  "name": "Call_Before_Delivery__c",
+  "dataType": "boolean",
+  "sourceColumn": "Call_Before_Delivery__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

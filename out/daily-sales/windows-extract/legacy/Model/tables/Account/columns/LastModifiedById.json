@@ -1,0 +1,12 @@
+{
+  "name": "LastModifiedById",
+  "dataType": "string",
+  "sourceColumn": "LastModifiedById",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

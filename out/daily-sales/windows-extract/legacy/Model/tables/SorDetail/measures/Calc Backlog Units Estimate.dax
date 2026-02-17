@@ -1,0 +1,1 @@
+sum(SorDetail[Calc Backlog])/(sum('LucaNet Revenue Budget'[Budget for Visual])/sum('LucaNet Unit Budget'[Units.1]))

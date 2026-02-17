@@ -1,0 +1,12 @@
+{
+  "name": "OrderType",
+  "dataType": "string",
+  "sourceColumn": "OrderType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

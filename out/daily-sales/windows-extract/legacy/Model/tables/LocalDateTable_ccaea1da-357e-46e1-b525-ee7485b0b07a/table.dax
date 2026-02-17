@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[Installer_Agreement_Signed_on__c])), 1, 1), Date(Year(MAX('Account'[Installer_Agreement_Signed_on__c])), 12, 31))

@@ -1,0 +1,12 @@
+{
+  "name": "SysPro Name",
+  "dataType": "string",
+  "sourceColumn": "SysPro Name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

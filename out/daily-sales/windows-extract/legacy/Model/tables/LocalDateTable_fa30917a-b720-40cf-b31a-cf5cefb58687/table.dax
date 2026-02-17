@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[ds_datecustadded__c])), 1, 1), Date(Year(MAX('Account'[ds_datecustadded__c])), 12, 31))

@@ -1,0 +1,12 @@
+{
+  "name": "Billing_RDI__c",
+  "dataType": "string",
+  "sourceColumn": "Billing_RDI__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

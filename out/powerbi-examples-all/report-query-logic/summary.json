@@ -1,0 +1,26 @@
+[
+  {
+    "report": "Daily Sales Report_2025.pbix",
+    "output": "out/powerbi-examples-all/report-query-logic/Daily Sales Report_2025",
+    "queries": 36,
+    "refs": 148,
+    "unique_measures": 16,
+    "unique_columns": 32
+  },
+  {
+    "report": "Territory Tracker -Slim.pbix",
+    "output": "out/powerbi-examples-all/report-query-logic/Territory Tracker -Slim",
+    "queries": 54,
+    "refs": 167,
+    "unique_measures": 6,
+    "unique_columns": 23
+  },
+  {
+    "report": "Territory Tracker.pbix",
+    "output": "out/powerbi-examples-all/report-query-logic/Territory Tracker",
+    "queries": 175,
+    "refs": 616,
+    "unique_measures": 13,
+    "unique_columns": 65
+  }
+]

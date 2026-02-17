@@ -1,0 +1,21 @@
+{
+  "name": "AccountConvRate",
+  "dataType": "double",
+  "sourceColumn": "AccountConvRate",
+  "summarizeBy": "sum",
+  "changedProperties": [
+    {
+      "property": "IsHidden"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

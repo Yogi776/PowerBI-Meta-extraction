@@ -1,0 +1,28 @@
+{
+  "name": "INS_Exp_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "INS_Exp_Date__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "186b71cc-1d76-4e3d-a1ec-1e711d80d45b",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

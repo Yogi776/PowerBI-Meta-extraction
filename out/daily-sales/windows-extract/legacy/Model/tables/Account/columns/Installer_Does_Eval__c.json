@@ -1,0 +1,13 @@
+{
+  "name": "Installer_Does_Eval__c",
+  "dataType": "boolean",
+  "sourceColumn": "Installer_Does_Eval__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Primary_Insurer__c",
+  "dataType": "string",
+  "sourceColumn": "Primary_Insurer__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

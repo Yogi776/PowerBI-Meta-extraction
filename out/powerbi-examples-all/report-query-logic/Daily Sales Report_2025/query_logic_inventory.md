@@ -1,0 +1,58 @@
+# Query Logic Inventory
+
+- Report: Daily Sales Report_2025.pbix
+- Query objects: 36
+- Measure references: 39 (16 unique)
+- Column references: 109 (32 unique)
+
+## Unique Measure References
+- Unknown[% Elapsed]
+- Unknown[Calc % to LY]
+- Unknown[Calc AR Index to Budget]
+- Unknown[Calc AR Index to LY]
+- Unknown[Calc Avg Books]
+- Unknown[Calc Avg Ship]
+- Unknown[Calc Avg Units]
+- Unknown[Calc B(W) LY]
+- Unknown[Calc B(W) Units]
+- Unknown[Calc Budget Daily Avg]
+- Unknown[Calc Budget Daily Units]
+- Unknown[Calc Daily Avg LY Units]
+- Unknown[Calc Daily Avg Units]
+- Unknown[Calc Index to Budget]
+- Unknown[Calc Index to Budget Bookings]
+- Unknown[Today's Date]
+
+## Unique Column References
+- Unknown[Account.Sub_Key_Account__c]
+- Unknown[Branch]
+- Unknown[Budget for Visual]
+- Unknown[Calc Backlog]
+- Unknown[Calc Backorder Units]
+- Unknown[Calc LY]
+- Unknown[Calc Last Year Units]
+- Unknown[Calc MTD $]
+- Unknown[Calc MTD Current Units]
+- Unknown[Calc Product Unit Type]
+- Unknown[Customer]
+- Unknown[CustomerName]
+- Unknown[InvoiceDate]
+- Unknown[Last Year]
+- Unknown[MOrderQty]
+- Unknown[MPrice]
+- Unknown[MProductClass]
+- Unknown[MStockCode]
+- Unknown[MStockDes]
+- Unknown[MTD Current Units]
+- Unknown[MTD Current Year]
+- Unknown[MTD Last Year Units]
+- Unknown[NMscChargeValue]
+- Unknown[NetSalesValue]
+- Unknown[OrderDate]
+- Unknown[OrderStatus]
+- Unknown[OrderType]
+- Unknown[Product Name]
+- Unknown[Products]
+- Unknown[SalesOrder]
+- Unknown[Visual Date]
+- Unknown[w/ VA Adjustment]

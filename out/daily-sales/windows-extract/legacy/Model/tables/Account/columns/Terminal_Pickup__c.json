@@ -1,0 +1,13 @@
+{
+  "name": "Terminal_Pickup__c",
+  "dataType": "boolean",
+  "sourceColumn": "Terminal_Pickup__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

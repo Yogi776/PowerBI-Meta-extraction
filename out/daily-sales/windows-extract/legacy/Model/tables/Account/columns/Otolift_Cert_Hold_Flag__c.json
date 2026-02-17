@@ -1,0 +1,12 @@
+{
+  "name": "Otolift_Cert_Hold_Flag__c",
+  "dataType": "string",
+  "sourceColumn": "Otolift_Cert_Hold_Flag__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

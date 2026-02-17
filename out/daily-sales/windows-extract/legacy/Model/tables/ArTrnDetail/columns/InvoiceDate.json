@@ -1,0 +1,13 @@
+{
+  "name": "InvoiceDate",
+  "dataType": "dateTime",
+  "sourceColumn": "InvoiceDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

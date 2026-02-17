@@ -1,0 +1,12 @@
+{
+  "name": "GMB_Country__c",
+  "dataType": "string",
+  "sourceColumn": "GMB_Country__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

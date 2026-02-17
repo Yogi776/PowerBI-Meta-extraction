@@ -1,0 +1,13 @@
+{
+  "name": "IsPartner",
+  "dataType": "boolean",
+  "sourceColumn": "IsPartner",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

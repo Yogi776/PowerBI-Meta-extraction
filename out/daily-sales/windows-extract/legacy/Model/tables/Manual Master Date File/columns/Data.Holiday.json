@@ -1,0 +1,12 @@
+{
+  "name": "Data.Holiday",
+  "dataType": "string",
+  "sourceColumn": "Data.Holiday",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

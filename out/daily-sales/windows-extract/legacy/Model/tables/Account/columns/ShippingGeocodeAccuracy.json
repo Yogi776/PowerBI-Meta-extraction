@@ -1,0 +1,12 @@
+{
+  "name": "ShippingGeocodeAccuracy",
+  "dataType": "string",
+  "sourceColumn": "ShippingGeocodeAccuracy",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

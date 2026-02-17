@@ -1,0 +1,24 @@
+{
+  "name": "SorMaster.OrderDate",
+  "dataType": "dateTime",
+  "sourceColumn": "SorMaster.OrderDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "31c2484c-5916-4de8-b725-e367ac31b2d9",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

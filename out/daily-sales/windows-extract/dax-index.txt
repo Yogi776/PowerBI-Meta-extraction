@@ -1,0 +1,323 @@
+﻿C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Last Year Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc LY $.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc MTD $.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc MTD Current Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Pinnacle Bandaid.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Product Class.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Ramp Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc AR Index to Budget.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc AR Index to LY.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc Daily Avg LY Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc Daily Avg Ships.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc Daily Avg Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DateTableTemplate_b721c826-bde3-4ac4-a402-a0d8fa6b9339\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\DSR Hierarchy\columns\Product Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Calc Date.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Calc LY.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Check Exists.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Cleaned Stock.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Lookup Product Class.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\MTD Current Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\MTD Last Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\VA Freight.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\VA Install Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\columns\Visual Actuals.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc % to LY.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc Avg Ship.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc Index to Budget.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\InvMaster\columns\Concatenate for GenTrans.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\InvMaster\columns\Concatenate for LucaNet.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\InvMaster\columns\Product Class Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\InvMaster\columns\Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\Budget for Visual.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\Concatenate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\Current Month Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\VA Adjustment.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Revenue Budget\columns\w%2F VA Adjustment.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Unit Budget\columns\Budget for Visual.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Unit Budget\columns\Concatenate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Unit Budget\columns\Current Month Flag 2.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\LucaNet Unit Budget\columns\Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\Merged_Inventory\columns\Concatenate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\Merged_Inventory\columns\Lookup Branch.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\Merged_Inventory\columns\Lookup Visual Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\Merged_Inventory\columns\Product Class Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Budget Elapsed Logic\columns\Flag for Budget Per Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Budget Elapsed Logic\columns\Flag for LY Per Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Budget Elapsed Logic\measures\Calc Budget Daily Avg.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Budget Elapsed Logic\measures\Calc Budget Daily Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 1\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 1\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\columns\Is leapyear.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\columns\Is LY workday.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\columns\Is TY workday.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\columns\Year Ago.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\measures\% Elapsed LY.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\measures\% Elapsed.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\measures\Today's Date.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\MTD Elapsed Logic Pt 2\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Backlog.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Backorder Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Pinnacle Bandaid.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Product Branch.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Product Class.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Calc Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Last Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\MTD Current Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\MTD Current Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\MTD Last Year Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Visual Bookings Value.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\columns\Visual Date.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc Avg Books.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc Avg Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc B(W) LY.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc B(W) Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc Backlog Units Estimate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorDetail\measures\Calc Index to Budget Bookings.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\daily-sales\windows-extract\legacy\Model\tables\SorMaster\columns\Visual Backlog.dax

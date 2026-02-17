@@ -1,0 +1,12 @@
+{
+  "name": "MultCurPay",
+  "dataType": "string",
+  "sourceColumn": "MultCurPay",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Calc Date",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "8bce7fc4-901a-432e-bd1d-6eb1ad3885f0",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

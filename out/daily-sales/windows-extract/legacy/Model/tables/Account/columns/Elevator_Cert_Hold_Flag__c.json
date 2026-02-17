@@ -1,0 +1,12 @@
+{
+  "name": "Elevator_Cert_Hold_Flag__c",
+  "dataType": "string",
+  "sourceColumn": "Elevator_Cert_Hold_Flag__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

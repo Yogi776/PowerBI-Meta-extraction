@@ -1,0 +1,12 @@
+{
+  "name": "Reconciled",
+  "dataType": "string",
+  "sourceColumn": "Reconciled",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

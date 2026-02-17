@@ -1,0 +1,16 @@
+{
+  "name": "Store_Address__Latitude__s",
+  "dataType": "double",
+  "sourceColumn": "Store_Address__Latitude__s",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

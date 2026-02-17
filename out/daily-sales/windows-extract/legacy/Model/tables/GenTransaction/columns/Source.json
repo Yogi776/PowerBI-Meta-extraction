@@ -1,0 +1,12 @@
+{
+  "name": "Source",
+  "dataType": "string",
+  "sourceColumn": "Source",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

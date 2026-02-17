@@ -1,0 +1,12 @@
+{
+  "name": "PostMulDiv",
+  "dataType": "string",
+  "sourceColumn": "PostMulDiv",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

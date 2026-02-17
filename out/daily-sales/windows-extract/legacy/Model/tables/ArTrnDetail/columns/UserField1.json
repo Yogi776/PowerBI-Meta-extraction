@@ -1,0 +1,12 @@
+{
+  "name": "UserField1",
+  "dataType": "string",
+  "sourceColumn": "UserField1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

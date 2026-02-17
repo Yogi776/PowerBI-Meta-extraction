@@ -1,0 +1,16 @@
+{
+  "name": "GMB_Location__Latitude__s",
+  "dataType": "double",
+  "sourceColumn": "GMB_Location__Latitude__s",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

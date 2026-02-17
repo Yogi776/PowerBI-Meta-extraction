@@ -1,0 +1,12 @@
+{
+  "name": "ds_sysprocontact__c",
+  "dataType": "string",
+  "sourceColumn": "ds_sysprocontact__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

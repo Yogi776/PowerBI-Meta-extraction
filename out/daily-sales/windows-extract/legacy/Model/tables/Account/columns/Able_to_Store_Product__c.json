@@ -1,0 +1,12 @@
+{
+  "name": "Able_to_Store_Product__c",
+  "dataType": "string",
+  "sourceColumn": "Able_to_Store_Product__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

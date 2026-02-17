@@ -1,0 +1,12 @@
+{
+  "name": "Warehouse",
+  "dataType": "string",
+  "sourceColumn": "Warehouse",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

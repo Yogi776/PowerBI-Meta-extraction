@@ -1,0 +1,33 @@
+{
+  "name": "Data.End of Month",
+  "dataType": "dateTime",
+  "sourceColumn": "Data.End of Month",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "7f659ee0-156c-47d5-80fb-4d7c8ea8e930",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

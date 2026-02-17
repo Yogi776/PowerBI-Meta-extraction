@@ -1,0 +1,12 @@
+{
+  "name": "SubModJnlArea",
+  "dataType": "string",
+  "sourceColumn": "SubModJnlArea",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

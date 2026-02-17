@@ -1,0 +1,1 @@
+sum(GenTransaction[MTD Current Year])/sum(GenTransaction[Calc LY])

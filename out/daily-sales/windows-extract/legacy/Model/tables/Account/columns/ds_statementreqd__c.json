@@ -1,0 +1,12 @@
+{
+  "name": "ds_statementreqd__c",
+  "dataType": "string",
+  "sourceColumn": "ds_statementreqd__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

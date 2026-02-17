@@ -1,0 +1,119 @@
+{
+  "name": "fbef9b27bd35c7a6d444",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1065.2561983471073,
+        "y": 111.07438016528926,
+        "z": 10000,
+        "width": 180.89256198347107,
+        "height": 71.933884297520663,
+        "tabOrder": 9000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "MTD Budget Elapsed Logic.Calc Budget Daily Avg"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Budget Elapsed Logic",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Calc Budget Daily Avg"
+          },
+          "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+          "NativeReferenceName": "Daily Budget Average"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "m"
+                }
+              },
+              "Property": "Calc Budget Daily Avg"
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "MTD Budget Elapsed Logic.Calc Budget Daily Avg": {
+        "displayName": "Daily Budget Average"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true,
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

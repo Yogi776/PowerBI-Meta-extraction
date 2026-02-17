@@ -1,0 +1,19 @@
+<LinguisticSchema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Language="en-US" DynamicImprovement="Default" xmlns="http://schemas.microsoft.com/sqlserver/2016/01/linguisticschema">
+  <Entities>
+    <Entity Name="CFO_View" ConceptualEntity="Pod2" Source="Generated">
+      <Words>
+        <Word>CFO View</Word>
+      </Words>
+    </Entity>
+    <Entity Name="Stacked_Exec_Dashboard1" ConceptualEntity="Pod4" Source="Generated">
+      <Words>
+        <Word>Stacked Exec Dashboard</Word>
+      </Words>
+    </Entity>
+    <Entity Name="Daily_Trends" ConceptualEntity="Pod" Source="Generated">
+      <Words>
+        <Word>Daily Trends</Word>
+      </Words>
+    </Entity>
+  </Entities>
+</LinguisticSchema>

@@ -1,0 +1,1 @@
+sum('MTD Elapsed Logic Pt 2'[Is LY workday])/sum('MTD Budget Elapsed Logic'[Work Days])

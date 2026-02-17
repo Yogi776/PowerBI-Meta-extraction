@@ -1,0 +1,12 @@
+{
+  "name": "MStockDes",
+  "dataType": "string",
+  "sourceColumn": "MStockDes",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

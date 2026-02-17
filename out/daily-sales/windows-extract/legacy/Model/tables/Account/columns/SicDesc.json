@@ -1,0 +1,12 @@
+{
+  "name": "SicDesc",
+  "dataType": "string",
+  "sourceColumn": "SicDesc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

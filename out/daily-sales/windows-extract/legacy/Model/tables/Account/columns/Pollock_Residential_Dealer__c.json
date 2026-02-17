@@ -1,0 +1,13 @@
+{
+  "name": "Pollock_Residential_Dealer__c",
+  "dataType": "boolean",
+  "sourceColumn": "Pollock_Residential_Dealer__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

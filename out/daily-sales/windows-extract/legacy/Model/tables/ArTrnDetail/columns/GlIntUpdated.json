@@ -1,0 +1,12 @@
+{
+  "name": "GlIntUpdated",
+  "dataType": "string",
+  "sourceColumn": "GlIntUpdated",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

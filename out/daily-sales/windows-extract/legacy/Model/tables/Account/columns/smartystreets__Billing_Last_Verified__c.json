@@ -1,0 +1,24 @@
+{
+  "name": "smartystreets__Billing_Last_Verified__c",
+  "dataType": "dateTime",
+  "sourceColumn": "smartystreets__Billing_Last_Verified__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "f5a704fd-77f0-40a0-9160-bc07b885f7b2",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

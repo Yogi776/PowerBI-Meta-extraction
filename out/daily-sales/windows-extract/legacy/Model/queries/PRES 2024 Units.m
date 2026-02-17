@@ -1,0 +1,5 @@
+let
+    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("bZHLjQQhDERz4Wx5/MFgBzAJ7B5bk38aC26tGslzAZWop8Ku62r84peQ9AaNxwQOQqIldB/vn/fvuv7f2weuJgfQHVgEbXu9+CX9+vglDKTrHcAV0AT6ESAd1CaSbmEF6AnYAcwBHoESS0TxW/rH49f1I52KxkuMGjASmEcAE7Cvkef3EWYCfszMDGKC2r8DnkA8gJFBuGLsBK1AJMB0RIjDjI7hubLaG93IUbWogjpj3+5RF8V313yUPWhAxESTbLIiq+7PHw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Date = _t, NetSalesValue = _t, QtyInvoiced = _t, ProductClass = _t, GlYear = _t, GlPeriod = _t]),
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Date", type datetime}, {"NetSalesValue", type number}, {"QtyInvoiced", Int64.Type}, {"ProductClass", type text}, {"GlYear", type number}, {"GlPeriod", type number}})
+in
+    #"Changed Type"

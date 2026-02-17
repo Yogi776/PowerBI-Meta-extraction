@@ -1,0 +1,12 @@
+{
+  "name": "Techs_wear_badges__c",
+  "dataType": "string",
+  "sourceColumn": "Techs_wear_badges__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
