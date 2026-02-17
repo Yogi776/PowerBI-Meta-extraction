@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/windows/servercore:ltsc2022
+
+LABEL org.opencontainers.image.description="Containerized pbi-tools desktop runtime (Windows)"
+
+ARG PBI_TOOLS_VERSION=1.2.0
+ENV PBI_TOOLS_VERSION=${PBI_TOOLS_VERSION}
+
+WORKDIR C:\\app
+
+# Avoid explicit PowerShell dependency at build-time.
+# Requires Windows container runtime; does not work on Linux engines.
+RUN cmd /S /C "mkdir C:\\app\\pbi-tools && curl.exe -L -o C:\\app\\pbi-tools.zip https://github.com/pbi-tools/pbi-tools/releases/download/%PBI_TOOLS_VERSION%/pbi-tools.%PBI_TOOLS_VERSION%.zip && tar.exe -xf C:\\app\\pbi-tools.zip -C C:\\app\\pbi-tools && del C:\\app\\pbi-tools.zip"
+
+WORKDIR C:\\workspace
+
+ENTRYPOINT ["C:\\app\\pbi-tools\\pbi-tools.exe"]
+CMD ["info"]

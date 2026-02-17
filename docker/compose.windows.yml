@@ -1,0 +1,13 @@
+services:
+  pbi-tools-win:
+    platform: windows/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile.windows
+      args:
+        PBI_TOOLS_VERSION: ${PBI_TOOLS_VERSION:-1.2.0}
+    image: pbi-tools-desktop:local
+    working_dir: C:\workspace
+    volumes:
+      - ..:C:\workspace
+    command: ["info"]
