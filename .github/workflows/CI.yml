@@ -28,7 +28,7 @@ jobs:
       RUNTIME: ${{ matrix.os == 'windows-latest' && 'win-x64' || 'linux-x64' }}
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         submodules: false  # Disable automatic submodule checkout
     - name: Init submodules
