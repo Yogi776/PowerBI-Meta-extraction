@@ -12,6 +12,118 @@ An example project is available here: <https://github.com/pbi-tools/adventurewor
 
 - See <https://pbi.tools/cli/>
 
+---
+
+## Extract PBIX Reports (scripts)
+
+The `scripts\extract-pbix-reports.ps1` script extracts one or more `.pbix` reports into a folder structure with **Legacy** model serialization (DAX measures, M queries, BIM). You define the **source** (folder or single file) and the **output** root; each report gets its own subfolder.
+
+### Flow diagram
+
+```mermaid
+flowchart LR
+    subgraph Input
+        A[SourcePath]
+        A --> B{Folder or<br/>single .pbix?}
+        B -->|Folder| C[All .pbix files]
+        B -->|File| D[One .pbix file]
+    end
+
+    subgraph Script
+        C --> E[extract-pbix-reports.ps1]
+        D --> E
+        E --> F[pbi-tools extract<br/>Legacy serialization]
+        F --> G[pbi-tools generate-bim]
+        G --> H[Write dax-index.txt]
+    end
+
+    subgraph Output["OutRoot"]
+        H --> I[Report1\<br/>windows-extract\legacy]
+        H --> J[Report2\<br/>windows-extract\legacy]
+        H --> K[ReportN\<br/>...]
+        I --> L[.dax, .json, .m, .bim]
+        J --> L
+        K --> L
+    end
+```
+
+**Per-report flow:**
+
+```mermaid
+flowchart TD
+    subgraph PerReport["For each .pbix"]
+        P1[.pbix file] --> P2[extract to<br/>OutRoot\ReportName\windows-extract\legacy]
+        P2 --> P3[Model\ tables, measures, queries<br/>.dax, .json, .m]
+        P3 --> P4[generate-bim → legacy.bim]
+        P4 --> P5[List all .dax → dax-index.txt]
+    end
+```
+
+### Prerequisites
+
+- **Power BI Desktop** (x64) installed in the default location (used by pbi-tools for extraction).
+- **pbi-tools** either on PATH, or built locally at `out\tools\pbi-tools-desktop\pbi-tools.exe` (script will use the local build if the command is not found).
+
+### Parameters
+
+| Parameter     | Description | Default |
+|--------------|-------------|--------|
+| `SourcePath` | Folder containing `.pbix` files, or path to a single `.pbix` file. Relative paths are from the repo root. | `PowerBI Examples` |
+| `OutRoot`    | Root folder for output. Each report gets `OutRoot\<ReportName>\`. Relative paths are from the repo root. | `out` |
+| `Force`      | If set, overwrites existing output folders for each report. | — |
+
+### Usage examples
+
+From the repo root (e.g. `c:\...\pbi-tools`):
+
+```powershell
+# Default: all .pbix in "PowerBI Examples" → output under "out"
+.\scripts\extract-pbix-reports.ps1
+
+# Custom source folder and output folder
+.\scripts\extract-pbix-reports.ps1 -SourcePath "D:\Reports" -OutRoot "D:\Extracted"
+
+# Single report
+.\scripts\extract-pbix-reports.ps1 -SourcePath "PowerBI Examples\Daily Sales Report_2025.pbix" -OutRoot "out\daily-sales"
+
+# Overwrite existing output
+.\scripts\extract-pbix-reports.ps1 -SourcePath "PowerBI Examples" -OutRoot "out" -Force
+```
+
+Absolute paths are also supported:
+
+```powershell
+.\scripts\extract-pbix-reports.ps1 -SourcePath "C:\PowerBI\Reports" -OutRoot "C:\PowerBI\Extracted"
+```
+
+### Output structure (per report)
+
+For each report, the script creates:
+
+```
+OutRoot\
+  <ReportName>\
+    dax-index.txt              # List of all .dax file paths
+    windows-extract\
+      legacy\                  # Extracted model (tables, measures, queries)
+        Model\
+          tables\...\*.dax, *.json
+          queries\*.m
+        Connections.json
+        Report\...
+      legacy.bim               # Generated BIM file
+```
+
+### Optional: Add dev tools to PATH
+
+To use the locally built `pbi-tools` from any directory, you can add the build output to your session PATH:
+
+```powershell
+.\scripts\AddDevDirToPATH.ps1
+```
+
+---
+
 ## Developer Notes
 
 ### Build System
