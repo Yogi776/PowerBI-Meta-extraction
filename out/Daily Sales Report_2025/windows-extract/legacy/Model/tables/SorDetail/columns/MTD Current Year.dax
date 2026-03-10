@@ -1,1 +1,0 @@
-if(LOOKUPVALUE('MTD Elapsed Logic Pt 2'[Date],'MTD Elapsed Logic Pt 2'[Date],SorDetail[Visual Date]),SorDetail[Visual Bookings Value],0)

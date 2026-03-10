@@ -1,1 +1,0 @@
-iferror(lookupvalue('InvMaster+'[ProductUnitType],'InvMaster+'[StockCode],InvMaster[StockCode]),"Other")

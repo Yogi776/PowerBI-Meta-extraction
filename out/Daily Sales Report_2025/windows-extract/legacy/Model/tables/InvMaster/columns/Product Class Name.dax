@@ -1,1 +1,0 @@
-lookupvalue(SalProductClass[Description],SalProductClass[ProductClass],InvMaster[ProductClass])
