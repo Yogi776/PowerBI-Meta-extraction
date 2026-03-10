@@ -1,1 +1,0 @@
-if(GenTransaction[SubModStock]="","CRF",GenTransaction[SubModStock])

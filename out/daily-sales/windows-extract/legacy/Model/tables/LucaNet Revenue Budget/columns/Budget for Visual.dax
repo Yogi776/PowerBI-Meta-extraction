@@ -1,1 +1,0 @@
-if('LucaNet Revenue Budget'[Current Month Flag]="Include",'LucaNet Revenue Budget'[Amount],0)

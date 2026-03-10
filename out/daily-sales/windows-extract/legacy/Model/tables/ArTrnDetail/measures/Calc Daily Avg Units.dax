@@ -1,1 +1,0 @@
-sum(ArTrnDetail[Calc MTD Current Units])/sum('MTD Elapsed Logic Pt 2'[Is TY workday])

@@ -1,1 +1,0 @@
-if(isblank(LOOKUPVALUE(SorMaster[OrderDate],SorMaster[SalesOrder],SorDetail[SalesOrder])),SorDetail[SorMaster.OrderDate],LOOKUPVALUE(SorMaster[OrderDate],SorMaster[SalesOrder],SorDetail[SalesOrder]))

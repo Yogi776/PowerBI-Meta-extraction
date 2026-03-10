@@ -1,1 +1,0 @@
-if(AND(ArTrnDetail[GlYear]=2024,ArTrnDetail[GlPeriod]=MONTH(today()-1)),ArTrnDetail[NetSalesValue],0)

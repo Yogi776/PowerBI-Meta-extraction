@@ -1,1 +1,0 @@
-if(ArTrnDetail[ProductClass]="","_OTH",ArTrnDetail[ProductClass])

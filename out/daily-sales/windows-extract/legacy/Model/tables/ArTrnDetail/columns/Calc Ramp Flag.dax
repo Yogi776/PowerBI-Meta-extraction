@@ -1,1 +1,0 @@
-if(or(ArTrnDetail[Calc Product Class]="RMOD",ArTrnDetail[Calc Product Class]="RMTR"),"no","yes")

@@ -1,1 +1,0 @@
-if(lookupvalue('DSR Hierarchy'[Branch],'DSR Hierarchy'[ProductClass],Merged_Inventory[ProductClass])="","Other",lookupvalue('DSR Hierarchy'[Branch],'DSR Hierarchy'[ProductClass],Merged_Inventory[ProductClass]))
