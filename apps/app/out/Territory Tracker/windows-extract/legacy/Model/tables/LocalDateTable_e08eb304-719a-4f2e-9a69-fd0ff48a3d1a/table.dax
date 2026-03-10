@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('MTD Logic Part 2'[JnlDate])), 1, 1), Date(Year(MAX('MTD Logic Part 2'[JnlDate])), 12, 31))

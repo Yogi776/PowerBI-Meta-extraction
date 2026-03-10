@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('ArTrnDetail'[InvoiceDate])), 1, 1), Date(Year(MAX('ArTrnDetail'[InvoiceDate])), 12, 31))

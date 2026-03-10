@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[Install_Deadline__c])), 1, 1), Date(Year(MAX('Opportunity'[Install_Deadline__c])), 12, 31))

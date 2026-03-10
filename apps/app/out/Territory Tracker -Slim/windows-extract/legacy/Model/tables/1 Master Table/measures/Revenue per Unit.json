@@ -1,9 +1,0 @@
-{
-  "name": "Revenue per Unit",
-  "annotations": [
-    {
-      "name": "PBI_FormatHint",
-      "value": "{\"isGeneralNumber\":true}"
-    }
-  ]
-}

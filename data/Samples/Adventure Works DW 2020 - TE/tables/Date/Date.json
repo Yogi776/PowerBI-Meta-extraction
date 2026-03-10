@@ -1,5 +1,0 @@
-{
-  "name": "Date",
-  "description": "Filters the Sales table using sales order date",
-  "dataCategory": "Time"
-}

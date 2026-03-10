@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[Stage_Last_Date_PO_Recd_PA_Corr_Need__c])), 1, 1), Date(Year(MAX('Opportunity'[Stage_Last_Date_PO_Recd_PA_Corr_Need__c])), 12, 31))

@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[IOC_faxed_to_VA__c])), 1, 1), Date(Year(MAX('Opportunity'[IOC_faxed_to_VA__c])), 12, 31))

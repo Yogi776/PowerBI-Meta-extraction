@@ -1,1 +1,0 @@
-if(isblank(LOOKUPVALUE('Metro Key'[MSA],'Metro Key'[ZipCode],ArCustomer[ShipPostalCode])),LOOKUPVALUE('Metro Key'[MSA],'Metro Key'[ZipCode],ArCustomer[SoldPostalCode]),LOOKUPVALUE('Metro Key'[MSA],'Metro Key'[ZipCode],ArCustomer[ShipPostalCode]))

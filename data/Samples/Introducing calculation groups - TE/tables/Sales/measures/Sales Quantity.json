@@ -1,5 +1,0 @@
-{
-  "name": "Sales Quantity",
-  "expression": "SUM ( Sales[Quantity] )",
-  "formatString": "#,##0"
-}

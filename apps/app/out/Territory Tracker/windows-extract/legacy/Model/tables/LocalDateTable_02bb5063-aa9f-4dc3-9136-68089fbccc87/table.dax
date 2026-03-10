@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('SorMaster'[EntInvoiceDate])), 1, 1), Date(Year(MAX('SorMaster'[EntInvoiceDate])), 12, 31))

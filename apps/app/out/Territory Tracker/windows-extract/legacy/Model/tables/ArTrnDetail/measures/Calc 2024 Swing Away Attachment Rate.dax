@@ -1,1 +1,0 @@
-(calculate(sum(ArTrnDetail[2024 All Qty]),'4  Set Stock Code Dimensions'[Family]="Swing Away"))/calculate(sum(ArTrnDetail[2025 Visual Qty]),OR('4  Set Stock Code Dimensions'[ProductClass]="MOAL",'4  Set Stock Code Dimensions'[ProductClass]="MOHD"))

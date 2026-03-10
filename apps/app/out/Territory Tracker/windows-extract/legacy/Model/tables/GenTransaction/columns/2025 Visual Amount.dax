@@ -1,1 +1,0 @@
-if(GenTransaction[GlYear]=2025,GenTransaction[Visual_Amount],0)

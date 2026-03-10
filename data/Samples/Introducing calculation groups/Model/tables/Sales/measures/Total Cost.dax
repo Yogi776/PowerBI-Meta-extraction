@@ -1,1 +1,0 @@
-SUMX ( Sales, Sales[Quantity] * Sales[Unit Cost] )

@@ -1,1 +1,0 @@
-if(ArTrnDetail[StockCode]="VPL400",4,if(ArTrnDetail[StockCode]="VPL400-X",5,if(ArTrnDetail[StockCode]="VPL600",6,if(ArTrnDetail[StockCode]="VPL800",8,if(ArTrnDetail[StockCode]="VPL1000",10,if(ArTrnDetail[StockCode]="VPL1200",12,if(ArTrnDetail[StockCode]="VPL1400",14)))))))*ArTrnDetail[Calc Qty]

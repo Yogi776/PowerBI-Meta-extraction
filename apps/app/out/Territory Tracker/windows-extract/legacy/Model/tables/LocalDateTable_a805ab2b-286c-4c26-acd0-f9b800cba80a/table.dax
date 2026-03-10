@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('SorDetail'[MLineReceiptDat])), 1, 1), Date(Year(MAX('SorDetail'[MLineReceiptDat])), 12, 31))

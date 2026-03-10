@@ -1,1 +1,0 @@
-if(OR(GenTransaction[Calc Membership]="AH",GenTransaction[Calc Membership]="US"),"VGM","")

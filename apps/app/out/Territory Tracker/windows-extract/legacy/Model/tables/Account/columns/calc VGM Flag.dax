@@ -1,1 +1,0 @@
-if(OR(Account[VGM_Live_at_Home__c]=True,Account[VGM_US_Rehab__c]=True),"Yes","")

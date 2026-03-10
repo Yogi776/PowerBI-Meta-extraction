@@ -1,1 +1,0 @@
-if(year(SorDetail[SorMaster.1.OrderDate])=2023,SorDetail[Visual Bookings Value])

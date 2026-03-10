@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('SorDetail'[MCommitDate])), 1, 1), Date(Year(MAX('SorDetail'[MCommitDate])), 12, 31))

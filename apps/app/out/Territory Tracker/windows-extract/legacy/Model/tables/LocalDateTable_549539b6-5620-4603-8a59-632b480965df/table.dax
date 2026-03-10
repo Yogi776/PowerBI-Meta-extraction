@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('SorDetail'[MCustRequestDat])), 1, 1), Date(Year(MAX('SorDetail'[MCustRequestDat])), 12, 31))

@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('ArCustomer'[DateLastSale])), 1, 1), Date(Year(MAX('ArCustomer'[DateLastSale])), 12, 31))

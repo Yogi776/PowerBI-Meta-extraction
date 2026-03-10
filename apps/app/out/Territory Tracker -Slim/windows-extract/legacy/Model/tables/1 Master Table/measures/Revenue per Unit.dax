@@ -1,1 +1,0 @@
-iferror( sum([Actual Revenue] ) / sum([Actual Units]) , 0 )

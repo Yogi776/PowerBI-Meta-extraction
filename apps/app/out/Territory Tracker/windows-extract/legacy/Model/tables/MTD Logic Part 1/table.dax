@@ -1,1 +1,0 @@
-calendar(min(GenTransaction[JnlDate]),max(GenTransaction[JnlDate]))

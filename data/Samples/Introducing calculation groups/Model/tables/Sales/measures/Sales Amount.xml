@@ -1,6 +1,0 @@
-<Measure Name="Sales Amount">
-  <FormatString>#,0.00</FormatString>
-  <Annotation Name="Format">
-    <Format Format="NumberDecimal" Accuracy="2" ThousandSeparator="True" />
-  </Annotation>
-</Measure>

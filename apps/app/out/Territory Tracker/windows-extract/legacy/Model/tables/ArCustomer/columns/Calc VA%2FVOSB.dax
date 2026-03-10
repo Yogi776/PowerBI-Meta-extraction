@@ -1,1 +1,0 @@
-if(ArCustomer[Channel]="VA","VA",if(ArCustomer[Calc VOSB]=TRUE,"VOSB","Non-VA/VOSB"))

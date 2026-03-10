@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[Ship_Date_if_Ordered_Today__c])), 1, 1), Date(Year(MAX('Opportunity'[Ship_Date_if_Ordered_Today__c])), 12, 31))

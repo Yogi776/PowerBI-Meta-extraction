@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Percent_Through'[PY Date])), 1, 1), Date(Year(MAX('Percent_Through'[PY Date])), 12, 31))

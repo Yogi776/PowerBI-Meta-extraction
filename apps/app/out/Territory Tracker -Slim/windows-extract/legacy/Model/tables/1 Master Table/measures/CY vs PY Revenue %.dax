@@ -1,1 +1,0 @@
-iferror( ( sum('1 Master Table'[CY Revenue]) - sum('1 Master Table'[PY Revenue]) )/ sum('1 Master Table'[PY Revenue] ), "")

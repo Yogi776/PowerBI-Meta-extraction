@@ -16,24 +16,26 @@
 
 .PARAMETER Force
     If set, overwrites existing output folders for each report.
+
+.PARAMETER OneByOne
+    If set, pauses after each report and waits for a key press before processing the next.
 #>
 param(
     [string]$SourcePath = "PowerBI Examples",
     [string]$OutRoot = "out",
-    [switch]$Force
+    [switch]$Force,
+    [switch]$OneByOne
 )
 
 $ErrorActionPreference = "Stop"
 
 function Resolve-ToolPath {
-    $cmd = Get-Command "pbi-tools" -ErrorAction SilentlyContinue
-    if ($cmd) { return $cmd.Source }
-
     $localExe = Join-Path $PSScriptRoot "..\out\tools\pbi-tools-desktop\pbi-tools.exe"
     $localExe = [System.IO.Path]::GetFullPath($localExe)
-    if (Test-Path $localExe) { return $localExe }
-
-    throw "Could not find 'pbi-tools'. Install it or place pbi-tools.exe at '$localExe'."
+    if (-not (Test-Path $localExe)) {
+        throw "Could not find pbi-tools. Place pbi-tools.exe at: $localExe"
+    }
+    return $localExe
 }
 
 function Process-Pbix {
@@ -120,12 +122,21 @@ Write-Host "Using pbi-tools: $tool"
 Write-Host "Source: $sourceFull"
 Write-Host "Output root: $outRootFull"
 Write-Host "Reports to process: $($pbixFiles.Count)"
+if ($OneByOne.IsPresent) { Write-Host "Mode: one by one (pause between reports)" }
 
 $processed = @()
+$total = $pbixFiles.Count
+$index = 0
 foreach ($pbix in $pbixFiles) {
+    $index++
     try {
         $name = Process-Pbix -PbixFullPath $pbix -OutputRootFull $outRootFull -ToolExe $tool -ForceOverwrite $Force.IsPresent
         $processed += $name
+        if ($OneByOne.IsPresent -and $index -lt $total) {
+            Write-Host ""
+            Write-Host "  [One by one] Report $index of $total done. Press any key to continue with the next..."
+            $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+        }
     } catch {
         Write-Error $_.Exception.Message
         throw

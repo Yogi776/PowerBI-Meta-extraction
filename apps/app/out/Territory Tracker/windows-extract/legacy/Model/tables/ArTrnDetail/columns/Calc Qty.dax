@@ -1,1 +1,0 @@
-if(and(ArTrnDetail[NetSalesValue]<>0,ArTrnDetail[Calc Product Unit Type]="Whole Good"),ArTrnDetail[QtyInvoiced],0)

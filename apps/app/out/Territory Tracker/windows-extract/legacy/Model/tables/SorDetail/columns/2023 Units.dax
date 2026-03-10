@@ -1,1 +1,0 @@
-if(AND(SorDetail[calc 2023 bookings]<>0,SorDetail[Calc Product Unit Type]="Whole Good"),SorDetail[MOrderQty],0)

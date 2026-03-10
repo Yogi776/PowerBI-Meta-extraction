@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('SorMaster'[DateLastDocPrt])), 1, 1), Date(Year(MAX('SorMaster'[DateLastDocPrt])), 12, 31))

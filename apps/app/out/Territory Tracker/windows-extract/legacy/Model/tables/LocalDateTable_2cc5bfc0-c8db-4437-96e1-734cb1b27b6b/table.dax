@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[Due_Date_for_Eval__c])), 1, 1), Date(Year(MAX('Opportunity'[Due_Date_for_Eval__c])), 12, 31))

@@ -1,1 +1,0 @@
-SWITCH([Channel],"DL" , "Dealer", "BB", "Big Box", "VA", "VA Hospital", "IE", "Internet", "1M", "101 Mobility", "EN", "Enterprise", "IT", "International", "HS", "House", "NA", "National Accounts", "IN", "Inactive Dealer")

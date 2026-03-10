@@ -1,5 +1,0 @@
-
-VARX.P(
-	KEEPFILTERS(VALUES('4  Set Stock Code Dimensions'[Key Feature])),
-	CALCULATE(SUM('ArTrnDetail'[QtyInvoiced]))
-)

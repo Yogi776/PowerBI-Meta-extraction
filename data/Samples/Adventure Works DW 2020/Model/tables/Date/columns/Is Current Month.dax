@@ -1,1 +1,0 @@
-MONTH([Date]) = MONTH(TODAY()) && YEAR([Date]) = YEAR(TODAY())

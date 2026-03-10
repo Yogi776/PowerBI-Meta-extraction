@@ -1,1 +1,0 @@
-if(ArTrnDetail[GlYear]=2025,ArTrnDetail[Calc Qty],0)

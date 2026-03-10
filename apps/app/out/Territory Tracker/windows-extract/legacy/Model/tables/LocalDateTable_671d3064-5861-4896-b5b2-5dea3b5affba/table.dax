@@ -1,1 +1,0 @@
-Calendar(Date(Year(MIN('Opportunity'[Quote_Date__c])), 1, 1), Date(Year(MAX('Opportunity'[Quote_Date__c])), 12, 31))
