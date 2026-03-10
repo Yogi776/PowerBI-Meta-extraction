@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('SysPro: ArTrnDetail Invoice Dates'[InvoiceDate])), 1, 1), Date(Year(MAX('SysPro: ArTrnDetail Invoice Dates'[InvoiceDate])), 12, 31))

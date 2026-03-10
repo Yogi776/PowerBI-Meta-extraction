@@ -1,0 +1,12 @@
+{
+  "name": "GMB_Street__c",
+  "dataType": "string",
+  "sourceColumn": "GMB_Street__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

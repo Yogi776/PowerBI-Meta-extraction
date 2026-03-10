@@ -1,0 +1,12 @@
+{
+  "name": "MPriceUom",
+  "dataType": "string",
+  "sourceColumn": "MPriceUom",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

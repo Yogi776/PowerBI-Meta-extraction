@@ -1,0 +1,24 @@
+{
+  "name": "SorMaster.1.DateLastInvPrt",
+  "dataType": "dateTime",
+  "sourceColumn": "SorMaster.1.DateLastInvPrt",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "9cfa74c5-5ce7-4d3a-bc51-3275c26b9541",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

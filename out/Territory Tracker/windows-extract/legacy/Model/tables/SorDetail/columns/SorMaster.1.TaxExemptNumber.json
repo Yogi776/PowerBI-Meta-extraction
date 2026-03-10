@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.TaxExemptNumber",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.TaxExemptNumber",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

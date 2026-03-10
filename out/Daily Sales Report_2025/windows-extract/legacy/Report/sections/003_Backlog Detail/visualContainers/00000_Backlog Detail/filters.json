@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Filter2138d6cf3a702204a68e",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "Visual Backlog"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "Visual Backlog"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'Backlog'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 0
+  },
+  {
+    "name": "Filterc0349a73d701ae6a980b",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "MProductClass"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filter6163e99e2104a18c4134",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "Calc Backlog"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "s"
+                            }
+                          },
+                          "Property": "Calc Backlog"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "0L"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filterbe160fd6700030cb2a26",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "MStockCode"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filter52330a4e880ba7de40e0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "SalesOrder"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filter6f29b752dc8d903c240b",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "MStockDes"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filter9017a4a02896966609ed",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "MOrderQty"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filter40a772dd27ceb08791cd",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "MPrice"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filterca52248c60051703cd67",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "NMscChargeValue"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 8
+  },
+  {
+    "name": "Filterc42c758f9112dd3de05e",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "OrderStatus"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 9
+  },
+  {
+    "name": "Filter64c75d4d9353d7e00620",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "OrderDate"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 10
+  },
+  {
+    "name": "d3bf2718ce5804309100",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "OrderType"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 11
+  },
+  {
+    "name": "d831b05a8970340b7930",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "Customer"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 12
+  },
+  {
+    "name": "e3038a9fa350165bc730",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "CustomerName"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 13
+  }
+]

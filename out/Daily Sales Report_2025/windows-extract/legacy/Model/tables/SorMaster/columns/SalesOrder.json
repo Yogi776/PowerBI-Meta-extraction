@@ -1,0 +1,17 @@
+{
+  "name": "SalesOrder",
+  "dataType": "string",
+  "sourceColumn": "SalesOrder",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "IsHidden"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

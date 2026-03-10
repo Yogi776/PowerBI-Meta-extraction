@@ -1,0 +1,277 @@
+{
+  "name": "6c72b3f84b7e8cea117e",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 35.661691542288558,
+        "y": 96.796019900497512,
+        "z": 4000,
+        "width": 524.7363184079602,
+        "height": 622.80597014925377,
+        "tabOrder": 4000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(ArTrnDetail.Calc MTD $)"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "ArTrnDetail.InvoiceDate",
+          "active": true
+        },
+        {
+          "queryRef": "DSR Hierarchy.Branch"
+        },
+        {
+          "queryRef": "DSR Hierarchy.Products"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "ArTrnDetail.Branch",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc MTD $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(ArTrnDetail.Calc MTD $)",
+          "NativeReferenceName": "Sum of Calc MTD $"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "InvoiceDate"
+          },
+          "Name": "ArTrnDetail.InvoiceDate",
+          "NativeReferenceName": "Invoice Date"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "ArTrnDetail.Branch",
+          "NativeReferenceName": "Branch"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Branch"
+          },
+          "Name": "DSR Hierarchy.Branch",
+          "NativeReferenceName": "Branch1"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Products"
+          },
+          "Name": "DSR Hierarchy.Products",
+          "NativeReferenceName": "Products"
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "ArTrnDetail.InvoiceDate"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ArTrnDetail"
+                    }
+                  },
+                  "Property": "InvoiceDate"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "DSR Hierarchy.Branch"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DSR Hierarchy"
+                    }
+                  },
+                  "Property": "Branch"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "DSR Hierarchy.Products"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null
+        }
+      }
+    ],
+    "columnProperties": {
+      "ArTrnDetail.InvoiceDate": {
+        "displayName": "Invoice Date"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "232.28358208955223D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "ArTrnDetail.InvoiceDate"
+          }
+        }
+      ]
+    }
+  }
+}

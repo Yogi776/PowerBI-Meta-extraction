@@ -1,0 +1,12 @@
+{
+  "name": "ArStatementNo",
+  "dataType": "string",
+  "sourceColumn": "ArStatementNo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "TpmCreditCheck",
+  "dataType": "string",
+  "sourceColumn": "TpmCreditCheck",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

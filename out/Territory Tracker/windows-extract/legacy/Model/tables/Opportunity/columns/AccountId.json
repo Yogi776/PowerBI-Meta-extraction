@@ -1,0 +1,17 @@
+{
+  "name": "AccountId",
+  "dataType": "string",
+  "sourceColumn": "AccountId",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "IsHidden"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

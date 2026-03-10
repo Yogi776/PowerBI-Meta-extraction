@@ -1,0 +1,16 @@
+{
+  "name": "VA %",
+  "dataType": "double",
+  "sourceColumn": "VA %",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

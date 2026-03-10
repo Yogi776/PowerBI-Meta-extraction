@@ -1,0 +1,12 @@
+{
+  "name": "LucaNet Name",
+  "dataType": "string",
+  "sourceColumn": "LucaNet Name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

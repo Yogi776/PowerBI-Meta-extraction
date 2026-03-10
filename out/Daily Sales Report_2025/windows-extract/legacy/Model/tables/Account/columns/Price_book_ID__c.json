@@ -1,0 +1,12 @@
+{
+  "name": "Price_book_ID__c",
+  "dataType": "string",
+  "sourceColumn": "Price_book_ID__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

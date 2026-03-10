@@ -1,0 +1,12 @@
+{
+  "name": "NRetentionJob",
+  "dataType": "string",
+  "sourceColumn": "NRetentionJob",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

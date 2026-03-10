@@ -1,0 +1,1 @@
+if('LucaNet Revenue Budget'[LucaNet Name]="Parts","Parts",if('LucaNet Revenue Budget'[LucaNet Name]="Rebates","Other Fees",if('LucaNet Revenue Budget'[LucaNet Name]="Service & Miscellaneous","Other Fees","Whole Good")))

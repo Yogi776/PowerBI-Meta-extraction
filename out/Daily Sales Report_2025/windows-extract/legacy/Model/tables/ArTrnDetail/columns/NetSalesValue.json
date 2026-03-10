@@ -1,0 +1,13 @@
+{
+  "name": "NetSalesValue",
+  "dataType": "double",
+  "sourceColumn": "NetSalesValue",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

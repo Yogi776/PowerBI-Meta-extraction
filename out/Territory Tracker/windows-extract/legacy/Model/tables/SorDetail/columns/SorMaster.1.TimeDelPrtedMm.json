@@ -1,0 +1,16 @@
+{
+  "name": "SorMaster.1.TimeDelPrtedMm",
+  "dataType": "double",
+  "sourceColumn": "SorMaster.1.TimeDelPrtedMm",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

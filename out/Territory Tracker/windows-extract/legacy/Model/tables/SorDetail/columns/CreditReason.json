@@ -1,0 +1,12 @@
+{
+  "name": "CreditReason",
+  "dataType": "string",
+  "sourceColumn": "CreditReason",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

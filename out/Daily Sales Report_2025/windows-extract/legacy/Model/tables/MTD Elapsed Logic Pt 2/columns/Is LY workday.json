@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Is LY workday",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

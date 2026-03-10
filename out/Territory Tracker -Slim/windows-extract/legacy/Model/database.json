@@ -1,0 +1,294 @@
+{
+  "name": "Territory Tracker -Slim",
+  "compatibilityLevel": 1601,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true,
+      "fastCombine": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "relationships": [
+      {
+        "name": "1e66990d-4c8b-ffd7-0d07-b47c75c7a7bb",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Revenue GL Code",
+        "toTable": "AccountStructure",
+        "toColumn": "AccountName.1"
+      },
+      {
+        "name": "39d2e85a-a362-dc3d-1794-33bda1bacbb4",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Stock Code",
+        "toTable": "SysPro: InvMaster+ (Future PDK)",
+        "toColumn": "StockCode"
+      },
+      {
+        "name": "06e8a445-54a9-1e14-5859-3272f042ddce",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Customer Code",
+        "toTable": "SysPro-Salesforce Join",
+        "toColumn": "Customer"
+      },
+      {
+        "name": "b67a1f33-19c4-b7fe-5149-f27a0e595c56",
+        "fromCardinality": "one",
+        "fromTable": "SysPro-Salesforce Join",
+        "fromColumn": "Salesforce Connector",
+        "toTable": "Salesforce: Account",
+        "toColumn": "AccountNumber",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "fedfd6e6-b91a-3098-d4fd-fe69c3c970fa",
+        "fromTable": "SysPro-Salesforce Join",
+        "fromColumn": "CustomerClass",
+        "toTable": "SysPro: TblCustomerClass",
+        "toColumn": "Class"
+      },
+      {
+        "name": "10abd7e2-0bfd-4c6b-a9c8-71369d20ab00",
+        "fromTable": "AccountStructure",
+        "fromColumn": "Product Revenue Group",
+        "toTable": "Organizational Elements",
+        "toColumn": "Product Revenue Group",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ]
+      },
+      {
+        "name": "857cdaa6-03e3-4b1a-4663-263ef765717f",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Year-Month",
+        "toTable": "Dates_Master",
+        "toColumn": "Today Year-Month"
+      },
+      {
+        "name": "67e5a005-959d-454f-a827-335b28b2a263",
+        "fromTable": "Dates_Master",
+        "fromColumn": "Today",
+        "toTable": "LocalDateTable_ece10b9d-6332-4b79-ae5b-9af87cca55c2",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "e4203ca8-7770-2f74-ee29-d0d601577ac1",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Year",
+        "toTable": "Year",
+        "toColumn": "Year"
+      },
+      {
+        "name": "e4bbe0bf-f854-a984-6723-77250dfb447d",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Month#",
+        "toTable": "Months",
+        "toColumn": "Month #"
+      },
+      {
+        "name": "1a2a28f7-590f-e39b-5b6e-25bea7d33bc6",
+        "fromCardinality": "one",
+        "fromTable": "Percent_Through",
+        "fromColumn": "Date",
+        "toTable": "Dates_Master",
+        "toColumn": "Today",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "337ce5ff-664a-f327-edd4-ea17c2f4f0c3",
+        "fromTable": "1 Master Table",
+        "fromColumn": "Date",
+        "toTable": "Percent_Through",
+        "toColumn": "Date",
+        "isActive": false
+      },
+      {
+        "name": "b274e279-d9d5-4991-a9ff-9e05040f8f86",
+        "fromTable": "Dates_Master",
+        "fromColumn": "Yesterday",
+        "toTable": "LocalDateTable_3390d819-7514-480b-b559-0edbd074868d",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "7e7328e6-ace5-4bc2-b608-25ee264d7240",
+        "fromTable": "Percent_Through",
+        "fromColumn": "PY Date",
+        "toTable": "LocalDateTable_9f3f37e6-7925-4b8a-b8bb-232fbb0f0dae",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "535017ac-acbc-4628-9d06-b8557b411d3d",
+        "fromTable": "Percent_Through",
+        "fromColumn": "Yesterday",
+        "toTable": "LocalDateTable_4037ac23-c58b-462f-8c53-760809df77ec",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "a91bdcb4-ca93-41f0-a989-a2d623511d9b",
+        "fromTable": "SysPro: ArTrnDetail Invoice Dates",
+        "fromColumn": "InvoiceDate",
+        "toTable": "LocalDateTable_bc5e9f80-2d63-4c22-9eec-bbc318574038",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "587c87ea-66b0-489a-aaf2-c570d4e5879f",
+        "fromTable": "Dates_Master",
+        "fromColumn": "Yesterday Last Year",
+        "toTable": "LocalDateTable_d514746f-d23c-4fb5-8009-278607bc8469",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "48fdd01e-4cbd-420f-8401-c8c9a31e7d14",
+        "fromTable": "Percent_Through (2)",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_c685807a-ade6-46ef-8e43-d99151402631",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      }
+    ],
+    "expressions": [
+      {
+        "name": "SysPro: InvMaster",
+        "kind": "m",
+        "queryGroup": "Non Core",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "SysPro: SalProductClassDes",
+        "kind": "m",
+        "queryGroup": "Non Core",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Custom: PDK (Delete once InvMaster+ updated)",
+        "kind": "m",
+        "queryGroup": "Delete",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Forecast Feed - $",
+        "kind": "m",
+        "queryGroup": "Forecasts",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ]
+      },
+      {
+        "name": "Forecast Feed - #",
+        "kind": "m",
+        "queryGroup": "Forecasts",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "queryGroups": [
+      {
+        "folder": "Non Core",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "folder": "Core",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "folder": "Delete",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "folder": "Forecasts",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "folder": "Dates",
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Custom: PDK (Delete once InvMaster+ updated)\",\"1 Master Table\",\"SysPro: InvMaster+ (Future PDK)\",\"Salesforce: Account\",\"SysPro: InvMaster\",\"SysPro: SalProductClassDes\",\"SysPro-Salesforce Join\",\"Organizational Elements\",\"AccountStructure\",\"SysPro: TblCustomerClass\",\"SysPro: ArTrnDetail (Merged for Join)\",\"Forecast Feed - $\",\"Forecast Feed - #\",\"Units\",\"Forecast\",\"PDK_Forecast\",\"Forecast: Accounts\",\"Organizational Elements (De-Duplicated)\",\"Dates_Master\",\"Months\",\"Percent_Through\",\"Channel\",\"Year\",\"SysPro: ArTrnDetail Invoice Dates\",\"GL Transaction Date\",\"Percent_Through (2)\",\"Qtr WDs\",\"Date WDs\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "fb82c7a141edb708d2dd",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1002.9850746268656,
+        "y": 105.67164179104478,
+        "z": 1000,
+        "width": 276.71641791044777,
+        "height": 110.14925373134328,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(Dates_Master.% Through Month)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Dates_Master",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "% Through Month"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Dates_Master.% Through Month)",
+          "NativeReferenceName": "% Through Month"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "% Through Month"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "Sum(Dates_Master.% Through Month)": {
+        "displayName": "% Through Month"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true,
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Calibri'"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D1DEE5'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Calibri'"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#165C7D'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NSrvSummary",
+  "dataType": "string",
+  "sourceColumn": "NSrvSummary",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

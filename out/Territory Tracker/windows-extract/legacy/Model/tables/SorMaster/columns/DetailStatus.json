@@ -1,0 +1,12 @@
+{
+  "name": "DetailStatus",
+  "dataType": "string",
+  "sourceColumn": "DetailStatus",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

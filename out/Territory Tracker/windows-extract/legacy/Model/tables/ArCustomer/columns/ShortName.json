@@ -1,0 +1,12 @@
+{
+  "name": "ShortName",
+  "dataType": "string",
+  "sourceColumn": "ShortName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

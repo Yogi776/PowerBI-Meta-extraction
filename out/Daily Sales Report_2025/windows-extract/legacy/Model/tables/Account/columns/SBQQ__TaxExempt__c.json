@@ -1,0 +1,12 @@
+{
+  "name": "SBQQ__TaxExempt__c",
+  "dataType": "string",
+  "sourceColumn": "SBQQ__TaxExempt__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

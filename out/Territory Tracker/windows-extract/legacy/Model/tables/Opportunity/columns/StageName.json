@@ -1,0 +1,12 @@
+{
+  "name": "StageName",
+  "dataType": "string",
+  "sourceColumn": "StageName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

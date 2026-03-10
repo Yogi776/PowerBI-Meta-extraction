@@ -1,0 +1,12 @@
+{
+  "name": "MTraceableType",
+  "dataType": "string",
+  "sourceColumn": "MTraceableType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

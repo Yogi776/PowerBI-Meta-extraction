@@ -1,0 +1,28 @@
+{
+  "name": "Today",
+  "dataType": "dateTime",
+  "sourceColumn": "Today",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "67e5a005-959d-454f-a827-335b28b2a263",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_ece10b9d-6332-4b79-ae5b-9af87cca55c2",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

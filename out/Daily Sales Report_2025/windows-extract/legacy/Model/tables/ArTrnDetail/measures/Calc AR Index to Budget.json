@@ -1,0 +1,10 @@
+{
+  "name": "Calc AR Index to Budget",
+  "formatString": "#.#%;(#.#%)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

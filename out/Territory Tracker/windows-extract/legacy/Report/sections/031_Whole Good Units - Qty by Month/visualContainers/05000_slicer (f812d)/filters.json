@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Filter8b48c06f4de00b335d0d",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "TblCustomerClass"
+          }
+        },
+        "Property": "Class"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "t",
+          "Entity": "TblCustomerClass",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "t"
+                          }
+                        },
+                        "Property": "Class"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false
+  }
+]

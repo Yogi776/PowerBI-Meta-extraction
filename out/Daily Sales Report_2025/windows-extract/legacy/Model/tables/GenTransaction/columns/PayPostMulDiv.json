@@ -1,0 +1,12 @@
+{
+  "name": "PayPostMulDiv",
+  "dataType": "string",
+  "sourceColumn": "PayPostMulDiv",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

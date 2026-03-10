@@ -1,0 +1,12 @@
+{
+  "name": "Unique ID",
+  "dataType": "string",
+  "sourceColumn": "Unique ID",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

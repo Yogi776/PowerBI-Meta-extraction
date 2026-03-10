@@ -1,0 +1,12 @@
+{
+  "name": "DrNotesAllowed",
+  "dataType": "string",
+  "sourceColumn": "DrNotesAllowed",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

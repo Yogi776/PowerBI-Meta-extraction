@@ -1,0 +1,12 @@
+{
+  "name": "ExtendedTaxCode",
+  "dataType": "string",
+  "sourceColumn": "ExtendedTaxCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

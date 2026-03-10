@@ -1,0 +1,1 @@
+sum(GenTransaction[MTD])/sum(GenTransaction[LY MTD])-1

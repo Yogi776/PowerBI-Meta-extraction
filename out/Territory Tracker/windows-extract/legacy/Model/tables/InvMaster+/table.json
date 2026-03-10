@@ -1,0 +1,12 @@
+{
+  "name": "InvMaster+",
+  "partitions": [
+    {
+      "name": "InvMaster+",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

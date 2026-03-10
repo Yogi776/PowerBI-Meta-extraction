@@ -1,0 +1,12 @@
+{
+  "name": "UnappPayAllowed",
+  "dataType": "string",
+  "sourceColumn": "UnappPayAllowed",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "objects": {
+    "data": [
+      {
+        "properties": {
+          "mode": {
+            "expr": {
+              "Literal": {
+                "Value": "'Dropdown'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "selection": [
+      {
+        "properties": {
+          "selectAllCheckboxEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "properties": {
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Select Product'"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "general": [
+      {
+        "properties": {
+          "filter": {
+            "filter": {
+              "Version": 2,
+              "From": [
+                {
+                  "Name": "s",
+                  "Entity": "SalProductClassDes",
+                  "Type": 0
+                }
+              ],
+              "Where": [
+                {
+                  "Condition": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "s"
+                              }
+                            },
+                            "Property": "Description"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Pinnacle Stair Lifts'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "projectionActiveItems": {
+    "Values": [
+      {
+        "queryRef": "SalProductClassDes.Description",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Description",
+        "Name": "SalProductClassDes.Description",
+        "Type": 2048
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "GenTransaction"
+                  }
+                },
+                "Property": "Visual_Amount"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArCustomer"
+              }
+            },
+            "Property": "Name"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SalProductClassDes"
+              }
+            },
+            "Property": "ProductClass"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "ArTrnDetail"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "InvoiceDate"
+                  }
+                },
+                "Hierarchy": "Date Hierarchy"
+              }
+            },
+            "Level": "Year"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "ProductClass"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SalProductClassDes"
+              }
+            },
+            "Property": "Description"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Description",
+      "queryName": "SalProductClassDes.Description",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SalProductClassDes"
+            }
+          },
+          "Property": "Description"
+        }
+      }
+    }
+  ]
+}

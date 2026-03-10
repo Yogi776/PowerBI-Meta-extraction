@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.CustomerName",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.CustomerName",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

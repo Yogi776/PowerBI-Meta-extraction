@@ -1,0 +1,12 @@
+{
+  "name": "LeadSource",
+  "dataType": "string",
+  "sourceColumn": "LeadSource",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

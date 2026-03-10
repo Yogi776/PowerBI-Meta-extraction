@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('PRES 2024 Revenue'[JnlDate])), 1, 1), Date(Year(MAX('PRES 2024 Revenue'[JnlDate])), 12, 31))

@@ -1,0 +1,153 @@
+{
+  "name": "426f6520dd3270cead22",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 963.38880484114986,
+        "y": 12.586989409984872,
+        "z": 6000,
+        "width": 316.61119515885025,
+        "height": 81.331316187594567,
+        "tabOrder": 6000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(MTD Logic.JnlDate)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "MTD Logic Part 2",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "m"
+                  }
+                },
+                "Property": "JnlDate"
+              }
+            },
+            "Function": 4
+          },
+          "Name": "Min(MTD Logic.JnlDate)",
+          "NativeReferenceName": "Latest JnlDate"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "m"
+                    }
+                  },
+                  "Property": "JnlDate"
+                }
+              },
+              "Function": 4
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true,
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "17D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Current Date'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

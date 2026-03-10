@@ -1,0 +1,13 @@
+{
+  "name": "Wholegood Units",
+  "dataType": "int64",
+  "sourceColumn": "Wholegood Units",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

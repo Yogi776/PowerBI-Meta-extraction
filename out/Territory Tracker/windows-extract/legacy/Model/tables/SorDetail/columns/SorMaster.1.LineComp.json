@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.LineComp",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.LineComp",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

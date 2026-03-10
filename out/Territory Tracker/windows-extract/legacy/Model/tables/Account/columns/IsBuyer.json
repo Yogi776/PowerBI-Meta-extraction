@@ -1,0 +1,13 @@
+{
+  "name": "IsBuyer",
+  "dataType": "boolean",
+  "sourceColumn": "IsBuyer",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

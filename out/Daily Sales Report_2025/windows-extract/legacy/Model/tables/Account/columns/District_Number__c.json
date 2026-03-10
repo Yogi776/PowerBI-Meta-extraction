@@ -1,0 +1,12 @@
+{
+  "name": "District_Number__c",
+  "dataType": "string",
+  "sourceColumn": "District_Number__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

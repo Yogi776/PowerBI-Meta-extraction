@@ -1,0 +1,12 @@
+{
+  "name": "SubModTransDesc",
+  "dataType": "string",
+  "sourceColumn": "SubModTransDesc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "TaxExemptFlag",
+  "dataType": "string",
+  "sourceColumn": "TaxExemptFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

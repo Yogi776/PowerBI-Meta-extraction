@@ -1,0 +1,12 @@
+{
+  "name": "DeliveryTermsC",
+  "dataType": "string",
+  "sourceColumn": "DeliveryTermsC",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

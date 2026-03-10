@@ -1,0 +1,20 @@
+{
+  "name": "LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88",
+  "isHidden": true,
+  "showAsVariationsOnly": true,
+  "partitions": [
+    {
+      "name": "LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88",
+      "mode": "import",
+      "source": {
+        "type": "calculated"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "__PBI_LocalDateTable",
+      "value": "true"
+    }
+  ]
+}

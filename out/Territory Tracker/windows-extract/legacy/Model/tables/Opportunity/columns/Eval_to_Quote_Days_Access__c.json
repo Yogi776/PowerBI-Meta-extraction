@@ -1,0 +1,16 @@
+{
+  "name": "Eval_to_Quote_Days_Access__c",
+  "dataType": "double",
+  "sourceColumn": "Eval_to_Quote_Days_Access__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

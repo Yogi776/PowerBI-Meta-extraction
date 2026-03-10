@@ -1,0 +1,12 @@
+{
+  "name": "BB_Certified__c",
+  "dataType": "string",
+  "sourceColumn": "BB_Certified__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

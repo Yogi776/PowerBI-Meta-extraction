@@ -1,0 +1,12 @@
+{
+  "name": "dsl_Price_Book__c",
+  "dataType": "string",
+  "sourceColumn": "dsl_Price_Book__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

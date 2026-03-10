@@ -1,0 +1,5 @@
+let
+    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("jZTdbsIgFMdfZem1iTd7Aay4khQhQNHEGFOVKFmnS1vnfPtB0UVtqdxAc35/DuerLBaRgHESDSJS71V524eTUundvh6iQ1XnRREtB4soBSPDb5Y+JY8zZgSJKvSv2cFmo6rqSgDxkYwaC83LuvrfLYhTCjoB9IJ5t6f5DLCgTCdMWM9X1CtdGW2gFCcgtblf1qXemg98XOtC1xcHUQONXm/VM0RpU7XXgSNfSVZEhDUZ4+Yq15hjqVXVihR77sDUC5KexCnyJ44psZCc6k6KZ7G1ufWeJIGNxgT0+SfJ2E9Dh4l+oFDde5CQUzQ1As7Txz+Ihk4J9U0Jc81n+dd39eib+ZrOMBl7jkAugsJhWLBuF9xl1MqU+xLgPMNdBzCf2QP8rA+7N3DOL+2pFsyeEeVp8zlk8hlntHHZPFF3fjPaBNg2e+KTAAU+obGEYeMlJbWRufUuhph0P4LS1bSll76aBkUBnVdYqJ+8PpZPfYRmFvyUwRF4fcnyDw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [ProductClass = _t, Products = _t, Branch = _t]),
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"ProductClass", type text}, {"Products", type text}, {"Branch", type text}})
+in
+    #"Changed Type"

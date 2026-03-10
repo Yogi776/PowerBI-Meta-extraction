@@ -1,0 +1,16 @@
+{
+  "name": "X2024_Q3_Mobility_Sales_RU__c",
+  "dataType": "double",
+  "sourceColumn": "X2024_Q3_Mobility_Sales_RU__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "SBQQ__AmendedContract__c",
+  "dataType": "string",
+  "sourceColumn": "SBQQ__AmendedContract__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

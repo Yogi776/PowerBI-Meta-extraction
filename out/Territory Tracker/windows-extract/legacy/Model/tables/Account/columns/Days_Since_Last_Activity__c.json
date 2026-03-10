@@ -1,0 +1,16 @@
+{
+  "name": "Days_Since_Last_Activity__c",
+  "dataType": "double",
+  "sourceColumn": "Days_Since_Last_Activity__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "GstExemptNum",
+  "dataType": "string",
+  "sourceColumn": "GstExemptNum",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

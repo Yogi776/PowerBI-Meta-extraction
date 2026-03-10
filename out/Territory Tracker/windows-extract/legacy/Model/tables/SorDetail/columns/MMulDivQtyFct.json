@@ -1,0 +1,12 @@
+{
+  "name": "MMulDivQtyFct",
+  "dataType": "string",
+  "sourceColumn": "MMulDivQtyFct",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

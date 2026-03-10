@@ -1,0 +1,12 @@
+{
+  "name": "JnlDate",
+  "dataType": "string",
+  "sourceColumn": "JnlDate",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

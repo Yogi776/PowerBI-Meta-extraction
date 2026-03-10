@@ -1,0 +1,12 @@
+{
+  "name": "EdiSenderCode",
+  "dataType": "string",
+  "sourceColumn": "EdiSenderCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

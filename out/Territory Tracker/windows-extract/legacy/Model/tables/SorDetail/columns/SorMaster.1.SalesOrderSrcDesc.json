@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.SalesOrderSrcDesc",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.SalesOrderSrcDesc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

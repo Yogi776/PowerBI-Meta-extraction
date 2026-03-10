@@ -1,0 +1,16 @@
+{
+  "name": "Current_Lead_Time_in_Business_Days__c",
+  "dataType": "double",
+  "sourceColumn": "Current_Lead_Time_in_Business_Days__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

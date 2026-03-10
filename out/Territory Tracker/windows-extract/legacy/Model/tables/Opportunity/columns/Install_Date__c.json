@@ -1,0 +1,28 @@
+{
+  "name": "Install_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Install_Date__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "63b21f87-8e9b-4baa-8016-7e87158e76d8",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

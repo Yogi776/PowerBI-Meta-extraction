@@ -1,0 +1,12 @@
+{
+  "name": "Status_Provisions__c",
+  "dataType": "string",
+  "sourceColumn": "Status_Provisions__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

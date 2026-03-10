@@ -1,0 +1,24 @@
+{
+  "name": "Quote_Due_By__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Quote_Due_By__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "46782d96-6345-4a85-a856-08b1cea03bfd",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

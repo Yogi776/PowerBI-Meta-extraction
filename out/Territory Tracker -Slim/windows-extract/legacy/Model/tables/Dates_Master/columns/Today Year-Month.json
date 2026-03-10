@@ -1,0 +1,12 @@
+{
+  "name": "Today Year-Month",
+  "dataType": "string",
+  "sourceColumn": "Today Year-Month",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

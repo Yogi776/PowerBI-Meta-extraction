@@ -1,0 +1,13 @@
+{
+  "name": "Alert_Ship_Vehicle_Lifts_to_WA__c",
+  "dataType": "boolean",
+  "sourceColumn": "Alert_Ship_Vehicle_Lifts_to_WA__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

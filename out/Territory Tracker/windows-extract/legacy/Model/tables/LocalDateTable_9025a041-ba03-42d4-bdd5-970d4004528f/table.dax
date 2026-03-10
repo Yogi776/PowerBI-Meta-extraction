@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[VA_PO_Date__c])), 1, 1), Date(Year(MAX('Opportunity'[VA_PO_Date__c])), 12, 31))

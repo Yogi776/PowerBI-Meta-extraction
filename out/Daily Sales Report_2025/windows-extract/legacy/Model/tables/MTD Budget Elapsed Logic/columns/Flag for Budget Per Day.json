@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Flag for Budget Per Day",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

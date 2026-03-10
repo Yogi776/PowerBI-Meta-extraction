@@ -1,0 +1,1 @@
+LOOKUPVALUE(TblCustomerClass[Channel],TblCustomerClass[Class],'ArCustomer+'[Calc Class])

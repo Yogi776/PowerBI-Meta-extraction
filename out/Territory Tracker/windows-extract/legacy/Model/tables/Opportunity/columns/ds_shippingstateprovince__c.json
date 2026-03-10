@@ -1,0 +1,12 @@
+{
+  "name": "ds_shippingstateprovince__c",
+  "dataType": "string",
+  "sourceColumn": "ds_shippingstateprovince__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

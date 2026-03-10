@@ -1,0 +1,13 @@
+{
+  "name": "Veteran_to_Purchase_New_Vehicle__c",
+  "dataType": "boolean",
+  "sourceColumn": "Veteran_to_Purchase_New_Vehicle__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

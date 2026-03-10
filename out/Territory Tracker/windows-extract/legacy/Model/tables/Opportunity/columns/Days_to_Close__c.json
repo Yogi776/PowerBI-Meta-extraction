@@ -1,0 +1,16 @@
+{
+  "name": "Days_to_Close__c",
+  "dataType": "double",
+  "sourceColumn": "Days_to_Close__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

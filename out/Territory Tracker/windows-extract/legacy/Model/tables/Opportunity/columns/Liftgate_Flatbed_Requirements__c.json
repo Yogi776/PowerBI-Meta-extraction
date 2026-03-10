@@ -1,0 +1,12 @@
+{
+  "name": "Liftgate_Flatbed_Requirements__c",
+  "dataType": "string",
+  "sourceColumn": "Liftgate_Flatbed_Requirements__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

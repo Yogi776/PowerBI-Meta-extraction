@@ -1,0 +1,12 @@
+{
+  "name": "MOrderUom",
+  "dataType": "string",
+  "sourceColumn": "MOrderUom",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

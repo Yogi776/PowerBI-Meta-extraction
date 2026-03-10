@@ -1,0 +1,12 @@
+{
+  "name": "BillingCity",
+  "dataType": "string",
+  "sourceColumn": "BillingCity",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

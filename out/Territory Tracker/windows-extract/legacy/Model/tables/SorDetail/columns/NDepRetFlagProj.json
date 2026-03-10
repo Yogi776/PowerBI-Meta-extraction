@@ -1,0 +1,12 @@
+{
+  "name": "NDepRetFlagProj",
+  "dataType": "string",
+  "sourceColumn": "NDepRetFlagProj",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

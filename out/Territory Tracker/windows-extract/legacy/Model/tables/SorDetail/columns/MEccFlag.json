@@ -1,0 +1,12 @@
+{
+  "name": "MEccFlag",
+  "dataType": "string",
+  "sourceColumn": "MEccFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

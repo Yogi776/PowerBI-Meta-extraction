@@ -1,0 +1,17 @@
+{
+  "name": "PYTD Units",
+  "dataType": "int64",
+  "sourceColumn": "PYTD Units",
+  "formatString": "#,##0;(#,##0)",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

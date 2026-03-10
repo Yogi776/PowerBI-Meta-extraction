@@ -1,0 +1,18 @@
+{
+  "type": "calculated",
+  "name": "MonthNo",
+  "dataType": "int64",
+  "isHidden": true,
+  "dataCategory": "MonthOfYear",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "TemplateId",
+      "value": "MonthNumber"
+    }
+  ]
+}

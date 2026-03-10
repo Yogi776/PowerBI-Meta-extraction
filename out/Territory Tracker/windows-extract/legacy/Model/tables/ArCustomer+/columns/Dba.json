@@ -1,0 +1,12 @@
+{
+  "name": "Dba",
+  "dataType": "string",
+  "sourceColumn": "Dba",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

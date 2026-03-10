@@ -1,0 +1,23 @@
+{
+  "name": "Channel",
+  "partitions": [
+    {
+      "name": "Channel",
+      "mode": "import",
+      "queryGroup": "Forecasts",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

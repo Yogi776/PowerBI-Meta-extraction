@@ -1,0 +1,16 @@
+{
+  "name": "NSrvMinQuantity",
+  "dataType": "double",
+  "sourceColumn": "NSrvMinQuantity",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

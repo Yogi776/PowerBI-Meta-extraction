@@ -1,0 +1,12 @@
+{
+  "name": "Related_Case__c",
+  "dataType": "string",
+  "sourceColumn": "Related_Case__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

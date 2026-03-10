@@ -1,0 +1,12 @@
+{
+  "name": "Vehicle__c",
+  "dataType": "string",
+  "sourceColumn": "Vehicle__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

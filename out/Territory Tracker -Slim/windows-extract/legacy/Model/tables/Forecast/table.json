@@ -1,0 +1,23 @@
+{
+  "name": "Forecast",
+  "partitions": [
+    {
+      "name": "Forecast",
+      "mode": "import",
+      "queryGroup": "Forecasts",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

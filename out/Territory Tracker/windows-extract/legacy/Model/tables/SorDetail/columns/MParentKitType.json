@@ -1,0 +1,12 @@
+{
+  "name": "MParentKitType",
+  "dataType": "string",
+  "sourceColumn": "MParentKitType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

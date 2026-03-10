@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Filterb40e367344507fd04c9a",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "ordinal": 0
+  },
+  {
+    "name": "Filter62148b4f1fcf8501ed1b",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2025 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filter833b4a3eb3e80009c208",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Calc Enterprise Flag"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArCustomer",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "a"
+                      }
+                    },
+                    "Property": "Calc Enterprise Flag"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'9'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 2
+  },
+  {
+    "name": "Filter825188a3d32a7706eca1",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2024 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filterf24dd0c0b6bbe9b87db1",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "Calc B(W) $"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filter79e03849747ba2409155",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2023 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filter005e6e491dea04b42c28",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY $ Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filter7197f07511b75454064e",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY % Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filterb73c9f28d065573508d8",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 8
+  }
+]

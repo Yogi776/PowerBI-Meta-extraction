@@ -1,0 +1,23 @@
+{
+  "name": "Organizational Elements (De-Duplicated)",
+  "partitions": [
+    {
+      "name": "Organizational Elements (De-Duplicated)",
+      "mode": "import",
+      "queryGroup": "Non Core",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+lookupvalue('Product Dimension'[Unit Type],'Product Dimension'[ProductClass],ArTrnDetail[ProductClass])

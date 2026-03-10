@@ -1,0 +1,12 @@
+{
+  "name": "SBQQ__OrderGroupID__c",
+  "dataType": "string",
+  "sourceColumn": "SBQQ__OrderGroupID__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

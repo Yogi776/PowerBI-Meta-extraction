@@ -1,0 +1,1 @@
+iferror( ( sum('1 Master Table'[CY Revenue]) - sum('1 Master Table'[PYTD Revenue]) )/ sum('1 Master Table'[PYTD Revenue] ), "")

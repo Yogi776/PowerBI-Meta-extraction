@@ -1,0 +1,12 @@
+{
+  "name": "MFstTaxCode",
+  "dataType": "string",
+  "sourceColumn": "MFstTaxCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

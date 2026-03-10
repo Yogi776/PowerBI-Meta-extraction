@@ -1,0 +1,203 @@
+{
+  "objects": {
+    "data": [
+      {
+        "properties": {
+          "mode": {
+            "expr": {
+              "Literal": {
+                "Value": "'Dropdown'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "general": [
+      {
+        "properties": {
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "selfFilterEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "properties": {
+          "outlineStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "4D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "underline": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Select SubKey Account'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "items": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "selection": [
+      {
+        "properties": {
+          "selectAllCheckboxEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "projectionActiveItems": {
+    "Values": [
+      {
+        "queryRef": "ArCustomer.Calc SubKey",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Calc SubKey",
+        "Name": "ArCustomer.Calc SubKey",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Calc SubKey",
+      "queryName": "ArCustomer.Calc SubKey",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "ArCustomer"
+            }
+          },
+          "Property": "Calc SubKey"
+        }
+      }
+    }
+  ],
+  "expansionStates": [
+    {
+      "roles": [
+        "Values"
+      ],
+      "levels": [
+        {
+          "queryRefs": [
+            "ArCustomer.Calc SubKey"
+          ],
+          "isCollapsed": true,
+          "isPinned": true
+        }
+      ],
+      "root": {
+        "identityValues": null
+      }
+    }
+  ]
+}

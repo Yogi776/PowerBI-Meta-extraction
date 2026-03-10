@@ -1,0 +1,24 @@
+{
+  "name": "Inventory_2nd_Control_List_Requested_On__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Inventory_2nd_Control_List_Requested_On__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "b096934b-ac4c-470c-9e8a-7ba2a68bfa77",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Kanban01",
+  "dataType": "string",
+  "sourceColumn": "Kanban01",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Filter129c02a8370e289d1340",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "InvoiceDate"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Between": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "InvoiceDate"
+                }
+              },
+              "LowerBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "DateAdd": {
+                          "Expression": {
+                            "DateAdd": {
+                              "Expression": {
+                                "Now": {}
+                              },
+                              "Amount": -1,
+                              "TimeUnit": 0
+                            }
+                          },
+                          "Amount": 1,
+                          "TimeUnit": 0
+                        }
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              },
+              "UpperBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "Now": {}
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "RelativeDate",
+    "howCreated": 1
+  }
+]

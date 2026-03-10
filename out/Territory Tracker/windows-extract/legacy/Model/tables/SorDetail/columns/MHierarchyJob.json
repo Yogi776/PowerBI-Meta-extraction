@@ -1,0 +1,12 @@
+{
+  "name": "MHierarchyJob",
+  "dataType": "string",
+  "sourceColumn": "MHierarchyJob",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "WholeOrderShipFlag",
+  "dataType": "string",
+  "sourceColumn": "WholeOrderShipFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

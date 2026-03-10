@@ -1,0 +1,22 @@
+{
+  "name": "SorDetail",
+  "partitions": [
+    {
+      "name": "SorDetail",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Exception"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

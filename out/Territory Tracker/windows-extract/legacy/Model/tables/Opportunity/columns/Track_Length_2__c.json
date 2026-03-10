@@ -1,0 +1,16 @@
+{
+  "name": "Track_Length_2__c",
+  "dataType": "double",
+  "sourceColumn": "Track_Length_2__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

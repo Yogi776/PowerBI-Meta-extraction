@@ -1,0 +1,4 @@
+{
+  "name": "Calc Daily Avg Ships",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0"
+}

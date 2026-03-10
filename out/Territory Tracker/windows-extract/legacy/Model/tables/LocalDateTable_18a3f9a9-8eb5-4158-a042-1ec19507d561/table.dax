@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[smartystreets__Billing_Last_Verified__c])), 1, 1), Date(Year(MAX('Account'[smartystreets__Billing_Last_Verified__c])), 12, 31))

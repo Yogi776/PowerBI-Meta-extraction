@@ -1,0 +1,13 @@
+{
+  "name": "Mobility_Dealer__c",
+  "dataType": "boolean",
+  "sourceColumn": "Mobility_Dealer__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

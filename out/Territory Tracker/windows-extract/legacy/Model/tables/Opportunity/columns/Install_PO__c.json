@@ -1,0 +1,12 @@
+{
+  "name": "Install_PO__c",
+  "dataType": "string",
+  "sourceColumn": "Install_PO__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

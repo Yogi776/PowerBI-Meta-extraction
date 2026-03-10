@@ -1,0 +1,12 @@
+{
+  "name": "CreditCheckFlag",
+  "dataType": "string",
+  "sourceColumn": "CreditCheckFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

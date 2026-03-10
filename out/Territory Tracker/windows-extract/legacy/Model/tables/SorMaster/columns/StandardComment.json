@@ -1,0 +1,12 @@
+{
+  "name": "StandardComment",
+  "dataType": "string",
+  "sourceColumn": "StandardComment",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "DetailMoveReqd",
+  "dataType": "string",
+  "sourceColumn": "DetailMoveReqd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

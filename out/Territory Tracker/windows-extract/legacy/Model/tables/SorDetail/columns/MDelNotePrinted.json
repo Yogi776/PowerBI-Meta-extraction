@@ -1,0 +1,12 @@
+{
+  "name": "MDelNotePrinted",
+  "dataType": "string",
+  "sourceColumn": "MDelNotePrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

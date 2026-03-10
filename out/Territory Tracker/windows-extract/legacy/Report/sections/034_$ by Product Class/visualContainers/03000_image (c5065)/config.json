@@ -1,0 +1,37 @@
+{
+  "name": "c5065abd4e4c2bd3e781",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 4.4334975369458132,
+        "y": 39.901477832512313,
+        "z": 3000,
+        "width": 196.84729064039408,
+        "height": 52.315270935960591,
+        "tabOrder": 3000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "image",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "MicrosoftTeams-image46772711682226364.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

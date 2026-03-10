@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.DepositFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.DepositFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

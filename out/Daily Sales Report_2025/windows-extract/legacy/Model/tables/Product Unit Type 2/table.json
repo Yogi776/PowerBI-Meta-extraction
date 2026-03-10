@@ -1,0 +1,22 @@
+{
+  "name": "Product Unit Type 2",
+  "partitions": [
+    {
+      "name": "Product Unit Type 2",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

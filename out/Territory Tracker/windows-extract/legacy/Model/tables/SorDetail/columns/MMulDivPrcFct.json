@@ -1,0 +1,12 @@
+{
+  "name": "MMulDivPrcFct",
+  "dataType": "string",
+  "sourceColumn": "MMulDivPrcFct",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

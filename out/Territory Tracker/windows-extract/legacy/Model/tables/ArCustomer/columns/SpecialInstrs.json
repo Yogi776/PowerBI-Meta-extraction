@@ -1,0 +1,12 @@
+{
+  "name": "SpecialInstrs",
+  "dataType": "string",
+  "sourceColumn": "SpecialInstrs",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Industry",
+  "dataType": "string",
+  "sourceColumn": "Industry",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "calculated",
+  "name": "Calc Last Year Units",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "formatString": "#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

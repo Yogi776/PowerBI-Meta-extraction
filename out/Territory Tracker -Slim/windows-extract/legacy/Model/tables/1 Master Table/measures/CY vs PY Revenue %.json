@@ -1,0 +1,10 @@
+{
+  "name": "CY vs PY Revenue %",
+  "formatString": " #,##0.0%;(#,##0.0%)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

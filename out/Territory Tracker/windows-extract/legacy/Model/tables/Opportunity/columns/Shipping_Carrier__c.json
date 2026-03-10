@@ -1,0 +1,12 @@
+{
+  "name": "Shipping_Carrier__c",
+  "dataType": "string",
+  "sourceColumn": "Shipping_Carrier__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

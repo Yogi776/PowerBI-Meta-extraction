@@ -1,0 +1,12 @@
+{
+  "name": "MUnitQuantity",
+  "dataType": "string",
+  "sourceColumn": "MUnitQuantity",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

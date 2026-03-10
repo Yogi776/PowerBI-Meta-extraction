@@ -1,0 +1,12 @@
+{
+  "name": "FixedQtyPerFlag",
+  "dataType": "string",
+  "sourceColumn": "FixedQtyPerFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

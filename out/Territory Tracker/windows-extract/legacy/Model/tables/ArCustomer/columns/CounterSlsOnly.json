@@ -1,0 +1,12 @@
+{
+  "name": "CounterSlsOnly",
+  "dataType": "string",
+  "sourceColumn": "CounterSlsOnly",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MCreditOrderNo",
+  "dataType": "string",
+  "sourceColumn": "MCreditOrderNo",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

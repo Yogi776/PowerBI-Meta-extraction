@@ -1,0 +1,12 @@
+{
+  "name": "SalesAllowed",
+  "dataType": "string",
+  "sourceColumn": "SalesAllowed",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

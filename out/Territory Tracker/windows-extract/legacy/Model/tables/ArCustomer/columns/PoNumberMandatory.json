@@ -1,0 +1,12 @@
+{
+  "name": "PoNumberMandatory",
+  "dataType": "string",
+  "sourceColumn": "PoNumberMandatory",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

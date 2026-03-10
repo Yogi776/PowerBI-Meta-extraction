@@ -1,0 +1,12 @@
+{
+  "name": "Closed_Lost_Detailed_Reason__c",
+  "dataType": "string",
+  "sourceColumn": "Closed_Lost_Detailed_Reason__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

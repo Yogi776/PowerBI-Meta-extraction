@@ -1,0 +1,13 @@
+{
+  "name": "LiftSquad__c",
+  "dataType": "boolean",
+  "sourceColumn": "LiftSquad__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

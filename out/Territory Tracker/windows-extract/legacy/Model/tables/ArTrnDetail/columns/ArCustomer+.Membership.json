@@ -1,0 +1,12 @@
+{
+  "name": "ArCustomer+.Membership",
+  "dataType": "string",
+  "sourceColumn": "ArCustomer+.Membership",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

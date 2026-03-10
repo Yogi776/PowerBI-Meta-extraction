@@ -1,0 +1,143 @@
+{
+  "objects": {
+    "data": [
+      {
+        "properties": {
+          "mode": {
+            "expr": {
+              "Literal": {
+                "Value": "'Dropdown'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "general": [
+      {
+        "properties": {}
+      }
+    ],
+    "header": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "textSize": {
+            "expr": {
+              "Literal": {
+                "Value": "10D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "items": [
+      {
+        "properties": {
+          "textSize": {
+            "expr": {
+              "Literal": {
+                "Value": "10D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "selection": [
+      {
+        "properties": {
+          "selectAllCheckboxEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "projectionActiveItems": {
+    "Values": [
+      {
+        "queryRef": "ArCustomer.Area",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "State",
+        "Name": "ArCustomer.Area",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "State",
+      "queryName": "ArCustomer.Area",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "ArCustomer"
+            }
+          },
+          "Property": "Area"
+        }
+      }
+    }
+  ]
+}

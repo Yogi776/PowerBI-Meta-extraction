@@ -1,0 +1,22 @@
+{
+  "name": "Merged_Inventory",
+  "partitions": [
+    {
+      "name": "Merged_Inventory",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

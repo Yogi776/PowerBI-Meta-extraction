@@ -1,0 +1,12 @@
+{
+  "name": "SoDefaultType",
+  "dataType": "string",
+  "sourceColumn": "SoDefaultType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ScheduledOrdFlag",
+  "dataType": "string",
+  "sourceColumn": "ScheduledOrdFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

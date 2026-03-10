@@ -1,0 +1,16 @@
+{
+  "name": "X2022_Access_Sales__c",
+  "dataType": "double",
+  "sourceColumn": "X2022_Access_Sales__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

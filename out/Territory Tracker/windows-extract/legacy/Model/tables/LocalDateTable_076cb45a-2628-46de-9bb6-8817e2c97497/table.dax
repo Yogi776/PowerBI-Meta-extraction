@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('SorMaster'[ReqShipDate])), 1, 1), Date(Year(MAX('SorMaster'[ReqShipDate])), 12, 31))

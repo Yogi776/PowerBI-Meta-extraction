@@ -1,0 +1,12 @@
+{
+  "name": "SoldToAddr3",
+  "dataType": "string",
+  "sourceColumn": "SoldToAddr3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

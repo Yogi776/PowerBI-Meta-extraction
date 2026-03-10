@@ -1,0 +1,13 @@
+{
+  "name": "BB_Addendum_Sent__c",
+  "dataType": "boolean",
+  "sourceColumn": "BB_Addendum_Sent__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

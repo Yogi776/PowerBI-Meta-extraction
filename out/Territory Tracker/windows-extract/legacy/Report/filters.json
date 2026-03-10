@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Filter088f97cf543b6d01d586",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Month_Name"
+          }
+        },
+        "Property": "Month Name"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "m",
+          "Entity": "Month_Name",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "m"
+                          }
+                        },
+                        "Property": "Month Name"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

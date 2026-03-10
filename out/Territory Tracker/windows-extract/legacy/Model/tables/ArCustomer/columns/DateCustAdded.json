@@ -1,0 +1,24 @@
+{
+  "name": "DateCustAdded",
+  "dataType": "dateTime",
+  "sourceColumn": "DateCustAdded",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "c237b7c0-c6c4-4b8e-90f8-f4e337017f7d",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if(lookupvalue(Merged_Inventory[ProductClass],Merged_Inventory[StockCode],GenTransaction[SubModStock])="","_OTH",lookupvalue(Merged_Inventory[ProductClass],Merged_Inventory[StockCode],GenTransaction[SubModStock]))

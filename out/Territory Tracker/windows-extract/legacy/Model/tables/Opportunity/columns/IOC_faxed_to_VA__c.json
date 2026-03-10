@@ -1,0 +1,28 @@
+{
+  "name": "IOC_faxed_to_VA__c",
+  "dataType": "dateTime",
+  "sourceColumn": "IOC_faxed_to_VA__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "a0085204-2754-4f4d-b37f-9f3708736c0c",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

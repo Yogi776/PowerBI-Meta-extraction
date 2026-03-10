@@ -1,0 +1,16 @@
+{
+  "name": "Register",
+  "dataType": "double",
+  "sourceColumn": "Register",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

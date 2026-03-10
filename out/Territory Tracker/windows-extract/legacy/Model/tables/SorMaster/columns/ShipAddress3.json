@@ -1,0 +1,12 @@
+{
+  "name": "ShipAddress3",
+  "dataType": "string",
+  "sourceColumn": "ShipAddress3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "DiscValue",
+  "dataType": "double",
+  "sourceColumn": "DiscValue",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

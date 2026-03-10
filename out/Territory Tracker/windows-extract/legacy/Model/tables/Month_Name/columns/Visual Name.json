@@ -1,0 +1,12 @@
+{
+  "name": "Visual Name",
+  "dataType": "string",
+  "sourceColumn": "Visual Name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

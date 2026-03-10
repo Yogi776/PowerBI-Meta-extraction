@@ -1,0 +1,12 @@
+{
+  "name": "NMscInvCharge",
+  "dataType": "string",
+  "sourceColumn": "NMscInvCharge",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

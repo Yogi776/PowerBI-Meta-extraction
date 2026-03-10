@@ -1,0 +1,16 @@
+{
+  "name": "MinimumOrderValue",
+  "dataType": "double",
+  "sourceColumn": "MinimumOrderValue",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

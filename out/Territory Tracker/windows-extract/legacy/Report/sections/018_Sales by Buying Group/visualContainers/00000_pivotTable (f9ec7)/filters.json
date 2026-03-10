@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Filtera53ae7e5c9fafd4641a0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 0
+  },
+  {
+    "name": "Filterad52151002728088e786",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2025 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filter03711cbeed5e9029d20c",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2024 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filterba4dec188938b1a99253",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "Calc B(W) $"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filter7bdaeb48e9b24ab1e18a",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filter539897050d91b13b7d35",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GL Naming"
+          }
+        },
+        "Property": "Visual_GL Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filter7e6c14e1a5d6995acbb3",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2023 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filter35b3d9668199a94707da",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY $ Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filterb766df0055d792292096",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY % Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 8
+  },
+  {
+    "name": "Filter06094c70e70589cbd6b0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "BuyingGroup1"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 9
+  }
+]

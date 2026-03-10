@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('PRES 2024 Bookings Revenue'[SorMaster.OrderDate])), 1, 1), Date(Year(MAX('PRES 2024 Bookings Revenue'[SorMaster.OrderDate])), 12, 31))

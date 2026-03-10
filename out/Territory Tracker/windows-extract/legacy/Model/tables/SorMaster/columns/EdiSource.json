@@ -1,0 +1,12 @@
+{
+  "name": "EdiSource",
+  "dataType": "string",
+  "sourceColumn": "EdiSource",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Filterddbed5aa53a6bb5948d9",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "ordinal": 0
+  },
+  {
+    "name": "Filter2209558680218aac7202",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "TblCustomerClass"
+          }
+        },
+        "Property": "Class"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 1
+  }
+]

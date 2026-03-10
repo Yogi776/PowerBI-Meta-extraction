@@ -1,0 +1,16 @@
+{
+  "name": "LineInvoiceDisc",
+  "dataType": "double",
+  "sourceColumn": "LineInvoiceDisc",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Visual Date",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "da11dec7-ba79-49f4-a0ee-7c9955f15dae",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

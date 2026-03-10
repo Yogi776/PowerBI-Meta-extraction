@@ -1,0 +1,42 @@
+{
+  "name": "40e00bea805aed0bb892",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 875.12544802867387,
+        "y": 5.7347670250896057,
+        "z": 1000,
+        "width": 330.32258064516128,
+        "height": 51.612903225806456,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Unit Quantity Details",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

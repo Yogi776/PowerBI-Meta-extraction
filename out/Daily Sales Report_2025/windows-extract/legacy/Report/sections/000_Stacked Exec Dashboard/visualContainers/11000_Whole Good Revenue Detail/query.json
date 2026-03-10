@@ -1,0 +1,459 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "DSR Hierarchy",
+              "Type": 0
+            },
+            {
+              "Name": "a",
+              "Entity": "ArTrnDetail",
+              "Type": 0
+            },
+            {
+              "Name": "s",
+              "Entity": "SorDetail",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "MTD Budget Elapsed Logic",
+              "Type": 0
+            },
+            {
+              "Name": "s1",
+              "Entity": "SorMaster",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Branch"
+              },
+              "Name": "DSR Hierarchy 2.Branch",
+              "NativeReferenceName": "MTD Averages"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc Daily Avg Units"
+              },
+              "Name": "ArTrnDetail.Calc Daily Avg Units",
+              "NativeReferenceName": "Daily Avg Shipped"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Avg Units"
+              },
+              "Name": "SorDetail.Calc Avg Units",
+              "NativeReferenceName": "Daily Avg Booked"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Calc Daily Avg LY Units"
+              },
+              "Name": "ArTrnDetail.Calc Daily Avg LY Units",
+              "NativeReferenceName": "Daily Avg LY Shipped"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "m"
+                  }
+                },
+                "Property": "Calc Budget Daily Units"
+              },
+              "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Units",
+              "NativeReferenceName": "Budget Daily Units"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Product Name"
+              },
+              "Name": "DSR Hierarchy.Product Name",
+              "NativeReferenceName": "Product Name"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "s1"
+                              }
+                            },
+                            "Property": "CancelledFlag"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Y'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Products"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Accessories'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Helix'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Hybrid'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Inside'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'MWC'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Outside'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'SSL'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Swing Aways'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Truck/RV'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'UP'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'VPL'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Other'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSL'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Elevators'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Branch"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Access'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Mobility'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "And": {
+                  "Left": {
+                    "Not": {
+                      "Expression": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Measure": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "a"
+                                }
+                              },
+                              "Property": "Calc Daily Avg Units"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "0L"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "Right": {
+                    "Not": {
+                      "Expression": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Measure": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "a"
+                                }
+                              },
+                              "Property": "Calc Daily Avg Units"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Target": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "d"
+                      }
+                    },
+                    "Property": "Branch"
+                  }
+                },
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "d"
+                      }
+                    },
+                    "Property": "Product Name"
+                  }
+                }
+              ]
+            }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 2,
+              "Expression": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "a"
+                    }
+                  },
+                  "Property": "Calc Daily Avg Units"
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ],
+                "Subtotal": 1
+              },
+              {
+                "Projections": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "Subtotal": 1
+              }
+            ],
+            "Expansion": {
+              "From": [
+                {
+                  "Name": "d",
+                  "Entity": "DSR Hierarchy",
+                  "Type": 0
+                }
+              ],
+              "Levels": [
+                {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Branch"
+                      }
+                    }
+                  ],
+                  "Default": 0
+                }
+              ],
+              "Instances": {
+                "Children": [
+                  {
+                    "Values": [
+                      {
+                        "Literal": {
+                          "Value": "'Access'"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

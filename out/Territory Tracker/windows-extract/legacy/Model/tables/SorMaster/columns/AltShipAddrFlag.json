@@ -1,0 +1,12 @@
+{
+  "name": "AltShipAddrFlag",
+  "dataType": "string",
+  "sourceColumn": "AltShipAddrFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

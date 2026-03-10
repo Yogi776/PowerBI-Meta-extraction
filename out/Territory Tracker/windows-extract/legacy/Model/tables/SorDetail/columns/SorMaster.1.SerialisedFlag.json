@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.SerialisedFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.SerialisedFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

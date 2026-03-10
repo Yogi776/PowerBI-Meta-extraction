@@ -1,0 +1,343 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "4",
+              "Entity": "4  Set Stock Code Dimensions",
+              "Type": 0
+            },
+            {
+              "Name": "a",
+              "Entity": "ArTrnDetail",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "Month_Name",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "InvoiceDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Year"
+              },
+              "Name": "ArTrnDetail.InvoiceDate.Variation.Date Hierarchy.Year",
+              "NativeReferenceName": "InvoiceDate Year"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "InvoiceDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Month"
+              },
+              "Name": "ArTrnDetail.InvoiceDate.Variation.Date Hierarchy.Month",
+              "NativeReferenceName": "InvoiceDate Month"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "4"
+                  }
+                },
+                "Property": "Model"
+              },
+              "Name": "4  Set Stock Code Dimensions.Model",
+              "NativeReferenceName": "Model"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "4"
+                  }
+                },
+                "Property": "Product Category"
+              },
+              "Name": "4  Set Stock Code Dimensions.Product Category",
+              "NativeReferenceName": "Product Category"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "4"
+                  }
+                },
+                "Property": "Family"
+              },
+              "Name": "4  Set Stock Code Dimensions.Family",
+              "NativeReferenceName": "Family"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "4"
+                  }
+                },
+                "Property": "Product Line"
+              },
+              "Name": "4  Set Stock Code Dimensions.Product Line",
+              "NativeReferenceName": "Product Line"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "a"
+                      }
+                    },
+                    "Property": "Calc Qty"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(ArTrnDetail.Calc Qty)",
+              "NativeReferenceName": "Sum of Calc Qty"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 1,
+                  "Left": {
+                    "HierarchyLevel": {
+                      "Expression": {
+                        "Hierarchy": {
+                          "Expression": {
+                            "PropertyVariationSource": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "a"
+                                }
+                              },
+                              "Name": "Variation",
+                              "Property": "InvoiceDate"
+                            }
+                          },
+                          "Hierarchy": "Date Hierarchy"
+                        }
+                      },
+                      "Level": "Year"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "2021L"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "4"
+                          }
+                        },
+                        "Property": "Unit Type"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Whole Good'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "m"
+                              }
+                            },
+                            "Property": "Month Name"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 1,
+              "Expression": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "a"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "InvoiceDate"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Year"
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ],
+                "Subtotal": 1
+              },
+              {
+                "Projections": [
+                  3
+                ],
+                "Subtotal": 1
+              }
+            ],
+            "Expansion": {
+              "From": [
+                {
+                  "Name": "l",
+                  "Entity": "LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201",
+                  "Type": 0
+                }
+              ],
+              "Levels": [
+                {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "l"
+                          }
+                        },
+                        "Property": "Year"
+                      }
+                    }
+                  ],
+                  "Default": 0
+                }
+              ],
+              "Instances": {
+                "Children": [
+                  {
+                    "Values": [
+                      {
+                        "Literal": {
+                          "Value": "2024L"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "Secondary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  1,
+                  6
+                ],
+                "Subtotal": 2
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 100
+              }
+            },
+            "Secondary": {
+              "Top": {
+                "Count": 100
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

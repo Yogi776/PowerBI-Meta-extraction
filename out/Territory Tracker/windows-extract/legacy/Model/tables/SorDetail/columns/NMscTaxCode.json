@@ -1,0 +1,12 @@
+{
+  "name": "NMscTaxCode",
+  "dataType": "string",
+  "sourceColumn": "NMscTaxCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ds_billingcity__c",
+  "dataType": "string",
+  "sourceColumn": "ds_billingcity__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

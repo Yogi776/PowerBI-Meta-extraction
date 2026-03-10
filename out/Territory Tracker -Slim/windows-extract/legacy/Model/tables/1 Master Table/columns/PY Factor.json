@@ -1,0 +1,16 @@
+{
+  "name": "PY Factor",
+  "dataType": "double",
+  "sourceColumn": "PY Factor",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

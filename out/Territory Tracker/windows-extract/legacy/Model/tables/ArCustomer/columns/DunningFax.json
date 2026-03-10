@@ -1,0 +1,12 @@
+{
+  "name": "DunningFax",
+  "dataType": "string",
+  "sourceColumn": "DunningFax",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

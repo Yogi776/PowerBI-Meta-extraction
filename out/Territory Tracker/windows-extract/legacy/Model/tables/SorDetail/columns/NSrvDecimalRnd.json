@@ -1,0 +1,16 @@
+{
+  "name": "NSrvDecimalRnd",
+  "dataType": "double",
+  "sourceColumn": "NSrvDecimalRnd",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

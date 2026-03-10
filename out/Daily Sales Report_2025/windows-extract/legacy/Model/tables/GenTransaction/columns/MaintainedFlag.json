@@ -1,0 +1,12 @@
+{
+  "name": "MaintainedFlag",
+  "dataType": "string",
+  "sourceColumn": "MaintainedFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

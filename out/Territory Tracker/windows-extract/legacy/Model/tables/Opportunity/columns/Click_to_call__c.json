@@ -1,0 +1,12 @@
+{
+  "name": "Click_to_call__c",
+  "dataType": "string",
+  "sourceColumn": "Click_to_call__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

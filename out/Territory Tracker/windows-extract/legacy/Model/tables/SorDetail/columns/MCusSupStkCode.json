@@ -1,0 +1,12 @@
+{
+  "name": "MCusSupStkCode",
+  "dataType": "string",
+  "sourceColumn": "MCusSupStkCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

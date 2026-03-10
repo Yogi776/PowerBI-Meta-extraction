@@ -1,0 +1,28 @@
+{
+  "name": "Revised_Ship_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Revised_Ship_Date__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "194995d9-6fee-4425-b0de-1471d74c7576",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

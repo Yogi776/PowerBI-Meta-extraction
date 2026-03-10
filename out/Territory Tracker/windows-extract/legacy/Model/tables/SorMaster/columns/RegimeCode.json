@@ -1,0 +1,12 @@
+{
+  "name": "RegimeCode",
+  "dataType": "string",
+  "sourceColumn": "RegimeCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

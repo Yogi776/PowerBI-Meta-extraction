@@ -1,0 +1,12 @@
+{
+  "name": "MCommissionCode",
+  "dataType": "string",
+  "sourceColumn": "MCommissionCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

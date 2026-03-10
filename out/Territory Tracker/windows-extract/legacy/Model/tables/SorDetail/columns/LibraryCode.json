@@ -1,0 +1,12 @@
+{
+  "name": "LibraryCode",
+  "dataType": "string",
+  "sourceColumn": "LibraryCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

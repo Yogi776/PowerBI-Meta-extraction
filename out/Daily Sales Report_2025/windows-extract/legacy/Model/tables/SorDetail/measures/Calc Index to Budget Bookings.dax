@@ -1,0 +1,1 @@
+sum(SorDetail[MTD Current Year])/sum('LucaNet Revenue Budget'[w/ VA Adjustment])

@@ -1,0 +1,12 @@
+{
+  "name": "DepositFlag",
+  "dataType": "string",
+  "sourceColumn": "DepositFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

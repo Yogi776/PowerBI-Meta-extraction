@@ -1,0 +1,12 @@
+{
+  "name": "Workday RT",
+  "dataType": "string",
+  "sourceColumn": "Workday RT",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

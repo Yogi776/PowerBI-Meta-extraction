@@ -1,0 +1,12 @@
+{
+  "name": "COI_Hold_Flag__c",
+  "dataType": "string",
+  "sourceColumn": "COI_Hold_Flag__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

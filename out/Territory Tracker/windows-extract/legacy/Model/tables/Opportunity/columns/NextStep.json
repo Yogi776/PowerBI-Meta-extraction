@@ -1,0 +1,12 @@
+{
+  "name": "NextStep",
+  "dataType": "string",
+  "sourceColumn": "NextStep",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

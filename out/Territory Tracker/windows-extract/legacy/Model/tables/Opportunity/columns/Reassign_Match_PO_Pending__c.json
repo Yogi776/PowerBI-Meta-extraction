@@ -1,0 +1,13 @@
+{
+  "name": "Reassign_Match_PO_Pending__c",
+  "dataType": "boolean",
+  "sourceColumn": "Reassign_Match_PO_Pending__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

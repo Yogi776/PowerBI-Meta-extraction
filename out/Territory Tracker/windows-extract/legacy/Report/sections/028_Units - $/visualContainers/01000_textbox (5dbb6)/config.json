@@ -1,0 +1,42 @@
+{
+  "name": "5dbb69da81735d809368",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 926.123381568926,
+        "y": 13.648134044173647,
+        "z": 1000,
+        "width": 328.53008377760852,
+        "height": 52.642802741812638,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Stock Code Detail",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "24pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

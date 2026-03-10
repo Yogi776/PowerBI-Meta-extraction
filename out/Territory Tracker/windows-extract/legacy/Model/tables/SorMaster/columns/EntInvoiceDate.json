@@ -1,0 +1,24 @@
+{
+  "name": "EntInvoiceDate",
+  "dataType": "dateTime",
+  "sourceColumn": "EntInvoiceDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "487b7352-e5f5-467c-b4bc-3749cc80bfa3",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

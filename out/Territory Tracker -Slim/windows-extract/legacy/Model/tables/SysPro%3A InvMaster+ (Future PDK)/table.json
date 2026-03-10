@@ -1,0 +1,23 @@
+{
+  "name": "SysPro: InvMaster+ (Future PDK)",
+  "partitions": [
+    {
+      "name": "SysPro: InvMaster+ (Future PDK)",
+      "mode": "import",
+      "queryGroup": "Core",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

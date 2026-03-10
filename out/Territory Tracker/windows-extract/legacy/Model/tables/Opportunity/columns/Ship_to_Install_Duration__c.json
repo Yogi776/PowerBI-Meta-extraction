@@ -1,0 +1,16 @@
+{
+  "name": "Ship_to_Install_Duration__c",
+  "dataType": "double",
+  "sourceColumn": "Ship_to_Install_Duration__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

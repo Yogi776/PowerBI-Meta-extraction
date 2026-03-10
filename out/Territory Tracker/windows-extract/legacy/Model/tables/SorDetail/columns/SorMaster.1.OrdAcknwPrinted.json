@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.OrdAcknwPrinted",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.OrdAcknwPrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

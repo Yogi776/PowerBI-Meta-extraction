@@ -1,0 +1,13 @@
+{
+  "name": "Top_Preferred_Dealer__c",
+  "dataType": "boolean",
+  "sourceColumn": "Top_Preferred_Dealer__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Contract",
+  "dataType": "string",
+  "sourceColumn": "Contract",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

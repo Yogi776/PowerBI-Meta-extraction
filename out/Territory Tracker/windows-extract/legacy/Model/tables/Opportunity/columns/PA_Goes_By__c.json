@@ -1,0 +1,12 @@
+{
+  "name": "PA_Goes_By__c",
+  "dataType": "string",
+  "sourceColumn": "PA_Goes_By__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

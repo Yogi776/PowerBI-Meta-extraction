@@ -1,0 +1,12 @@
+{
+  "name": "LineDiscCode",
+  "dataType": "string",
+  "sourceColumn": "LineDiscCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

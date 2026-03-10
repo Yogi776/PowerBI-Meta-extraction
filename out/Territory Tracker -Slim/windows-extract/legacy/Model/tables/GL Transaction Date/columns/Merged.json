@@ -1,0 +1,12 @@
+{
+  "name": "Merged",
+  "dataType": "string",
+  "sourceColumn": "Merged",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

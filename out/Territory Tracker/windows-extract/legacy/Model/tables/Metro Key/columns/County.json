@@ -1,0 +1,12 @@
+{
+  "name": "County",
+  "dataType": "string",
+  "sourceColumn": "County",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

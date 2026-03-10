@@ -1,0 +1,139 @@
+[
+  {
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "Calc MTD $"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "a"
+                            }
+                          },
+                          "Property": "Calc MTD $"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "0L"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false
+  },
+  {
+    "name": "Filter8c6d1b9ff038ef32c177",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "DSR Hierarchy"
+          }
+        },
+        "Property": "Products"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Products"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false
+  }
+]

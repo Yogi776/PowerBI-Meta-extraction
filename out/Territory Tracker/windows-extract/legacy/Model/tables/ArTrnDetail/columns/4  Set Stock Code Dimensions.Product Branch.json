@@ -1,0 +1,12 @@
+{
+  "name": "4  Set Stock Code Dimensions.Product Branch",
+  "dataType": "string",
+  "sourceColumn": "4  Set Stock Code Dimensions.Product Branch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

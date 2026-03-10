@@ -1,0 +1,12 @@
+{
+  "name": "GstDeduction",
+  "dataType": "string",
+  "sourceColumn": "GstDeduction",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

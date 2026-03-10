@@ -1,0 +1,12 @@
+{
+  "name": "Territory",
+  "dataType": "string",
+  "sourceColumn": "Territory",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

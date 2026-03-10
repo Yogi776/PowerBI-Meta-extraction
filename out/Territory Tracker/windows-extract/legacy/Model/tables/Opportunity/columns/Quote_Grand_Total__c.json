@@ -1,0 +1,16 @@
+{
+  "name": "Quote_Grand_Total__c",
+  "dataType": "double",
+  "sourceColumn": "Quote_Grand_Total__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

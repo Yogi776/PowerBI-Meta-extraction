@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[dsl_SYSPROIntegrationDate__c])), 1, 1), Date(Year(MAX('Opportunity'[dsl_SYSPROIntegrationDate__c])), 12, 31))

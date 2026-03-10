@@ -1,0 +1,12 @@
+{
+  "name": "Fiscal",
+  "dataType": "string",
+  "sourceColumn": "Fiscal",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

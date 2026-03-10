@@ -1,0 +1,12 @@
+{
+  "name": "FixExchangeRate",
+  "dataType": "string",
+  "sourceColumn": "FixExchangeRate",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

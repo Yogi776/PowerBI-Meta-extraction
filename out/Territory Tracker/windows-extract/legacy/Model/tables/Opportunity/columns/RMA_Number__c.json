@@ -1,0 +1,12 @@
+{
+  "name": "RMA_Number__c",
+  "dataType": "string",
+  "sourceColumn": "RMA_Number__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

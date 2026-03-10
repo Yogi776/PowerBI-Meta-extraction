@@ -1,0 +1,23 @@
+{
+  "name": "Organizational Elements",
+  "partitions": [
+    {
+      "name": "Organizational Elements",
+      "mode": "import",
+      "queryGroup": "Non Core",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

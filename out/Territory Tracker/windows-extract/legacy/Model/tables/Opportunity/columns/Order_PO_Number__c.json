@@ -1,0 +1,12 @@
+{
+  "name": "Order_PO_Number__c",
+  "dataType": "string",
+  "sourceColumn": "Order_PO_Number__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

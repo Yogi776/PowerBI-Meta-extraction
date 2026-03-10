@@ -1,0 +1,16 @@
+{
+  "name": "Carrier_Nonstandard_Surcharge__c",
+  "dataType": "double",
+  "sourceColumn": "Carrier_Nonstandard_Surcharge__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

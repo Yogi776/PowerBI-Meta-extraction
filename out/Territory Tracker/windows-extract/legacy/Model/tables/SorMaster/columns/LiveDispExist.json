@@ -1,0 +1,12 @@
+{
+  "name": "LiveDispExist",
+  "dataType": "string",
+  "sourceColumn": "LiveDispExist",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

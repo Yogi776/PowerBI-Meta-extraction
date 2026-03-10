@@ -1,0 +1,12 @@
+{
+  "name": "RouteCode",
+  "dataType": "string",
+  "sourceColumn": "RouteCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

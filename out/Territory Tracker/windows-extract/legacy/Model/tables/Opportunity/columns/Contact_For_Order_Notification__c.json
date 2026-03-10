@@ -1,0 +1,12 @@
+{
+  "name": "Contact_For_Order_Notification__c",
+  "dataType": "string",
+  "sourceColumn": "Contact_For_Order_Notification__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

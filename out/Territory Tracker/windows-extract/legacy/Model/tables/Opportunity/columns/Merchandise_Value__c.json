@@ -1,0 +1,16 @@
+{
+  "name": "Merchandise_Value__c",
+  "dataType": "double",
+  "sourceColumn": "Merchandise_Value__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

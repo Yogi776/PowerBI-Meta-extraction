@@ -1,0 +1,10 @@
+{
+  "name": "Calc B(W) LY",
+  "formatString": "#.#%;(#.#%)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

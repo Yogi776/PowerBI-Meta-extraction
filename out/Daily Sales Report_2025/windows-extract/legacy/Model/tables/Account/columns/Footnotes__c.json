@@ -1,0 +1,12 @@
+{
+  "name": "Footnotes__c",
+  "dataType": "string",
+  "sourceColumn": "Footnotes__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

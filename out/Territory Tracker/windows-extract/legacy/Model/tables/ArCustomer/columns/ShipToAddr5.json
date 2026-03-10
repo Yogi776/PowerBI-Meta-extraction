@@ -1,0 +1,12 @@
+{
+  "name": "ShipToAddr5",
+  "dataType": "string",
+  "sourceColumn": "ShipToAddr5",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

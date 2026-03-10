@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.CounterSalesFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.CounterSalesFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MBomFlag",
+  "dataType": "string",
+  "sourceColumn": "MBomFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dsSalespersonid_del__c",
+  "dataType": "string",
+  "sourceColumn": "dsSalespersonid_del__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

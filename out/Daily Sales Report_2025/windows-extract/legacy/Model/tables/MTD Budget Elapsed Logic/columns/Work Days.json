@@ -1,0 +1,13 @@
+{
+  "name": "Work Days",
+  "dataType": "int64",
+  "sourceColumn": "Work Days",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

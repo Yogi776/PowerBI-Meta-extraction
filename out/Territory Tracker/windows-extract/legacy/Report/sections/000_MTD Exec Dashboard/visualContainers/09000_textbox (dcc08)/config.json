@@ -1,0 +1,42 @@
+{
+  "name": "dcc08c507c688c7b182a",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1.936459909228442,
+        "y": 66.80786686838124,
+        "z": 9000,
+        "width": 217.85173978819972,
+        "height": 38.729198184568837,
+        "tabOrder": 9000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Territory Performance",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

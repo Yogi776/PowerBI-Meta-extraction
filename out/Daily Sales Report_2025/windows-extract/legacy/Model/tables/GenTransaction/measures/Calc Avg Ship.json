@@ -1,0 +1,4 @@
+{
+  "name": "Calc Avg Ship",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0"
+}

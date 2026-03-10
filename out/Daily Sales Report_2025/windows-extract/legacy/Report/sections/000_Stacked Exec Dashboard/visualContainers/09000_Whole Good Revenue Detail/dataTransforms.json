@@ -1,0 +1,422 @@
+{
+  "objects": {
+    "grid": [
+      {
+        "properties": {
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#E8F3FE'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "values": [
+      {
+        "properties": {
+          "fontColorSecondary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "fontColorPrimary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "backColorPrimary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#E8F3FE'"
+                  }
+                }
+              }
+            }
+          },
+          "backColorSecondary": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rowHeaders": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnHeaders": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#094780'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "subTotals": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Row"
+        }
+      },
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Column"
+        }
+      },
+      {
+        "properties": {
+          "columnSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "rowSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnTotal": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rowTotal": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnWidth": [
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "96.30659294979525D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(ArTrnDetail.NetSalesValue)"
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Rows": [
+      0
+    ],
+    "Values": [
+      1
+    ]
+  },
+  "projectionActiveItems": {
+    "Rows": [
+      {
+        "queryRef": "DSR Hierarchy 2.Branch",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Branch",
+        "Name": "DSR Hierarchy 2.Branch",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Yesterday's Shipped",
+        "Name": "Sum(ArTrnDetail.NetSalesValue)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ArTrnDetail"
+                  }
+                },
+                "Property": "NetSalesValue"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DSR Hierarchy"
+              }
+            },
+            "Property": "Branch"
+          }
+        }
+      },
+      {
+        "type": 8,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "InvoiceDate"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Rows",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Branch",
+      "queryName": "DSR Hierarchy 2.Branch",
+      "roles": {
+        "Rows": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "DSR Hierarchy"
+            }
+          },
+          "Property": "Branch"
+        }
+      }
+    },
+    {
+      "displayName": "Yesterday's Shipped",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(ArTrnDetail.NetSalesValue)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "ArTrnDetail"
+                }
+              },
+              "Property": "NetSalesValue"
+            }
+          },
+          "Function": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "TpmPickupFlag",
+  "dataType": "string",
+  "sourceColumn": "TpmPickupFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

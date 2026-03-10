@@ -1,0 +1,204 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s",
+              "Entity": "SorDetail",
+              "Type": 0
+            },
+            {
+              "Name": "d",
+              "Entity": "DSR Hierarchy",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "MTD Budget Elapsed Logic",
+              "Type": 0
+            },
+            {
+              "Name": "s1",
+              "Entity": "SorMaster",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Avg Books"
+              },
+              "Name": "SorDetail.Calc Avg Books",
+              "NativeReferenceName": "Daily Average"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Branch"
+              },
+              "Name": "DSR Hierarchy 2.Branch",
+              "NativeReferenceName": "Branch"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "m"
+                  }
+                },
+                "Property": "Calc Budget Daily Avg"
+              },
+              "Name": "MTD Budget Elapsed Logic.Calc Budget Daily Avg",
+              "NativeReferenceName": "Budget"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "s1"
+                              }
+                            },
+                            "Property": "CancelledFlag"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Y'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "m"
+                          }
+                        },
+                        "Property": "Flag for Budget Per Day"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "true"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Branch"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Access'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Mobility'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 2,
+              "Expression": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "m"
+                    }
+                  },
+                  "Property": "Calc Budget Daily Avg"
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0,
+                  1,
+                  2
+                ],
+                "Subtotal": 1
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

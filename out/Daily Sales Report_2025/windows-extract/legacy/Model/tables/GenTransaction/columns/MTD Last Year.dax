@@ -1,0 +1,1 @@
+if(LOOKUPVALUE('MTD Elapsed Logic Pt 2'[Year Ago],'MTD Elapsed Logic Pt 2'[Year Ago].[Date],GenTransaction[Calc Date]),GenTransaction[Visual Actuals],0)

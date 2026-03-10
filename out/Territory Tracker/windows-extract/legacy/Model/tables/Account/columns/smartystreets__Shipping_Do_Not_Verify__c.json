@@ -1,0 +1,13 @@
+{
+  "name": "smartystreets__Shipping_Do_Not_Verify__c",
+  "dataType": "boolean",
+  "sourceColumn": "smartystreets__Shipping_Do_Not_Verify__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

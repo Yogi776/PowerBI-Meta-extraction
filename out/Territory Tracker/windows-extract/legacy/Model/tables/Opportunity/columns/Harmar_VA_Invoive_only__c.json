@@ -1,0 +1,13 @@
+{
+  "name": "Harmar_VA_Invoive_only__c",
+  "dataType": "boolean",
+  "sourceColumn": "Harmar_VA_Invoive_only__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

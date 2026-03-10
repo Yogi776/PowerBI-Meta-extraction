@@ -1,0 +1,16 @@
+{
+  "name": "smartystreets__Billing_Latitude__c",
+  "dataType": "double",
+  "sourceColumn": "smartystreets__Billing_Latitude__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

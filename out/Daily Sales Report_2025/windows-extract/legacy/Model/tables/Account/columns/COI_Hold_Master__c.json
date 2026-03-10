@@ -1,0 +1,13 @@
+{
+  "name": "COI_Hold_Master__c",
+  "dataType": "boolean",
+  "sourceColumn": "COI_Hold_Master__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

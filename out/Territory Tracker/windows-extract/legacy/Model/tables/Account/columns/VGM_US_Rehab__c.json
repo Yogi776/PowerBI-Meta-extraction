@@ -1,0 +1,13 @@
+{
+  "name": "VGM_US_Rehab__c",
+  "dataType": "boolean",
+  "sourceColumn": "VGM_US_Rehab__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

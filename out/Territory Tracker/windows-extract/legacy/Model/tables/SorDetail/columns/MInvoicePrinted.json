@@ -1,0 +1,12 @@
+{
+  "name": "MInvoicePrinted",
+  "dataType": "string",
+  "sourceColumn": "MInvoicePrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

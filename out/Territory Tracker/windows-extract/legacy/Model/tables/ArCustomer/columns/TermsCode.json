@@ -1,0 +1,12 @@
+{
+  "name": "TermsCode",
+  "dataType": "string",
+  "sourceColumn": "TermsCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

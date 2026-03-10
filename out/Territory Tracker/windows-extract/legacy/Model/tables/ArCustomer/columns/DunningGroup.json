@@ -1,0 +1,12 @@
+{
+  "name": "DunningGroup",
+  "dataType": "string",
+  "sourceColumn": "DunningGroup",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

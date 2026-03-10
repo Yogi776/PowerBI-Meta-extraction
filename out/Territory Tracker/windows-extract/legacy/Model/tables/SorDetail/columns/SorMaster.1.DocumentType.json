@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.DocumentType",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.DocumentType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

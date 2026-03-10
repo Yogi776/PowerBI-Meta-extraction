@@ -1,0 +1,12 @@
+{
+  "name": "Lift_Name__c",
+  "dataType": "string",
+  "sourceColumn": "Lift_Name__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

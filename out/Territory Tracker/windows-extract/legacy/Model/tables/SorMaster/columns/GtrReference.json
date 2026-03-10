@@ -1,0 +1,12 @@
+{
+  "name": "GtrReference",
+  "dataType": "string",
+  "sourceColumn": "GtrReference",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

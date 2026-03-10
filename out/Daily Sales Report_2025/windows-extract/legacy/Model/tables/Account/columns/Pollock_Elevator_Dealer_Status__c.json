@@ -1,0 +1,12 @@
+{
+  "name": "Pollock_Elevator_Dealer_Status__c",
+  "dataType": "string",
+  "sourceColumn": "Pollock_Elevator_Dealer_Status__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

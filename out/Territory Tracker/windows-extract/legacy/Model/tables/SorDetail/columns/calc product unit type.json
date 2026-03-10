@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "calc product unit type",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

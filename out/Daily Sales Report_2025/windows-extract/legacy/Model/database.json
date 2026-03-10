@@ -1,0 +1,384 @@
+{
+  "name": "Daily Sales Report_2025",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true,
+      "fastCombine": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "relationships": [
+      {
+        "name": "8ab4eeed-ebb4-4daf-b3a8-b706cdb23bce",
+        "fromTable": "GenTransaction",
+        "fromColumn": "DocumentDate",
+        "toTable": "LocalDateTable_82102faf-8d57-4861-a295-23c27a9bd375",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "7f659ee0-156c-47d5-80fb-4d7c8ea8e930",
+        "fromTable": "Manual Master Date File",
+        "fromColumn": "Data.End of Month",
+        "toTable": "LocalDateTable_79dc0d7d-c970-4195-9837-9bbbf6129bfe",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "5e20df59-abb2-42fa-a557-b873a2c2fcfc",
+        "fromTable": "Manual Master Date File",
+        "fromColumn": "Data.Date",
+        "toTable": "LocalDateTable_0dc45643-9d84-4119-8e5a-5eab3361cb53",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "da11dec7-ba79-49f4-a0ee-7c9955f15dae",
+        "fromTable": "SorDetail",
+        "fromColumn": "Visual Date",
+        "toTable": "LocalDateTable_826ea751-f405-42e7-88bc-4e97d3c0862a",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "9f2bd581-9bca-46bc-8aa2-b1ffc332a784",
+        "fromTable": "MTD Elapsed Logic Pt 2",
+        "fromColumn": "Year Ago",
+        "toTable": "LocalDateTable_267dec69-0fc7-4d90-b1f5-309f3d5f13b6",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "75904568-3206-47a4-b30c-e4ef822210f9",
+        "fromTable": "SorMaster",
+        "fromColumn": "OrderDate",
+        "toTable": "LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "e0ffd852-6e0b-4eaf-b5c2-f2507c5089f4",
+        "fromTable": "LucaNet Unit Budget",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_fc21d08a-222a-4dea-8fcf-edc0cf637ae0",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "0f7803a4-4022-403e-b8ec-85db75cfb383",
+        "fromTable": "LucaNet Revenue Budget",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_a8e0b01a-95ef-4a51-8e0c-d6e4020bce5f",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "bf2864ba-f291-4d3d-92d7-b565dddd010b",
+        "toCardinality": "many",
+        "fromTable": "LucaNet Unit Budget",
+        "fromColumn": "SysPro Name",
+        "toTable": "DSR Hierarchy",
+        "toColumn": "Product Name",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "c3ca5d55-fdce-4e09-be14-4417dd417da0",
+        "toCardinality": "many",
+        "fromTable": "LucaNet Revenue Budget",
+        "fromColumn": "SysPro Name",
+        "toTable": "DSR Hierarchy",
+        "toColumn": "Product Name",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "35949d59-b5a6-4406-ae38-8553ce615c40",
+        "fromTable": "SorDetail",
+        "fromColumn": "Calc Product Class",
+        "toTable": "DSR Hierarchy",
+        "toColumn": "ProductClass"
+      },
+      {
+        "name": "3c41623e-3b5f-4922-9e8a-8120e9df8216",
+        "fromTable": "ArTrnDetail",
+        "fromColumn": "Calc Product Class",
+        "toTable": "DSR Hierarchy",
+        "toColumn": "ProductClass"
+      },
+      {
+        "name": "98c7d473-3459-4059-898f-9da36d667b02",
+        "fromTable": "GenTransaction",
+        "fromColumn": "Lookup Product Class",
+        "toTable": "DSR Hierarchy",
+        "toColumn": "ProductClass"
+      },
+      {
+        "name": "45f1e297-7ff2-4e5a-a764-084eebfb1a8b",
+        "fromTable": "GenTransaction",
+        "fromColumn": "TransactionDate",
+        "toTable": "LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "8bce7fc4-901a-432e-bd1d-6eb1ad3885f0",
+        "fromTable": "GenTransaction",
+        "fromColumn": "Calc Date",
+        "toTable": "LocalDateTable_d5aed710-c4f8-4cfc-9bd7-e0a6e2dc306a",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "fa1ba1d5-e5d1-103e-27e1-5a932728b641",
+        "fromTable": "SorDetail",
+        "fromColumn": "SalesOrder",
+        "toTable": "SorMaster",
+        "toColumn": "SalesOrder",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ]
+      },
+      {
+        "name": "50de3348-5195-430b-8c7c-1b85c8c68e3e",
+        "fromCardinality": "one",
+        "fromTable": "MTD Elapsed Logic Pt 1",
+        "fromColumn": "Date",
+        "toTable": "Manual Master Date File",
+        "toColumn": "Data.Date",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "c98aedc1-1736-10e4-e1bf-0510736bd746",
+        "fromTable": "GenTransaction",
+        "fromColumn": "JnlDate",
+        "toTable": "MTD Elapsed Logic Pt 1",
+        "toColumn": "Date"
+      },
+      {
+        "name": "ad3123ac-e9a2-aa07-6d31-f2b69c9618a9",
+        "fromTable": "ArTrnDetail",
+        "fromColumn": "InvoiceDate",
+        "toTable": "MTD Elapsed Logic Pt 1",
+        "toColumn": "Date"
+      },
+      {
+        "name": "5a592878-d0fb-4c72-b1dc-ff0970b0245f",
+        "fromTable": "MTD Elapsed Logic Pt 2",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_030080cd-9d1a-4954-a394-f8bc895ac692",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "b944ad92-df77-458a-8309-5578d6601a8e",
+        "fromTable": "GenTransaction",
+        "fromColumn": "JnlDate",
+        "toTable": "MTD Elapsed Logic Pt 2",
+        "toColumn": "Date"
+      },
+      {
+        "name": "f2dcf519-37de-4dbb-8925-a97e91147ef3",
+        "fromTable": "PRES 2024 Revenue",
+        "fromColumn": "JnlDate",
+        "toTable": "LocalDateTable_d1184bad-4a8d-4131-a6f1-bd3ecd4eeda9",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "ef873354-96c0-4065-be35-0b8e4a3fd8b4",
+        "fromTable": "ArTrnDetail",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_f187819c-275f-40d3-82c6-e496059c766d",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "f94d21a4-2fe7-4024-bd49-37ca650a7bb4",
+        "fromTable": "PRES 2024 Units",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "88f35ee4-f802-49c9-beda-6e081a3ae8d1",
+        "fromTable": "SorDetail",
+        "fromColumn": "SorMaster.OrderDate",
+        "toTable": "LocalDateTable_2f5b06e5-4fb3-42c7-888f-ab0f0c106b74",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "31c2484c-5916-4de8-b725-e367ac31b2d9",
+        "fromTable": "PRES 2024 Bookings Revenue",
+        "fromColumn": "SorMaster.OrderDate",
+        "toTable": "LocalDateTable_6e94e03d-005e-4806-ba51-dc36510c79ab",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "8f100216-5ac9-47d9-98e6-f1833836fd95",
+        "fromTable": "Account",
+        "fromColumn": "CreatedDate",
+        "toTable": "LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "fb026d6f-fadb-4eaf-bdef-eb757a8b7788",
+        "fromTable": "Account",
+        "fromColumn": "LastModifiedDate",
+        "toTable": "LocalDateTable_e9d39682-d68f-46e0-86e8-54f018451034",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "81a54c84-cb27-4169-8060-7d39369ec17c",
+        "fromTable": "Account",
+        "fromColumn": "SystemModstamp",
+        "toTable": "LocalDateTable_b58a353f-dc1c-4d4d-8cba-a30166b3d8f6",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "1cc0baaa-8244-4f47-8aab-b61d5b570010",
+        "fromTable": "Account",
+        "fromColumn": "LastActivityDate",
+        "toTable": "LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "e98abe1e-7fab-49bd-b8b3-eed4428ae0a1",
+        "fromTable": "Account",
+        "fromColumn": "LastViewedDate",
+        "toTable": "LocalDateTable_ed7208b8-3fb2-4db8-a5be-47846a45d230",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "2cfdc6f1-fa18-470e-9955-36c341042563",
+        "fromTable": "Account",
+        "fromColumn": "LastReferencedDate",
+        "toTable": "LocalDateTable_0bf197dd-cfa7-4206-8191-ce5e8b615e55",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "186b71cc-1d76-4e3d-a1ec-1e711d80d45b",
+        "fromTable": "Account",
+        "fromColumn": "INS_Exp_Date__c",
+        "toTable": "LocalDateTable_7b41139e-83c6-4710-97fb-3a5c300546ed",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "b096934b-ac4c-470c-9e8a-7ba2a68bfa77",
+        "fromTable": "Account",
+        "fromColumn": "Inventory_2nd_Control_List_Requested_On__c",
+        "toTable": "LocalDateTable_6254af0b-37a6-4f59-89b0-9e91da450dec",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "d89a9839-d01a-4231-9adc-356f824142d2",
+        "fromTable": "Account",
+        "fromColumn": "Last_MTC_on__c",
+        "toTable": "LocalDateTable_cdbc4873-111d-48f3-963c-a68aa9510815",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "11136e7e-4a0a-4487-a31e-286cbfc5652d",
+        "fromTable": "Account",
+        "fromColumn": "Installer_Agreement_Signed_on__c",
+        "toTable": "LocalDateTable_ccaea1da-357e-46e1-b525-ee7485b0b07a",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "69be9fc4-2ab5-4647-bf2b-1f2b96702d72",
+        "fromTable": "Account",
+        "fromColumn": "CreatedDate__c",
+        "toTable": "LocalDateTable_8eeb7dd7-77df-465e-98ee-3c4511312472",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "8837be87-72cb-42dd-9171-a8a607f12e21",
+        "fromTable": "Account",
+        "fromColumn": "Agreement_Date__c",
+        "toTable": "LocalDateTable_e0c85795-8ff8-4416-9985-d450d77506d8",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "8b40271e-96c4-4519-aa23-4242804bedf1",
+        "fromTable": "Account",
+        "fromColumn": "COI_Hold_Date__c",
+        "toTable": "LocalDateTable_e88ba10c-256d-438e-a327-9c6c899c4da0",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "f5a704fd-77f0-40a0-9160-bc07b885f7b2",
+        "fromTable": "Account",
+        "fromColumn": "smartystreets__Billing_Last_Verified__c",
+        "toTable": "LocalDateTable_51a45c07-bb2f-4be5-aa58-599545d84d27",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "11a81a0a-5338-49f7-a366-08cc408fea43",
+        "fromTable": "Account",
+        "fromColumn": "smartystreets__Shipping_Last_Verified__c",
+        "toTable": "LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "a957fc6f-05b8-4e79-89a9-0f9af3a01972",
+        "fromTable": "Account",
+        "fromColumn": "Address_Last_Verified__c",
+        "toTable": "LocalDateTable_03eb47d8-73bf-4080-a31e-402cab1c841a",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "5faa6ffb-e13b-4e99-ad76-0f822a39d0df",
+        "fromTable": "Account",
+        "fromColumn": "ds_datecustadded__c",
+        "toTable": "LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "addb4ec1-44cc-455f-80b3-abadcc2af08f",
+        "fromTable": "Account",
+        "fromColumn": "SBQQ__PriceHoldEnd__c",
+        "toTable": "LocalDateTable_dfdc3817-8a7c-4646-95a8-5050cd15f92f",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"MTD Budget Elapsed Logic\",\"GenTransaction\",\"SorDetail\",\"SorMaster\",\"InvMaster\",\"Manual Master Date File\",\"SalProductClass\",\"InvMaster+\",\"ArTrnDetail\",\"LucaNet Revenue Budget\",\"LucaNet Unit Budget\",\"Merged_Inventory\",\"DSR Hierarchy\",\"Product Unit Type 2\",\"PRES 2024 Revenue\",\"PRES 2024 Units\",\"PRES 2024 Bookings Revenue\",\"Account\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_RemovedChildren",
+        "value": "[{\"remoteItemId\":{\"foreignKeyRelationship\":{\"fromTableLocalLineageTag\":\"0a00fa9b-1dce-4295-a786-c0e18a5f66db\",\"fromColumnLocalLineageTag\":\"4a82c18d-134b-4fd6-a825-d61b9928d7ad\",\"toTableLocalLineageTag\":\"bc43f926-3937-4434-ae59-29637b16bf4c\",\"toColumnLocalLineageTag\":\"e845762f-2c93-478f-a5de-dc4958d44041\"}},\"objectType\":\"Relationship\"},{\"remoteItemId\":{\"foreignKeyRelationship\":{\"fromTableLocalLineageTag\":\"949cadea-d868-417c-9fa7-291e1cf973f2\",\"fromColumnLocalLineageTag\":\"84dbbbfa-a2fa-443c-8b3e-9ecec963af4b\",\"toTableLocalLineageTag\":\"1441e899-e348-4b9e-b928-375ceff0e110\",\"toColumnLocalLineageTag\":\"b3c4e54c-71e8-47de-9eef-8b70898e303b\"}},\"objectType\":\"Relationship\"}]"
+      }
+    ]
+  }
+}

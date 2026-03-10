@@ -1,0 +1,12 @@
+{
+  "name": "TriangMulDiv",
+  "dataType": "string",
+  "sourceColumn": "TriangMulDiv",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

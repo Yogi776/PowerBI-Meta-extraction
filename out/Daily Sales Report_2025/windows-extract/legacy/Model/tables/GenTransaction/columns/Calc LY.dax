@@ -1,0 +1,1 @@
+if(and(GenTransaction[GlPeriod]=month(today()-1),GenTransaction[GlYear]=2024),GenTransaction[EntryValue]*-1,0)

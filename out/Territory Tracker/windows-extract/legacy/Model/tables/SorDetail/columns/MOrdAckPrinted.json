@@ -1,0 +1,12 @@
+{
+  "name": "MOrdAckPrinted",
+  "dataType": "string",
+  "sourceColumn": "MOrdAckPrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

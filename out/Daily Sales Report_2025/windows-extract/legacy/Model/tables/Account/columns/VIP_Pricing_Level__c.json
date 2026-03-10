@@ -1,0 +1,12 @@
+{
+  "name": "VIP_Pricing_Level__c",
+  "dataType": "string",
+  "sourceColumn": "VIP_Pricing_Level__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

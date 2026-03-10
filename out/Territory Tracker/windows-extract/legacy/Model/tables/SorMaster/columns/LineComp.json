@@ -1,0 +1,12 @@
+{
+  "name": "LineComp",
+  "dataType": "string",
+  "sourceColumn": "LineComp",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

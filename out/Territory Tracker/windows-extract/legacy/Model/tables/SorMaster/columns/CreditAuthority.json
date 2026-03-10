@@ -1,0 +1,12 @@
+{
+  "name": "CreditAuthority",
+  "dataType": "string",
+  "sourceColumn": "CreditAuthority",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

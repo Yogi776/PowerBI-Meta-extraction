@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "VA Freight",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

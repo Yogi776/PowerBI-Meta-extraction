@@ -1,0 +1,171 @@
+{
+  "objects": {
+    "labels": [
+      {
+        "properties": {
+          "labelDisplayUnits": {
+            "expr": {
+              "Literal": {
+                "Value": "1D"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "16D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "dataViewWildcard": {
+                "matchingOption": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "categoryLabels": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Sum of NetSalesValue",
+        "Name": "Sum(ArTrnDetail.NetSalesValue)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 8,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "InvoiceDate"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DSR Hierarchy"
+              }
+            },
+            "Property": "Branch"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Sum of NetSalesValue",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(ArTrnDetail.NetSalesValue)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "ArTrnDetail"
+                }
+              },
+              "Property": "NetSalesValue"
+            }
+          },
+          "Function": 0
+        }
+      }
+    }
+  ]
+}

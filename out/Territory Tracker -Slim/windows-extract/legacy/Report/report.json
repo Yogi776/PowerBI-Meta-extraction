@@ -1,0 +1,55 @@
+{
+  "id": 3542516,
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "financialreportingmatrixD8A502553641450F8EAEB9BA40B2166E",
+    "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6",
+    "TableHeatMap1443716069308",
+    "waterfall6C9ED82ABD1F44C4A0D590CE01EB5EE7"
+  ],
+  "reportId": 1496612,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "id": 3382602,
+        "items": [
+          {
+            "id": 19416333,
+            "name": "Harmar_Logo8809767073043971.jpg",
+            "path": "Harmar_Logo8809767073043971.jpg",
+            "resourcePackageId": 3382602,
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "id": 3382603,
+        "items": [
+          {
+            "id": 19416334,
+            "name": "CY23SU04",
+            "path": "BaseThemes/CY23SU04.json",
+            "resourcePackageId": 3382603,
+            "type": 202
+          },
+          {
+            "id": 19416335,
+            "name": "AccessibleDefault",
+            "path": "BuiltInThemes/AccessibleDefault.json",
+            "resourcePackageId": 3382603,
+            "type": 201
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "theme": "AccessibleDefault"
+}

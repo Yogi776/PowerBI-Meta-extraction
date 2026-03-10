@@ -1,0 +1,16 @@
+{
+  "name": "Working Days",
+  "dataType": "double",
+  "sourceColumn": "Working Days",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

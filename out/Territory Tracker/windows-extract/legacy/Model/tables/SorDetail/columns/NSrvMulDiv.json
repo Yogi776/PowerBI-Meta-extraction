@@ -1,0 +1,12 @@
+{
+  "name": "NSrvMulDiv",
+  "dataType": "string",
+  "sourceColumn": "NSrvMulDiv",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

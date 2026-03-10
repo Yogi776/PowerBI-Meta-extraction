@@ -1,0 +1,13 @@
+{
+  "name": "Premier_Price_Group__c",
+  "dataType": "boolean",
+  "sourceColumn": "Premier_Price_Group__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

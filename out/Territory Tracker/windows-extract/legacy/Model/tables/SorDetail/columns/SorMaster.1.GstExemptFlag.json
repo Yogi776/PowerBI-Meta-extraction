@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.GstExemptFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.GstExemptFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

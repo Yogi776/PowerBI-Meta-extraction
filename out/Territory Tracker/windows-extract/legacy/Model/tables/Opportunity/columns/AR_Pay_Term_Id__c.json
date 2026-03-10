@@ -1,0 +1,12 @@
+{
+  "name": "AR_Pay_Term_Id__c",
+  "dataType": "string",
+  "sourceColumn": "AR_Pay_Term_Id__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

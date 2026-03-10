@@ -1,0 +1,12 @@
+{
+  "name": "IbtCustomer",
+  "dataType": "string",
+  "sourceColumn": "IbtCustomer",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

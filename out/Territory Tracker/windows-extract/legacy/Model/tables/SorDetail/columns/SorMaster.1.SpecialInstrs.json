@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.SpecialInstrs",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.SpecialInstrs",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "VA_PO__c",
+  "dataType": "string",
+  "sourceColumn": "VA_PO__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

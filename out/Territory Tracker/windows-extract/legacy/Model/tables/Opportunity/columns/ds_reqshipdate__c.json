@@ -1,0 +1,28 @@
+{
+  "name": "ds_reqshipdate__c",
+  "dataType": "dateTime",
+  "sourceColumn": "ds_reqshipdate__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5cb1f07e-c19f-41d0-8273-3cf35f3392de",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

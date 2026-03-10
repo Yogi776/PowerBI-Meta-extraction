@@ -1,0 +1,12 @@
+{
+  "name": "Bin",
+  "dataType": "string",
+  "sourceColumn": "Bin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

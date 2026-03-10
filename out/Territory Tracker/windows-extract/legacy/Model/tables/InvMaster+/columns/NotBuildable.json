@@ -1,0 +1,12 @@
+{
+  "name": "NotBuildable",
+  "dataType": "string",
+  "sourceColumn": "NotBuildable",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

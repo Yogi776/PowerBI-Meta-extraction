@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Filterf2a19b05e48601858ca9",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Territory_Naming"
+          }
+        },
+        "Property": "Visual Name"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "t",
+          "Entity": "Territory_Naming",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "t"
+                          }
+                        },
+                        "Property": "Visual Name"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Collections'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Other'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Rebates/Install/Freight'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false
+  },
+  {
+    "name": "Filtereb172e4874eaa0b9a89c",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "TblCustomerClass"
+          }
+        },
+        "Property": "Class"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "t",
+          "Entity": "TblCustomerClass",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "t"
+                      }
+                    },
+                    "Property": "Class"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'VA'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {}
+  }
+]

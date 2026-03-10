@@ -1,0 +1,12 @@
+{
+  "name": "Travel_Charge__c",
+  "dataType": "string",
+  "sourceColumn": "Travel_Charge__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

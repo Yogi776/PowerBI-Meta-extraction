@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[Credit_Issued__c])), 1, 1), Date(Year(MAX('Opportunity'[Credit_Issued__c])), 12, 31))

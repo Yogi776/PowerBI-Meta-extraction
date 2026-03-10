@@ -1,0 +1,13 @@
+{
+  "name": "Invoice_Only_Product_at_Installer__c",
+  "dataType": "boolean",
+  "sourceColumn": "Invoice_Only_Product_at_Installer__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

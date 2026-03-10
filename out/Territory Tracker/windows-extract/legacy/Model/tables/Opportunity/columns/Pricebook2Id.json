@@ -1,0 +1,12 @@
+{
+  "name": "Pricebook2Id",
+  "dataType": "string",
+  "sourceColumn": "Pricebook2Id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

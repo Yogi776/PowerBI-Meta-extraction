@@ -1,0 +1,1 @@
+sum(SorDetail[MTD Current Units])/sum('MTD Elapsed Logic Pt 2'[Is TY workday])

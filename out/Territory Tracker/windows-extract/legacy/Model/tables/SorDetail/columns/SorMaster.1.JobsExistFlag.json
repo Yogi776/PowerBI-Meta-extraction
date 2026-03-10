@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.JobsExistFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.JobsExistFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

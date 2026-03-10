@@ -1,0 +1,13 @@
+{
+  "name": "SBQQ__Contracted__c",
+  "dataType": "boolean",
+  "sourceColumn": "SBQQ__Contracted__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

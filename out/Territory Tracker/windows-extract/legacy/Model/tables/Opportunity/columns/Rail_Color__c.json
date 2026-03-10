@@ -1,0 +1,12 @@
+{
+  "name": "Rail_Color__c",
+  "dataType": "string",
+  "sourceColumn": "Rail_Color__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

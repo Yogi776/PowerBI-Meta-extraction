@@ -1,0 +1,1 @@
+if(OR(Account[Sub_Key_Account__c]="Standard Account",Account[Sub_Key_Account__c]="Key Account - Other"),Account[Name],Account[Sub_Key_Account__c])

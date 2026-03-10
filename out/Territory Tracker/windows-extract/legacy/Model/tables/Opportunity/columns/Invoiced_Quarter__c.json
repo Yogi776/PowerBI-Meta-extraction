@@ -1,0 +1,12 @@
+{
+  "name": "Invoiced_Quarter__c",
+  "dataType": "string",
+  "sourceColumn": "Invoiced_Quarter__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "name": "f47b6c9076d810c69c31",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 455.06807866868382,
+        "z": 13000,
+        "width": 612.88956127080189,
+        "height": 265.29500756429655,
+        "tabOrder": 13000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(GenTransaction.MTD)"
+        },
+        {
+          "queryRef": "GenTransaction.B(W) $ MTD"
+        },
+        {
+          "queryRef": "GenTransaction.B(W) % Exec"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "TblCustomerClass.Description",
+          "active": true
+        },
+        {
+          "queryRef": "ArCustomer.Name",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        },
+        {
+          "Name": "t",
+          "Entity": "TblCustomerClass",
+          "Type": 0
+        },
+        {
+          "Name": "a",
+          "Entity": "ArCustomer",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "MTD"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.MTD)",
+          "NativeReferenceName": "Current MTD"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "t"
+              }
+            },
+            "Property": "Description"
+          },
+          "Name": "TblCustomerClass.Description",
+          "NativeReferenceName": "Description"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Name"
+          },
+          "Name": "ArCustomer.Name",
+          "NativeReferenceName": "Name"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "B(W) $ MTD"
+          },
+          "Name": "GenTransaction.B(W) $ MTD",
+          "NativeReferenceName": "B(W) $ MTD"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "B(W) % Exec"
+          },
+          "Name": "GenTransaction.B(W) % Exec",
+          "NativeReferenceName": "B(W) LY %"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "g"
+                }
+              },
+              "Property": "B(W) $ MTD"
+            }
+          }
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "TblCustomerClass.Description"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "TblCustomerClass"
+                    }
+                  },
+                  "Property": "Description"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "ArCustomer.Name"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null,
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'DEALER / INSTALLER'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'VA HOSPITAL'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
+      }
+    ],
+    "columnProperties": {
+      "ArTrnDetail.StockCode": {
+        "displayName": "Stock Code"
+      },
+      "ArTrnDetail.ProductClass": {
+        "displayName": "Product Class"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)1": {
+        "displayName": "2022"
+      },
+      "Sum(GenTransaction.MTD)": {
+        "displayName": "Current MTD"
+      },
+      "GenTransaction.B(W) % Exec": {
+        "displayName": "B(W) LY %"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "outlineStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "318.9299755402052D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "TblCustomerClass.Description"
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Default'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

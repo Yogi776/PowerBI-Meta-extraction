@@ -1,0 +1,163 @@
+[
+  {
+    "name": "50555c98e4cd656b594c",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "1 Master Table"
+          }
+        },
+        "Property": "Year-Month"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "1",
+          "Entity": "1 Master Table",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "1"
+                      }
+                    },
+                    "Property": "Year-Month"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2025-10'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2025-11'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2025-12'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-01'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-02'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-03'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-04'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-05'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-06'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-07'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-08'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-09'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-10'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-11'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2026-12'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'2025-09'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "isHiddenInViewMode": false
+  }
+]

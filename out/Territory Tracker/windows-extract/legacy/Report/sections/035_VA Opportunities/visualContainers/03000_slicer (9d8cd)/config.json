@@ -1,0 +1,194 @@
+{
+  "name": "9d8cdbf9edde7e405096",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 840.31386224934613,
+        "y": 13.391455972101133,
+        "z": 3000,
+        "width": 299.07585004359197,
+        "height": 92.624237140366176,
+        "tabOrder": 3000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "slicer",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Opportunity.CreatedDate.Variation.Date Hierarchy.Month",
+          "active": true
+        },
+        {
+          "queryRef": "Opportunity.CreatedDate.Variation.Date Hierarchy.Day"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "o",
+          "Entity": "Opportunity",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "o"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "CreatedDate"
+                  }
+                },
+                "Hierarchy": "Date Hierarchy"
+              }
+            },
+            "Level": "Month"
+          },
+          "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Month",
+          "NativeReferenceName": "CreatedDate Month"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "o"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "CreatedDate"
+                  }
+                },
+                "Hierarchy": "Date Hierarchy"
+              }
+            },
+            "Level": "Day"
+          },
+          "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Day",
+          "NativeReferenceName": "CreatedDate Day"
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "Opportunity.CreatedDate.Variation.Date Hierarchy.Month"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830"
+                    }
+                  },
+                  "Property": "Month"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Opportunity.CreatedDate.Variation.Date Hierarchy.Day"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null
+        }
+      }
+    ],
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Select Month, Day'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

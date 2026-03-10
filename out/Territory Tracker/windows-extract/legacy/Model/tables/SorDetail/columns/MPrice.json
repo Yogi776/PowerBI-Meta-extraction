@@ -1,0 +1,16 @@
+{
+  "name": "MPrice",
+  "dataType": "double",
+  "sourceColumn": "MPrice",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

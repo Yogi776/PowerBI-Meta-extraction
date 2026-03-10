@@ -1,0 +1,12 @@
+{
+  "name": "SalesTurnOPrted",
+  "dataType": "string",
+  "sourceColumn": "SalesTurnOPrted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

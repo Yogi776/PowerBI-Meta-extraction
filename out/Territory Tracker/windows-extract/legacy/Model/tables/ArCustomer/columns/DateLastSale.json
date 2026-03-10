@@ -1,0 +1,24 @@
+{
+  "name": "DateLastSale",
+  "dataType": "dateTime",
+  "sourceColumn": "DateLastSale",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "a82ab6ac-feef-4522-9125-70fcbd73324e",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

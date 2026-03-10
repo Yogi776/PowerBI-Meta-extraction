@@ -1,0 +1,12 @@
+{
+  "name": "dsl_sysprosalareaid__c",
+  "dataType": "string",
+  "sourceColumn": "dsl_sysprosalareaid__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Installer_Phone__c",
+  "dataType": "string",
+  "sourceColumn": "Installer_Phone__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

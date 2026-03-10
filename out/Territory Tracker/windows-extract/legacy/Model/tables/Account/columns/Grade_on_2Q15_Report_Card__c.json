@@ -1,0 +1,12 @@
+{
+  "name": "Grade_on_2Q15_Report_Card__c",
+  "dataType": "string",
+  "sourceColumn": "Grade_on_2Q15_Report_Card__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

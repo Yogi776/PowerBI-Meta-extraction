@@ -1,0 +1,12 @@
+{
+  "name": "SubModJob",
+  "dataType": "string",
+  "sourceColumn": "SubModJob",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

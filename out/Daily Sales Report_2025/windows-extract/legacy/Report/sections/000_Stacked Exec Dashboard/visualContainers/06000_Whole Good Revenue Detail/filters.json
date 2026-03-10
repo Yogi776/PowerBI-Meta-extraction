@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Filter5bf92ad3ca5e2639521e",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "Calc B(W) LY"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 0
+  },
+  {
+    "name": "374c126d3b9b4c1c1624",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "NComment"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 1
+  },
+  {
+    "name": "Filterd74975a226d1c1b0076e",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "Calc Index to Budget Bookings"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filterf7d045d0650b3e30ea59",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "CancelledFlag"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s"
+                          }
+                        },
+                        "Property": "CancelledFlag"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Y'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ordinal": 3
+  },
+  {
+    "name": "Filterc7aae45cec880e4a93c5",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "DSR Hierarchy"
+          }
+        },
+        "Property": "Branch"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DSR Hierarchy",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Branch"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "929b66509d3d21978094",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "Calc AR Index to Budget"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "db776d37806da445c334",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "Calc AR Index to LY"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  }
+]

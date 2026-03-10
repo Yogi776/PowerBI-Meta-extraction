@@ -1,0 +1,23 @@
+{
+  "name": "1 Master Table",
+  "partitions": [
+    {
+      "name": "1 Master Table",
+      "mode": "import",
+      "queryGroup": "Core",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Exception"
+    }
+  ]
+}

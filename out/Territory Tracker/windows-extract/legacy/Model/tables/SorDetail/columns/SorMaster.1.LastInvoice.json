@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.LastInvoice",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.LastInvoice",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

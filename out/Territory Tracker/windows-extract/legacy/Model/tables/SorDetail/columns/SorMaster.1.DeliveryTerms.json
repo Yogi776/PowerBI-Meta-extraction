@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.DeliveryTerms",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.DeliveryTerms",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

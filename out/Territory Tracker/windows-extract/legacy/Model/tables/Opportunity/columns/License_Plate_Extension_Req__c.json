@@ -1,0 +1,13 @@
+{
+  "name": "License_Plate_Extension_Req__c",
+  "dataType": "boolean",
+  "sourceColumn": "License_Plate_Extension_Req__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

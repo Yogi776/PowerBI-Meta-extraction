@@ -1,0 +1,12 @@
+{
+  "name": "MAbcApplied",
+  "dataType": "string",
+  "sourceColumn": "MAbcApplied",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

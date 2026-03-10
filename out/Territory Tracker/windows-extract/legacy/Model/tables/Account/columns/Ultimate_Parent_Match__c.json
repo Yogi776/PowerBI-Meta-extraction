@@ -1,0 +1,13 @@
+{
+  "name": "Ultimate_Parent_Match__c",
+  "dataType": "boolean",
+  "sourceColumn": "Ultimate_Parent_Match__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

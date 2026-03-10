@@ -1,0 +1,28 @@
+{
+  "name": "Stage_Last_Date_First_Call_Made__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Stage_Last_Date_First_Call_Made__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "b7a04ab6-987e-4019-9afc-753798a3e89a",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

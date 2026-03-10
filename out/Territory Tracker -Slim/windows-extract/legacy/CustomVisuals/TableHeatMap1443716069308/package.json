@@ -1,0 +1,17 @@
+{
+  "resources": [
+    {
+      "resourceId": "rId0",
+      "sourceType": 5,
+      "file": "resources/TableHeatMap1443716069308.pbiviz.json"
+    }
+  ],
+  "visual": {
+    "guid": "TableHeatMap1443716069308"
+  },
+  "metadata": {
+    "pbivizjson": {
+      "resourceId": "rId0"
+    }
+  }
+}

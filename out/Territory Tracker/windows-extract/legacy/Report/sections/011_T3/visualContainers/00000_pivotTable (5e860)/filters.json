@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Filterb40e367344507fd04c9a",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "ordinal": 0
+  },
+  {
+    "name": "Filter9cc8efa9eb0e700bdc51",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) $"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 1
+  },
+  {
+    "name": "Filtera53ae7e5c9fafd4641a0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filter55467d25b7923474d793",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "2024 Visual Amount"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 3
+  },
+  {
+    "name": "Filter9498851d33dbfc727f51",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "2025 Visual Amount"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 4
+  },
+  {
+    "name": "Filterf4204c978e0ddf2d7b09",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "To Bronze"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filter08beb9035771c0cc7b54",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "To Silver"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filteref0087014374951aca45",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "To Gold"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filterd369d43fcc8a02547f04",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "To Platinum"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 8
+  },
+  {
+    "name": "Filter0424ae756dd764c80a62",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Territory_Naming"
+          }
+        },
+        "Property": "Visual Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "ordinal": 9
+  },
+  {
+    "name": "Filter62148b4f1fcf8501ed1b",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2025 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 10
+  },
+  {
+    "name": "Filter825188a3d32a7706eca1",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2024 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 11
+  },
+  {
+    "name": "Filterf24dd0c0b6bbe9b87db1",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "Calc B(W) $"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 12
+  },
+  {
+    "name": "Filterfce09ca0421bb36ccd57",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 13
+  },
+  {
+    "name": "Filter65f43f714c7035217cb8",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "To Bronze"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 14
+  },
+  {
+    "name": "Filter1bdcf53a28ce67e0b340",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "To Silver"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 15
+  },
+  {
+    "name": "Filter6937353a12d224746630",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "To Gold"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 16
+  },
+  {
+    "name": "Filter57113ae53dc3e45e2028",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "To Platinum"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 17
+  },
+  {
+    "name": "Filter257bf3db2c060625bc5c",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "2023 Visual Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 18
+  },
+  {
+    "name": "Filtera388112086000329e487",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY $ Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 19
+  },
+  {
+    "name": "Filterb0a54921099a5068b480",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc PY % Lap"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 20
+  }
+]

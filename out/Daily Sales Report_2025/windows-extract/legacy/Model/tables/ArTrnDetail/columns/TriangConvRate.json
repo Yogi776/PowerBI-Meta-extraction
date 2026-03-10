@@ -1,0 +1,16 @@
+{
+  "name": "TriangConvRate",
+  "dataType": "double",
+  "sourceColumn": "TriangConvRate",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

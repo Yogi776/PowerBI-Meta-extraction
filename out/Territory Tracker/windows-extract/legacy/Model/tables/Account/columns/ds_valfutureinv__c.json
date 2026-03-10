@@ -1,0 +1,16 @@
+{
+  "name": "ds_valfutureinv__c",
+  "dataType": "double",
+  "sourceColumn": "ds_valfutureinv__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

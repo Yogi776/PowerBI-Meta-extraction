@@ -1,0 +1,13 @@
+{
+  "name": "Lift_Gate_Required__c",
+  "dataType": "boolean",
+  "sourceColumn": "Lift_Gate_Required__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

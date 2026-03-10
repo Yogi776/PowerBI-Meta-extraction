@@ -1,0 +1,16 @@
+{
+  "name": "NSrvUnitPrice",
+  "dataType": "double",
+  "sourceColumn": "NSrvUnitPrice",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

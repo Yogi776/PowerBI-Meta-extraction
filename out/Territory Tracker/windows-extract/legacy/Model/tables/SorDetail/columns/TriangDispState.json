@@ -1,0 +1,12 @@
+{
+  "name": "TriangDispState",
+  "dataType": "string",
+  "sourceColumn": "TriangDispState",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

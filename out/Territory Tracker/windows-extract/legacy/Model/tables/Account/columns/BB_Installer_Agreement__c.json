@@ -1,0 +1,12 @@
+{
+  "name": "BB_Installer_Agreement__c",
+  "dataType": "string",
+  "sourceColumn": "BB_Installer_Agreement__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

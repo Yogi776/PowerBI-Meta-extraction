@@ -1,0 +1,12 @@
+{
+  "name": "Payment_Source__c",
+  "dataType": "string",
+  "sourceColumn": "Payment_Source__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

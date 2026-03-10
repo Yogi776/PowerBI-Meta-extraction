@@ -1,0 +1,318 @@
+{
+  "name": "e8c2a43b8600e50a93d5",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 837.08609271523176,
+        "y": 543.57615894039736,
+        "z": 8004,
+        "width": 359.20529801324506,
+        "height": 144.10596026490066,
+        "tabOrder": 8004
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "kpi",
+    "projections": {
+      "Goal": [
+        {
+          "queryRef": "Sum(GenTransaction.2023 Visual Amount)"
+        }
+      ],
+      "Indicator": [
+        {
+          "queryRef": "Sum(GenTransaction.2024 Visual Amount)"
+        }
+      ],
+      "TrendLine": [
+        {
+          "queryRef": "GenTransaction.Calc VGM Flag"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2025 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2024 Visual Amount)",
+          "NativeReferenceName": "Sum of 2024 Visual Amount"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2024 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2023 Visual Amount)",
+          "NativeReferenceName": "Sum of 2023 Visual Amount"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc VGM Flag"
+          },
+          "Name": "GenTransaction.Calc VGM Flag",
+          "NativeReferenceName": "Calc VGM Flag"
+        }
+      ]
+    },
+    "columnProperties": {
+      "ArTrnDetail.StockCode": {
+        "displayName": "Stock Code"
+      },
+      "ArTrnDetail.ProductClass": {
+        "displayName": "Product Class"
+      },
+      "Sum(GenTransaction.B(W) $)": {
+        "displayName": "B(W) $"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)1": {
+        "displayName": "2022"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "indicator": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "showIcon": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "trendline": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "goals": [
+        {
+          "properties": {
+            "showGoal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "goalText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'B(W) LY %'"
+                }
+              }
+            },
+            "distanceFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "goalFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#131312'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "status": [
+        {
+          "properties": {
+            "goodColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "neutralColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "badColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Default'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'VGM'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "17D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

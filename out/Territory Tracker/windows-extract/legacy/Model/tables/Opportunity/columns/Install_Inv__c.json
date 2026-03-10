@@ -1,0 +1,12 @@
+{
+  "name": "Install_Inv__c",
+  "dataType": "string",
+  "sourceColumn": "Install_Inv__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

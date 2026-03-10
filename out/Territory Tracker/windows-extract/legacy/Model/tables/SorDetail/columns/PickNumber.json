@@ -1,0 +1,12 @@
+{
+  "name": "PickNumber",
+  "dataType": "string",
+  "sourceColumn": "PickNumber",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

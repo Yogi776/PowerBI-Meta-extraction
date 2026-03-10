@@ -1,0 +1,24 @@
+{
+  "name": "Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Date",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "f94d21a4-2fe7-4024-bd49-37ca650a7bb4",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_3d553329-581e-4207-a8da-c233efbe5932",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

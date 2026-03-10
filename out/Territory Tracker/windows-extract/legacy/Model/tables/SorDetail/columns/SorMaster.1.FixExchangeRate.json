@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.FixExchangeRate",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.FixExchangeRate",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

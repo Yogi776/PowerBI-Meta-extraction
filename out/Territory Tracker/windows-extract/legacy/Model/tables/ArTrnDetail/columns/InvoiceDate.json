@@ -1,0 +1,33 @@
+{
+  "name": "InvoiceDate",
+  "dataType": "dateTime",
+  "sourceColumn": "InvoiceDate",
+  "formatString": "Short Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5e03602f-d52e-4b2d-ad5b-81a84cd7d900",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

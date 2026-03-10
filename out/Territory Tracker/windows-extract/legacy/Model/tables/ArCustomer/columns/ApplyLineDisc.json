@@ -1,0 +1,12 @@
+{
+  "name": "ApplyLineDisc",
+  "dataType": "string",
+  "sourceColumn": "ApplyLineDisc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

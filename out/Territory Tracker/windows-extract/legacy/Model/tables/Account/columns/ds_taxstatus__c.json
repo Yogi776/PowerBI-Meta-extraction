@@ -1,0 +1,12 @@
+{
+  "name": "ds_taxstatus__c",
+  "dataType": "string",
+  "sourceColumn": "ds_taxstatus__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

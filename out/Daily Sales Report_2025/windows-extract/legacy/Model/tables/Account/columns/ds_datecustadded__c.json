@@ -1,0 +1,28 @@
+{
+  "name": "ds_datecustadded__c",
+  "dataType": "dateTime",
+  "sourceColumn": "ds_datecustadded__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5faa6ffb-e13b-4e99-ad76-0f822a39d0df",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_fa30917a-b720-40cf-b31a-cf5cefb58687",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

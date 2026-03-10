@@ -1,0 +1,12 @@
+{
+  "name": "ShippingInstrsCod",
+  "dataType": "string",
+  "sourceColumn": "ShippingInstrsCod",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

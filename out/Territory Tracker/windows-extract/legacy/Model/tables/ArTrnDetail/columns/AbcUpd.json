@@ -1,0 +1,12 @@
+{
+  "name": "AbcUpd",
+  "dataType": "string",
+  "sourceColumn": "AbcUpd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

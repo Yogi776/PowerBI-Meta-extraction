@@ -1,0 +1,13 @@
+{
+  "name": "ds_sendordertosyspro__c",
+  "dataType": "boolean",
+  "sourceColumn": "ds_sendordertosyspro__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

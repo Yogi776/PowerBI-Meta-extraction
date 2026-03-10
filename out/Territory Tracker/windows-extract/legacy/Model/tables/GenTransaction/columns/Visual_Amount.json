@@ -1,0 +1,13 @@
+{
+  "name": "Visual_Amount",
+  "dataType": "double",
+  "sourceColumn": "Visual_Amount",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MMpsFlag",
+  "dataType": "string",
+  "sourceColumn": "MMpsFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

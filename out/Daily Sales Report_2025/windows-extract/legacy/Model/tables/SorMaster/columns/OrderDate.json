@@ -1,0 +1,32 @@
+{
+  "name": "OrderDate",
+  "dataType": "dateTime",
+  "sourceColumn": "OrderDate",
+  "formatString": "mm/dd/yy",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "75904568-3206-47a4-b30c-e4ef822210f9",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_c742c2a1-4cd0-44b3-91a3-9bc9f8537db7",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

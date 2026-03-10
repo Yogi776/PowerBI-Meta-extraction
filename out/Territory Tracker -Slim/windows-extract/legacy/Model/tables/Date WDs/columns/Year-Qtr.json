@@ -1,0 +1,12 @@
+{
+  "name": "Year-Qtr",
+  "dataType": "string",
+  "sourceColumn": "Year-Qtr",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

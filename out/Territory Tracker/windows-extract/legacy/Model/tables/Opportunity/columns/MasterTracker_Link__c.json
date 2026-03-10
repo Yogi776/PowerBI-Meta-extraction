@@ -1,0 +1,12 @@
+{
+  "name": "MasterTracker_Link__c",
+  "dataType": "string",
+  "sourceColumn": "MasterTracker_Link__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

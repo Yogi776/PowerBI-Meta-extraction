@@ -1,0 +1,1 @@
+(calculate(sum(ArTrnDetail[QtyInvoiced]),'4  Set Stock Code Dimensions'[Key Feature]="Folding Rail"))/calculate(sum(ArTrnDetail[QtyInvoiced]),'4  Set Stock Code Dimensions'[Product Class Description]="Pinnacle SL")

@@ -1,0 +1,12 @@
+{
+  "name": "AE__c",
+  "dataType": "string",
+  "sourceColumn": "AE__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

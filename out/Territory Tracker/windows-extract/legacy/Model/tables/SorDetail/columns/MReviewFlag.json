@@ -1,0 +1,12 @@
+{
+  "name": "MReviewFlag",
+  "dataType": "string",
+  "sourceColumn": "MReviewFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

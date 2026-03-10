@@ -1,0 +1,12 @@
+{
+  "name": "MWarehouse",
+  "dataType": "string",
+  "sourceColumn": "MWarehouse",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

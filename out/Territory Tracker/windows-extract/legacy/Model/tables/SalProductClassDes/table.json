@@ -1,0 +1,12 @@
+{
+  "name": "SalProductClassDes",
+  "partitions": [
+    {
+      "name": "SalProductClassDes",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

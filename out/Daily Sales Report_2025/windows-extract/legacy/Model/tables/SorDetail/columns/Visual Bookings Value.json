@@ -1,0 +1,17 @@
+{
+  "type": "calculated",
+  "name": "Visual Bookings Value",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

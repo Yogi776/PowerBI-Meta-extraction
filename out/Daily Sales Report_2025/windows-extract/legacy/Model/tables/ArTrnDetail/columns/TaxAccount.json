@@ -1,0 +1,12 @@
+{
+  "name": "TaxAccount",
+  "dataType": "string",
+  "sourceColumn": "TaxAccount",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Territory_Team_logo__c",
+  "dataType": "string",
+  "sourceColumn": "Territory_Team_logo__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

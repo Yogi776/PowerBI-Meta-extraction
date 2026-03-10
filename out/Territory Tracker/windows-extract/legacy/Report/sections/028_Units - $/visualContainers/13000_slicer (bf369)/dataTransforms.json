@@ -1,0 +1,329 @@
+{
+  "objects": {
+    "data": [
+      {
+        "properties": {
+          "mode": {
+            "expr": {
+              "Literal": {
+                "Value": "'Dropdown'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "general": [
+      {
+        "properties": {
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "selfFilterEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "properties": {
+          "outlineStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "4D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "underline": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Select Product Class, Code'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "items": [
+      {
+        "properties": {
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "selection": [
+      {
+        "properties": {
+          "selectAllCheckboxEnabled": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0,
+      2,
+      1
+    ]
+  },
+  "projectionActiveItems": {
+    "Values": [
+      {
+        "queryRef": "SalProductClassDes.Description",
+        "suppressConcat": false
+      },
+      {
+        "queryRef": "GenTransaction.Calc InvMaster.ProductClass",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Description",
+        "Name": "SalProductClassDes.Description",
+        "Type": 2048
+      },
+      {
+        "Restatement": "SubModStock",
+        "Name": "GenTransaction.SubModStock",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Calc InvMaster.ProductClass",
+        "Name": "GenTransaction.Calc InvMaster.ProductClass",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": true
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Description",
+      "queryName": "SalProductClassDes.Description",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SalProductClassDes"
+            }
+          },
+          "Property": "Description"
+        }
+      }
+    },
+    {
+      "displayName": "SubModStock",
+      "queryName": "GenTransaction.SubModStock",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "GenTransaction"
+            }
+          },
+          "Property": "SubModStock"
+        }
+      }
+    },
+    {
+      "displayName": "Calc InvMaster.ProductClass",
+      "queryName": "GenTransaction.Calc InvMaster.ProductClass",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "GenTransaction"
+            }
+          },
+          "Property": "Calc InvMaster.ProductClass"
+        }
+      }
+    }
+  ],
+  "expansionStates": [
+    {
+      "roles": [
+        "Values"
+      ],
+      "levels": [
+        {
+          "queryRefs": [
+            "SalProductClassDes.Description"
+          ],
+          "isCollapsed": true,
+          "identityKeys": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SalProductClassDes"
+                  }
+                },
+                "Property": "Description"
+              }
+            }
+          ],
+          "isPinned": true
+        },
+        {
+          "queryRefs": [
+            "GenTransaction.Calc InvMaster.ProductClass"
+          ],
+          "isCollapsed": true,
+          "isPinned": true
+        },
+        {
+          "queryRefs": [
+            "GenTransaction.SubModStock"
+          ],
+          "isCollapsed": true,
+          "isPinned": true
+        }
+      ],
+      "root": {
+        "identityValues": null,
+        "children": [
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'Alpine & Chariot Stair Lifts'"
+                }
+              }
+            ],
+            "isToggled": true
+          },
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'Pinnacle Stair Lifts'"
+                }
+              }
+            ],
+            "isToggled": true
+          },
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'Straight SL Parts'"
+                }
+              }
+            ],
+            "isToggled": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Existing_Hitch__c",
+  "dataType": "string",
+  "sourceColumn": "Existing_Hitch__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

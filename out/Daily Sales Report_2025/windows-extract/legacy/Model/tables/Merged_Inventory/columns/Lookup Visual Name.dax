@@ -1,0 +1,1 @@
+if(LOOKUPVALUE('DSR Hierarchy'[Products],'DSR Hierarchy'[ProductClass],Merged_Inventory[ProductClass])="","Other",LOOKUPVALUE('DSR Hierarchy'[Products],'DSR Hierarchy'[ProductClass],Merged_Inventory[ProductClass]))

@@ -1,0 +1,12 @@
+{
+  "name": "Opportunity",
+  "partitions": [
+    {
+      "name": "Opportunity",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Billing_Address_Barcode__c",
+  "dataType": "string",
+  "sourceColumn": "Billing_Address_Barcode__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Shipping_Delivery_Notes__c",
+  "dataType": "string",
+  "sourceColumn": "Shipping_Delivery_Notes__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

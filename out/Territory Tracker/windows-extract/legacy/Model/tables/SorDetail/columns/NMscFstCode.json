@@ -1,0 +1,12 @@
+{
+  "name": "NMscFstCode",
+  "dataType": "string",
+  "sourceColumn": "NMscFstCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

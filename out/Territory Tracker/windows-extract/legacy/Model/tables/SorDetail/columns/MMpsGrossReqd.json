@@ -1,0 +1,12 @@
+{
+  "name": "MMpsGrossReqd",
+  "dataType": "string",
+  "sourceColumn": "MMpsGrossReqd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

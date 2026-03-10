@@ -1,0 +1,10 @@
+{
+  "name": "Calc All Folding Rail Attachment Rate",
+  "formatString": "#.#%;(#.#%)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

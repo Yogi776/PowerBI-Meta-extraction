@@ -1,0 +1,12 @@
+{
+  "name": "GlIntLevel",
+  "dataType": "string",
+  "sourceColumn": "GlIntLevel",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

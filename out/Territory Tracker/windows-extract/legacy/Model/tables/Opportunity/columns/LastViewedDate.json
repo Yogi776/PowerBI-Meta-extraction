@@ -1,0 +1,24 @@
+{
+  "name": "LastViewedDate",
+  "dataType": "dateTime",
+  "sourceColumn": "LastViewedDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "c7c7f992-ace9-475f-9d4c-8972ee614383",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

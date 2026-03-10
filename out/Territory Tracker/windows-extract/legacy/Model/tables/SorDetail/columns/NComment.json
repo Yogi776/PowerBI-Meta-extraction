@@ -1,0 +1,12 @@
+{
+  "name": "NComment",
+  "dataType": "string",
+  "sourceColumn": "NComment",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Product Branch",
+  "dataType": "string",
+  "sourceColumn": "Product Branch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

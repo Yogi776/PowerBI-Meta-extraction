@@ -1,0 +1,12 @@
+{
+  "name": "Telex",
+  "dataType": "string",
+  "sourceColumn": "Telex",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

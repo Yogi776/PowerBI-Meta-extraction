@@ -1,0 +1,12 @@
+{
+  "name": "NPrtOnDel",
+  "dataType": "string",
+  "sourceColumn": "NPrtOnDel",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

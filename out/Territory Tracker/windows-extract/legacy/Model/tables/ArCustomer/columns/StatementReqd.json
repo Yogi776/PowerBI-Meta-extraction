@@ -1,0 +1,12 @@
+{
+  "name": "StatementReqd",
+  "dataType": "string",
+  "sourceColumn": "StatementReqd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

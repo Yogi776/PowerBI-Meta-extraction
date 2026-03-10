@@ -1,0 +1,12 @@
+{
+  "name": "MLastDelNote",
+  "dataType": "string",
+  "sourceColumn": "MLastDelNote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

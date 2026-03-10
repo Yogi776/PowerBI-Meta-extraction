@@ -1,0 +1,12 @@
+{
+  "name": "CustomerOnHold",
+  "dataType": "string",
+  "sourceColumn": "CustomerOnHold",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

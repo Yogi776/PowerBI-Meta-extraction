@@ -1,0 +1,24 @@
+{
+  "name": "SystemModstamp",
+  "dataType": "dateTime",
+  "sourceColumn": "SystemModstamp",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "04d50623-9a5a-4923-a629-a8d4c3372b8b",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

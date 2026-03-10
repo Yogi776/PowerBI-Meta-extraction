@@ -1,0 +1,12 @@
+{
+  "name": "PortDispatch",
+  "dataType": "string",
+  "sourceColumn": "PortDispatch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

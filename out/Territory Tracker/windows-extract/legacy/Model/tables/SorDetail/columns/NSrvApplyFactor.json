@@ -1,0 +1,12 @@
+{
+  "name": "NSrvApplyFactor",
+  "dataType": "string",
+  "sourceColumn": "NSrvApplyFactor",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

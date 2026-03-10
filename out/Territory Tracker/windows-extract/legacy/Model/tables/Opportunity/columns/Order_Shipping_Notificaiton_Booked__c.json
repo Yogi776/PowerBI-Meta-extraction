@@ -1,0 +1,13 @@
+{
+  "name": "Order_Shipping_Notificaiton_Booked__c",
+  "dataType": "boolean",
+  "sourceColumn": "Order_Shipping_Notificaiton_Booked__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

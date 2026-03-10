@@ -1,0 +1,13 @@
+{
+  "name": "Active__c",
+  "dataType": "boolean",
+  "sourceColumn": "Active__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

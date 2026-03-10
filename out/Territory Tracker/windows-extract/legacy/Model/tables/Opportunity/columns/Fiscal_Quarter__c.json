@@ -1,0 +1,16 @@
+{
+  "name": "Fiscal_Quarter__c",
+  "dataType": "double",
+  "sourceColumn": "Fiscal_Quarter__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

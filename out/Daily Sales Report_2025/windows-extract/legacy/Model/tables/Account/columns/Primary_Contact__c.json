@@ -1,0 +1,12 @@
+{
+  "name": "Primary_Contact__c",
+  "dataType": "string",
+  "sourceColumn": "Primary_Contact__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

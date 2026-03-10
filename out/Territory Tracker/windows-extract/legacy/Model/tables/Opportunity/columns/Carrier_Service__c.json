@@ -1,0 +1,12 @@
+{
+  "name": "Carrier_Service__c",
+  "dataType": "string",
+  "sourceColumn": "Carrier_Service__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

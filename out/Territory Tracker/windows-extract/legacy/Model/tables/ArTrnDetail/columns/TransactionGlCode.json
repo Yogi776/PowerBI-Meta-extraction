@@ -1,0 +1,12 @@
+{
+  "name": "TransactionGlCode",
+  "dataType": "string",
+  "sourceColumn": "TransactionGlCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

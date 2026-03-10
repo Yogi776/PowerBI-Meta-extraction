@@ -1,0 +1,13 @@
+{
+  "name": "Non-VA",
+  "dataType": "int64",
+  "sourceColumn": "Non-VA",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

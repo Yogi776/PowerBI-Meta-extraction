@@ -1,0 +1,16 @@
+{
+  "name": "Number_of_Installation_Techs__c",
+  "dataType": "double",
+  "sourceColumn": "Number_of_Installation_Techs__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

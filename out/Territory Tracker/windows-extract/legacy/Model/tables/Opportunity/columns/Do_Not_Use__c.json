@@ -1,0 +1,13 @@
+{
+  "name": "Do_Not_Use__c",
+  "dataType": "boolean",
+  "sourceColumn": "Do_Not_Use__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

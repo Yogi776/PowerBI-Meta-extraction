@@ -1,0 +1,12 @@
+{
+  "name": "SourceSystemIdentifier",
+  "dataType": "string",
+  "sourceColumn": "SourceSystemIdentifier",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

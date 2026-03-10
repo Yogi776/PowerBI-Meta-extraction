@@ -1,0 +1,12 @@
+{
+  "name": "BillingCountry",
+  "dataType": "string",
+  "sourceColumn": "BillingCountry",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

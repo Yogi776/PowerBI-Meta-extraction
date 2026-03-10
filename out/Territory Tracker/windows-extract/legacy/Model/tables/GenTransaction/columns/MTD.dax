@@ -1,0 +1,1 @@
+if(lookupvalue('MTD Logic Part 2'[JnlDate],'MTD Logic Part 2'[JnlDate],GenTransaction[Calculated Date])<>0,GenTransaction[2025 Visual Amount])

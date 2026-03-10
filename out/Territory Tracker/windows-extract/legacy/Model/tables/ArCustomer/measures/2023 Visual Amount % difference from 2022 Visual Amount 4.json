@@ -1,0 +1,19 @@
+{
+  "name": "2023 Visual Amount % difference from 2022 Visual Amount 4",
+  "formatString": "0.00%;-0.00%;0.00%",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "MathematicalPercentageDifference"
+      }
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ]
+}

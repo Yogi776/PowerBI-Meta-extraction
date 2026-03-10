@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('GenTransaction'[JnlDate])), 1, 1), Date(Year(MAX('GenTransaction'[JnlDate])), 12, 31))

@@ -1,0 +1,38 @@
+{
+  "name": "aaf9fa207a0d450e0ecb",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1002.9850746268656,
+        "y": 0,
+        "z": 1000,
+        "width": 276.71641791044777,
+        "height": 79.701492537313428,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "image",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "Harmar_Logo8809767073043971.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "howCreated": "InsertVisualButton"
+}

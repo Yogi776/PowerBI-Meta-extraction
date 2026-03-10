@@ -1,0 +1,13 @@
+{
+  "name": "Is_Account_International__c",
+  "dataType": "boolean",
+  "sourceColumn": "Is_Account_International__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "99295ab94bde4ae2c903",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 674.45134575569364,
+        "y": 67.5776397515528,
+        "z": 14000,
+        "width": 75.527950310559,
+        "height": 35.776397515527954,
+        "tabOrder": 15000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "*Budget",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "color": "#666666"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

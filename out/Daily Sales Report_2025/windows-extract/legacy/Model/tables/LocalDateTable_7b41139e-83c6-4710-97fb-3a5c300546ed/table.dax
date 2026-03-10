@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[INS_Exp_Date__c])), 1, 1), Date(Year(MAX('Account'[INS_Exp_Date__c])), 12, 31))

@@ -1,0 +1,12 @@
+{
+  "name": "Current Year",
+  "dataType": "string",
+  "sourceColumn": "Current Year",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

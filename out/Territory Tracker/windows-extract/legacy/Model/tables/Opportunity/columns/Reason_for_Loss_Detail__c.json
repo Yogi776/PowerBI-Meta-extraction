@@ -1,0 +1,12 @@
+{
+  "name": "Reason_for_Loss_Detail__c",
+  "dataType": "string",
+  "sourceColumn": "Reason_for_Loss_Detail__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

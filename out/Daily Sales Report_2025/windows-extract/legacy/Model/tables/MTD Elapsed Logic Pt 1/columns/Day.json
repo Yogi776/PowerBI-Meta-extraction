@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "Day",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

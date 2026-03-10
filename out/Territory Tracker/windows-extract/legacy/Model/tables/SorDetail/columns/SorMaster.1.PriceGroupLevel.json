@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.PriceGroupLevel",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.PriceGroupLevel",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

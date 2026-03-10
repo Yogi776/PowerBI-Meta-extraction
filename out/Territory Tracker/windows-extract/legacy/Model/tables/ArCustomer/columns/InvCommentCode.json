@@ -1,0 +1,12 @@
+{
+  "name": "InvCommentCode",
+  "dataType": "string",
+  "sourceColumn": "InvCommentCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

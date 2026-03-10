@@ -1,0 +1,12 @@
+{
+  "name": "ShipToAddr3Loc",
+  "dataType": "string",
+  "sourceColumn": "ShipToAddr3Loc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

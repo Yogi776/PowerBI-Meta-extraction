@@ -1,0 +1,12 @@
+{
+  "name": "NPD",
+  "dataType": "string",
+  "sourceColumn": "NPD",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

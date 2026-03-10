@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Filter058626cf2c07067187dc",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "CancelledFlag"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "CancelledFlag"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "''"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {}
+  },
+  {
+    "name": "Filter6508130f548691b16105",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "OrderDate"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Between": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "OrderDate"
+                }
+              },
+              "LowerBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "DateAdd": {
+                          "Expression": {
+                            "DateAdd": {
+                              "Expression": {
+                                "Now": {}
+                              },
+                              "Amount": -1,
+                              "TimeUnit": 0
+                            }
+                          },
+                          "Amount": 1,
+                          "TimeUnit": 0
+                        }
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              },
+              "UpperBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "Now": {}
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "RelativeDate",
+    "howCreated": 1
+  }
+]

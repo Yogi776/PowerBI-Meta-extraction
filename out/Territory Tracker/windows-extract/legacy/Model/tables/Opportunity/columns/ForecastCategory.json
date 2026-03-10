@@ -1,0 +1,12 @@
+{
+  "name": "ForecastCategory",
+  "dataType": "string",
+  "sourceColumn": "ForecastCategory",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Account'[COI_Hold_Date__c])), 1, 1), Date(Year(MAX('Account'[COI_Hold_Date__c])), 12, 31))

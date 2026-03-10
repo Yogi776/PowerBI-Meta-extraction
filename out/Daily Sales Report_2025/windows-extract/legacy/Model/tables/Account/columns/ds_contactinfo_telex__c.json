@@ -1,0 +1,12 @@
+{
+  "name": "ds_contactinfo_telex__c",
+  "dataType": "string",
+  "sourceColumn": "ds_contactinfo_telex__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

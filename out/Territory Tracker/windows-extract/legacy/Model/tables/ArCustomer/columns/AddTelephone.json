@@ -1,0 +1,12 @@
+{
+  "name": "AddTelephone",
+  "dataType": "string",
+  "sourceColumn": "AddTelephone",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

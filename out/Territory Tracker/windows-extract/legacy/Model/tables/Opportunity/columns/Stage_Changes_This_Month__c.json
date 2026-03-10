@@ -1,0 +1,16 @@
+{
+  "name": "Stage_Changes_This_Month__c",
+  "dataType": "double",
+  "sourceColumn": "Stage_Changes_This_Month__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

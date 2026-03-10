@@ -1,0 +1,12 @@
+{
+  "name": "Maps_Account_Phone__c",
+  "dataType": "string",
+  "sourceColumn": "Maps_Account_Phone__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

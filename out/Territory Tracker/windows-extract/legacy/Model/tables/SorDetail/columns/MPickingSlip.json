@@ -1,0 +1,12 @@
+{
+  "name": "MPickingSlip",
+  "dataType": "string",
+  "sourceColumn": "MPickingSlip",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

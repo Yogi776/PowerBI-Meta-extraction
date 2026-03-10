@@ -1,0 +1,12 @@
+{
+  "name": "Lookup_GL Mapping",
+  "dataType": "string",
+  "sourceColumn": "Lookup_GL Mapping",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

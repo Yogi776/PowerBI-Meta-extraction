@@ -1,0 +1,13 @@
+{
+  "name": "PY Factor",
+  "dataType": "int64",
+  "sourceColumn": "PY Factor",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

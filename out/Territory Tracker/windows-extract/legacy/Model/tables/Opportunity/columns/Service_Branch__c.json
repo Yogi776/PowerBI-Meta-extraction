@@ -1,0 +1,12 @@
+{
+  "name": "Service_Branch__c",
+  "dataType": "string",
+  "sourceColumn": "Service_Branch__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

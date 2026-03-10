@@ -1,0 +1,12 @@
+{
+  "name": "MAllocStatSched",
+  "dataType": "string",
+  "sourceColumn": "MAllocStatSched",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Stock Code",
+  "dataType": "string",
+  "sourceColumn": "Stock Code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

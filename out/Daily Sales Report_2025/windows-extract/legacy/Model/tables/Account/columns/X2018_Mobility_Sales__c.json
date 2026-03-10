@@ -1,0 +1,16 @@
+{
+  "name": "X2018_Mobility_Sales__c",
+  "dataType": "double",
+  "sourceColumn": "X2018_Mobility_Sales__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

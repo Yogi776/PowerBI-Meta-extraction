@@ -1,0 +1,42 @@
+{
+  "name": "b38e1c9321c081efdc00",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 387.79043280182236,
+        "y": 0,
+        "z": 1000,
+        "width": 242.97646165527718,
+        "height": 39.848139711465457,
+        "tabOrder": 1000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "ADA Revenue",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "16pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

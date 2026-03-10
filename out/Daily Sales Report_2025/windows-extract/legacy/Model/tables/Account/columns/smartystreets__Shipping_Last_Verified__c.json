@@ -1,0 +1,24 @@
+{
+  "name": "smartystreets__Shipping_Last_Verified__c",
+  "dataType": "dateTime",
+  "sourceColumn": "smartystreets__Shipping_Last_Verified__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "11a81a0a-5338-49f7-a366-08cc408fea43",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_272faf84-1c61-4df1-bcbd-21084ec35609",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

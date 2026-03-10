@@ -1,0 +1,12 @@
+{
+  "name": "Account_Owner_Email__c",
+  "dataType": "string",
+  "sourceColumn": "Account_Owner_Email__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

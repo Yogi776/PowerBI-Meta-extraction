@@ -1,0 +1,17 @@
+{
+  "name": "ZipCode",
+  "dataType": "string",
+  "sourceColumn": "ZipCode",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Filtera53ae7e5c9fafd4641a0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 0
+  },
+  {
+    "name": "Filter9c1bead5452d3904a43b",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SalProductClassDes"
+          }
+        },
+        "Property": "Description"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filter3075562fa51aa48232d5",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "4  Set Stock Code Dimensions"
+          }
+        },
+        "Property": "Unit Type"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "4",
+          "Entity": "4  Set Stock Code Dimensions",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "4"
+                      }
+                    },
+                    "Property": "Unit Type"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'Parts'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'Options & Accessories'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 2
+  },
+  {
+    "name": "Filter124c6e18976b3047d95b",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Territory_Naming"
+          }
+        },
+        "Property": "Visual Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filter6257726d529439a3579c",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Account"
+          }
+        },
+        "Property": "Sub_Key_Account__c"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filterc0239947fb832c27c89a",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "TblCustomerClass"
+          }
+        },
+        "Property": "Channel"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filtereccbfb84a315f7525e46",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "4  Set Stock Code Dimensions"
+          }
+        },
+        "Property": "StockCode"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filter5596b9d0b139c66e7922",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "4  Set Stock Code Dimensions"
+          }
+        },
+        "Property": "Description"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filter060c5e524202ec0f5fc3",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "2024 All Qty"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 8
+  },
+  {
+    "name": "Filterc3a4b0d396fc92913a8f",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "2023 All Qty"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 9
+  }
+]

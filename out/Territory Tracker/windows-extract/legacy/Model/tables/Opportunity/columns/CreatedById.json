@@ -1,0 +1,12 @@
+{
+  "name": "CreatedById",
+  "dataType": "string",
+  "sourceColumn": "CreatedById",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

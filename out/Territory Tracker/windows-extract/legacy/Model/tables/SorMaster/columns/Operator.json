@@ -1,0 +1,12 @@
+{
+  "name": "Operator",
+  "dataType": "string",
+  "sourceColumn": "Operator",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

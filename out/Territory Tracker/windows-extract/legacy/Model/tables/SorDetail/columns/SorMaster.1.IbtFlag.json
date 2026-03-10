@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.IbtFlag",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.IbtFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

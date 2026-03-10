@@ -1,0 +1,24 @@
+{
+  "name": "OrigShipDateAps",
+  "dataType": "dateTime",
+  "sourceColumn": "OrigShipDateAps",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "e9e2afc8-bd6e-4af4-8d9d-1db3c4b008e2",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

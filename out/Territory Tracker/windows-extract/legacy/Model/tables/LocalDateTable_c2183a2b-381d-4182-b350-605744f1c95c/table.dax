@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('SorDetail'[MLineShipDate])), 1, 1), Date(Year(MAX('SorDetail'[MLineShipDate])), 12, 31))

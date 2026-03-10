@@ -1,0 +1,42 @@
+{
+  "name": "856cbca60c753b44053c",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 492.13600697471662,
+        "y": 29.01482127288579,
+        "z": 2000,
+        "width": 296.84394071490846,
+        "height": 46.870095902353967,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "VA Opportunities",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

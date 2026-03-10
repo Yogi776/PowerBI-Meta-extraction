@@ -1,0 +1,12 @@
+{
+  "name": "ContactId",
+  "dataType": "string",
+  "sourceColumn": "ContactId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if(LOOKUPVALUE(SorMaster[Visual Backlog],SorMaster[SalesOrder],SorDetail[SalesOrder])="Backlog",SorDetail[Visual Bookings Value],0)

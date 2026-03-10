@@ -1,0 +1,710 @@
+{
+  "name": "4a7d8dbb1d04211659bc",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 14.589665653495441,
+        "y": 39.878419452887542,
+        "z": 0,
+        "width": 1105.8966565349544,
+        "height": 679.87841945288756,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Sum(GenTransaction.2023 Visual Amount)"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.2022 Visual Amount)"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.2022 Visual Amount)1"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.B(W) $)"
+        },
+        {
+          "queryRef": "GenTransaction.B(W) %"
+        },
+        {
+          "queryRef": "GenTransaction.PY $ Lap"
+        },
+        {
+          "queryRef": "GenTransaction.PY % Lap"
+        },
+        {
+          "queryRef": "GenTransaction.To Bronze"
+        },
+        {
+          "queryRef": "GenTransaction.To Silver"
+        },
+        {
+          "queryRef": "GenTransaction.To Gold"
+        },
+        {
+          "queryRef": "GenTransaction.To Platinum"
+        }
+      ],
+      "Rows": [
+        {
+          "queryRef": "ArCustomer.Name",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a1",
+          "Entity": "ArCustomer",
+          "Type": 0
+        },
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a1"
+              }
+            },
+            "Property": "Name"
+          },
+          "Name": "ArCustomer.Name",
+          "NativeReferenceName": "Name"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2025 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2023 Visual Amount)",
+          "NativeReferenceName": "2025"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2024 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2022 Visual Amount)",
+          "NativeReferenceName": "2024"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc B(W) $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.B(W) $)",
+          "NativeReferenceName": "B(W) $"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc B(W) %"
+          },
+          "Name": "GenTransaction.B(W) %",
+          "NativeReferenceName": "B(W) %1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "To Bronze"
+          },
+          "Name": "GenTransaction.To Bronze",
+          "NativeReferenceName": "To Bronze"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "To Silver"
+          },
+          "Name": "GenTransaction.To Silver",
+          "NativeReferenceName": "To Silver1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "To Gold"
+          },
+          "Name": "GenTransaction.To Gold",
+          "NativeReferenceName": "To Gold1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "To Platinum"
+          },
+          "Name": "GenTransaction.To Platinum",
+          "NativeReferenceName": "To Platinum1"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2023 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2022 Visual Amount)1",
+          "NativeReferenceName": "2023"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc PY $ Lap"
+          },
+          "Name": "GenTransaction.PY $ Lap",
+          "NativeReferenceName": "PY $ Lap1"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc PY % Lap"
+          },
+          "Name": "GenTransaction.PY % Lap",
+          "NativeReferenceName": "PY % Lap1"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "2024 Visual Amount"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "Sum(GenTransaction.2023 Visual Amount)": {
+        "displayName": "2025"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)": {
+        "displayName": "2024"
+      },
+      "Sum(GenTransaction.B(W) $)": {
+        "displayName": "B(W) $"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)1": {
+        "displayName": "2023"
+      },
+      "GenTransaction.B(W) %": {
+        "displayName": "B(W) %"
+      },
+      "GenTransaction.PY $ Lap": {
+        "displayName": "PY $ Lap"
+      },
+      "GenTransaction.PY % Lap": {
+        "displayName": "PY % Lap"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "filterSortOrder": 3,
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GenTransaction"
+                                        }
+                                      },
+                                      "Property": "Calc B(W) $"
+                                    }
+                                  },
+                                  "Function": 0
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#73361c'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Aggregation": {
+                                  "Expression": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GenTransaction"
+                                        }
+                                      },
+                                      "Property": "Calc B(W) $"
+                                    }
+                                  },
+                                  "Function": 0
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#0d5620'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Sum(GenTransaction.B(W) $)"
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "GenTransaction"
+                                    }
+                                  },
+                                  "Property": "Calc B(W) %"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#73361c'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#0d5620'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "GenTransaction.B(W) %"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            },
+            "titleAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "italic": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Left'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GenTransaction.To Bronze"
+          }
+        },
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GenTransaction.To Silver"
+          }
+        },
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GenTransaction.To Gold"
+          }
+        },
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "styleTotal": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GenTransaction.To Platinum"
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {},
+          "selector": {
+            "metadata": "GenTransaction.B(W) %"
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CountyZip1",
+  "dataType": "string",
+  "sourceColumn": "CountyZip1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

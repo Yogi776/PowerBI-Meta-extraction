@@ -1,0 +1,16 @@
+{
+  "name": "GlYear",
+  "dataType": "double",
+  "sourceColumn": "GlYear",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

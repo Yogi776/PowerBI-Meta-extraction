@@ -1,0 +1,12 @@
+{
+  "name": "Key Feature",
+  "dataType": "string",
+  "sourceColumn": "Key Feature",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

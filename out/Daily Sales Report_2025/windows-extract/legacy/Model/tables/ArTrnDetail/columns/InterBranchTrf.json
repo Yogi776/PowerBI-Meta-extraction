@@ -1,0 +1,12 @@
+{
+  "name": "InterBranchTrf",
+  "dataType": "string",
+  "sourceColumn": "InterBranchTrf",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

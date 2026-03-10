@@ -1,0 +1,12 @@
+{
+  "name": "SBQQ__QuotePricebookId__c",
+  "dataType": "string",
+  "sourceColumn": "SBQQ__QuotePricebookId__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

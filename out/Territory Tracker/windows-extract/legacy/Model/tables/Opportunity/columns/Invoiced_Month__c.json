@@ -1,0 +1,12 @@
+{
+  "name": "Invoiced_Month__c",
+  "dataType": "string",
+  "sourceColumn": "Invoiced_Month__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Travels_to_vet__c",
+  "dataType": "string",
+  "sourceColumn": "Travels_to_vet__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

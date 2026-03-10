@@ -1,0 +1,12 @@
+{
+  "name": "HierarchyFlag",
+  "dataType": "string",
+  "sourceColumn": "HierarchyFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

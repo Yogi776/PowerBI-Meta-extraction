@@ -1,0 +1,10 @@
+{
+  "name": "To Gold",
+  "formatString": "$#,###;($#,###)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

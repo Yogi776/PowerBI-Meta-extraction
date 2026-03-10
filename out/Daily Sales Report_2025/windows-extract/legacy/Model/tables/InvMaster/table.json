@@ -1,0 +1,22 @@
+{
+  "name": "InvMaster",
+  "partitions": [
+    {
+      "name": "InvMaster",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

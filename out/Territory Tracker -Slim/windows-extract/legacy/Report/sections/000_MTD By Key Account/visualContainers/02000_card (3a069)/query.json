@@ -1,0 +1,56 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "Dates_Master",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "d"
+                      }
+                    },
+                    "Property": "% Through Month"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(Dates_Master.% Through Month)",
+              "NativeReferenceName": "% Through Month"
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ]
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Top": {}
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

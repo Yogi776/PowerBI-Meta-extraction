@@ -1,0 +1,12 @@
+{
+  "name": "SubModStock",
+  "dataType": "string",
+  "sourceColumn": "SubModStock",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

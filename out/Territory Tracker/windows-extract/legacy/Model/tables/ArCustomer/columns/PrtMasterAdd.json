@@ -1,0 +1,12 @@
+{
+  "name": "PrtMasterAdd",
+  "dataType": "string",
+  "sourceColumn": "PrtMasterAdd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

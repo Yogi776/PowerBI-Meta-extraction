@@ -1,0 +1,12 @@
+{
+  "name": "DiscountGlCode",
+  "dataType": "string",
+  "sourceColumn": "DiscountGlCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

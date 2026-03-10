@@ -1,0 +1,12 @@
+{
+  "name": "Salesforce Connector",
+  "dataType": "string",
+  "sourceColumn": "Salesforce Connector",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

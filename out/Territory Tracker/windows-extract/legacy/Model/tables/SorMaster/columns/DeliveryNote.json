@@ -1,0 +1,12 @@
+{
+  "name": "DeliveryNote",
+  "dataType": "string",
+  "sourceColumn": "DeliveryNote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

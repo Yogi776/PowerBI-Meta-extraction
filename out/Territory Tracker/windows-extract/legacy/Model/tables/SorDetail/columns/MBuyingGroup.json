@@ -1,0 +1,12 @@
+{
+  "name": "MBuyingGroup",
+  "dataType": "string",
+  "sourceColumn": "MBuyingGroup",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

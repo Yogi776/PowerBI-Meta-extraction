@@ -1,0 +1,264 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "ArCustomer+",
+              "Type": 0
+            },
+            {
+              "Name": "a1",
+              "Entity": "Account",
+              "Type": 0
+            },
+            {
+              "Name": "o",
+              "Entity": "Opportunity",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "Month_Name",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Visual Territory Name"
+              },
+              "Name": "ArCustomer+.Visual Territory Name",
+              "NativeReferenceName": "Territory"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a1"
+                  }
+                },
+                "Property": "Name"
+              },
+              "Name": "Account.Name",
+              "NativeReferenceName": "Name"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Property": "Company__c"
+              },
+              "Name": "Opportunity.Company__c",
+              "NativeReferenceName": "Company__c"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "o"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "CreatedDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Month"
+              },
+              "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Month",
+              "NativeReferenceName": "CreatedDate Month"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "o"
+                      }
+                    },
+                    "Property": "Count__c"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(Opportunity.Count__c)",
+              "NativeReferenceName": "Sum of Count__c"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "o"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "CreatedDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Year"
+              },
+              "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Year",
+              "NativeReferenceName": "CreatedDate Year"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Property": "Visual Channel"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'VA'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 2,
+                  "Left": {
+                    "HierarchyLevel": {
+                      "Expression": {
+                        "Hierarchy": {
+                          "Expression": {
+                            "PropertyVariationSource": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "o"
+                                }
+                              },
+                              "Name": "Variation",
+                              "Property": "CreatedDate"
+                            }
+                          },
+                          "Hierarchy": "Date Hierarchy"
+                        }
+                      },
+                      "Level": "Year"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "2025L"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "m"
+                              }
+                            },
+                            "Property": "Month Name"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ],
+                "Subtotal": 1
+              }
+            ]
+          },
+          "Secondary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  3,
+                  4
+                ]
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 100
+              }
+            },
+            "Secondary": {
+              "Top": {
+                "Count": 100
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

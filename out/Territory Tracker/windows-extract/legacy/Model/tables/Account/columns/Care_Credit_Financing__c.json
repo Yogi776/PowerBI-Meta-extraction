@@ -1,0 +1,13 @@
+{
+  "name": "Care_Credit_Financing__c",
+  "dataType": "boolean",
+  "sourceColumn": "Care_Credit_Financing__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

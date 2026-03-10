@@ -1,0 +1,16 @@
+{
+  "name": "SL_Certified_Contact_Count__c",
+  "dataType": "double",
+  "sourceColumn": "SL_Certified_Contact_Count__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

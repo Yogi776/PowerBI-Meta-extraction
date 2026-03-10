@@ -1,0 +1,426 @@
+{
+  "objects": {
+    "values": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "italic": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "underline": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "wordWrap": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "grid": [
+      {
+        "properties": {
+          "outlineStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          },
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "outlineWeight": {
+            "expr": {
+              "Literal": {
+                "Value": "1D"
+              }
+            }
+          },
+          "gridHorizontal": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "gridVertical": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnHeaders": [
+      {
+        "properties": {
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "subTotals": [
+      {
+        "properties": {
+          "columnSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "applyToHeaders": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Row"
+        }
+      }
+    ],
+    "rowHeaders": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnWidth": [
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "105.08370044052863D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(SorDetail.calc 2024 bookings)"
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Rows": [
+      1
+    ],
+    "Values": [
+      0,
+      2
+    ]
+  },
+  "projectionActiveItems": {
+    "Rows": [
+      {
+        "queryRef": "SorDetail.MStockCode",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "2024 Bookings",
+        "Name": "Sum(SorDetail.calc 2024 bookings)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "NPD Highlights",
+        "Name": "SorDetail.MStockCode",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Units",
+        "Name": "Sum(SorDetail.MOrderQty)",
+        "Type": 1,
+        "Format": "#,0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "calc 2025 bookings"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SorDetail"
+                  }
+                },
+                "Property": "2024 Units"
+              }
+            },
+            "Function": 0
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "MStockCode"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "MProductClass"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Rows",
+          "Projection": 1,
+          "isActive": true
+        },
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "2024 Bookings",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(SorDetail.calc 2024 bookings)",
+      "roles": {
+        "Values": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "calc 2025 bookings"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "NPD Highlights",
+      "queryName": "SorDetail.MStockCode",
+      "roles": {
+        "Rows": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SorDetail"
+            }
+          },
+          "Property": "MStockCode"
+        }
+      }
+    },
+    {
+      "displayName": "Units",
+      "format": "#,0",
+      "queryName": "Sum(SorDetail.MOrderQty)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "SorDetail"
+                }
+              },
+              "Property": "MOrderQty"
+            }
+          },
+          "Function": 0
+        }
+      }
+    }
+  ],
+  "expansionStates": [
+    {
+      "roles": [
+        "Rows"
+      ],
+      "levels": [
+        {
+          "queryRefs": [
+            "SorDetail.MStockCode"
+          ],
+          "isCollapsed": true,
+          "isPinned": true
+        }
+      ],
+      "root": {
+        "identityValues": null
+      }
+    }
+  ]
+}

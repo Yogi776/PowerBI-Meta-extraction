@@ -1,0 +1,1 @@
+sum(ArTrnDetail[Calc Last Year Units])/CALCULATE(sum('MTD Budget Elapsed Logic'[Work Days]),'MTD Budget Elapsed Logic'[Flag for LY Per Day]=True)

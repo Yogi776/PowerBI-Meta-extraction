@@ -1,0 +1,24 @@
+{
+  "name": "Suspense_Release_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Suspense_Release_Date__c",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "109a13b5-bc38-4554-bbaa-d8ee5661876f",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SorMaster.1.OrderDate",
+  "dataType": "dateTime",
+  "sourceColumn": "SorMaster.1.OrderDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+[
+  {
+    "name": "Filterb40e367344507fd04c9a",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 0
+  },
+  {
+    "name": "Filtera53ae7e5c9fafd4641a0",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filterfce09ca0421bb36ccd57",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calc B(W) %"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filter80ca33d29dc3f253771a",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "Customer"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "a"
+                      }
+                    },
+                    "Property": "Customer"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000059823'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055246'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000054587'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055666'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000053009'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000052707'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000057951'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000052050'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000059911'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055344'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055701'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000053739'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000053670'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055255'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000051315'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000030170'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000030105'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000059922'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000051931'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000057966'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000054575'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000051148'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055307'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000058007'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000059963'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000054202'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055394'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055392'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000059839'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'000000000055244'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filterce6c2e96df6ed6885ffe",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "Salesperson"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Property": "Salesperson"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Z13'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filterc8191a25ad9e18ea61a6",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "PropertyVariationSource": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ArTrnDetail"
+                  }
+                },
+                "Name": "Variation",
+                "Property": "InvoiceDate"
+              }
+            },
+            "Hierarchy": "Date Hierarchy"
+          }
+        },
+        "Level": "Year"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 5
+  },
+  {
+    "name": "Filtere480686ba30197fd645b",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "PropertyVariationSource": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ArTrnDetail"
+                  }
+                },
+                "Name": "Variation",
+                "Property": "InvoiceDate"
+              }
+            },
+            "Hierarchy": "Date Hierarchy"
+          }
+        },
+        "Level": "Month"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 6
+  },
+  {
+    "name": "Filter8fc3586fe1a8ed43b315",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "QtyInvoiced"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 7
+  },
+  {
+    "name": "Filterfae726e3ebc4e8d5c87f",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArTrnDetail"
+          }
+        },
+        "Property": "ProductClass"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "a"
+                      }
+                    },
+                    "Property": "ProductClass"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'SCUR'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 8
+  }
+]

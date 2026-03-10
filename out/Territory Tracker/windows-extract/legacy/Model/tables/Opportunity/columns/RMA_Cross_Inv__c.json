@@ -1,0 +1,12 @@
+{
+  "name": "RMA_Cross_Inv__c",
+  "dataType": "string",
+  "sourceColumn": "RMA_Cross_Inv__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

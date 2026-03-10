@@ -1,0 +1,16 @@
+{
+  "name": "QtyReserved",
+  "dataType": "double",
+  "sourceColumn": "QtyReserved",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

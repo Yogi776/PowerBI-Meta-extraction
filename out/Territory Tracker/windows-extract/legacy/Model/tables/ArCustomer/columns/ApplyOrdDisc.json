@@ -1,0 +1,12 @@
+{
+  "name": "ApplyOrdDisc",
+  "dataType": "string",
+  "sourceColumn": "ApplyOrdDisc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

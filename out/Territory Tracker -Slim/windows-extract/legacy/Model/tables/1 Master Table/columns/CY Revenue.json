@@ -1,0 +1,17 @@
+{
+  "name": "CY Revenue",
+  "dataType": "double",
+  "sourceColumn": "CY Revenue",
+  "formatString": " $#,##0;($#,##0)",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

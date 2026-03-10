@@ -1,0 +1,333 @@
+{
+  "objects": {
+    "grid": [
+      {
+        "properties": {
+          "outlineStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          },
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnHeaders": [
+      {
+        "properties": {
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "9D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "values": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "10D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      2,
+      1,
+      0,
+      4,
+      3,
+      5
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "2024",
+        "Name": "Sum(GenTransaction.2022 Visual Amount)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "2025",
+        "Name": "Sum(GenTransaction.2023 Visual Amount)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "Stock Code",
+        "Name": "GenTransaction.SubModStock",
+        "Type": 2048
+      },
+      {
+        "Restatement": "B(W) $",
+        "Name": "Sum(GenTransaction.B(W) $)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "2023",
+        "Name": "Sum(GenTransaction.2022 Visual Amount)1",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "PY $ Lap",
+        "Name": "GenTransaction.PY $ Lap",
+        "Type": 1,
+        "Format": "$#,###;($#,###)"
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 4,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 3,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 5,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "2024",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(GenTransaction.2022 Visual Amount)",
+      "roles": {
+        "Values": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "GenTransaction"
+                }
+              },
+              "Property": "2024 Visual Amount"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "2025",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(GenTransaction.2023 Visual Amount)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "GenTransaction"
+                }
+              },
+              "Property": "2025 Visual Amount"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Stock Code",
+      "queryName": "GenTransaction.SubModStock",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "GenTransaction"
+            }
+          },
+          "Property": "SubModStock"
+        }
+      }
+    },
+    {
+      "displayName": "B(W) $",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(GenTransaction.B(W) $)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "GenTransaction"
+                }
+              },
+              "Property": "Calc B(W) $"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "2023",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(GenTransaction.2022 Visual Amount)1",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "GenTransaction"
+                }
+              },
+              "Property": "2023 Visual Amount"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "PY $ Lap",
+      "format": "$#,###;($#,###)",
+      "queryName": "GenTransaction.PY $ Lap",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "GenTransaction"
+            }
+          },
+          "Property": "Calc PY $ Lap"
+        }
+      }
+    }
+  ]
+}

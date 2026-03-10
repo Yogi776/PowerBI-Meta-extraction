@@ -1,0 +1,31 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "JnlDate",
+  "dataType": "dateTime",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "MTD Logic Part 1[Date]",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "729450ff-608c-498a-bbe1-eabb021d6ca9",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

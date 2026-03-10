@@ -1,0 +1,720 @@
+﻿C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\Account\columns\Calc Exec View Accounts.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\Account\columns\calc VGM Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc Enterprise Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc MSA.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc SalesForce Customer.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc SubKey.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc VA%2FVOSB.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Calc VOSB.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\columns\Channel Description.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\measures\2023 Visual Amount % difference from 2022 Visual Amount 3.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer\measures\2023 Visual Amount % difference from 2022 Visual Amount 4.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer+\columns\Calc Class.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer+\columns\Calc Territory Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer+\columns\Salesforce customer.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer+\columns\Visual Channel.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArCustomer+\columns\Visual Territory Name.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\2023 All Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\2023 Visual Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\2024 All Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\2024 Visual Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\2025 Visual Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Height.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Pinnacle Bandaid.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Product Unit Type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\columns\Calc Qty.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\B(W).dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc 2023 Folding Rail Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc 2023 Swing Away Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc 2024 Folding Rail Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc 2024 Swing Away Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc All Folding Rail Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) % Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) Folding Rail Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) Mobility Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) Options %.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) Options.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) SWA Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc B(W) Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc Mobility 2023 Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc Mobility 2024 Attachment Rate.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\Calc VPL Height.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\PY Lap.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\ArTrnDetail\measures\QtyInvoiced variance per Key Feature.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\DateTableTemplate_d122fcbb-5760-450e-b54e-b4b1f4861216\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\2023 Visual Amount.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\2024 Visual Amount.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\2025 Visual Amount.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\Calc B(W) $.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\Calc Membership.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\Calc VGM Flag.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\Calculated Date.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\LY MTD.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\MTD.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\columns\SalesForce Customer.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\B(W) $ MTD.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\B(W) % Exec.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc B(W) %.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc PY $ Lap.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\Calc PY % Lap.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\To Bronze.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\To Gold.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\To Platinum.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\GenTransaction\measures\To Silver.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02bb5063-aa9f-4dc3-9136-68089fbccc87\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_03803f08-da97-4d5f-9f5a-3bea78b2122c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_04746af0-75c7-4073-852c-6ebadbe34cef\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0577eb1a-27ce-421f-82aa-92475997dc51\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_072cf5d4-a0be-4387-a6bc-b48293b8c7bc\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_076cb45a-2628-46de-9bb6-8817e2c97497\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_0987cfa1-5673-4b29-81ed-7cbcee0b71c8\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_105ff25a-123f-4990-a1d0-133198becbbd\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_13014846-46bc-4c27-8858-03aa48003b5b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_1595295a-6d23-4a6a-ab94-0a66804329d6\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18a3f9a9-8eb5-4158-a042-1ec19507d561\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_18d28199-044f-4a83-96d5-48fd19772815\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2cc5bfc0-c8db-4437-96e1-734cb1b27b6b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_2f5994e5-7508-4d1b-88be-4dbdc0ed27d8\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_30089f31-e09c-40aa-9f50-d50d35e0f04c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198706a-4997-4aef-a5d5-70de4af55c0d\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_3198da7a-a26d-47b9-bba7-73e3c9f3bee4\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_31b4be0b-a787-49ea-b664-29542436d809\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_36f009ef-0c8b-48d8-8978-a280e870dc88\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_37afaa5d-98b8-4dcf-b6ea-b9f95855d585\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_392862b4-9608-42fa-995e-d5e2822b645c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_398d7fff-bbb0-46a2-9303-9c46cc2e78c6\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_412c85c7-72ea-4df9-a1cb-ef6fc9bb44a6\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_4559f3a8-d338-4c3e-aad5-07e2b796f23b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_522221bc-90ab-4d6b-937b-d3f79157e925\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_549539b6-5620-4603-8a59-632b480965df\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_55b5cdc0-b500-4553-a2de-b3da46ff3a2a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57ee9a8c-62c6-4a23-8af0-c9668e1b4c2c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_57f06abe-1370-498a-8a7d-af1b56c85d62\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_58004c0a-16de-4e4c-9772-e82c215d790a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_5a4cb3c5-f0f5-470a-9422-5e25a1b25cc1\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6567cf66-cc73-4876-b6fa-97ee8e55d297\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_671d3064-5861-4896-b5b2-5dea3b5affba\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_6895fb05-76f9-43c5-9da8-289acdcf3bb3\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_7da178e0-0871-419b-857c-a40ce92afb4b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_80b65aa2-c88e-4dc2-b6c9-73814d64c85c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_88fb7c5c-b7e6-4bf0-bf8b-0753d1bb5d42\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8b03f49b-2719-4631-94f9-5f041fc8101c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8bca64ab-5ebf-4c69-acf9-f797a8f6d63f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_8dbc3198-3111-438d-baaf-5a1a3185f827\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9025a041-ba03-42d4-bdd5-970d4004528f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_93cd3143-d5ee-4e77-9e30-949783d8bc4f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_963c0c91-8142-4439-a4d3-1964eaed2e02\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_97cb3287-6b7a-4648-8d64-eb0c9dad3d8f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_9c7c52a0-a76b-4e5a-a286-2e5a71ffc4c8\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a2ecdbce-d019-4aa7-9190-dabf19e48760\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a3214eb1-0bd2-4464-94f1-6215ff38e00e\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a4d7d4a9-e897-46f4-b3e8-68ea7754e94e\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a6c0f66e-c197-4675-bd3e-6c4cb6a55160\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_a805ab2b-286c-4c26-acd0-f9b800cba80a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b013a222-77b4-46dd-b781-8f9762a1634e\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b475d7da-ef31-4cd0-8f02-637fdfba6728\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b48eb1ee-acf9-4c7c-b16b-0a261fd5c326\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b751996c-e215-4fb5-9d0c-8d484766f464\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b797fd83-1f4f-45fa-81c0-d0894198e983\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_b975998d-8bd9-4c1a-906b-2efa971f4fde\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ba78e9c4-6253-4613-93f0-4ea607c7d869\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb277223-0444-433e-9357-910f2619d3ab\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_bb2ef28c-952b-49c2-9cb8-b6994a004f0e\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_be66a5ad-6a92-42f2-ad5d-e4ef9e63262f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_c47dbe64-b9e6-4936-a8db-16da5545545c\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_cb21af39-78ac-4769-8d28-629c4d0df635\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d20d3bfa-f541-4ea2-9343-34d92005aa41\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d54dd535-b209-4a32-8925-6e883ea964c2\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d6f6bd7f-d509-4642-9b43-46b2e7006491\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d97f8600-ca00-42ac-be92-f29935d3844f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_d98657fa-414e-42a6-b25c-f6810107f4e4\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_de0f819b-9b09-415b-893f-1c22b857726a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e08eb304-719a-4f2e-9a69-fd0ff48a3d1a\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e1f63cb8-66ff-4fa0-a923-f1c17f9fbfc4\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e28e0777-63ab-45ac-bf62-15be4bf5c8a8\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e2a4d908-76fc-4a6c-811c-013fe540caff\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e3fa6275-d485-4e5a-96e7-82df171a5139\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_e8f6660d-00bc-41d6-9537-63d173e29dcc\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ea448d84-9245-4180-a3eb-077760d8e14f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_ed374a4c-dc23-48c5-bc4c-21280eee423b\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f0aa3478-1b04-4f40-951b-ca08fccc671d\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f1343151-26b4-43eb-94d0-87a0a9682900\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f797004e-9823-4042-8f7a-5927bdd47d81\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_f7e6c3f1-778b-4023-b935-77770e494201\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fb0377fa-a669-4562-8353-37dd2b71fa3f\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fc1a9f65-1bde-4d4f-9757-c1a6ee6c13da\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\Day.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\Month.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\MonthNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\Quarter.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\QuarterNo.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\columns\Year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\MTD Logic Part 1\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\MTD Logic Part 2\columns\Last year.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\MTD Logic Part 2\measures\Current Week Number.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\MTD Logic Part 2\table.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\2023 Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\2024 Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\calc 2023 bookings.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\calc 2025 bookings.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\calc product unit type.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\columns\Visual Bookings Value.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\measures\B(W) Unit %.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorDetail\measures\B(W) Units.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorMaster\columns\Calc Territory Tracker.dax
+C:\Users\yoges\Downloads\pbi-tools\pbi-tools\out\Territory Tracker\windows-extract\legacy\Model\tables\SorMaster\columns\Customer Name.dax

@@ -1,0 +1,12 @@
+{
+  "name": "ProductClassDescription",
+  "dataType": "string",
+  "sourceColumn": "ProductClassDescription",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

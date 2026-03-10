@@ -1,0 +1,12 @@
+{
+  "name": "CostGlCode",
+  "dataType": "string",
+  "sourceColumn": "CostGlCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

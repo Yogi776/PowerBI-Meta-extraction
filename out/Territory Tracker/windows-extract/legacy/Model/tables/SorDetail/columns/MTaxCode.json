@@ -1,0 +1,12 @@
+{
+  "name": "MTaxCode",
+  "dataType": "string",
+  "sourceColumn": "MTaxCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

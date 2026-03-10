@@ -1,0 +1,12 @@
+{
+  "name": "VAT_ID_del__c",
+  "dataType": "string",
+  "sourceColumn": "VAT_ID_del__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "c248e64f9610aea14403",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 49.621145374449341,
+        "y": 0,
+        "z": 4000,
+        "width": 325.92070484581495,
+        "height": 39.471365638766521,
+        "tabOrder": 4000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Key Accounts",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

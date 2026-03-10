@@ -1,0 +1,127 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s1",
+              "Entity": "SorMaster",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "Month_Name",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s1"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "OrderDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Month"
+              },
+              "Name": "SorMaster.OrderDate.Variation.Date Hierarchy.Month",
+              "NativeReferenceName": "OrderDate Month"
+            },
+            {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "PropertyVariationSource": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s1"
+                          }
+                        },
+                        "Name": "Variation",
+                        "Property": "OrderDate"
+                      }
+                    },
+                    "Hierarchy": "Date Hierarchy"
+                  }
+                },
+                "Level": "Day"
+              },
+              "Name": "SorMaster.OrderDate.Variation.Date Hierarchy.Day",
+              "NativeReferenceName": "OrderDate Day"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "m"
+                              }
+                            },
+                            "Property": "Month Name"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0
+                ],
+                "Subtotal": 1
+              }
+            ]
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "IncludeEmptyGroups": true,
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Filter8d8473ac575c05022c50",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "DSR Hierarchy"
+          }
+        },
+        "Property": "Branch"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ordinal": 0
+  },
+  {
+    "name": "Filter058626cf2c07067187dc",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "CancelledFlag"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "CancelledFlag"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "''"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "ordinal": 1
+  },
+  {
+    "name": "Filter6508130f548691b16105",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorMaster"
+          }
+        },
+        "Property": "OrderDate"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorMaster",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Between": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "OrderDate"
+                }
+              },
+              "LowerBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "DateAdd": {
+                          "Expression": {
+                            "DateAdd": {
+                              "Expression": {
+                                "Now": {}
+                              },
+                              "Amount": -1,
+                              "TimeUnit": 0
+                            }
+                          },
+                          "Amount": 1,
+                          "TimeUnit": 0
+                        }
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              },
+              "UpperBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "Now": {}
+                      },
+                      "Amount": -1,
+                      "TimeUnit": 0
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "RelativeDate",
+    "howCreated": 1,
+    "ordinal": 2
+  },
+  {
+    "name": "60f3e58c17b095bcde94",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SorDetail"
+              }
+            },
+            "Property": "MTD Current Year"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "fedbd98f534b02e8b015",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "SorMaster.CustomerPoNumber"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 4
+  },
+  {
+    "name": "6a97653b37c080a72eb4",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SorDetail"
+          }
+        },
+        "Property": "Visual Bookings Value"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "SorDetail",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Comparison": {
+              "ComparisonKind": 3,
+              "Left": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "Visual Bookings Value"
+                }
+              },
+              "Right": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Advanced",
+    "howCreated": 1,
+    "ordinal": 5
+  }
+]

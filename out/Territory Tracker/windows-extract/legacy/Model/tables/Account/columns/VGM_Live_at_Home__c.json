@@ -1,0 +1,13 @@
+{
+  "name": "VGM_Live_at_Home__c",
+  "dataType": "boolean",
+  "sourceColumn": "VGM_Live_at_Home__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

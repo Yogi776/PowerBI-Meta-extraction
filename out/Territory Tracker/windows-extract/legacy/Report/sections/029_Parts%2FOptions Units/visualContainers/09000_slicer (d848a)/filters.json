@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Filter894290c116329e2605fe",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "4  Set Stock Code Dimensions"
+          }
+        },
+        "Property": "Unit Type"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "4",
+          "Entity": "4  Set Stock Code Dimensions",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "In": {
+              "Expressions": [
+                {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "4"
+                      }
+                    },
+                    "Property": "Unit Type"
+                  }
+                }
+              ],
+              "Values": [
+                [
+                  {
+                    "Literal": {
+                      "Value": "'Options & Accessories'"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Literal": {
+                      "Value": "'Parts'"
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "objects": {},
+    "isHiddenInViewMode": false,
+    "ordinal": 0
+  }
+]

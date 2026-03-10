@@ -1,0 +1,12 @@
+{
+  "name": "SerialisedFlag",
+  "dataType": "string",
+  "sourceColumn": "SerialisedFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

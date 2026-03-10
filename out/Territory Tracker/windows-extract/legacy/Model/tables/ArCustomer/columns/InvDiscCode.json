@@ -1,0 +1,12 @@
+{
+  "name": "InvDiscCode",
+  "dataType": "string",
+  "sourceColumn": "InvDiscCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

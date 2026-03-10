@@ -1,0 +1,12 @@
+{
+  "name": "TriangulationRole",
+  "dataType": "string",
+  "sourceColumn": "TriangulationRole",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

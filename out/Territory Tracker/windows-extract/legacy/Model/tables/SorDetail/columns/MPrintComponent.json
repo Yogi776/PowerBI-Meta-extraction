@@ -1,0 +1,12 @@
+{
+  "name": "MPrintComponent",
+  "dataType": "string",
+  "sourceColumn": "MPrintComponent",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

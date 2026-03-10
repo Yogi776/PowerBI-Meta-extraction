@@ -1,0 +1,18 @@
+{
+  "objects": {
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "183L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "filterSortOrder": 3
+}

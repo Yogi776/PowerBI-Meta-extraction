@@ -1,0 +1,13 @@
+{
+  "name": "Harmar_LOS__c",
+  "dataType": "boolean",
+  "sourceColumn": "Harmar_LOS__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

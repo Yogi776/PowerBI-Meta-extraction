@@ -1,0 +1,12 @@
+{
+  "name": "FaxInvoices",
+  "dataType": "string",
+  "sourceColumn": "FaxInvoices",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

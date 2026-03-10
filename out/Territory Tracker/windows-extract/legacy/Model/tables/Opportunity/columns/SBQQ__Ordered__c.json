@@ -1,0 +1,13 @@
+{
+  "name": "SBQQ__Ordered__c",
+  "dataType": "boolean",
+  "sourceColumn": "SBQQ__Ordered__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

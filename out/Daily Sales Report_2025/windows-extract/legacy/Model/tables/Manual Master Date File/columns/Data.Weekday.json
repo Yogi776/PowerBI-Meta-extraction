@@ -1,0 +1,12 @@
+{
+  "name": "Data.Weekday",
+  "dataType": "string",
+  "sourceColumn": "Data.Weekday",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

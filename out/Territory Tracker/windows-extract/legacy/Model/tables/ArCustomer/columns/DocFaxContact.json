@@ -1,0 +1,12 @@
+{
+  "name": "DocFaxContact",
+  "dataType": "string",
+  "sourceColumn": "DocFaxContact",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

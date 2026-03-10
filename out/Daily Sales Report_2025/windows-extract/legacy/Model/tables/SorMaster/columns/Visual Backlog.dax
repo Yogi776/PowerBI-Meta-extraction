@@ -1,0 +1,1 @@
+if(SorMaster[OrderStatus]="9","No",if(SorMaster[OrderStatus]="\","No",if(SorMaster[OrderStatus]="*","No",if(SorMaster[OrderStatus]="0","No","Backlog"))))

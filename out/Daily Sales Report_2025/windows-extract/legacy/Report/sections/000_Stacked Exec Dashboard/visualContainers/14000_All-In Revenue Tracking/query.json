@@ -1,0 +1,96 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "ArTrnDetail",
+              "Type": 0
+            },
+            {
+              "Name": "g",
+              "Entity": "GenTransaction",
+              "Type": 0
+            },
+            {
+              "Name": "l",
+              "Entity": "LucaNet Revenue Budget",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "a"
+                      }
+                    },
+                    "Property": "Calc MTD $"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(ArTrnDetail.Calc MTD $)",
+              "NativeReferenceName": "Sum of Calc MTD $"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "g"
+                      }
+                    },
+                    "Property": "Calc LY"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(GenTransaction.Calc LY)",
+              "NativeReferenceName": "Sum of Calc LY"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "l"
+                      }
+                    },
+                    "Property": "Budget for Visual"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(LucaNet Interim Budget.Budget for Visual)",
+              "NativeReferenceName": "Sum of Budget for Visual"
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  0,
+                  1,
+                  2
+                ]
+              }
+            ]
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

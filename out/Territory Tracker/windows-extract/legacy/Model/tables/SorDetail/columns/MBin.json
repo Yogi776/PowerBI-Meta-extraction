@@ -1,0 +1,12 @@
+{
+  "name": "MBin",
+  "dataType": "string",
+  "sourceColumn": "MBin",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

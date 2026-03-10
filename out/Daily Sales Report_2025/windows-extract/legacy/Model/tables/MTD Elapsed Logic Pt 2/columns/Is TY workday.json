@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "Is TY workday",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

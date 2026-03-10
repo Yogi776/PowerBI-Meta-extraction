@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.ExtendedTaxCode",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.ExtendedTaxCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

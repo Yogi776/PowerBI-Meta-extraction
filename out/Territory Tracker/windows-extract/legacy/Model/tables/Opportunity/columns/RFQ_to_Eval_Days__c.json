@@ -1,0 +1,16 @@
+{
+  "name": "RFQ_to_Eval_Days__c",
+  "dataType": "double",
+  "sourceColumn": "RFQ_to_Eval_Days__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

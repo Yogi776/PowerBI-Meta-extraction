@@ -1,0 +1,12 @@
+{
+  "name": "Installs_product_not_sold_through_them__c",
+  "dataType": "string",
+  "sourceColumn": "Installs_product_not_sold_through_them__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

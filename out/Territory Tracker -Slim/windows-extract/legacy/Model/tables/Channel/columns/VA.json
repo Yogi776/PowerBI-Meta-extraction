@@ -1,0 +1,13 @@
+{
+  "name": "VA",
+  "dataType": "int64",
+  "sourceColumn": "VA",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.GstDeduction",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.GstDeduction",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

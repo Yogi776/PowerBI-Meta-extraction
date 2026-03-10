@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Filter9d7a87a8ea10c61447d5",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Account"
+          }
+        },
+        "Property": "Sub_Key_Account__c"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "isHiddenInViewMode": false,
+    "ordinal": 0
+  },
+  {
+    "name": "Filtera13cdd1ca340dba48aba",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Account"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  },
+  {
+    "name": "Filter6a7d4985bdb6dd02612a",
+    "expression": {
+      "Aggregation": {
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GenTransaction"
+              }
+            },
+            "Property": "Visual_Amount"
+          }
+        },
+        "Function": 0
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 2
+  },
+  {
+    "name": "Filter24882246c886cb9035e7",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "PropertyVariationSource": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "GenTransaction"
+                  }
+                },
+                "Name": "Variation",
+                "Property": "Calculated Date"
+              }
+            },
+            "Hierarchy": "Date Hierarchy"
+          }
+        },
+        "Level": "Year"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 3
+  },
+  {
+    "name": "Filter8e4f0a83d2d61db298ca",
+    "expression": {
+      "HierarchyLevel": {
+        "Expression": {
+          "Hierarchy": {
+            "Expression": {
+              "PropertyVariationSource": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "GenTransaction"
+                  }
+                },
+                "Name": "Variation",
+                "Property": "Calculated Date"
+              }
+            },
+            "Hierarchy": "Date Hierarchy"
+          }
+        },
+        "Level": "Month"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": false,
+    "ordinal": 4
+  },
+  {
+    "name": "Filterb5c4209dc9ce57f7d70b",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "GenTransaction"
+          }
+        },
+        "Property": "Calculated Date"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Between": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "Calculated Date"
+                }
+              },
+              "LowerBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "DateAdd": {
+                      "Expression": {
+                        "DateAdd": {
+                          "Expression": {
+                            "Now": {}
+                          },
+                          "Amount": 1,
+                          "TimeUnit": 0
+                        }
+                      },
+                      "Amount": -12,
+                      "TimeUnit": 2
+                    }
+                  },
+                  "TimeUnit": 0
+                }
+              },
+              "UpperBound": {
+                "DateSpan": {
+                  "Expression": {
+                    "Now": {}
+                  },
+                  "TimeUnit": 0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "RelativeDate",
+    "howCreated": 1,
+    "ordinal": 5
+  }
+]

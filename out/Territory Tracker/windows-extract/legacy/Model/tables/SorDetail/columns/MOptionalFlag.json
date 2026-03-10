@@ -1,0 +1,12 @@
+{
+  "name": "MOptionalFlag",
+  "dataType": "string",
+  "sourceColumn": "MOptionalFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

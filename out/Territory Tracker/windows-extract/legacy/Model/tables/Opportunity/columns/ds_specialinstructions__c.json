@@ -1,0 +1,12 @@
+{
+  "name": "ds_specialinstructions__c",
+  "dataType": "string",
+  "sourceColumn": "ds_specialinstructions__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

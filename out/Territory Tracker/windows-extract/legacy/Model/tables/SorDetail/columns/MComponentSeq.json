@@ -1,0 +1,12 @@
+{
+  "name": "MComponentSeq",
+  "dataType": "string",
+  "sourceColumn": "MComponentSeq",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

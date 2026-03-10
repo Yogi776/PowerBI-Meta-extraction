@@ -1,0 +1,119 @@
+{
+  "name": "7bc0720e8210bec20c12",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 877.71428571428567,
+        "y": 142.4360902255639,
+        "z": 11000,
+        "width": 178.04511278195488,
+        "height": 69.293233082706763,
+        "tabOrder": 10000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "GenTransaction.Calc Avg Ship"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc Avg Ship"
+          },
+          "Name": "GenTransaction.Calc Avg Ship",
+          "NativeReferenceName": "Daily Average Shipped"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "g"
+                }
+              },
+              "Property": "Calc Avg Ship"
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "GenTransaction.Calc Avg Ship": {
+        "displayName": "Daily Average Shipped"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true,
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

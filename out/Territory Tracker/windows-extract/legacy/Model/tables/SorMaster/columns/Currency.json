@@ -1,0 +1,12 @@
+{
+  "name": "Currency",
+  "dataType": "string",
+  "sourceColumn": "Currency",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

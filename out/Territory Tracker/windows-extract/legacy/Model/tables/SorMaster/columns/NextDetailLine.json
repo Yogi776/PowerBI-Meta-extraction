@@ -1,0 +1,16 @@
+{
+  "name": "NextDetailLine",
+  "dataType": "double",
+  "sourceColumn": "NextDetailLine",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

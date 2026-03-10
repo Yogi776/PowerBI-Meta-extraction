@@ -1,0 +1,12 @@
+{
+  "name": "OrdAcknwPrinted",
+  "dataType": "string",
+  "sourceColumn": "OrdAcknwPrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

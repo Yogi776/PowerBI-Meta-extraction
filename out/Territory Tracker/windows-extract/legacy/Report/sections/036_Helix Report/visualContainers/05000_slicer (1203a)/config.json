@@ -1,0 +1,195 @@
+{
+  "name": "1203ae21929dc98001dc",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 877.32522796352589,
+        "y": 0,
+        "z": 5000,
+        "width": 402.67477203647417,
+        "height": 99.209726443769,
+        "tabOrder": 5000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "slicer",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "ArCustomer.Name",
+          "active": true
+        },
+        {
+          "queryRef": "ArTrnDetail.Customer"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArTrnDetail",
+          "Type": 0
+        },
+        {
+          "Name": "a1",
+          "Entity": "ArCustomer",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Customer"
+          },
+          "Name": "ArTrnDetail.Customer",
+          "NativeReferenceName": "Customer"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a1"
+              }
+            },
+            "Property": "Name"
+          },
+          "Name": "ArCustomer.Name",
+          "NativeReferenceName": "Name"
+        }
+      ]
+    },
+    "columnProperties": {
+      "Sum(GenTransaction.2023 Visual Amount)": {
+        "displayName": "2024"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)": {
+        "displayName": "2023"
+      },
+      "Sum(GenTransaction.B(W) $)": {
+        "displayName": "B(W) $"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)1": {
+        "displayName": "2022"
+      },
+      "GenTransaction.PY $ Lap": {
+        "displayName": "PY $ Lap"
+      },
+      "GenTransaction.PY % Lap": {
+        "displayName": "PY % Lap"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "filterSortOrder": 3,
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Customer Name & ID'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "HasOpportunityLineItem",
+  "dataType": "boolean",
+  "sourceColumn": "HasOpportunityLineItem",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NTaxAmountFlag",
+  "dataType": "string",
+  "sourceColumn": "NTaxAmountFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

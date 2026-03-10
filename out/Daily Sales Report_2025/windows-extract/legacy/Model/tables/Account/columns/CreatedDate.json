@@ -1,0 +1,24 @@
+{
+  "name": "CreatedDate",
+  "dataType": "dateTime",
+  "sourceColumn": "CreatedDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "8f100216-5ac9-47d9-98e6-f1833836fd95",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_4f776beb-042b-4435-a7d2-4954a96b4f55",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

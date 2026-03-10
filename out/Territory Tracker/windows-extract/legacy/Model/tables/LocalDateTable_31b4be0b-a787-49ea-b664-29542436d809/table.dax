@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[Address_Last_Verified__c])), 1, 1), Date(Year(MAX('Opportunity'[Address_Last_Verified__c])), 12, 31))

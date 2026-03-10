@@ -1,0 +1,9 @@
+{
+  "name": "Zeros (forecast)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

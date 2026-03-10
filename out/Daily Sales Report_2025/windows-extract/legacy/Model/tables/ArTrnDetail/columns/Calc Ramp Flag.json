@@ -1,0 +1,13 @@
+{
+  "type": "calculated",
+  "name": "Calc Ramp Flag",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

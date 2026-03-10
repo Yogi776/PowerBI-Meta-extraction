@@ -1,0 +1,12 @@
+{
+  "name": "LastInvoice",
+  "dataType": "string",
+  "sourceColumn": "LastInvoice",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

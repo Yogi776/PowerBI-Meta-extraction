@@ -1,0 +1,12 @@
+{
+  "name": "SoldPostalCode",
+  "dataType": "string",
+  "sourceColumn": "SoldPostalCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

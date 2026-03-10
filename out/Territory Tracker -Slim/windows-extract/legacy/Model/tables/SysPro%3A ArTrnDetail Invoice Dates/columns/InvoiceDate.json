@@ -1,0 +1,28 @@
+{
+  "name": "InvoiceDate",
+  "dataType": "dateTime",
+  "sourceColumn": "InvoiceDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "a91bdcb4-ca93-41f0-a989-a2d623511d9b",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_bc5e9f80-2d63-4c22-9eec-bbc318574038",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

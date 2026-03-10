@@ -1,0 +1,12 @@
+{
+  "name": "CustomerBuyGrp",
+  "dataType": "string",
+  "sourceColumn": "CustomerBuyGrp",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

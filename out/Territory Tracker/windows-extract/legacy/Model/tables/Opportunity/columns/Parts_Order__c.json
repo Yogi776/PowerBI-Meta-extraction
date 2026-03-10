@@ -1,0 +1,13 @@
+{
+  "name": "Parts_Order__c",
+  "dataType": "boolean",
+  "sourceColumn": "Parts_Order__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

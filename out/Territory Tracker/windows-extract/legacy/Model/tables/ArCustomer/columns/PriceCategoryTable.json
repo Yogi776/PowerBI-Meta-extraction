@@ -1,0 +1,12 @@
+{
+  "name": "PriceCategoryTable",
+  "dataType": "string",
+  "sourceColumn": "PriceCategoryTable",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

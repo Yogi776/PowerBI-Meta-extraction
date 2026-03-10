@@ -1,0 +1,16 @@
+{
+  "name": "Completed__c",
+  "dataType": "double",
+  "sourceColumn": "Completed__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

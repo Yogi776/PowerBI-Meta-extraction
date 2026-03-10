@@ -1,0 +1,28 @@
+{
+  "name": "LastActivityDate",
+  "dataType": "dateTime",
+  "sourceColumn": "LastActivityDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "1cc0baaa-8244-4f47-8aab-b61d5b570010",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_e0e6350e-0cfe-485c-9497-ace6f2764148",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

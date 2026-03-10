@@ -1,0 +1,12 @@
+{
+  "name": "Does_Hitch__c",
+  "dataType": "string",
+  "sourceColumn": "Does_Hitch__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

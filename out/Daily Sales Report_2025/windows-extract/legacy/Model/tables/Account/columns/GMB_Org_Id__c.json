@@ -1,0 +1,12 @@
+{
+  "name": "GMB_Org_Id__c",
+  "dataType": "string",
+  "sourceColumn": "GMB_Org_Id__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

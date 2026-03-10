@@ -1,0 +1,12 @@
+{
+  "name": "MaintHistory",
+  "dataType": "string",
+  "sourceColumn": "MaintHistory",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

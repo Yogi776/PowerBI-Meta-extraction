@@ -1,0 +1,13 @@
+{
+  "name": "BB_Installer_Addendum_PDF__c",
+  "dataType": "boolean",
+  "sourceColumn": "BB_Installer_Addendum_PDF__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

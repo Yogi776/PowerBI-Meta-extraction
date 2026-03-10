@@ -1,0 +1,12 @@
+{
+  "name": "QuickQuote",
+  "dataType": "string",
+  "sourceColumn": "QuickQuote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

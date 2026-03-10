@@ -1,0 +1,12 @@
+{
+  "name": "Fax",
+  "dataType": "string",
+  "sourceColumn": "Fax",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

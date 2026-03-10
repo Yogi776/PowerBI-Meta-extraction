@@ -1,0 +1,12 @@
+{
+  "name": "MAltUomUnitQ",
+  "dataType": "string",
+  "sourceColumn": "MAltUomUnitQ",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

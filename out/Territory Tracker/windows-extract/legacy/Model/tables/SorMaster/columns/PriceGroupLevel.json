@@ -1,0 +1,12 @@
+{
+  "name": "PriceGroupLevel",
+  "dataType": "string",
+  "sourceColumn": "PriceGroupLevel",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

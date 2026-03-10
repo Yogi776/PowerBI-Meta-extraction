@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Dates_Master'[Yesterday])), 1, 1), Date(Year(MAX('Dates_Master'[Yesterday])), 12, 31))

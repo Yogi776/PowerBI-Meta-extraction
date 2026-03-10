@@ -1,0 +1,24 @@
+{
+  "name": "EntrySystemDate",
+  "dataType": "dateTime",
+  "sourceColumn": "EntrySystemDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5ef2abfe-4c58-4780-8c49-af25f79da4c7",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_fcbada04-1ba8-4837-ba2c-f56279a1a358",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

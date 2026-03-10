@@ -1,0 +1,12 @@
+{
+  "name": "TaxExemptNumber",
+  "dataType": "string",
+  "sourceColumn": "TaxExemptNumber",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "DispatchesMade",
+  "dataType": "string",
+  "sourceColumn": "DispatchesMade",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

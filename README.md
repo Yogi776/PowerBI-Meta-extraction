@@ -14,6 +14,25 @@ An example project is available here: <https://github.com/pbi-tools/adventurewor
 
 ---
 
+## Packaging & running on a new machine (Windows, Mac, Ubuntu)
+
+To let other users run the same workflow on a **new machine** (Windows, macOS, or Ubuntu):
+
+1. **Package = this repo** — Share by cloning or downloading the repo (ZIP). No separate installer.
+2. **Full instructions** — See **[GETTING_STARTED.md](./GETTING_STARTED.md)** for:
+   - What’s in the package
+   - **Platform matrix:** extract from `.pbix` = **Windows only**; use extracted output / `generate-bim` = **any OS**
+   - Step-by-step setup and run for **Windows**, **macOS**, and **Ubuntu**
+   - One-page checklist and how to share with others
+
+| Platform | Extract from .pbix | Use extracted output / generate-bim |
+|----------|--------------------|--------------------------------------|
+| **Windows** | ✅ Yes (PBI Desktop + pbi-tools) | ✅ Yes |
+| **macOS**   | ❌ No              | ✅ Yes (pbi-tools Core) |
+| **Ubuntu**  | ❌ No              | ✅ Yes (pbi-tools Core) |
+
+---
+
 ## Extract PBIX Reports (scripts)
 
 The `scripts\extract-pbix-reports.ps1` script extracts one or more `.pbix` reports into a folder structure with **Legacy** model serialization (DAX measures, M queries, BIM). You define the **source** (folder or single file) and the **output** root; each report gets its own subfolder.
@@ -59,10 +78,12 @@ flowchart TD
     end
 ```
 
-### Prerequisites
+### Prerequisites (Windows)
 
 - **Power BI Desktop** (x64) installed in the default location (used by pbi-tools for extraction).
 - **pbi-tools** either on PATH, or built locally at `out\tools\pbi-tools-desktop\pbi-tools.exe` (script will use the local build if the command is not found).
+
+You can also run extraction **using Docker** (Windows containers): see [GETTING_STARTED.md — Run using Docker on Windows](GETTING_STARTED.md#24-run-using-docker-on-windows) and [docker/README.windows.md](docker/README.windows.md).
 
 ### Parameters
 

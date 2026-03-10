@@ -1,0 +1,12 @@
+{
+  "name": "WebCreated",
+  "dataType": "string",
+  "sourceColumn": "WebCreated",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

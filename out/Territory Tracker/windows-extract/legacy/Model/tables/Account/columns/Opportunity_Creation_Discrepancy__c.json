@@ -1,0 +1,16 @@
+{
+  "name": "Opportunity_Creation_Discrepancy__c",
+  "dataType": "double",
+  "sourceColumn": "Opportunity_Creation_Discrepancy__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

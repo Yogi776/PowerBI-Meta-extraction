@@ -1,0 +1,10 @@
+{
+  "name": "B(W)",
+  "formatString": "#,###;(#,###)",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

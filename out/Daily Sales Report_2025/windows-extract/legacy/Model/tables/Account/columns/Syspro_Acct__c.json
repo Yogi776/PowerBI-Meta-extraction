@@ -1,0 +1,12 @@
+{
+  "name": "Syspro_Acct__c",
+  "dataType": "string",
+  "sourceColumn": "Syspro_Acct__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

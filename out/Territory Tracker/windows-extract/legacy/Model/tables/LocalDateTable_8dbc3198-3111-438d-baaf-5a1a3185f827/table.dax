@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[CloseDate])), 1, 1), Date(Year(MAX('Opportunity'[CloseDate])), 12, 31))

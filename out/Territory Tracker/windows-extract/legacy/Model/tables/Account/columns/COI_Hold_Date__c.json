@@ -1,0 +1,28 @@
+{
+  "name": "COI_Hold_Date__c",
+  "dataType": "dateTime",
+  "sourceColumn": "COI_Hold_Date__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "effa627d-229c-46f9-b464-84bb2542282e",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_b308dc5e-abf5-44b3-aa68-beaacb9d22c2",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

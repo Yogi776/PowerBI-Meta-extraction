@@ -1,0 +1,12 @@
+{
+  "name": "Harmar_Pricebooks.Contract",
+  "dataType": "string",
+  "sourceColumn": "Harmar_Pricebooks.Contract",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

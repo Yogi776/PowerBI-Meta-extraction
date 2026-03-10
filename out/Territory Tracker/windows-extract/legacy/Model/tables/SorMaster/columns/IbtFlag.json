@@ -1,0 +1,12 @@
+{
+  "name": "IbtFlag",
+  "dataType": "string",
+  "sourceColumn": "IbtFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

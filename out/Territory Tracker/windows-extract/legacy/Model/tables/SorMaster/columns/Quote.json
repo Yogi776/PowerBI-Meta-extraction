@@ -1,0 +1,12 @@
+{
+  "name": "Quote",
+  "dataType": "string",
+  "sourceColumn": "Quote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

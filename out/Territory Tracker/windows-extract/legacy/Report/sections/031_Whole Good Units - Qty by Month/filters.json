@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Filter961ca40547640937e894",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Month_Name"
+          }
+        },
+        "Property": "Visual Name"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 5
+  },
+  {
+    "name": "Filterdccea2a5beecffca76d4",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "ArCustomer"
+          }
+        },
+        "Property": "Name"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 1
+  }
+]

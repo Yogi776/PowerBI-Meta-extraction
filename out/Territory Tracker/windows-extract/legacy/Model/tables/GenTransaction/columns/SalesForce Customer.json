@@ -1,0 +1,17 @@
+{
+  "type": "calculated",
+  "name": "SalesForce Customer",
+  "dataType": "string",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

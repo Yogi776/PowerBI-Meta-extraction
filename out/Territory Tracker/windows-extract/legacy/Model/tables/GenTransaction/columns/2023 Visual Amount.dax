@@ -1,0 +1,1 @@
+if(GenTransaction[GlYear]=2023,GenTransaction[Visual_Amount],0)

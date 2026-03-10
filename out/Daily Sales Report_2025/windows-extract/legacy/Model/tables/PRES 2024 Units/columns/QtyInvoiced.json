@@ -1,0 +1,13 @@
+{
+  "name": "QtyInvoiced",
+  "dataType": "int64",
+  "sourceColumn": "QtyInvoiced",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

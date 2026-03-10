@@ -1,0 +1,24 @@
+{
+  "name": "MCustRequestDat",
+  "dataType": "dateTime",
+  "sourceColumn": "MCustRequestDat",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5fbc004d-1f90-403d-aa84-a216a1dc2c71",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_549539b6-5620-4603-8a59-632b480965df",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

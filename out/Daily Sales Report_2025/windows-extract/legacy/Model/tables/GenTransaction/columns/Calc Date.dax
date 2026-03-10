@@ -1,0 +1,1 @@
+if(ISBLANK(GenTransaction[TransactionDate]),DATEVALUE(GenTransaction[GlPeriod]&"/1/"&GenTransaction[GlYear]),GenTransaction[TransactionDate])

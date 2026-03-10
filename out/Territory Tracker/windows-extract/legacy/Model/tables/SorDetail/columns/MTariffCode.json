@@ -1,0 +1,12 @@
+{
+  "name": "MTariffCode",
+  "dataType": "string",
+  "sourceColumn": "MTariffCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

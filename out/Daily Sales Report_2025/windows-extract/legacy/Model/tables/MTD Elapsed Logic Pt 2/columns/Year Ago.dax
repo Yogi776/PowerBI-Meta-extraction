@@ -1,0 +1,1 @@
+if('MTD Elapsed Logic Pt 2'[Is leapyear]="YES",'MTD Elapsed Logic Pt 2'[Date]*0,'MTD Elapsed Logic Pt 2'[Date]-366)

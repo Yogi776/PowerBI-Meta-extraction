@@ -1,0 +1,17 @@
+{
+  "name": "MOrderQty",
+  "dataType": "double",
+  "sourceColumn": "MOrderQty",
+  "formatString": "#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NMscProductCls",
+  "dataType": "string",
+  "sourceColumn": "NMscProductCls",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

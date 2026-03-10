@@ -1,0 +1,42 @@
+{
+  "name": "1fd244960811d17b6ee7",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 655.22466960352426,
+        "y": 395.84140969162996,
+        "z": 4000,
+        "width": 289.83259911894271,
+        "height": 39.471365638766521,
+        "tabOrder": 4000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Dealer Top 10 Down Accounts",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

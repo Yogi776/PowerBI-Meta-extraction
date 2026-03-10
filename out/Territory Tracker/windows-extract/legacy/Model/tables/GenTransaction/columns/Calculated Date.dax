@@ -1,0 +1,1 @@
+date(GenTransaction[GlYear],GenTransaction[GlPeriod],GenTransaction[JnlDate].[Day])

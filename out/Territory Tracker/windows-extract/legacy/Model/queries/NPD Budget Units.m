@@ -1,0 +1,5 @@
+let
+    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("hZO7buNADEV/xVAdMHw/2gRwvYCxlZEixZZp8v9FRnEc0RoBW2mEczUcnqGu10Wf6ZmRdXlaToKn8Xj5e3p9//j3+b68PV0Xa1xj5t55zjwatwOejYfPvBovmjlhCxDaQYIeEgc9EPcEH1iQLcAJEmONsr79uXzzZpEdMMxSnTfeLEqBVgmZ5MabRTEg0xXbxptFo7E/ZWDExptFEzCU9If6zaIpqAZmsWy8W3QBTnTGagW6REdgD7YRagH+zw5NoRKUlQsarfy8VygJxjg6INt4U2gMRogD68abQnVQaejRXkRK/Ng/7+25g4fH3f55b88DLErG2dv3O3ul6/Xd9J4ne8GAMi4oWu9dXhi4UI322wmaPEso0hC+Xe9sb9hJz1HjZ0Bmf6EQTD4mgHqiGXSD0NS74csscrThVfQ7RrPKMkhU1V2iySyHMca4/is90XXWmHb1tHGYh0gTSqjAFXejlwOnhDUmhtncfiNvXw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Date = _t, Units = _t, NPD = _t]),
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Date", type date}, {"Units", type number}, {"NPD", type text}})
+in
+    #"Changed Type"

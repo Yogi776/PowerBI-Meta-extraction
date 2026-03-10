@@ -1,0 +1,12 @@
+{
+  "name": "Invoice",
+  "dataType": "string",
+  "sourceColumn": "Invoice",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

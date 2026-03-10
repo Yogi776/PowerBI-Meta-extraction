@@ -1,0 +1,12 @@
+{
+  "name": "Freight_Custom_Pricing_Status__c",
+  "dataType": "string",
+  "sourceColumn": "Freight_Custom_Pricing_Status__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

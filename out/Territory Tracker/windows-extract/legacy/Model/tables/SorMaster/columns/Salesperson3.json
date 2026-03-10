@@ -1,0 +1,12 @@
+{
+  "name": "Salesperson3",
+  "dataType": "string",
+  "sourceColumn": "Salesperson3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

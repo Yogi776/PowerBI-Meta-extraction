@@ -1,0 +1,12 @@
+{
+  "name": "OrigCountry",
+  "dataType": "string",
+  "sourceColumn": "OrigCountry",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Helix_Camera_Serial__c",
+  "dataType": "string",
+  "sourceColumn": "Helix_Camera_Serial__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

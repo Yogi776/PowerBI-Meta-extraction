@@ -1,0 +1,22 @@
+{
+  "name": "LucaNet Unit Budget",
+  "partitions": [
+    {
+      "name": "LucaNet Unit Budget",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+iferror( sum('1 Master Table'[Actual Revenue] ) /sum('1 Master Table'[Forecast Revenue]),"")

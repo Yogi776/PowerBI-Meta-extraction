@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.ShipAddress5",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.ShipAddress5",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

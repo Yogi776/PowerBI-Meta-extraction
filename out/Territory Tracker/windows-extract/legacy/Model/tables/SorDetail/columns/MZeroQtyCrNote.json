@@ -1,0 +1,12 @@
+{
+  "name": "MZeroQtyCrNote",
+  "dataType": "string",
+  "sourceColumn": "MZeroQtyCrNote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

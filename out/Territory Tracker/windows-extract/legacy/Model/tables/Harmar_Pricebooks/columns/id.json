@@ -1,0 +1,13 @@
+{
+  "name": "id",
+  "dataType": "int64",
+  "sourceColumn": "id",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

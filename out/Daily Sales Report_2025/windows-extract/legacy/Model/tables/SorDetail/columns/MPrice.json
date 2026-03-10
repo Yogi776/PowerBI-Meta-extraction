@@ -1,0 +1,13 @@
+{
+  "name": "MPrice",
+  "dataType": "double",
+  "sourceColumn": "MPrice",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

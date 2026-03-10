@@ -1,0 +1,42 @@
+{
+  "name": "dedd30157f56faf00043",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 12.95308187672493,
+        "y": 31.793928242870283,
+        "z": 2000,
+        "width": 296.74333026678931,
+        "height": 45.9245630174793,
+        "tabOrder": 2000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "VOSB Only",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

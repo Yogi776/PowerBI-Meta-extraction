@@ -1,0 +1,12 @@
+{
+  "name": "CashCredit",
+  "dataType": "string",
+  "sourceColumn": "CashCredit",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

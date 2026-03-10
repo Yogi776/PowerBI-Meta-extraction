@@ -1,0 +1,12 @@
+{
+  "name": "Approval_Status__c",
+  "dataType": "string",
+  "sourceColumn": "Approval_Status__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

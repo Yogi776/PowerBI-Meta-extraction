@@ -1,0 +1,12 @@
+{
+  "name": "Veteran_Phone_Number__c",
+  "dataType": "string",
+  "sourceColumn": "Veteran_Phone_Number__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

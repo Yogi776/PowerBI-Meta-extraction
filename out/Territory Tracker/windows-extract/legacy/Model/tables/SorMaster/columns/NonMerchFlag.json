@@ -1,0 +1,12 @@
+{
+  "name": "NonMerchFlag",
+  "dataType": "string",
+  "sourceColumn": "NonMerchFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

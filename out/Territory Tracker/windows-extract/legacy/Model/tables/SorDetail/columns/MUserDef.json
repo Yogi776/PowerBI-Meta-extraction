@@ -1,0 +1,12 @@
+{
+  "name": "MUserDef",
+  "dataType": "string",
+  "sourceColumn": "MUserDef",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

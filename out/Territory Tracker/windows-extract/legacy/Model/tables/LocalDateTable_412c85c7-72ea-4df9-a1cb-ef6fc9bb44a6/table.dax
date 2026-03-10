@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[LastActivityDate])), 1, 1), Date(Year(MAX('Opportunity'[LastActivityDate])), 12, 31))

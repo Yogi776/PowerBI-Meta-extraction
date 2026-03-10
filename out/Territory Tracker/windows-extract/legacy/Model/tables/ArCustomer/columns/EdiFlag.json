@@ -1,0 +1,12 @@
+{
+  "name": "EdiFlag",
+  "dataType": "string",
+  "sourceColumn": "EdiFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

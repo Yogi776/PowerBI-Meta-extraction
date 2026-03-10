@@ -1,0 +1,12 @@
+{
+  "name": "AccountLevel3",
+  "dataType": "string",
+  "sourceColumn": "AccountLevel3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "TpmUsageFlag",
+  "dataType": "string",
+  "sourceColumn": "TpmUsageFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

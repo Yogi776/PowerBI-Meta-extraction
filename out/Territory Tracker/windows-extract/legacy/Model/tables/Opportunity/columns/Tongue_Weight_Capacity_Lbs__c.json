@@ -1,0 +1,16 @@
+{
+  "name": "Tongue_Weight_Capacity_Lbs__c",
+  "dataType": "double",
+  "sourceColumn": "Tongue_Weight_Capacity_Lbs__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

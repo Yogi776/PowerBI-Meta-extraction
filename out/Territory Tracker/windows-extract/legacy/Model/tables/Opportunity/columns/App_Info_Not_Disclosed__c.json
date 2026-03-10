@@ -1,0 +1,13 @@
+{
+  "name": "App_Info_Not_Disclosed__c",
+  "dataType": "boolean",
+  "sourceColumn": "App_Info_Not_Disclosed__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

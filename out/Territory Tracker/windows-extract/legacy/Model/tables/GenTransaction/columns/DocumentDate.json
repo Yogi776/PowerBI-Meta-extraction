@@ -1,0 +1,24 @@
+{
+  "name": "DocumentDate",
+  "dataType": "dateTime",
+  "sourceColumn": "DocumentDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5464ca64-6bad-4309-80e4-c90f5a7f9656",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_02fcb941-c40f-4926-aa7d-85429ab8b971",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

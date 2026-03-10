@@ -1,0 +1,12 @@
+{
+  "name": "dsl_warehouse__c",
+  "dataType": "string",
+  "sourceColumn": "dsl_warehouse__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

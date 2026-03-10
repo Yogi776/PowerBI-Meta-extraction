@@ -1,0 +1,12 @@
+{
+  "name": "Lead_Email__c",
+  "dataType": "string",
+  "sourceColumn": "Lead_Email__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

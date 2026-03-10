@@ -1,0 +1,42 @@
+{
+  "name": "17dc82cf5e62c3027550",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 7.894273127753304,
+        "y": 56.387665198237883,
+        "z": 5000,
+        "width": 325.92070484581495,
+        "height": 49.621145374449341,
+        "tabOrder": 5000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Bookings Details",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "18pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

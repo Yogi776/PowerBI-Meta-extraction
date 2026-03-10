@@ -1,0 +1,1 @@
+LOOKUPVALUE(Territory_Naming[Visual Name],Territory_Naming[SQL Name],'ArCustomer+'[Calc Territory Name]) 

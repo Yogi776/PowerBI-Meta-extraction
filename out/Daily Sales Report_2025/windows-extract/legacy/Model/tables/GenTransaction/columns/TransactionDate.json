@@ -1,0 +1,24 @@
+{
+  "name": "TransactionDate",
+  "dataType": "dateTime",
+  "sourceColumn": "TransactionDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "45f1e297-7ff2-4e5a-a764-084eebfb1a8b",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_1f28d28e-6d93-4ef9-917a-de883b1df2fd",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

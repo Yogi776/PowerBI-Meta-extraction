@@ -1,0 +1,12 @@
+{
+  "name": "MaterialAllocLine",
+  "dataType": "string",
+  "sourceColumn": "MaterialAllocLine",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

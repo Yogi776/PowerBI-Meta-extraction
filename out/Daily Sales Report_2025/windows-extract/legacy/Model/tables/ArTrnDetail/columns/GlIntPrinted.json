@@ -1,0 +1,12 @@
+{
+  "name": "GlIntPrinted",
+  "dataType": "string",
+  "sourceColumn": "GlIntPrinted",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

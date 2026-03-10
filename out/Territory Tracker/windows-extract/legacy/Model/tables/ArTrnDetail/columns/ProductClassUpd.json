@@ -1,0 +1,12 @@
+{
+  "name": "ProductClassUpd",
+  "dataType": "string",
+  "sourceColumn": "ProductClassUpd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

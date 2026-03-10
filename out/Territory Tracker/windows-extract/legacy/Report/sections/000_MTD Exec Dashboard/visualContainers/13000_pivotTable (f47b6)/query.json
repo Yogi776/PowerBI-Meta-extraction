@@ -1,0 +1,399 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "g",
+              "Entity": "GenTransaction",
+              "Type": 0
+            },
+            {
+              "Name": "t",
+              "Entity": "TblCustomerClass",
+              "Type": 0
+            },
+            {
+              "Name": "a",
+              "Entity": "ArCustomer",
+              "Type": 0
+            },
+            {
+              "Name": "t1",
+              "Entity": "Territory_Naming",
+              "Type": 0
+            },
+            {
+              "Name": "m",
+              "Entity": "Month_Name",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "g"
+                      }
+                    },
+                    "Property": "MTD"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(GenTransaction.MTD)",
+              "NativeReferenceName": "Current MTD"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "t"
+                  }
+                },
+                "Property": "Description"
+              },
+              "Name": "TblCustomerClass.Description",
+              "NativeReferenceName": "Description"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "a"
+                  }
+                },
+                "Property": "Name"
+              },
+              "Name": "ArCustomer.Name",
+              "NativeReferenceName": "Name"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "B(W) $ MTD"
+              },
+              "Name": "GenTransaction.B(W) $ MTD",
+              "NativeReferenceName": "B(W) $ MTD"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "B(W) % Exec"
+              },
+              "Name": "GenTransaction.B(W) % Exec",
+              "NativeReferenceName": "B(W) LY %"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t1"
+                              }
+                            },
+                            "Property": "Visual Name"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Collections'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Other'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Rebates/Install/Freight'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Description"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'101 MOBILITY'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'BIG BOX'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'DEALER / INSTALLER'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'ENTERPRISE NETWORK (INSTALLED)'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'HOUSE ACCOUNT'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'INACTIVE DEALER'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'INTERNATIONAL'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'INTERNET'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'MOBILITY EXPRESS PARTNERS'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'NATIONAL ACCOUNTS'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'SHOWROOM'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'THE SCOOTER STORE'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "m"
+                              }
+                            },
+                            "Property": "Month Name"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 1,
+              "Expression": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "B(W) $ MTD"
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  1
+                ],
+                "Subtotal": 1
+              },
+              {
+                "Projections": [
+                  0,
+                  2,
+                  3,
+                  4
+                ],
+                "Subtotal": 1
+              }
+            ],
+            "Expansion": {
+              "From": [
+                {
+                  "Name": "t",
+                  "Entity": "TblCustomerClass",
+                  "Type": 0
+                }
+              ],
+              "Levels": [
+                {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "t"
+                          }
+                        },
+                        "Property": "Description"
+                      }
+                    }
+                  ],
+                  "Default": 0
+                }
+              ],
+              "Instances": {
+                "Children": [
+                  {
+                    "Values": [
+                      {
+                        "Literal": {
+                          "Value": "'DEALER / INSTALLER'"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Values": [
+                      {
+                        "Literal": {
+                          "Value": "'VA HOSPITAL'"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

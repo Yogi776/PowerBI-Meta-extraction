@@ -1,0 +1,23 @@
+{
+  "name": "Percent_Through (2)",
+  "partitions": [
+    {
+      "name": "Percent_Through (2)",
+      "mode": "import",
+      "queryGroup": "Dates",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

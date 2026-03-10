@@ -1,0 +1,12 @@
+{
+  "name": "ds_telephoneextn__c",
+  "dataType": "string",
+  "sourceColumn": "ds_telephoneextn__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

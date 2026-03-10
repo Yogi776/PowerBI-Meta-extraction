@@ -1,0 +1,12 @@
+{
+  "name": "Store_Address__PostalCode__s",
+  "dataType": "string",
+  "sourceColumn": "Store_Address__PostalCode__s",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

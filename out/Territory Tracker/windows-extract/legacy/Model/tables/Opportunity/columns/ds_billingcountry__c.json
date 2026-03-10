@@ -1,0 +1,12 @@
+{
+  "name": "ds_billingcountry__c",
+  "dataType": "string",
+  "sourceColumn": "ds_billingcountry__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

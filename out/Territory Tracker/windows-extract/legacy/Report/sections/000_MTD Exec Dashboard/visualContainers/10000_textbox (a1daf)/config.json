@@ -1,0 +1,42 @@
+{
+  "name": "a1daffd1d0b948e7710e",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 673.88804841149783,
+        "y": 416.338880484115,
+        "z": 10000,
+        "width": 217.85173978819972,
+        "height": 38.729198184568837,
+        "tabOrder": 10000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Down Dealers",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt",
+                      "color": "#094780"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

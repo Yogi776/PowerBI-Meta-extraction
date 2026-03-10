@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.ShippingLocation",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.ShippingLocation",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NPrtOnInv",
+  "dataType": "string",
+  "sourceColumn": "NPrtOnInv",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Stage_Last_Date_PA_Correspondence__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Stage_Last_Date_PA_Correspondence__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "c9ac065f-5857-4b17-bb6a-67e479ce9f56",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_7c6dad51-e33a-487e-b801-e8d649dfc0c2",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

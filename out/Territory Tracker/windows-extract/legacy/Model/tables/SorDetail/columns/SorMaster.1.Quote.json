@@ -1,0 +1,12 @@
+{
+  "name": "SorMaster.1.Quote",
+  "dataType": "string",
+  "sourceColumn": "SorMaster.1.Quote",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

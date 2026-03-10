@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[RMA_Received_Date__c])), 1, 1), Date(Year(MAX('Opportunity'[RMA_Received_Date__c])), 12, 31))

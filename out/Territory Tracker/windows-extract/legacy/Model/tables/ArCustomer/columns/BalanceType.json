@@ -1,0 +1,12 @@
+{
+  "name": "BalanceType",
+  "dataType": "string",
+  "sourceColumn": "BalanceType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

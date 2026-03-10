@@ -1,0 +1,28 @@
+{
+  "name": "Stage_Last_Date_Quote_Sent_to_VA_Com__c",
+  "dataType": "dateTime",
+  "sourceColumn": "Stage_Last_Date_Quote_Sent_to_VA_Com__c",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "fb3d0877-df20-4c0c-bc1d-eeee64557155",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_be454b6f-790b-4822-a465-35d7917ead9a",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

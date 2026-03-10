@@ -1,0 +1,1 @@
+sum(ArTrnDetail[Calc MTD $])/sum(GenTransaction[Calc LY])

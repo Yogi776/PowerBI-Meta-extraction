@@ -1,0 +1,128 @@
+{
+  "objects": {
+    "categoryLabels": [
+      {
+        "properties": {
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'Calibri'"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#D1DEE5'"
+                  }
+                }
+              }
+            }
+          },
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "labels": [
+      {
+        "properties": {
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'Calibri'"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#165C7D'"
+                  }
+                }
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "15D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Earliest Yesterday",
+        "Name": "Min(Dates_Master.Yesterday)",
+        "Type": 4,
+        "Format": "D"
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Earliest Yesterday",
+      "format": "D",
+      "queryName": "Min(Dates_Master.Yesterday)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 519
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "Dates_Master"
+                }
+              },
+              "Property": "Yesterday"
+            }
+          },
+          "Function": 3
+        }
+      }
+    }
+  ]
+}

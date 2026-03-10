@@ -1,0 +1,25 @@
+let
+    Source = SharePoint.Files("https://harmar.sharepoint.com/sites/territorytracker", [ApiVersion = 15]),
+    #"Filtered Rows" = Table.SelectRows(Source, each ([Name] = "2026 Forecast.xlsx")),
+    #"2026 Forecast xlsx_https://harmar sharepoint com/sites/territorytracker/Shared Documents/General/Slim Shady Files/" = #"Filtered Rows"{[Name="2026 Forecast.xlsx",#"Folder Path"="https://harmar.sharepoint.com/sites/territorytracker/Shared Documents/General/Slim Shady Files/"]}[Content],
+    #"Imported Excel Workbook" = Excel.Workbook(#"2026 Forecast xlsx_https://harmar sharepoint com/sites/territorytracker/Shared Documents/General/Slim Shady Files/"),
+    Revenue_Table = #"Imported Excel Workbook"{[Item="Revenue",Kind="Table"]}[Data],
+    #"Changed Type2" = Table.TransformColumnTypes(Revenue_Table,{{"Territory", type text}}),
+    #"Removed Columns" = Table.RemoveColumns(#"Changed Type2",{"Proportion", "Key Account & OE"}),
+    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"Key Account & Territory", "Name"}}),
+    #"Changed Type" = Table.TransformColumnTypes(#"Renamed Columns",{{"2026-12", type number}, {"2026-11", type number}, {"2026-10", type number}, {"2026-09", type number}, {"2026-08", type number}, {"2026-07", type number}, {"2026-06", type number}, {"2026-05", type number}, {"2026-04", type number}, {"2026-03", type number}, {"2026-02", type number}, {"2026-01", type number}, {"2025-12", type number}, {"2025-11", type number}, {"2025-10", type number}, {"2025-09", type number}}),
+    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Changed Type", {"Name", "Sub_Key_Account__c", "Organizational Element", "Revenue GL Code", "ProductUnitType", "Territory"}, "Attribute", "Value"),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Unpivoted Columns",{{"Name", type text}, {"Sub_Key_Account__c", type text}, {"Organizational Element", type text}, {"Revenue GL Code", type text}, {"ProductUnitType", type text}}),
+    #"Renamed Columns1" = Table.RenameColumns(#"Changed Type1",{{"Attribute", "Year-Month"}}),
+    #"Appended Query" = Table.Combine({#"Renamed Columns1", Units}),
+    #"Removed Columns1" = Table.RemoveColumns(#"Appended Query",{"Organizational Element", "Revenue GL Code", "ProductUnitType", "Year-Month", "Value", "Wholegood Units"}),
+    #"Duplicated Column" = Table.DuplicateColumn(#"Removed Columns1", "Name", "Name - Copy"),
+    #"Replaced Value" = Table.ReplaceValue(#"Duplicated Column"," – "," - ",Replacer.ReplaceText,{"Name - Copy"}),
+    #"Split Column by Delimiter" = Table.SplitColumn(#"Replaced Value", "Name - Copy", Splitter.SplitTextByDelimiter(" - ", QuoteStyle.Csv), {"Name - Copy.1", "Name - Copy.2"}),
+    #"Changed Type3" = Table.TransformColumnTypes(#"Split Column by Delimiter",{{"Name - Copy.1", type text}, {"Name - Copy.2", type text}}),
+    #"Removed Columns2" = Table.RemoveColumns(#"Changed Type3",{"Name - Copy.1"}),
+    #"Duplicated Column1" = Table.DuplicateColumn(#"Removed Columns2", "Name - Copy.2", "Name - Copy.2 - Copy"),
+    #"Renamed Columns2" = Table.RenameColumns(#"Duplicated Column1",{{"Name - Copy.2", "AccountNumber"}, {"Name - Copy.2 - Copy", "Customer"}}),
+    #"Removed Duplicates" = Table.Distinct(#"Renamed Columns2", {"Name"})
+in
+    #"Removed Duplicates"

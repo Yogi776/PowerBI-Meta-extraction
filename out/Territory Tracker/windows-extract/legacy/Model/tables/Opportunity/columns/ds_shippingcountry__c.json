@@ -1,0 +1,12 @@
+{
+  "name": "ds_shippingcountry__c",
+  "dataType": "string",
+  "sourceColumn": "ds_shippingcountry__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

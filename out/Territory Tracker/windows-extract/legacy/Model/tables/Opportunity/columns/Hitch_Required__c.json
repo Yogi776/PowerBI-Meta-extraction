@@ -1,0 +1,12 @@
+{
+  "name": "Hitch_Required__c",
+  "dataType": "string",
+  "sourceColumn": "Hitch_Required__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

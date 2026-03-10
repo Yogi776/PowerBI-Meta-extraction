@@ -1,0 +1,12 @@
+{
+  "name": "InvMaster+.ProductUnitType",
+  "dataType": "string",
+  "sourceColumn": "InvMaster+.ProductUnitType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

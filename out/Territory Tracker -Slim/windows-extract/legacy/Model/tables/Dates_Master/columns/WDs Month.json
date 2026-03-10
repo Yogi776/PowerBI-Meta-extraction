@@ -1,0 +1,13 @@
+{
+  "name": "WDs Month",
+  "dataType": "int64",
+  "sourceColumn": "WDs Month",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

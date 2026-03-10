@@ -1,0 +1,12 @@
+{
+  "name": "MSerialMethod",
+  "dataType": "string",
+  "sourceColumn": "MSerialMethod",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

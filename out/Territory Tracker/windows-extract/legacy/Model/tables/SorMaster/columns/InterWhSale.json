@@ -1,0 +1,12 @@
+{
+  "name": "InterWhSale",
+  "dataType": "string",
+  "sourceColumn": "InterWhSale",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

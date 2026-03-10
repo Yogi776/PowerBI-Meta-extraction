@@ -1,0 +1,12 @@
+{
+  "name": "CreditStatus",
+  "dataType": "string",
+  "sourceColumn": "CreditStatus",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

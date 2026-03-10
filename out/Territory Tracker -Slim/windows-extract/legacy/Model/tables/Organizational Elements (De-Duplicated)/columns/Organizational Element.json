@@ -1,0 +1,12 @@
+{
+  "name": "Organizational Element",
+  "dataType": "string",
+  "sourceColumn": "Organizational Element",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

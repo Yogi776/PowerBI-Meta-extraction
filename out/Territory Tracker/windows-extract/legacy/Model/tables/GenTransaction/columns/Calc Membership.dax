@@ -1,0 +1,1 @@
+LOOKUPVALUE('ArCustomer+'[Membership],'ArCustomer+'[Customer],GenTransaction[SubModCustomer])

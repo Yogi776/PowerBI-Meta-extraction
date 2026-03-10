@@ -1,0 +1,12 @@
+{
+  "name": "GMB_State__c",
+  "dataType": "string",
+  "sourceColumn": "GMB_State__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

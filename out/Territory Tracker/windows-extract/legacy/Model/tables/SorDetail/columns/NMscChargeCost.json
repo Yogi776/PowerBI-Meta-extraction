@@ -1,0 +1,16 @@
+{
+  "name": "NMscChargeCost",
+  "dataType": "double",
+  "sourceColumn": "NMscChargeCost",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

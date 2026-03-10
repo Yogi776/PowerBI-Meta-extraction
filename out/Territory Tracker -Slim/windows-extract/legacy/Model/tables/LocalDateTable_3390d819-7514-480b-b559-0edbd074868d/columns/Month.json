@@ -1,0 +1,19 @@
+{
+  "type": "calculated",
+  "name": "Month",
+  "dataType": "string",
+  "isHidden": true,
+  "sortByColumn": "MonthNo",
+  "dataCategory": "Months",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "TemplateId",
+      "value": "Month"
+    }
+  ]
+}

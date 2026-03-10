@@ -1,0 +1,365 @@
+{
+  "name": "31127f880bc5840a588c",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 17.855274629468177,
+        "y": 120.5231037489102,
+        "z": 0,
+        "width": 1121.5344376634698,
+        "height": 599.2676547515257,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "projections": {
+      "Rows": [
+        {
+          "queryRef": "ArCustomer+.Visual Territory Name",
+          "active": true
+        },
+        {
+          "queryRef": "Account.Name"
+        },
+        {
+          "queryRef": "Opportunity.CreatedDate.Variation.Date Hierarchy.Year"
+        },
+        {
+          "queryRef": "Opportunity.Company__c"
+        }
+      ],
+      "Columns": [
+        {
+          "queryRef": "Opportunity.CreatedDate.Variation.Date Hierarchy.Month",
+          "active": true
+        }
+      ],
+      "Values": [
+        {
+          "queryRef": "Sum(Opportunity.Count__c)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a",
+          "Entity": "ArCustomer+",
+          "Type": 0
+        },
+        {
+          "Name": "a1",
+          "Entity": "Account",
+          "Type": 0
+        },
+        {
+          "Name": "o",
+          "Entity": "Opportunity",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a"
+              }
+            },
+            "Property": "Visual Territory Name"
+          },
+          "Name": "ArCustomer+.Visual Territory Name",
+          "NativeReferenceName": "Territory"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "a1"
+              }
+            },
+            "Property": "Name"
+          },
+          "Name": "Account.Name",
+          "NativeReferenceName": "Name"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "o"
+              }
+            },
+            "Property": "Company__c"
+          },
+          "Name": "Opportunity.Company__c",
+          "NativeReferenceName": "Company__c"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "o"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "CreatedDate"
+                  }
+                },
+                "Hierarchy": "Date Hierarchy"
+              }
+            },
+            "Level": "Month"
+          },
+          "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Month",
+          "NativeReferenceName": "CreatedDate Month"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "o"
+                  }
+                },
+                "Property": "Count__c"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Opportunity.Count__c)",
+          "NativeReferenceName": "Sum of Count__c"
+        },
+        {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "o"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "CreatedDate"
+                  }
+                },
+                "Hierarchy": "Date Hierarchy"
+              }
+            },
+            "Level": "Year"
+          },
+          "Name": "Opportunity.CreatedDate.Variation.Date Hierarchy.Year",
+          "NativeReferenceName": "CreatedDate Year"
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "ArCustomer+.Visual Territory Name"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ArCustomer+"
+                    }
+                  },
+                  "Property": "Visual Territory Name"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Account.Name"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Account"
+                    }
+                  },
+                  "Property": "Name"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Opportunity.CreatedDate.Variation.Date Hierarchy.Year"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "LocalDateTable_e0604b61-a9cd-4f06-b29f-08818b2f0830"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Opportunity.Company__c"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null,
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'T4 Midwest'"
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "identityValues": [
+                    {
+                      "Literal": {
+                        "Value": "'BATTLE CREEK VA MED CTR (BAI)'"
+                      }
+                    }
+                  ],
+                  "isToggled": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "columnProperties": {
+      "ArCustomer+.Visual Territory Name": {
+        "displayName": "Territory"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "subTotals": [
+        {
+          "properties": {
+            "columnSubtotals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "rowSubtotals": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

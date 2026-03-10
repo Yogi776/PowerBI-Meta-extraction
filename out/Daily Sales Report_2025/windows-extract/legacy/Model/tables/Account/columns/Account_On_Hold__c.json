@@ -1,0 +1,13 @@
+{
+  "name": "Account_On_Hold__c",
+  "dataType": "boolean",
+  "sourceColumn": "Account_On_Hold__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

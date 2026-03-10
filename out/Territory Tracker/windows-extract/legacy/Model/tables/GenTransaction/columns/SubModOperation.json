@@ -1,0 +1,16 @@
+{
+  "name": "SubModOperation",
+  "dataType": "double",
+  "sourceColumn": "SubModOperation",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

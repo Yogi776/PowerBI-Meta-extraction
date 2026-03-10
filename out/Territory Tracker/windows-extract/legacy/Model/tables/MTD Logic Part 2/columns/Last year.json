@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Last year",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "5dfdb642-c2a0-4d33-b715-37010b376c9a",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_19cff5da-209d-45b2-a062-4a539d94a4cb",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

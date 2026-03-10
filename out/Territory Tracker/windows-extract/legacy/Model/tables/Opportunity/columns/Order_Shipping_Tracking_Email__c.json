@@ -1,0 +1,12 @@
+{
+  "name": "Order_Shipping_Tracking_Email__c",
+  "dataType": "string",
+  "sourceColumn": "Order_Shipping_Tracking_Email__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

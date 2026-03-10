@@ -1,0 +1,12 @@
+{
+  "name": "LanguageCode",
+  "dataType": "string",
+  "sourceColumn": "LanguageCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

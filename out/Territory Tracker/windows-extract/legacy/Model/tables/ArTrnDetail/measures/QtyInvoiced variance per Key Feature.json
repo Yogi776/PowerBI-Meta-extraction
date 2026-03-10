@@ -1,0 +1,25 @@
+{
+  "name": "QtyInvoiced variance per Key Feature",
+  "formatString": "#,0",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "VariancePerCategory"
+      }
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

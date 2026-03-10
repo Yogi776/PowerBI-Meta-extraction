@@ -1,0 +1,12 @@
+{
+  "name": "SyncedQuoteId",
+  "dataType": "string",
+  "sourceColumn": "SyncedQuoteId",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

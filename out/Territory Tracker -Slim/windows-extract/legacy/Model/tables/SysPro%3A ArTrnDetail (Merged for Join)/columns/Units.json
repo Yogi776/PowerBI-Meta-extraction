@@ -1,0 +1,16 @@
+{
+  "name": "Units",
+  "dataType": "int64",
+  "sourceColumn": "Units",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

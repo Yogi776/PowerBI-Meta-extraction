@@ -1,0 +1,331 @@
+{
+  "name": "ad70a45d363b4e834c93",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 274.12186379928318,
+        "y": 5.7347670250896057,
+        "z": 0,
+        "width": 622.79569892473125,
+        "height": 713.405017921147,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "tableEx",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "GenTransaction.SubModStock"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.2023 Visual Amount)"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.2022 Visual Amount)"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.2022 Visual Amount)1"
+        },
+        {
+          "queryRef": "Sum(GenTransaction.B(W) $)"
+        },
+        {
+          "queryRef": "GenTransaction.PY $ Lap"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "g",
+          "Entity": "GenTransaction",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2024 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2022 Visual Amount)",
+          "NativeReferenceName": "2024"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2025 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2023 Visual Amount)",
+          "NativeReferenceName": "2025"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "SubModStock"
+          },
+          "Name": "GenTransaction.SubModStock",
+          "NativeReferenceName": "Stock Code"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "Calc B(W) $"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.B(W) $)",
+          "NativeReferenceName": "B(W) $"
+        },
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "g"
+                  }
+                },
+                "Property": "2023 Visual Amount"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(GenTransaction.2022 Visual Amount)1",
+          "NativeReferenceName": "2023"
+        },
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "g"
+              }
+            },
+            "Property": "Calc PY $ Lap"
+          },
+          "Name": "GenTransaction.PY $ Lap",
+          "NativeReferenceName": "PY $ Lap1"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "g"
+                    }
+                  },
+                  "Property": "2024 Visual Amount"
+                }
+              },
+              "Function": 0
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "Sum(GenTransaction.2022 Visual Amount)": {
+        "displayName": "2024"
+      },
+      "Sum(GenTransaction.2023 Visual Amount)": {
+        "displayName": "2025"
+      },
+      "ArTrnDetail.StockCode": {
+        "displayName": "Stock Code"
+      },
+      "ArTrnDetail.ProductClass": {
+        "displayName": "Product Class"
+      },
+      "GenTransaction.SubModStock": {
+        "displayName": "Stock Code"
+      },
+      "Sum(GenTransaction.B(W) $)": {
+        "displayName": "B(W) $"
+      },
+      "Sum(GenTransaction.2022 Visual Amount)1": {
+        "displayName": "2023"
+      },
+      "GenTransaction.PY $ Lap": {
+        "displayName": "PY $ Lap"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "outlineStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "vcObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Default'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "5D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "smartystreets__Shipping_Footnotes__c",
+  "dataType": "string",
+  "sourceColumn": "smartystreets__Shipping_Footnotes__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

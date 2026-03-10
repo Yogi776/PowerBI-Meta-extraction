@@ -1,0 +1,370 @@
+{
+  "Commands": [
+    {
+      "SemanticQueryDataShapeCommand": {
+        "Query": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s",
+              "Entity": "SorDetail",
+              "Type": 0
+            },
+            {
+              "Name": "l",
+              "Entity": "LucaNet Revenue Budget",
+              "Type": 0
+            },
+            {
+              "Name": "l1",
+              "Entity": "LucaNet Unit Budget",
+              "Type": 0
+            },
+            {
+              "Name": "d",
+              "Entity": "DSR Hierarchy",
+              "Type": 0
+            },
+            {
+              "Name": "s1",
+              "Entity": "SorMaster",
+              "Type": 0
+            }
+          ],
+          "Select": [
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "MTD Current Year"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(SorDetail.MTD Current Year)",
+              "NativeReferenceName": "Bookings MTD"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "Last Year"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(SorDetail.MTD Last Year)",
+              "NativeReferenceName": "Bookings Full Month LY"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc B(W) LY"
+              },
+              "Name": "SorDetail.Calc B(W) LY",
+              "NativeReferenceName": "Index to LY"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "MTD Current Units"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(SorDetail.MTD Current Units)",
+              "NativeReferenceName": "MTD Units"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "s"
+                      }
+                    },
+                    "Property": "MTD Last Year Units"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(SorDetail.MTD Last Year Units)",
+              "NativeReferenceName": "Full Month LY Units"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc Index to Budget Bookings"
+              },
+              "Name": "SorDetail.Calc Index to Budget Bookings",
+              "NativeReferenceName": "Index to Budget1"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "l1"
+                      }
+                    },
+                    "Property": "Budget for Visual"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(LucaNet Interim Units.Budget for Visual)",
+              "NativeReferenceName": "Budget Units"
+            },
+            {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Calc B(W) Units"
+              },
+              "Name": "SorDetail.Calc B(W) Units",
+              "NativeReferenceName": "Units vs Budget"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Branch"
+              },
+              "Name": "DSR Hierarchy 2.Branch",
+              "NativeReferenceName": "Branch"
+            },
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Products"
+              },
+              "Name": "DSR Hierarchy 2.Products",
+              "NativeReferenceName": "Products"
+            },
+            {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Source": "l"
+                      }
+                    },
+                    "Property": "w/ VA Adjustment"
+                  }
+                },
+                "Function": 0
+              },
+              "Name": "Sum(LucaNet Interim Budget.w/ VA Adjustment)",
+              "NativeReferenceName": "Budget"
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "s1"
+                              }
+                            },
+                            "Property": "CancelledFlag"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Y'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "d"
+                              }
+                            },
+                            "Property": "Branch"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 1,
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Branch"
+                }
+              }
+            },
+            {
+              "Direction": 1,
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Products"
+                }
+              }
+            }
+          ]
+        },
+        "Binding": {
+          "Primary": {
+            "Groupings": [
+              {
+                "Projections": [
+                  8
+                ],
+                "Subtotal": 1
+              },
+              {
+                "Projections": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  9,
+                  10
+                ],
+                "Subtotal": 1
+              }
+            ],
+            "Expansion": {
+              "From": [
+                {
+                  "Name": "d",
+                  "Entity": "DSR Hierarchy",
+                  "Type": 0
+                }
+              ],
+              "Levels": [
+                {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Branch"
+                      }
+                    }
+                  ],
+                  "Default": 0
+                }
+              ],
+              "Instances": {
+                "Children": [
+                  {
+                    "Values": [
+                      {
+                        "Literal": {
+                          "Value": "'Access'"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "DataReduction": {
+            "DataVolume": 3,
+            "Primary": {
+              "Window": {
+                "Count": 500
+              }
+            }
+          },
+          "Version": 1
+        },
+        "ExecutionMetricsKind": 1
+      }
+    }
+  ]
+}

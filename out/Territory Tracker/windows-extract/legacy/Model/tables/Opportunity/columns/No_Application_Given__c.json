@@ -1,0 +1,13 @@
+{
+  "name": "No_Application_Given__c",
+  "dataType": "boolean",
+  "sourceColumn": "No_Application_Given__c",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

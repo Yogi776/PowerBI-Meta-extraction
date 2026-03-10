@@ -1,0 +1,13 @@
+{
+  "name": "JnlDate",
+  "dataType": "dateTime",
+  "sourceColumn": "JnlDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

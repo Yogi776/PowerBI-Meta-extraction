@@ -1,0 +1,24 @@
+{
+  "name": "SorMaster.1.EntrySystemDate",
+  "dataType": "dateTime",
+  "sourceColumn": "SorMaster.1.EntrySystemDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "06daf074-b474-4eed-b4e5-bf4276781c37",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_622e4a56-98b8-4880-8759-26d38359571b",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MRelease",
+  "dataType": "string",
+  "sourceColumn": "MRelease",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NSrvDecRndFlag",
+  "dataType": "string",
+  "sourceColumn": "NSrvDecRndFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

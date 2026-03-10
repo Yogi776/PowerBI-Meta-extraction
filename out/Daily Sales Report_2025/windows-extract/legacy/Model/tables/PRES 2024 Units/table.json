@@ -1,0 +1,22 @@
+{
+  "name": "PRES 2024 Units",
+  "partitions": [
+    {
+      "name": "PRES 2024 Units",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

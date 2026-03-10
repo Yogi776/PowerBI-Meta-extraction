@@ -1,0 +1,12 @@
+{
+  "name": "MPriceCode",
+  "dataType": "string",
+  "sourceColumn": "MPriceCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

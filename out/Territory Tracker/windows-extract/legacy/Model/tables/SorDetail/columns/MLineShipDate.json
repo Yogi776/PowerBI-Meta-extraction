@@ -1,0 +1,24 @@
+{
+  "name": "MLineShipDate",
+  "dataType": "dateTime",
+  "sourceColumn": "MLineShipDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "25b070e8-4312-44e9-862c-20532a89c9e0",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_c2183a2b-381d-4182-b350-605744f1c95c",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

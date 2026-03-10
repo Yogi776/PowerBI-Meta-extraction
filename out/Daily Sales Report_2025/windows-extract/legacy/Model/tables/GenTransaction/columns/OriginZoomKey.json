@@ -1,0 +1,12 @@
+{
+  "name": "OriginZoomKey",
+  "dataType": "string",
+  "sourceColumn": "OriginZoomKey",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

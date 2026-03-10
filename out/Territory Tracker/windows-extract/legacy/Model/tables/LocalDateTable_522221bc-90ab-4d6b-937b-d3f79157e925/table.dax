@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('Opportunity'[Stage_Last_Date_RFQ_Eval__c])), 1, 1), Date(Year(MAX('Opportunity'[Stage_Last_Date_RFQ_Eval__c])), 12, 31))

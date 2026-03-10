@@ -1,0 +1,12 @@
+{
+  "name": "FaxInvInBatch",
+  "dataType": "string",
+  "sourceColumn": "FaxInvInBatch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

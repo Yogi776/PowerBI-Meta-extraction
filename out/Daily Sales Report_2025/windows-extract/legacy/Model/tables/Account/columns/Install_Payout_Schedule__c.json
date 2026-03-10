@@ -1,0 +1,12 @@
+{
+  "name": "Install_Payout_Schedule__c",
+  "dataType": "string",
+  "sourceColumn": "Install_Payout_Schedule__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

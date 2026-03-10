@@ -1,0 +1,25 @@
+{
+  "name": "Calc B(W) %",
+  "formatString": "#.#%;(#.#%)",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "MathematicalPercentageDifference"
+      }
+    }
+  ],
+  "changedProperties": [
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

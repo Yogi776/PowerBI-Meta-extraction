@@ -1,0 +1,13 @@
+{
+  "name": "Visual_Day",
+  "dataType": "int64",
+  "sourceColumn": "Visual_Day",
+  "formatString": "0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

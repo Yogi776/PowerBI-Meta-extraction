@@ -1,0 +1,1 @@
+If(lookupvalue('Product Unit Type 2'[Product Unit Type],'Product Unit Type 2'[ProductClass],SorDetail[Calc Pinnacle Bandaid])="","Other Fees",lookupvalue('Product Unit Type 2'[Product Unit Type],'Product Unit Type 2'[ProductClass],SorDetail[Calc Pinnacle Bandaid]))

@@ -1,0 +1,538 @@
+{
+  "objects": {
+    "labels": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "labelDisplayUnits": {
+            "expr": {
+              "Literal": {
+                "Value": "1D"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "18D"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {},
+        "selector": {
+          "data": [
+            {
+              "dataViewWildcard": {
+                "matchingOption": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dataPoint": [
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GenTransaction"
+                        }
+                      },
+                      "Property": "SubModArBranch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'M'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GenTransaction"
+                        }
+                      },
+                      "Property": "SubModArBranch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'A'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GenTransaction"
+                        }
+                      },
+                      "Property": "SubModArBranch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "''"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GenTransaction"
+                        }
+                      },
+                      "Property": "SubModArBranch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'RM'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GenTransaction"
+                        }
+                      },
+                      "Property": "SubModArBranch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'SRQ'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ArTrnDetail"
+                        }
+                      },
+                      "Property": "Branch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'SRQ'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#6FBEBF'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ArTrnDetail"
+                        }
+                      },
+                      "Property": "Branch"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'RM'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "legend": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "categoryAxis": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "labelColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 2,
+                    "Percent": -0.5
+                  }
+                }
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          },
+          "showAxisTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "valueAxis": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "showAxisTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Category": [
+      0
+    ],
+    "Y": [
+      1
+    ]
+  },
+  "projectionActiveItems": {
+    "Category": [
+      {
+        "queryRef": "ArTrnDetail.Branch",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Branch",
+        "Name": "ArTrnDetail.Branch",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Sum of NetSalesValue",
+        "Name": "Sum(ArTrnDetail.NetSalesValue)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 8,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ArTrnDetail"
+              }
+            },
+            "Property": "InvoiceDate"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Category",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Y",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Branch",
+      "queryName": "ArTrnDetail.Branch",
+      "roles": {
+        "Category": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "ArTrnDetail"
+            }
+          },
+          "Property": "Branch"
+        }
+      }
+    },
+    {
+      "displayName": "Sum of NetSalesValue",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(ArTrnDetail.NetSalesValue)",
+      "roles": {
+        "Y": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "ArTrnDetail"
+                }
+              },
+              "Property": "NetSalesValue"
+            }
+          },
+          "Function": 0
+        }
+      }
+    }
+  ]
+}

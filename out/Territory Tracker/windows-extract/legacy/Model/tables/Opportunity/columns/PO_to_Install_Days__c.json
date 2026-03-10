@@ -1,0 +1,16 @@
+{
+  "name": "PO_to_Install_Days__c",
+  "dataType": "double",
+  "sourceColumn": "PO_to_Install_Days__c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

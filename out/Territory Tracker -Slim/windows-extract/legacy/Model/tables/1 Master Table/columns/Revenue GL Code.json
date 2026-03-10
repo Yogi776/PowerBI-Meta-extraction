@@ -1,0 +1,12 @@
+{
+  "name": "Revenue GL Code",
+  "dataType": "string",
+  "sourceColumn": "Revenue GL Code",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

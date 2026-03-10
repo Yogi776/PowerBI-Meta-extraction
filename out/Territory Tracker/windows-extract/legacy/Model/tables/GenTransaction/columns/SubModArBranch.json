@@ -1,0 +1,12 @@
+{
+  "name": "SubModArBranch",
+  "dataType": "string",
+  "sourceColumn": "SubModArBranch",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

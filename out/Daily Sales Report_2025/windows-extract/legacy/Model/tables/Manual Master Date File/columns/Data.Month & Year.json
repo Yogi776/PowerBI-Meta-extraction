@@ -1,0 +1,12 @@
+{
+  "name": "Data.Month & Year",
+  "dataType": "string",
+  "sourceColumn": "Data.Month & Year",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

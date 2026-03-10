@@ -1,0 +1,12 @@
+{
+  "name": "AltMethodFlag",
+  "dataType": "string",
+  "sourceColumn": "AltMethodFlag",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

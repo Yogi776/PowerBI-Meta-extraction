@@ -1,0 +1,12 @@
+{
+  "name": "Complexity__c",
+  "dataType": "string",
+  "sourceColumn": "Complexity__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

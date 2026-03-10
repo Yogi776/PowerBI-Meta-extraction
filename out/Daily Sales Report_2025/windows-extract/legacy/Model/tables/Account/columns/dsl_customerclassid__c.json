@@ -1,0 +1,12 @@
+{
+  "name": "dsl_customerclassid__c",
+  "dataType": "string",
+  "sourceColumn": "dsl_customerclassid__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

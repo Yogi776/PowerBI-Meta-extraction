@@ -1,0 +1,12 @@
+{
+  "name": "Hitch_Height__c",
+  "dataType": "string",
+  "sourceColumn": "Hitch_Height__c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
