@@ -1,0 +1,31 @@
+version: v1
+name: powerbi-report-analysis
+type: service
+service:
+  title: PowerBI Report Analysis
+  replicas: 1
+  servicePort: 8501
+  ingress:
+    enabled: true
+    noAuthentication: true
+    path: /powerbi-report-analysis  
+    stripPath: true
+  stack: container
+  envs: 
+    LOG_LEVEL: info
+  compute: runnable-default
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 200m
+      memory: 512Mi
+  stackSpec:
+    command: 
+      - streamlit
+    arguments:
+      - run
+      - app.py
+    image: rubiklabs/powerbi-report-analysis:1.5
+    imagePullSecret: modern-docker-secret

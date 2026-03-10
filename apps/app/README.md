@@ -16,11 +16,43 @@ pip install -r apps/pbi_analyzer/requirements.txt
 streamlit run apps/pbi_analyzer/app.py
 ```
 
+## Run with Docker (copy `out` into image)
+
+Build from repo root:
+
+```bash
+docker build -f apps/pbi_analyzer/Dockerfile -t pbi-analyzer .
+```
+
+Run container (data already embedded in image):
+
+```bash
+docker run --rm -p 8501:8501 pbi-analyzer
+```
+
+Then open `http://localhost:8501`.
+
 ## Supported Inputs
 
 - Upload PBIX: semantic query extraction (`queryRef`, section usage, complexity candidates).
 - Upload artifact ZIP (optional): if it contains `.dax` and `.bim` files, app enriches measure logic with formula bodies.
 - Optional GitHub Actions handoff panel: trigger Windows extraction workflow and check latest run status.
+- Demo mode fallback: reads legacy outputs from `out/*/windows-extract/legacy` (including `Model/tables/*/measures/*.dax`).
+
+## Downloads
+
+- Markdown summary (`.md`)
+- JSON summary (`.json`)
+- Excel summary (`.xlsx`) with sheets for Overview, Sections, Measures, VisualQueries, SemanticReferences, LegacyCounts, LegacyTables, LegacyQueries, LegacyDiagram
+
+## Legacy Analysis Tab
+
+- Deep analysis for `out/*/windows-extract/legacy` reports
+- Includes model table inventory, DAX measure inventory, Power Query inventory, metadata/connections summary, and a flow diagram
+
+## Full Dashboard Documentation
+
+See `apps/pbi_analyzer/DASHBOARD_DOCUMENTATION.md` for the single complete dashboard document.
 
 ## Hybrid Flow (Docker + Windows)
 

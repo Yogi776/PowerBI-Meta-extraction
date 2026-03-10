@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Any, Dict, List
 
 
 @dataclass
@@ -36,6 +36,7 @@ class ReportAnalysis:
     semantic_references: List[dict] = field(default_factory=list)
     has_dax_formulas: bool = False
     has_bim: bool = False
+    legacy_overview: Dict[str, Any] = field(default_factory=dict)
 
     def top_measures(self, limit: int = 25) -> List[MeasureDetail]:
         ranked = sorted(

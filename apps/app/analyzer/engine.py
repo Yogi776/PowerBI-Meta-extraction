@@ -115,4 +115,6 @@ def build_markdown_summary(analysis: ReportAnalysis) -> str:
 
 
 def repo_root_from_app() -> pathlib.Path:
-    return pathlib.Path(__file__).resolve().parents[3]
+    # Works for both local layout (.../apps/app/analyzer/engine.py)
+    # and container layout (/app/analyzer/engine.py).
+    return pathlib.Path(__file__).resolve().parent.parent
